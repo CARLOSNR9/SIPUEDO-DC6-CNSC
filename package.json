@@ -1,0 +1,19 @@
+{
+  "name": "sipuedo-dc6-cnsce",
+  "version": "1.0.0",
+  "description": "Plataforma de estudio para la Convocatoria Distrito Capital 6 de la CNSC.",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "live-server public/",
+    "test": "echo \"No test specified\""
+  },
+  "keywords": [
+    "CNSC",
+    "Distrito Capital 6",
+    "IDU",
+    "estudio",
+    "simulacro"
+  ],
+  "author": "CarlosNR9",
+  "license": "ISC"
+}
