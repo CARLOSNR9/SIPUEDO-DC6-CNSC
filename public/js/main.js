@@ -66,25 +66,47 @@ document.addEventListener('DOMContentLoaded', () => {
     // Inicializar el contenido principal
     initContent();
 
-    // Event Listeners para la navegación principal en la cabecera
-    const navLinks = document.querySelectorAll('header nav ul li a');
+    // --- NUEVO: Lógica del Menú Móvil ---
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    if (mobileMenuButton && mobileMenu) {
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden'); // Alterna la clase 'hidden' para mostrar/ocultar
+        });
+
+        // Cerrar el menú móvil al hacer clic en un enlace (opcional, pero buena UX)
+        const mobileNavLinks = mobileMenu.querySelectorAll('a');
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden'); // Oculta el menú después de hacer clic
+            });
+        });
+    }
+    // --- FIN NUEVO ---
+
+    // Event Listeners para la navegación principal en la cabecera (desktop y ahora móvil)
+    const navLinks = document.querySelectorAll('header nav ul li a'); // Esto ahora también incluye los enlaces del menú móvil
     navLinks.forEach(link => {
         link.addEventListener('click', (e) => {
-            e.preventDefault(); // Prevenir el comportamiento por defecto del enlace
+            e.preventDefault();
 
             const linkText = e.target.textContent.toLowerCase();
-            if (linkText.includes('inicio')) {
+            // Usamos el id para la navegación principal para ser más específicos
+            if (e.target.id === 'nav-dashboard' || e.target.id === 'mobile-nav-dashboard') {
                 navigateTo('dashboard');
-            } else if (linkText.includes('módulos de estudio')) {
-                navigateTo('study-modules');
-            } else if (linkText.includes('simulacros')) {
-                navigateTo('simulacros');
-            } else if (linkText.includes('mi cronograma')) {
+            } else if (e.target.id === 'nav-cronograma' || e.target.id === 'mobile-nav-cronograma') {
                 navigateTo('cronograma');
+            } else if (e.target.id === 'nav-study-modules' || e.target.id === 'mobile-nav-study-modules') {
+                navigateTo('study-modules');
+            } else if (e.target.id === 'nav-simulacros' || e.target.id === 'mobile-nav-simulacros') {
+                navigateTo('simulacros');
             } else if (e.target.id === 'view-all-achievements-btn') { // Este es el botón del widget del dashboard
                 navigateTo('achievements');
             }
-            // Puedes añadir más aquí para otros enlaces de la cabecera
+            // Añadir lógica para 'Recursos' aquí cuando las creemos
+            // Para los enlaces de perfil/cerrar sesión, podrías añadir un if-else if
+            // o manejarlos con su propio listener si son muy específicos.
         });
     });
 });

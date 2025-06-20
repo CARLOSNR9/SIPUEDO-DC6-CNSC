@@ -23,85 +23,44 @@
             <img src="./assets/img/logo-sipuedo-dc6.png" alt="Logo SIPUEDO - DC6" class="h-10 mr-3">
             <h1 class="text-2xl font-bold">SIPUEDO - DC6</h1>
         </div>
-        <nav>
-           <ul class="flex space-x-6">
-            <li><a href="#" class="hover:text-blue-200 transition duration-300" id="nav-dashboard">Inicio</a></li>
-            <li><a href="#" class="hover:text-blue-200 transition duration-300" id="nav-cronograma">Mi Cronograma</a></li> <li><a href="#" class="hover:text-blue-200 transition duration-300" id="nav-study-modules">Módulos de Estudio</a></li>
-            <li><a href="#" class="hover:text-blue-200 transition duration-300" id="nav-simulacros">Simulacros</a></li>
-            <li><a href="#" class="hover:text-blue-200 transition duration-300">Recursos</a></li>
-            <li class="relative group">
-                <a href="#" class="hover:text-blue-200 transition duration-300">Carlos Narváez &#9660;</a>
-                <ul class="absolute hidden group-hover:block bg-blue-700 text-white pt-2 w-40 rounded shadow-lg right-0">
-                    <li><a href="#" class="block px-4 py-2 hover:bg-blue-600">Mi Perfil</a></li>
-                    <li><a href="#" class="block px-4 py-2 hover:bg-blue-600">Configuración</a></li>
-                    <li><a href="#" class="block px-4 py-2 hover:bg-blue-600">Cerrar Sesión</a></li>
-                </ul>
-            </li>
-        </ul>
+        <nav class="hidden md:block"> <ul class="flex space-x-6">
+                <li><a href="#" class="hover:text-blue-200 transition duration-300" id="nav-dashboard">Inicio</a></li>
+                <li><a href="#" class="hover:text-blue-200 transition duration-300" id="nav-cronograma">Mi Cronograma</a></li>
+                <li><a href="#" class="hover:text-blue-200 transition duration-300" id="nav-study-modules">Módulos de Estudio</a></li>
+                <li><a href="#" class="hover:text-blue-200 transition duration-300" id="nav-simulacros">Simulacros</a></li>
+                <li><a href="#" class="hover:text-blue-200 transition duration-300">Recursos</a></li>
+                <li class="relative group">
+                    <a href="#" class="hover:text-blue-200 transition duration-300">Carlos Narváez &#9660;</a>
+                    <ul class="absolute hidden group-hover:block bg-blue-700 text-white pt-2 w-40 rounded shadow-lg right-0">
+                        <li><a href="#" class="block px-4 py-2 hover:bg-blue-600">Mi Perfil</a></li>
+                        <li><a href="#" class="block px-4 py-2 hover:bg-blue-600">Configuración</a></li>
+                        <li><a href="#" class="block px-4 py-2 hover:bg-blue-600">Cerrar Sesión</a></li>
+                    </ul>
+                </li>
+            </ul>
         </nav>
+        <div class="md:hidden"> <button id="mobile-menu-button" class="text-white focus:outline-none">
+                <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
     </header>
 
-   <main class="container mx-auto px-4 py-8 mt-20">
-        <div id="content-area">
-            <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">¡Bienvenido, Carlos! Tu Centro de Conquista al IDU</h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                
-                <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
-                    <h3 class="text-xl font-semibold mb-4 text-center">Mi Progreso General</h3>
-                    <div class="relative w-32 h-32">
-                        <svg class="w-full h-full transform rotate-[-90deg]">
-                            <circle class="text-gray-300" stroke-width="12" stroke="currentColor" fill="transparent" r="52" cx="64" cy="64"/>
-                            <circle id="progress-circle" class="text-green-500" stroke-width="12" stroke-dasharray="326.72" stroke-dashoffset="294.048" stroke-linecap="round" stroke="currentColor" fill="transparent" r="52" cx="64" cy="64"/>
-                        </svg>
-                        <span id="progress-text" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-3xl font-bold text-green-600">10%</span>
-                    </div>
-                    <p class="mt-4 text-gray-600">¡Sigue avanzando hacia tu objetivo!</p>
-                </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-blue-800 text-white fixed top-16 w-full z-10 shadow-lg pb-4">
+        <ul class="flex flex-col items-center space-y-2 py-4">
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700 w-full text-center" id="mobile-nav-dashboard">Inicio</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700 w-full text-center" id="mobile-nav-cronograma">Mi Cronograma</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700 w-full text-center" id="mobile-nav-study-modules">Módulos de Estudio</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700 w-full text-center" id="mobile-nav-simulacros">Simulacros</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700 w-full text-center">Recursos</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700 w-full text-center">Carlos Narváez (Perfil)</a></li>
+            <li><a href="#" class="block px-4 py-2 hover:bg-blue-700 w-full text-center">Cerrar Sesión</a></li>
+        </ul>
+    </div>
 
-                <div class="bg-gradient-to-r from-blue-500 to-blue-600 text-white p-6 rounded-lg shadow-lg flex flex-col justify-between">
-                    <h3 class="text-xl font-semibold mb-3">Próximo Tema a Estudiar</h3>
-                    <p id="next-topic-text" class="text-2xl font-bold mb-4">Cargando...</p> <a href="#" id="go-to-study-btn" class="bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-blue-100 transition duration-300 text-center">Ir a Estudiar Ahora</a>
-                </div>
-
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-semibold mb-3">Mis Simulacros</h3>
-                    <p class="text-gray-600 mb-2">Último Simulacro: <span class="font-bold text-blue-600">72%</span> <span class="text-green-500">(+5% vs. anterior)</span></p>
-                    <p class="text-gray-600 mb-4">Mejor Puntaje: <span class="font-bold text-green-600">85%</span></p>
-                    <a href="#" class="text-blue-700 hover:underline">Ver Historial de Simulacros &rarr;</a>
-                </div>
-
-                <div class="bg-yellow-100 p-6 rounded-lg shadow-lg md:col-span-2 lg:col-span-1">
-                    <h3 class="text-xl font-semibold mb-3">Reto del Día</h3>
-                    <p id="daily-challenge-question" class="text-gray-700 mb-4 font-medium">Cargando pregunta...</p>
-                    <div id="daily-challenge-options" class="flex flex-col space-y-2 mb-4">
-                        </div>
-                    <button id="answer-challenge-btn" class="bg-yellow-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-yellow-700 transition duration-300">Responder</button>
-                    <p id="challenge-feedback" class="mt-3 text-sm hidden"></p>
-                </div>
-
-                <div class="bg-purple-100 p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-semibold mb-3">Temporizador de Estudio</h3>
-                    <div class="flex flex-col items-center justify-center space-y-4">
-                        <p id="timer-display" class="text-5xl font-bold text-purple-700">25:00</p>
-                        <div class="flex space-x-4">
-                            <button id="start-timer-btn" class="bg-purple-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-purple-700 transition duration-300">Iniciar Sesión</button>
-                            <button id="reset-timer-btn" class="bg-gray-400 text-white px-5 py-2 rounded-lg font-semibold hover:bg-gray-500 transition duration-300">Reiniciar</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
-            <h3 class="text-xl font-semibold mb-4">Mis Logros</h3>
-            <div id="achievements-display" class="grid grid-cols-3 gap-4">
-                <img src="https://via.placeholder.com/60x60/d1d5db/ffffff?text=?" alt="Logro Pendiente" class="w-16 h-16 rounded-full bg-gray-200 p-2 opacity-50">
-                <img src="https://via.placeholder.com/60x60/d1d5db/ffffff?text=?" alt="Logro Pendiente" class="w-16 h-16 rounded-full bg-gray-200 p-2 opacity-50">
-                <img src="https://via.placeholder.com/60x60/d1d5db/ffffff?text=?" alt="Logro Pendiente" class="w-16 h-16 rounded-full bg-gray-200 p-2 opacity-50">
-                </div>
-            <a href="#" id="view-all-achievements-btn" class="mt-4 text-blue-700 hover:underline">Ver Todos los Logros &rarr;</a>
-        </div>
+    <main class="container mx-auto px-4 py-8 mt-20"> <div id="content-area">
             </div>
-        </div>
     </main>
 
     <footer class="bg-blue-800 text-white text-center p-4 mt-8">
