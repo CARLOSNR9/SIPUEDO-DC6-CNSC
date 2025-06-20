@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIPUEDO - DC6 | Tu Centro de Estudio para la CNSC</title>
+    <meta name="description" content="Plataforma de estudio interactiva para la Convocatoria Distrito Capital 6 de la CNSC. Prepara el cargo de Profesional Especializado en el IDU.">
+    <meta name="keywords" content="CNSC, Distrito Capital 6, IDU, Profesional Especializado, Concurso de Méritos, Opec 210171, Estudio, Simulacros, Integridad, Funcionales, Comportamentales, SIPUEDO">
+    <meta name="author" content="Carlos Narváez & Tu Profesor IA">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/style.css"> 
+</head>
+<body class="font-roboto bg-gray-100 text-gray-800">
+
+    <header class="bg-blue-800 text-white p-4 shadow-md flex justify-between items-center fixed w-full top-0 z-10">
+        <div class="flex items-center">
+            <img src="./assets/img/logo-sipuedo-dc6.png" alt="Logo SIPUEDO - DC6" class="h-10 mr-3">
+            <h1 class="text-2xl font-bold">SIPUEDO - DC6</h1>
+        </div>
+        <nav>
+           <ul class="flex space-x-6">
+            <li><a href="#" class="hover:text-blue-200 transition duration-300" id="nav-dashboard">Inicio</a></li>
+            <li><a href="#" class="hover:text-blue-200 transition duration-300" id="nav-cronograma">Mi Cronograma</a></li> <li><a href="#" class="hover:text-blue-200 transition duration-300" id="nav-study-modules">Módulos de Estudio</a></li>
+            <li><a href="#" class="hover:text-blue-200 transition duration-300" id="nav-simulacros">Simulacros</a></li>
+            <li><a href="#" class="hover:text-blue-200 transition duration-300">Recursos</a></li>
+            <li class="relative group">
+                <a href="#" class="hover:text-blue-200 transition duration-300">Carlos Narváez &#9660;</a>
+                <ul class="absolute hidden group-hover:block bg-blue-700 text-white pt-2 w-40 rounded shadow-lg right-0">
+                    <li><a href="#" class="block px-4 py-2 hover:bg-blue-600">Mi Perfil</a></li>
+                    <li><a href="#" class="block px-4 py-2 hover:bg-blue-600">Configuración</a></li>
+                    <li><a href="#" class="block px-4 py-2 hover:bg-blue-600">Cerrar Sesión</a></li>
+                </ul>
+            </li>
+        </ul>
+        </nav>
+    </header>
+
+   <main class="container mx-auto px-4 py-8 mt-20">
+        <div id="content-area">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">¡Bienvenido, Carlos! Tu Centro de Conquista al IDU</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
+                    <h3 class="text-xl font-semibold mb-4 text-center">Mi Progreso General</h3>
+                    <div class="relative w-32 h-32">
+                        <svg class="w-full h-full transform rotate-[-90deg]">
+                            <circle class="text-gray-300" stroke-width="12" stroke="currentColor" fill="transparent" r="52" cx="64" cy="64"/>
+                            <circle id="progress-circle" class="text-green-500" stroke-width="12" stroke-dasharray="326.72" stroke-dashoffset="294.048" stroke-linecap="round" stroke="currentColor" fill="transparent" r="52" cx="64" cy="64"/>
+                        </svg>
+                        <span id="progress-text" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-3xl font-bold text-green-600">10%</span>
+                    </div>
+                    <p class="mt-4 text-gray-600">¡Sigue avanzando hacia tu objetivo!</p>
+                </div>
+
+                <div class="bg-gradient-to-r from-blue-500 to-blue-600 text-white p-6 rounded-lg shadow-lg flex flex-col justify-between">
+                    <h3 class="text-xl font-semibold mb-3">Próximo Tema a Estudiar</h3>
+                    <p id="next-topic-text" class="text-2xl font-bold mb-4">Cargando...</p> <a href="#" id="go-to-study-btn" class="bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-blue-100 transition duration-300 text-center">Ir a Estudiar Ahora</a>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-3">Mis Simulacros</h3>
+                    <p class="text-gray-600 mb-2">Último Simulacro: <span class="font-bold text-blue-600">72%</span> <span class="text-green-500">(+5% vs. anterior)</span></p>
+                    <p class="text-gray-600 mb-4">Mejor Puntaje: <span class="font-bold text-green-600">85%</span></p>
+                    <a href="#" class="text-blue-700 hover:underline">Ver Historial de Simulacros &rarr;</a>
+                </div>
+
+                <div class="bg-yellow-100 p-6 rounded-lg shadow-lg md:col-span-2 lg:col-span-1">
+                    <h3 class="text-xl font-semibold mb-3">Reto del Día</h3>
+                    <p id="daily-challenge-question" class="text-gray-700 mb-4 font-medium">Cargando pregunta...</p>
+                    <div id="daily-challenge-options" class="flex flex-col space-y-2 mb-4">
+                        </div>
+                    <button id="answer-challenge-btn" class="bg-yellow-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-yellow-700 transition duration-300">Responder</button>
+                    <p id="challenge-feedback" class="mt-3 text-sm hidden"></p>
+                </div>
+
+                <div class="bg-purple-100 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-3">Temporizador de Estudio</h3>
+                    <div class="flex flex-col items-center justify-center space-y-4">
+                        <p id="timer-display" class="text-5xl font-bold text-purple-700">25:00</p>
+                        <div class="flex space-x-4">
+                            <button id="start-timer-btn" class="bg-purple-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-purple-700 transition duration-300">Iniciar Sesión</button>
+                            <button id="reset-timer-btn" class="bg-gray-400 text-white px-5 py-2 rounded-lg font-semibold hover:bg-gray-500 transition duration-300">Reiniciar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
+            <h3 class="text-xl font-semibold mb-4">Mis Logros</h3>
+            <div id="achievements-display" class="grid grid-cols-3 gap-4">
+                <img src="https://via.placeholder.com/60x60/d1d5db/ffffff?text=?" alt="Logro Pendiente" class="w-16 h-16 rounded-full bg-gray-200 p-2 opacity-50">
+                <img src="https://via.placeholder.com/60x60/d1d5db/ffffff?text=?" alt="Logro Pendiente" class="w-16 h-16 rounded-full bg-gray-200 p-2 opacity-50">
+                <img src="https://via.placeholder.com/60x60/d1d5db/ffffff?text=?" alt="Logro Pendiente" class="w-16 h-16 rounded-full bg-gray-200 p-2 opacity-50">
+                </div>
+            <a href="#" id="view-all-achievements-btn" class="mt-4 text-blue-700 hover:underline">Ver Todos los Logros &rarr;</a>
+        </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-blue-800 text-white text-center p-4 mt-8">
+        <p>&copy; 2025 SIPUEDO - DC6. Desarrollado con 💙 por Carlos Narváez y tu Profesor IA.</p>
+        <p class="text-sm mt-1">"Igualdad, Mérito y Oportunidad" - CNSC</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,434 @@
+[
+    {
+        "id": "dcq001",
+        "question": "¿Cuál es la entidad encargada de organizar los concursos de méritos para ingresar al empleo público en Colombia?",
+        "options": {
+            "A": "Departamento Administrativo de la Función Pública",
+            "B": "Comisión Nacional del Servicio Civil (CNSC)",
+            "C": "Presidencia de la República"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Comisión Nacional del Servicio Civil (CNSC) es la entidad encargada de organizar y llevar a cabo los concursos de méritos para ingresar y ascender en los empleos públicos de carrera administrativa en Colombia."
+    },
+    {
+        "id": "dcq002",
+        "question": "¿Cuál es la máxima autoridad administrativa y política del Distrito Capital de Bogotá D.C.?",
+        "options": {
+            "A": "El Presidente del Concejo de Bogotá",
+            "B": "El Alcalde/Alcaldesa Mayor",
+            "C": "El Personero de Bogotá D.C."
+        },
+        "correctAnswer": "B",
+        "explanation": "El Alcalde/Alcaldesa Mayor es la máxima autoridad administrativa y política del Distrito Capital, dirigiendo la acción administrativa y nombrando a funcionarios clave."
+    },
+    {
+        "id": "dcq003",
+        "question": "¿Qué tipo de actos administrativos expide el Concejo de Bogotá D.C. para establecer normas generales en el Distrito?",
+        "options": {
+            "A": "Decretos",
+            "B": "Acuerdos",
+            "C": "Resoluciones"
+        },
+        "correctAnswer": "B",
+        "explanation": "El Concejo de Bogotá D.C. expide Acuerdos, que son actos administrativos de carácter general y obligatorio, equivalentes a leyes a nivel distrital."
+    },
+    {
+        "id": "dcq004",
+        "question": "¿Qué principio de la seguridad de la información se viola al acceder a datos confidenciales sin autorización?",
+        "options": {
+            "A": "Disponibilidad",
+            "B": "Integridad",
+            "C": "Confidencialidad"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Confidencialidad se refiere a proteger la información del acceso no autorizado. Al acceder a datos confidenciales sin permiso, se viola este principio."
+    },
+    {
+    "id": "dcq005",
+    "question": "¿Cuál es el propósito principal del Instituto de Desarrollo Urbano (IDU) de acuerdo con los documentos oficiales?",
+    "options": {
+      "A": "Diseñar y promover políticas de desarrollo económico distrital para el crecimiento empresarial y la inversión.",
+      "B": "Articular, ejecutar e implementar proyectos de desarrollo o construcción de software, adoptando estándares y políticas de TI para cumplir los requerimientos de los usuarios.",
+      "C": "Vigilar la conducta de los servidores públicos y defender los derechos humanos en el ámbito distrital, garantizando la transparencia."
+    },
+    "correctAnswer": "B",
+    "explanation": "El propósito principal del IDU, según los documentos, es 'ARTICULAR, EJECUTAR E IMPLEMENTAR LOS PROYECTOS DE DESARROLLO O CONSTRUCCION DE SOFTWARE, ADOPTANDO LOS ESTANDARES Y BUENAS PRACTICAS DE ARQUITECTURAS Y POLITICAS DE TI DEFINIDAS POR EL AREA CON EL FIN DE CUMPLIR CON LOS REQUERIMIENTOS DE LOS USUARIOS'."
+  },
+  {
+    "id": "dcq006",
+    "question": "En un escenario hipotético, la Contraloría de Bogotá D.C. ha detectado una subejecución presupuestal reiterada en un programa social estratégico, generando preocupación por el impacto en la población objetivo. Si bien la entidad ejecutora argumenta problemas de gestión, la Contraloría busca determinar responsabilidades más allá de la mera auditoría de legalidad, enfocándose en la eficacia del gasto público. ¿Qué atribución específica permite a la Contraloría de Bogotá D.C. evaluar esta situación de manera integral?",
+    "options": {
+      "A": "La facultad de imponer directamente sanciones disciplinarias a los funcionarios responsables de la subejecución.",
+      "B": "La capacidad de realizar estudios, investigaciones y evaluaciones sobre políticas públicas y finanzas del Distrito, incluyendo la efectividad del gasto.",
+      "C": "La prerrogativa de modificar el Plan Distrital de Desarrollo para reasignar los recursos no ejecutados a otras entidades con mayor eficiencia."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Contraloría de Bogotá D.C. no solo vigila la legalidad, sino que también realiza estudios, investigaciones y evaluaciones de políticas públicas y finanzas del Distrito, lo que le permite analizar la efectividad y el impacto del gasto."
+  },
+  {
+    "id": "dcq007",
+    "question": "El Alcalde Mayor de Bogotá D.C. ha propuesto un ambicioso proyecto de acuerdo ante el Concejo, buscando la creación de una nueva Secretaría Distrital con facultades para coordinar la inteligencia artificial en la administración pública. Este proyecto plantea interrogantes sobre la observancia del marco normativo y las atribuciones constitucionales de las ramas del poder público distrital. ¿Qué principio fundamental rige la aprobación de la estructura de la administración distrital, y por ende, la creación de esta nueva Secretaría?",
+    "options": {
+      "A": "El principio de libre disposición del Alcalde Mayor para reorganizar la administración mediante Decreto Distrital.",
+      "B": "El principio de autonomía administrativa de las Secretarías, que les permite auto-organizarse sin intervención del Concejo.",
+      "C": "La atribución exclusiva del Concejo de Bogotá D.C. para establecer la estructura de la administración distrital mediante Acuerdos."
+    },
+    "correctAnswer": "C",
+    "explanation": "La estructura de la administración distrital, que incluye la creación de Secretarías, se establece mediante Acuerdos del Concejo de Bogotá D.C.. Un decreto del Alcalde solo podría reglamentar lo ya establecido por un Acuerdo."
+  },
+  {
+    "id": "dcq008",
+    "question": "Como Profesional Especializado en el IDU, se te solicita verificar que un nuevo desarrollo de software para la gestión de proyectos de infraestructura cumpla con la 'normatividad vigente sobre licenciamiento y propiedad del software'. La complejidad reside en la constante actualización de las regulaciones en el ecosistema digital y la necesidad de aplicar principios de seguridad jurídica. ¿Qué aspecto de tu función se activa primordialmente ante este requerimiento, que trasciende la mera codificación?",
+    "options": {
+      "A": "La función de automatización de procesos internos, priorizando la velocidad de implementación sobre la legalidad del software.",
+      "B": "La función de revisar y aplicar la normatividad vigente, garantizando el adecuado licenciamiento y propiedad del software, como base de la seguridad jurídica.",
+      "C": "La función de gestionar requerimientos funcionales, enfocándose únicamente en las necesidades del usuario final sin considerar los aspectos legales de la adquisición."
+    },
+    "correctAnswer": "B",
+    "explanation": "Una de las funciones específicas del cargo es 'Revisar y aplicar la normatividad vigente que se deben tener en cuenta para el desarrollo de aplicaciones solicitadas por las áreas usuarias, garantizando el adecuado licenciamiento y propiedad del software'."
+  },
+  {
+    "id": "dcq009",
+    "question": "La Personería de Bogotá D.C. ha recibido un volumen sin precedentes de quejas ciudadanas relacionadas con la inobservancia del debido proceso en trámites de licencias de construcción por parte de una entidad distrital. La situación exige una intervención que no solo corrija las falencias individuales, sino que también incida en la política pública subyacente. ¿Qué acción estratégica puede adelantar la Personería para abordar esta problemática de forma sistémica, trascendiendo la simple mediación?",
+    "options": {
+      "A": "Interponer directamente acciones de tutela en representación de todos los ciudadanos afectados sin realizar una evaluación previa de la política pública.",
+      "B": "Ejercer la acción de prevención y control sobre las políticas, planes, programas y proyectos distritales relacionados con el proceso de licencias de construcción.",
+      "C": "Solicitar al Concejo de Bogotá D.C. que expida un nuevo Acuerdo que derogue la totalidad de la normativa de licencias de construcción vigente."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Personería de Bogotá D.C. ejerce la acción de prevención y control a las políticas, planes, programas y proyectos distritales, lo que le permite incidir en la mejora de los procedimientos administrativos a un nivel sistémico."
+  },
+  {
+    "id": "dcq010",
+    "question": "El Alcalde Mayor de Bogotá D.C., en el ejercicio de sus facultades como máxima autoridad administrativa y política, ha emitido un Decreto Distrital que reglamenta un Acuerdo del Concejo sobre la Política de Gobierno Abierto. El desafío radica en asegurar la implementación uniforme de este Decreto en todas las Secretarías y entidades descentralizadas. ¿Qué principio administrativo fundamental es el objetivo de esta acción del Alcalde para garantizar la coherencia de la administración distrital?",
+    "options": {
+      "A": "El principio de autonomía local, que permite a cada localidad interpretar y aplicar el Decreto a su discreción.",
+      "B": "El principio de descentralización por servicios, que exime a las entidades descentralizadas de la observancia obligatoria de los Decretos del Alcalde.",
+      "C": "El principio de unidad de mando y dirección de la acción administrativa, que busca la aplicación coherente de la normativa en todo el Sector Central y Descentralizado."
+    },
+    "correctAnswer": "C",
+    "explanation": "El Alcalde Mayor dirige la acción administrativa, y tiene la facultad de nombrar a los gerentes de las entidades descentralizadas, lo que implica su dirección sobre estas para asegurar la implementación uniforme de la normativa, fundamentado en la unidad de la administración."
+  },
+  {
+    "id": "dcq011",
+    "question": "El IDU está planificando la adquisición de una plataforma de 'software como servicio' (SaaS) para la optimización de procesos internos. Como Profesional Especializado, se te encarga la elaboración de la documentación técnica para la contratación. Esta tarea no es meramente técnica, sino que exige una profunda comprensión del marco contractual estatal. ¿Qué conocimiento básico o esencial de tu perfil es indispensable para asegurar la legalidad y viabilidad de esta contratación?",
+    "options": {
+      "A": "Exclusivamente 'Desarrollo de sistemas de información en los diferentes ambientes', sin considerar las implicaciones de adquisición.",
+      "B": "'Contratación Estatal', para garantizar el cumplimiento de las normas, presupuestos, requerimientos y especificaciones técnicas establecidas.",
+      "C": "'Gestión de Proyectos', limitado al seguimiento de cronogramas sin abordar los aspectos jurídicos de la adquisición de bienes y servicios."
+    },
+    "correctAnswer": "B",
+    "explanation": "Entre los conocimientos básicos o esenciales para el empleo se encuentra la 'Contratación Estatal', fundamental para la elaboración de la documentación necesaria para la contratación del desarrollo o adquisición de aplicativos y sistemas de información."
+  },
+  {
+    "id": "dcq012",
+    "question": "La Contraloría de Bogotá D.C. ha puesto en marcha un ambicioso plan de auditorías focalizadas en el gasto público de emergencias climáticas. La intención es ir más allá de la legalidad formal, buscando la eficiencia y la oportunidad en la respuesta. ¿Qué enfoque estratégico de la Contraloría le permite ir más allá del control de legalidad, y evaluar la 'oportunidad y efectividad' del gasto en situaciones de contingencia?",
+    "options": {
+      "A": "La implementación de sanciones disciplinarias directas a los funcionarios en tiempo real durante la emergencia.",
+      "B": "La adopción de un modelo de control fiscal que incorpora alianzas estratégicas y la innovación tecnológica para el seguimiento continuo del gasto.",
+      "C": "La delegación total de la vigilancia fiscal a organismos de control de nivel nacional para evitar sesgos en el control local."
+    },
+    "correctAnswer": "B",
+    "explanation": "La misión de la Contraloría de Bogotá D.C. es vigilar la gestión de los recursos del Distrito Capital con oportunidad y efectividad, apoyada en el control social participativo, alianzas estratégicas e innovación tecnológica."
+  },
+  {
+    "id": "dcq013",
+    "question": "El Concejo de Bogotá D.C. está debatiendo una propuesta para regular el uso de drones en el espacio aéreo distrital. Esta iniciativa genera un complejo debate sobre la autonomía territorial y la necesidad de armonizar con las normativas nacionales. ¿Qué tipo de atribución esencial ejerce el Concejo en este escenario, que le permite adaptar regulaciones a las particularidades del Distrito?",
+    "options": {
+      "A": "La atribución de juzgar y sancionar directamente a los operadores de drones que incumplan la normativa nacional.",
+      "B": "La facultad de dictar normas sobre el urbanismo y el equipamiento urbano, así como sobre el uso del espacio público aéreo.",
+      "C": "La potestad de vetar cualquier ley nacional que considere inaplicable en el contexto específico de Bogotá, sin previa conciliación."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Concejo de Bogotá D.C. dicta normas sobre urbanización, vías, equipamiento urbano, entre otros aspectos de la regulación territorial."
+  },
+  {
+    "id": "dcq014",
+    "question": "La Personería de Bogotá D.C. ha identificado una preocupante tendencia de vulneración al derecho de acceso a la información pública en una Secretaría Distrital. La situación exige una intervención que no se limite a casos individuales, sino que promueva una cultura de transparencia. ¿Qué capacidad inherente a la Personería le permite ir más allá de la simple recepción de quejas y trabajar en la promoción de derechos?",
+    "options": {
+      "A": "Su facultad de crear nuevas leyes distritales que obliguen a las Secretarías a publicar toda la información de forma proactiva.",
+      "B": "Su rol como defensor de los derechos humanos y Ministerio Público, lo que le permite orientar y asistir a los ciudadanos y vigilar las políticas de transparencia.",
+      "C": "La capacidad de reemplazar a los funcionarios que obstaculizan el acceso a la información por personal de la Personería."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Personería de Bogotá D.C. ejerce funciones de Ministerio Público y defensor de los derechos humanos, y bajo este rol orienta y asiste a las personas en trámites relacionados con la protección de sus derechos, y ejerce prevención y control sobre políticas."
+  },
+  {
+    "id": "dcq015",
+    "question": "El Alcalde Mayor de Bogotá D.C. ha presentado ante el Concejo un 'Proyecto de Acuerdo' que incluye la asignación de recursos significativos para la implementación de un nuevo sistema de gestión documental unificado en toda la administración distrital. La naturaleza de este acto y su proceso de aprobación son esenciales para su viabilidad. ¿Qué característica fundamental del acto de 'adopción' del Plan de Desarrollo (o similares) por parte del Concejo de Bogotá D.C. distingue su jerarquía normativa en el Distrito?",
+    "options": {
+      "A": "Es un acto administrativo de carácter meramente consultivo, sin fuerza obligatoria hasta que el Alcalde lo ratifique con un Decreto.",
+      "B": "Es un acto administrativo de carácter general y obligatorio que define el marco de la planeación y la asignación presupuestal, una vez aprobado en dos debates por el Concejo.",
+      "C": "Es una recomendación del Concejo que el Alcalde puede implementar o no a su discreción, sin necesidad de debates formales."
+    },
+    "correctAnswer": "B",
+    "explanation": "Los Acuerdos expedidos por el Concejo de Bogotá D.C., como la adopción del Plan de Desarrollo o la asignación de recursos, son actos administrativos de carácter general y obligatorio, y deben ser aprobados en dos debates."
+  },
+  {
+    "id": "dcq016",
+    "question": "Como Profesional Especializado del IDU, se te encarga la delicada tarea de 'Gestionar con las áreas responsables de los procesos el levantamiento de requerimientos funcionales y no funcionales' para un nuevo módulo de un sistema de información misional. El éxito de esta gestión depende no solo de la capacidad técnica, sino de la habilidad para validar la información y asegurar su pertinencia. ¿Qué aspecto crucial se busca garantizar a través de este proceso de levantamiento y validación de requerimientos?",
+    "options": {
+      "A": "Aumentar la complejidad del sistema para justificar una mayor inversión en recursos tecnológicos.",
+      "B": "Garantizar la calidad y efectividad en la aplicación del sistema, al asegurar que el desarrollo responda a necesidades reales y validadas.",
+      "C": "Limitar la participación de los usuarios finales en la definición de funcionalidades, para agilizar el proceso de desarrollo."
+    },
+    "correctAnswer": "B",
+    "explanation": "Una de las funciones es 'Gestionar con las áreas responsables de los procesos el levantamiento de requerimientos funcionales y no funcionales, la validación de los requerimientos y la puesta en marcha de los módulos de cada sistema a fin de garantizar la calidad y efectividad en su aplicación'."
+  },
+  {
+    "id": "dcq017",
+    "question": "La Contraloría de Bogotá D.C. ha decidido implementar una 'innovación tecnológica' en sus procesos de auditoría, utilizando herramientas de Big Data para el análisis de la gestión fiscal. Este avance busca optimizar la 'oportunidad y efectividad' de su vigilancia. ¿Cómo se alinea esta iniciativa con la misión institucional de la Contraloría?",
+    "options": {
+      "A": "Contradice la misión, ya que la vigilancia fiscal debe ser manual y tradicional para garantizar la imparcialidad.",
+      "B": "Fortalece la misión, al permitir una vigilancia más ágil y precisa de la gestión de los recursos del Distrito, contribuyendo a una mejor calidad de vida.",
+      "C": "Es una función ajena a la Contraloría, que debe ser ejecutada por una Secretaría de Despacho especializada en tecnología."
+    },
+    "correctAnswer": "B",
+    "explanation": "La misión de la Contraloría de Bogotá D.C. es 'vigilar la gestión de los recursos del Distrito Capital con oportunidad y efectividad... apoyada en el control social participativo, alianzas estratégicas e innovación tecnológica, para contribuir al mejoramiento de la calidad de vida de los ciudadanos'."
+  },
+  {
+    "id": "dcq018",
+    "question": "Un grupo de ciudadanos ha convocado a una manifestación pacífica en el centro de Bogotá para expresar su desacuerdo con una política distrital de renovación urbana. El Concejo de Bogotá D.C. como escenario de debate político, ha decidido citar al Secretario de Planeación para un debate de control político al respecto. ¿Qué función del Concejo de Bogotá D.C. le permite convocar a funcionarios distritales para dar cuenta de su gestión y evaluar políticas, trascendiendo la mera aprobación de normas?",
+    "options": {
+      "A": "La función administrativa de ejecutar directamente los proyectos de renovación urbana.",
+      "B": "La función de vigilancia y control político sobre la gestión de las autoridades distritales.",
+      "C": "La función jurisdiccional de dirimir conflictos entre la ciudadanía y la administración distrital."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Concejo de Bogotá D.C. tiene la atribución de vigilar y controlar la gestión de las autoridades distritales."
+  },
+  {
+    "id": "dcq019",
+    "question": "La Personería de Bogotá D.C. está trabajando en una estrategia de difusión de información sobre los derechos de la población LGTBIQ+ en el Distrito. La iniciativa busca no solo informar, sino también empoderar a esta comunidad para que ejerza su ciudadanía plena. ¿Qué capacidad inherente a la Personería le permite llevar a cabo campañas de orientación y asistencia que contribuyan al empoderamiento ciudadano?",
+    "options": {
+      "A": "Su rol como entidad recaudadora de fondos para programas sociales, que financia las campañas de difusión.",
+      "B": "Su función como defensor de los derechos humanos y Ministerio Público, que le otorga la legitimidad para orientar y asistir a las personas en sus derechos.",
+      "C": "La potestad de crear juzgados especializados en derechos humanos para la población LGTBIQ+."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Personería de Bogotá D.C. ejerce funciones de Ministerio Público y defensor de los derechos humanos, y bajo este rol orienta y asiste a las personas en trámites relacionados con la protección de sus derechos."
+  },
+  {
+    "id": "dcq020",
+    "question": "El Alcalde Mayor de Bogotá D.C. ha decidido reorganizar la planta de personal de una Secretaría de Despacho, lo que implica la supresión de algunos cargos y la creación de otros. Esta acción, aunque interna a la Secretaría, debe enmarcarse en una potestad específica del Concejo de Bogotá D.C. ¿Qué atribución del Concejo de Bogotá D.C. está intrínsecamente ligada a la facultad de reorganizar la planta de personal de las entidades distritales?",
+    "options": {
+      "A": "La atribución de aprobar directamente los nombramientos de personal en las Secretarías de Despacho.",
+      "B": "La atribución de dictar normas sobre la estructura de la administración distrital y la creación de empleos públicos en las entidades del Distrito.",
+      "C": "La facultad de intervenir en el día a día de la gestión de personal de las Secretarías, sin necesidad de un Acuerdo."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Concejo de Bogotá D.C. tiene la atribución de dictar normas sobre la estructura de la administración distrital y la creación de empleos públicos en las entidades del Distrito mediante Acuerdos."
+  },
+  {
+    "id": "dcq021",
+    "question": "Como Profesional Especializado del IDU, se te asigna la responsabilidad de 'garantizar la incorporación de los registros de la documentación de cada sistema y archivos existentes con el fin de conservar el histórico y trazabilidad'. Esta función es vital para la gestión del conocimiento y la continuidad de las operaciones. ¿Qué implica la 'trazabilidad' en este contexto, y cómo se logra su garantía?",
+    "options": {
+      "A": "Implica la capacidad de seguir el rastro y la evolución de la información a lo largo del tiempo, lográndose mediante metodologías adoptadas para la gestión documental.",
+      "B": "Implica únicamente la digitalización de los documentos físicos sin un sistema de control de versiones o historial de cambios.",
+      "C": "Implica la eliminación periódica de documentos antiguos para evitar la sobrecarga de información, sin considerar la conservación del histórico."
+    },
+    "correctAnswer": "A",
+    "explanation": "La función es 'Garantizar la incorporación de los registros de la documentación de cada sistema y archivos existentes con el fin de conservar el histórico y trazabilidad, de acuerdo a las metodologías adoptadas'. La trazabilidad se refiere a la capacidad de seguir el rastro del documento o sistema en el tiempo."
+  },
+  {
+    "id": "dcq022",
+    "question": "La Contraloría de Bogotá D.C. ha recibido una solicitud de la ciudadanía para investigar la posible desviación de recursos destinados a la construcción de ciclorrutas. La solicitud se enfoca en la 'efectividad' de la inversión y no solo en la 'legalidad'. ¿Qué característica del control fiscal de la Contraloría le permite abordar esta dimensión de 'efectividad' en la vigilancia de los recursos?",
+    "options": {
+      "A": "La restricción de auditar solo los gastos superiores a cierto umbral monetario.",
+      "B": "La misión de vigilar la gestión de los recursos del Distrito con oportunidad y efectividad, lo que implica evaluar los resultados y el impacto social del gasto.",
+      "C": "La exclusividad en la realización de auditorías financieras, sin capacidad para evaluar el cumplimiento de objetivos de los proyectos."
+    },
+    "correctAnswer": "B",
+    "explanation": "La misión de la Contraloría es 'vigilar la gestión de los recursos del Distrito Capital con oportunidad y efectividad... para contribuir al mejoramiento de la calidad de vida de los ciudadanos'. La efectividad se refiere al logro de los objetivos con los recursos invertidos."
+  },
+  {
+    "id": "dcq023",
+    "question": "El Concejo de Bogotá D.C. está inmerso en un proceso de revisión de las normas que rigen el uso del suelo y el desarrollo urbanístico en la ciudad, un aspecto altamente técnico y complejo. ¿Qué atribución específica del Concejo le permite dictar normas en estas materias tan técnicas, y cómo se relaciona con la planeación de la ciudad?",
+    "options": {
+      "A": "La facultad de ejecutar directamente proyectos de construcción para asegurar el cumplimiento de las normas urbanísticas.",
+      "B": "La atribución de dictar normas sobre urbanización, vías, equipamiento urbano, y patrimonio ecológico, que son fundamentales para la planeación y el ordenamiento territorial.",
+      "C": "La potestad de delegar por completo la regulación urbanística en las curadurías urbanas, sin ejercer control alguno."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Concejo de Bogotá D.C. dicta normas sobre urbanización, vías, equipamiento urbano, y patrimonio ecológico. Estas normas son esenciales para la planeación y el ordenamiento del Distrito."
+  },
+  {
+    "id": "dcq024",
+    "question": "La Personería de Bogotá D.C. ha identificado la necesidad de fortalecer los mecanismos de participación ciudadana en el control social sobre la gestión pública. Para ello, busca empoderar a las comunidades para que ejerzan una vigilancia más efectiva. ¿Qué estrategia implementa la Personería para potenciar el control social y la veeduría ciudadana?",
+    "options": {
+      "A": "Limitar la información pública para evitar la injerencia ciudadana excesiva en la gestión.",
+      "B": "Brindar orientación y asistencia a los ciudadanos, facilitando su participación en el control social y la vigilancia de la gestión pública.",
+      "C": "Asumir directamente las funciones de veeduría ciudadana, sin involucrar a los ciudadanos en el proceso."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Personería orienta y asiste a las personas, lo cual empodera a los ciudadanos para ejercer un control social más efectivo sobre la administración."
+  },
+  {
+    "id": "dcq025",
+    "question": "El Alcalde Mayor de Bogotá D.C. se enfrenta al desafío de garantizar la unidad de la acción administrativa en un Distrito Capital complejo y con múltiples entidades descentralizadas. ¿Qué principio administrativo debe aplicar el Alcalde Mayor para asegurar la coherencia en la implementación de políticas públicas en todo el Sector Central y Descentralizado?",
+    "options": {
+      "A": "El principio de autonomía individual de cada entidad descentralizada, sin necesidad de coordinación central.",
+      "B": "El principio de centralización administrativa, que le permite dirigir la acción administrativa y nombrar a los gerentes de las entidades descentralizadas para asegurar la alineación.",
+      "C": "El principio de subsidiaridad, que delega la responsabilidad total de la implementación en las localidades sin intervención del nivel central."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Alcalde Mayor dirige la acción administrativa y nombra a los gerentes de las entidades descentralizadas, lo que refleja el principio de centralización administrativa para asegurar la unidad de acción."
+  },
+  {
+    "id": "dcq026",
+    "question": "Como Profesional Especializado del IDU, se te solicita participar en la 'Implementación de los desarrollos de alta calidad, efectividad y entrega a satisfacción de los proyectos de software alineados con la arquitectura de los Sistemas de Información definida'. Esta tarea requiere una comprensión profunda de la interoperabilidad y los estándares. ¿Qué implicación tiene la 'alineación con la arquitectura de los Sistemas de Información definida' para la implementación de estos proyectos?",
+    "options": {
+      "A": "Permite que cada proyecto de software opere de forma aislada, sin interactuar con otros sistemas existentes.",
+      "B": "Garantiza que los nuevos desarrollos se integren de manera coherente y eficiente en el ecosistema tecnológico existente del IDU y del Distrito.",
+      "C": "Implica la redefinición completa de la arquitectura de sistemas para cada nuevo proyecto de software."
+    },
+    "correctAnswer": "B",
+    "explanation": "La función es 'Implementar los desarrollos de alta calidad, efectividad y entrega a satisfacción de los proyectos de software alineados con la arquitectura de los Sistemas de Información definida', lo que implica la integración y coherencia."
+  },
+  {
+    "id": "dcq027",
+    "question": "La Contraloría de Bogotá D.C. ha identificado un posible 'detrimento patrimonial' en la ejecución de un contrato de consultoría por parte de una Secretaría Distrital. La situación exige una investigación rigurosa que no solo identifique el daño, sino que también determine la responsabilidad y promueva la recuperación de los recursos. ¿Qué facultad específica de la Contraloría le permite ejercer este tipo de control sobre la gestión fiscal?",
+    "options": {
+      "A": "La facultad de emitir juicios disciplinarios directos contra los funcionarios implicados en el detrimento patrimonial.",
+      "B": "La potestad de vigilar la gestión de los recursos del Distrito, lo que incluye la capacidad de investigar, determinar detrimentos y promover la recuperación de fondos.",
+      "C": "La atribución de intermediar en la conciliación entre la Secretaría y el contratista, sin investigar a fondo la gestión fiscal."
+    },
+    "correctAnswer": "B",
+    "explanation": "La misión de la Contraloría de Bogotá D.C. es vigilar la gestión de los recursos del Distrito Capital, y esto incluye la investigación de posibles detrimentos patrimoniales y la determinación de responsabilidades fiscales."
+  },
+  {
+    "id": "dcq028",
+    "question": "El Concejo de Bogotá D.C. está preparando un debate sobre la ejecución presupuestal de las Secretarías de Despacho y entidades descentralizadas, basándose en los informes presentados por el Alcalde Mayor y la Contraloría Distrital. Este debate es una manifestación del control que ejerce el Concejo. ¿Qué tipo de control ejerce el Concejo de Bogotá D.C. cuando evalúa los informes de los funcionarios distritales sobre la ejecución presupuestal?",
+    "options": {
+      "A": "Control judicial, ya que implica la revisión de legalidad de los gastos.",
+      "B": "Control político y de vigilancia, que le permite evaluar la gestión y la rendición de cuentas de la administración.",
+      "C": "Control previo, que autoriza los gastos antes de que se ejecuten."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Concejo de Bogotá D.C. ejerce control político a la administración distrital y evalúa informes de funcionarios distritales, lo que incluye la evaluación de la ejecución presupuestal."
+  },
+  {
+    "id": "dcq029",
+    "question": "La Personería de Bogotá D.C. ha decidido impulsar un programa de formación ciudadana sobre los derechos y deberes en el uso del espacio público. La iniciativa busca no solo informar, sino también prevenir conflictos y promover la sana convivencia. ¿Cómo se relaciona esta iniciativa de 'formación ciudadana' con el rol de la Personería como órgano de control?",
+    "options": {
+      "A": "Es una función ajena a su rol, que debería ser asumida por la Secretaría de Educación.",
+      "B": "Es una manifestación de su rol como defensor de los derechos humanos y su capacidad de ejercer prevención y control en diversos sectores, incluyendo la convivencia.",
+      "C": "Es una actividad de recaudo de fondos para la Personería, sin impacto directo en el control social."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Personería de Bogotá D.C. ejerce funciones de Ministerio Público y defensor de los derechos humanos, y ejerce la acción de prevención y control a las políticas, planes, programas y proyectos distritales en diversos sectores, incluyendo seguridad y convivencia."
+  },
+  {
+    "id": "dcq030",
+    "question": "El Alcalde Mayor de Bogotá D.C. ha tomado la decisión de fusionar dos Departamentos Administrativos para optimizar la eficiencia en la gestión pública. Esta acción, aunque dentro del Sector Central, requiere la observancia de la normativa que rige la estructura de la administración distrital. ¿Qué tipo de acto administrativo es el más adecuado para formalizar la fusión de dos Departamentos Administrativos, y quién tiene la potestad de crearlos inicialmente?",
+    "options": {
+      "A": "Una Resolución del Alcalde Mayor, ya que es una facultad interna de la administración sin injerencia de otras ramas.",
+      "B": "Un Decreto del Alcalde Mayor que reglamenta un Acuerdo del Concejo; la creación inicial de Departamentos Administrativos es potestad del Concejo.",
+      "C": "Un Acuerdo del Concejo, ya que la fusión es una modificación de la estructura que el Concejo debe aprobar."
+    },
+    "correctAnswer": "B",
+    "explanation": "La estructura de la administración distrital, incluyendo la creación de Departamentos Administrativos, se establece mediante Acuerdos del Concejo. La fusión o reorganización interna reglamentaria de lo ya establecido se realiza mediante Decreto del Alcalde Mayor."
+  },
+  {
+    "id": "dcq031",
+    "question": "Como Profesional Especializado del IDU, se te exige un conocimiento profundo de 'Procesos administrativos de tecnología'. Esto implica no solo el entendimiento de las herramientas, sino también de cómo se enmarcan en el flujo de gestión institucional.",
+    "options": {
+      "A": "Conocer los procesos tecnológicos únicamente para la codificación de software.",
+      "B": "Comprender la articulación de la tecnología con los procedimientos internos y la gestión institucional para optimizar la ejecución de las funciones.",
+      "C": "Limitar el conocimiento a la adquisición de equipos tecnológicos sin considerar su aplicación en los procesos."
+    },
+    "correctAnswer": "B",
+    "explanation": "'Procesos administrativos de tecnología' es un conocimiento básico o esencial que implica la comprensión de cómo la tecnología se integra en la gestión y los procedimientos internos para el cumplimiento de las funciones."
+  },
+  {
+    "id": "dcq032",
+    "question": "La Contraloría de Bogotá D.C. está planificando su programa de control fiscal para el próximo año. Se ha identificado una necesidad de priorizar aquellas entidades que manejan un volumen considerable de recursos y que, por su naturaleza, presentan mayores riesgos. ¿Qué principio rige la selección de las entidades a auditar y el alcance de la vigilancia fiscal por parte de la Contraloría?",
+    "options": {
+      "A": "Principio de aleatoriedad pura, sin considerar el riesgo o el volumen de recursos.",
+      "B": "Principio de la gestión por resultados, que orienta la auditoría hacia el impacto del gasto en la calidad de vida de los ciudadanos, priorizando el riesgo.",
+      "C": "Principio de la no injerencia, que limita la auditoría solo a las entidades que soliciten ser auditadas."
+    },
+    "correctAnswer": "B",
+    "explanation": "La misión de la Contraloría es vigilar la gestión de los recursos... para contribuir al mejoramiento de la calidad de vida de los ciudadanos. Esto implica un enfoque de gestión por resultados y de priorización de riesgos para una vigilancia efectiva."
+  },
+  {
+    "id": "dcq033",
+    "question": "El Concejo de Bogotá D.C. ha recibido una iniciativa ciudadana para crear un nuevo fondo distrital destinado al fomento de la cultura y el arte. Para que este fondo sea establecido legalmente, se requiere una acción normativa del Concejo. ¿Qué atribución específica del Concejo de Bogotá D.C. le permite crear fondos y establecer su régimen de funcionamiento?",
+    "options": {
+      "A": "La facultad de aprobar el Plan de Desarrollo sin injerencia en la creación de fondos específicos.",
+      "B": "La facultad de dictar normas sobre la estructura de la administración distrital y el endeudamiento del Distrito y sus entidades descentralizadas.",
+      "C": "La potestad de designar a los directores de los fondos distritales sin participación de la Alcaldía."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Concejo de Bogotá D.C. tiene la atribución de dictar normas sobre la estructura de la administración distrital y el endeudamiento del Distrito y sus entidades descentralizadas. La creación de fondos distritales se enmarca dentro de su potestad normativa."
+  },
+  {
+    "id": "dcq034",
+    "question": "La Personería de Bogotá D.C. ha notado un incremento en las denuncias de discriminación por parte de servidores públicos. Para abordar esta problemática, la Personería decide lanzar un programa de sensibilización y capacitación dirigido a todos los empleados distritales. ¿Qué rol de la Personería de Bogotá D.C. le permite realizar acciones de esta naturaleza, más allá de la vigilancia punitiva?",
+    "options": {
+      "A": "Su rol como entidad que solo recibe quejas y las remite a otras instancias.",
+      "B": "Su rol como defensor de los derechos humanos y Ministerio Público, que le faculta para promover la garantía de derechos y prevenir su vulneración a través de la educación y sensibilización.",
+      "C": "Su potestad para imponer sanciones disciplinarias directamente a los funcionarios que discriminen."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Personería de Bogotá D.C. ejerce funciones de Ministerio Público y defensor de los derechos humanos, y ejerce la acción de prevención y control a las políticas, planes, programas y proyectos distritales, lo que incluye la promoción de los derechos y la prevención de su vulneración."
+  },
+  {
+    "id": "dcq035",
+    "question": "El Alcalde Mayor de Bogotá D.C. busca consolidar la visión de ciudad a largo plazo, plasmándola en un documento guía que trascienda su periodo de gobierno. ¿Qué instrumento de planeación distrital cumple con esta función de visión a largo plazo y es adoptado por el Concejo de Bogotá D.C.?",
+    "options": {
+      "A": "El Plan Anual de Adquisiciones Distrital, por su carácter estratégico de inversión.",
+      "B": "El Plan Distrital de Desarrollo Económico, Social, Ambiental y de Obras Públicas, por su visión a mediano y largo plazo.",
+      "C": "El presupuesto anual del Distrito, por su detalle en la asignación de recursos."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Plan Distrital de Desarrollo Económico, Social, Ambiental y de Obras Públicas es el instrumento de planeación más importante a nivel de Bogotá, y es adoptado por el Concejo de Bogotá D.C.."
+  },
+  {
+    "id": "dcq036",
+    "question": "Como Profesional Especializado del IDU, te encargas de 'Implementar los desarrollos de alta calidad, efectividad y entrega a satisfacción de los proyectos de software'. La calidad no solo se mide por la funcionalidad, sino también por el impacto en los usuarios.",
+    "options": {
+      "A": "La implementación de proyectos se enfoca únicamente en la funcionalidad técnica, dejando de lado la experiencia del usuario.",
+      "B": "La implementación de proyectos busca no solo la calidad técnica, sino también la efectividad y la satisfacción de los usuarios finales, alineada con la arquitectura de los sistemas.",
+      "C": "La efectividad se mide solo por el tiempo de entrega, sin importar la satisfacción del usuario."
+    },
+    "correctAnswer": "B",
+    "explanation": "La función es 'Implementar los desarrollos de alta calidad, efectividad y entrega a satisfacción de los proyectos de software alineados con la arquitectura de los Sistemas de Información definida'."
+  },
+  {
+    "id": "dcq037",
+    "question": "La Contraloría de Bogotá D.C. ha identificado un 'hallazgo fiscal' en un contrato de obra pública en el que se evidencia un sobrecosto injustificado. La labor de la Contraloría no termina con la identificación del hallazgo. ¿Qué acción posterior a la identificación de un hallazgo fiscal le corresponde a la Contraloría de Bogotá D.C.?",
+    "options": {
+      "A": "Publicar un comunicado de prensa sin iniciar ningún proceso de responsabilidad.",
+      "B": "Iniciar un proceso de responsabilidad fiscal para determinar a los responsables y procurar la recuperación de los recursos públicos.",
+      "C": "Delegar la resolución del hallazgo a la Secretaría de Obras Públicas, sin intervención adicional."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Contraloría de Bogotá D.C. ejerce vigilancia sobre la gestión fiscal, lo que incluye la investigación de posibles detrimentos patrimoniales y la determinación de responsabilidades fiscales."
+  },
+  {
+    "id": "dcq038",
+    "question": "El Concejo de Bogotá D.C. ha solicitado al Alcalde Mayor un informe detallado sobre el estado de la deuda pública distrital. Esta solicitud se enmarca en la función de control que ejerce el Concejo sobre las finanzas de la ciudad. ¿Qué tipo de control ejerce el Concejo de Bogotá D.C. sobre las finanzas del Distrito, que le permite solicitar este tipo de informes?",
+    "options": {
+      "A": "Control exclusivo sobre el recaudo de impuestos.",
+      "B": "Control político sobre el endeudamiento y las finanzas del Distrito, en su rol de suprema autoridad administrativa.",
+      "C": "Control previo sobre cada transacción financiera realizada por la Tesorería Distrital."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Concejo de Bogotá D.C. es la suprema autoridad del Distrito Capital en materia administrativa y dicta normas sobre el endeudamiento del Distrito. Su función de control político le permite solicitar informes financieros."
+  },
+  {
+    "id": "dcq039",
+    "question": "La Personería de Bogotá D.C. ha lanzado una línea telefónica gratuita para que los ciudadanos denuncien casos de corrupción. Esta iniciativa busca ser un canal directo para la vigilancia de la conducta de los servidores públicos. ¿Qué función principal de la Personería de Bogotá D.C. se fortalece con la creación de este tipo de canales para la ciudadanía?",
+    "options": {
+      "A": "La función de asesoría jurídica exclusiva para funcionarios públicos.",
+      "B": "La función de Ministerio Público y defensa de los derechos humanos, al facilitar la vigilancia de la conducta oficial y la denuncia ciudadana.",
+      "C": "La función de ejecución de obras públicas, al recibir información sobre posibles irregularidades en contratos."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Personería de Bogotá D.C. ejerce funciones de Ministerio Público y defensor de los derechos humanos, y vigila la conducta oficial de quienes ejercen funciones públicas. La línea de denuncia facilita este último rol."
+  }
+
+    
+    
+]
