@@ -491,9 +491,16 @@ function renderStudyModulesView() {
     const moduleContentDisplay = document.getElementById('module-content-display');
 
    
+
+// ... (código anterior en main.js, dentro de renderStudyModulesView) ...
+
+// Función para renderizar el contenido de un subtema específico
+
+
+// ... (código anterior en main.js, dentro de renderStudyModulesView) ...
+
 // Función para renderizar el contenido de un subtema específico
 function renderSubtopicContent(subtopic) {
-    // El innerHTML completo de la sección del contenido del módulo
     moduleContentDisplay.innerHTML = `
         <h3 class="text-2xl font-bold text-blue-700 mb-4">${subtopic.title}</h3>
         <div class="prose max-w-none text-gray-800">
@@ -512,6 +519,15 @@ function renderSubtopicContent(subtopic) {
                 <button id="start-org-quiz-btn" 
                         class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 transform hover:scale-105">
                     Realizar Simulacro de este Tema
+                </button>
+            </div>
+        ` : ''}
+        ${subtopic.id === 'integridad-compromiso' ? `
+            <div class="mt-8 p-4 bg-green-50 rounded-lg border-l-4 border-green-500 text-green-800">
+                <p class="font-semibold mb-3">¡Evalúa tu comprensión sobre el valor del Compromiso!</p>
+                <button id="start-compromiso-quiz-btn" 
+                        class="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition duration-300 transform hover:scale-105">
+                    Realizar Simulacro de Compromiso
                 </button>
             </div>
         ` : ''}
@@ -536,16 +552,13 @@ function renderSubtopicContent(subtopic) {
         }
     }
 
-    // === NUEVO: Listener para el botón del simulacro específico ===
-    // Solo se añade si el subtema actual es 'organizacion-distrito'
+    // Listener para el botón del simulacro específico de Organización del Distrito Capital
     if (subtopic.id === 'organizacion-distrito') {
         const startOrgQuizBtn = document.getElementById('start-org-quiz-btn');
         if (startOrgQuizBtn) {
             startOrgQuizBtn.addEventListener('click', () => {
-                // Navegar a la vista de simulacros
                 navigateTo('simulacros');
-                // Y, lo más importante, precargar la selección en el dropdown del simulacro
-                setTimeout(() => { // Pequeño delay para que la vista de simulacros se cargue primero
+                setTimeout(() => {
                     const quizTypeSelect = document.getElementById('quiz-type-select');
                     if (quizTypeSelect) {
                         quizTypeSelect.value = 'organizacion-distrito';
@@ -555,8 +568,41 @@ function renderSubtopicContent(subtopic) {
             });
         }
     }
+
+    // === NUEVO: Listener para el botón del simulacro específico de Compromiso ===
+    if (subtopic.id === 'integridad-compromiso') {
+        const startCompromisoQuizBtn = document.getElementById('start-compromiso-quiz-btn');
+        if (startCompromisoQuizBtn) {
+            startCompromisoQuizBtn.addEventListener('click', () => {
+                navigateTo('simulacros');
+                setTimeout(() => {
+                    const quizTypeSelect = document.getElementById('quiz-type-select');
+                    if (quizTypeSelect) {
+                        // AHORA PRECISAMENTE FILTRAMOS POR EL SUBTOPIC_ID 'integridad-compromiso'
+                        quizTypeSelect.value = 'integridad-compromiso'; 
+                        alert('Selecciona "Compromiso" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este valor. (Asegúrate de tener suficientes preguntas de Compromiso en tu questions.json)');
+                    }
+                }, 100); 
+            });
+        }
+    }
     // === FIN NUEVO LISTENER ===
 }
+
+// ... (resto del código en main.js) ...
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -611,13 +657,13 @@ function renderSimulacrosView() {
             <h3 class="text-xl font-semibold mb-4">Configura tu Simulacro</h3>
             <div class="flex flex-col md:flex-row gap-4 items-center">
                 <select id="quiz-type-select" class="p-2 border rounded-md">
-                    <option value="all">Simulacro General (Todas las preguntas)</option>
-                    <option value="organizacion-distrito">Organización del Distrito Capital (20 Preguntas)</option>
-                    <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
-                    <option value="funcionales-especificas">Funcionales Específicas</option>
-                    <option value="integridad">Integridad (IDU)</option>
-                    <option value="competencias-comportamentales">Comportamentales</option>
-                </select>
+                <option value="all">Simulacro General (Todas las preguntas)</option>
+                <option value="organizacion-distrito">Organización del Distrito Capital (20 Preguntas)</option>
+                <option value="integridad-compromiso">Compromiso (20 Preguntas)</option> <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
+                <option value="funcionales-especificas">Funcionales Específicas</option>
+                <option value="integridad">Integridad (IDU)</option>
+                <option value="competencias-comportamentales">Comportamentales</option>
+            </select>
                 <button id="start-quiz-btn" class="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">Iniciar Simulacro</button>
             </div>
         </div>
@@ -673,39 +719,45 @@ function renderSimulacrosView() {
 
 
     // --- LÓGICA DEL SIMULACRO ---
-    function startQuiz() {
-        const selectedType = quizTypeSelect.value;
-        if (selectedType === 'all') {
-            currentQuizQuestions = [...allQuestionsData]; // Si es un simulacro general, toma todas las preguntas
-        } else if (selectedType === 'organizacion-distrito') { 
-            const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'organizacion-distrito');
-            // Tomar hasta 20 preguntas aleatoriamente de las filtradas
-            currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
-            if (currentQuizQuestions.length < 20) {
-                alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Organización del Distrito Capital'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
-            }
-        } else {
-            // Lógica para otros tipos de simulacros (funcionales, integridad, comportamentales)
-            currentQuizQuestions = allQuestionsData.filter(q => q.topic_id === selectedType);
+    // Dentro de renderSimulacrosView() -> startQuiz()
+function startQuiz() {
+    const selectedType = quizTypeSelect.value;
+    if (selectedType === 'all') {
+        currentQuizQuestions = [...allQuestionsData]; 
+    } else if (selectedType === 'organizacion-distrito') {
+        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'organizacion-distrito');
+        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+        if (currentQuizQuestions.length < 20) {
+            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Organización del Distrito Capital'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
         }
-
-        // Asegurarse de que haya preguntas para el simulacro
-        if (currentQuizQuestions.length === 0) {
-            alert('No hay preguntas disponibles para el tipo de simulacro seleccionado. Por favor, añade más preguntas.');
-            return;
+    } else if (selectedType === 'integridad-compromiso') { // --- NUEVO: Lógica para 20 preguntas de Compromiso ---
+        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'integridad-compromiso');
+        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+        if (currentQuizQuestions.length < 20) {
+            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Compromiso'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
         }
-
-        currentQuestionIndex = 0;
-        quizScore = 0;
-        quizStartTime = new Date().getTime(); // Registrar tiempo de inicio
-        updateQuizTimer(); // Iniciar temporizador visual del quiz
-
-        quizOptionsDiv.classList.add('hidden'); // Ocultar opciones de configuración
-        quizContainer.classList.remove('hidden'); // Mostrar contenedor del quiz
-        quizResultsDiv.classList.add('hidden'); // Asegurarse de que los resultados estén ocultos
-
-        loadQuestion();
+    } else {
+        // Lógica para otros tipos de simulacros (funcionales, integridad general, comportamentales)
+        currentQuizQuestions = allQuestionsData.filter(q => q.topic_id === selectedType);
     }
+
+    // Asegurarse de que haya preguntas para el simulacro
+    if (currentQuizQuestions.length === 0) {
+        alert('No hay preguntas disponibles para el tipo de simulacro seleccionado. Por favor, añade más preguntas.');
+        return;
+    }
+
+    currentQuestionIndex = 0;
+    quizScore = 0;
+    quizStartTime = new Date().getTime(); // Registrar tiempo de inicio
+    updateQuizTimer(); // Iniciar temporizador visual del quiz
+
+    quizOptionsDiv.classList.add('hidden'); // Ocultar opciones de configuración
+    quizContainer.classList.remove('hidden'); // Mostrar contenedor del quiz
+    quizResultsDiv.classList.add('hidden'); // Asegurarse de que los resultados estén ocultos
+
+    loadQuestion();
+}
 
     function updateQuizTimer() {
         clearInterval(quizTimerInterval); // Limpiar cualquier intervalo anterior
