@@ -492,12 +492,10 @@ function renderStudyModulesView() {
 
    
 
-// ... (código anterior en main.js, dentro de renderStudyModulesView) ...
-
-// Función para renderizar el contenido de un subtema específico
 
 
-// ... (código anterior en main.js, dentro de renderStudyModulesView) ...
+
+    // ... (código anterior en main.js, dentro de renderStudyModulesView) ...
 
 // Función para renderizar el contenido de un subtema específico
 function renderSubtopicContent(subtopic) {
@@ -531,26 +529,19 @@ function renderSubtopicContent(subtopic) {
                 </button>
             </div>
         ` : ''}
+        ${subtopic.id === 'arquitectura-empresarial' ? `
+            <div class="mt-8 p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-500 text-yellow-800">
+                <p class="font-semibold mb-3">¡Desafía tu saber en Arquitectura Empresarial!</p>
+                <button id="start-ae-quiz-btn" 
+                        class="bg-yellow-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-yellow-700 transition duration-300 transform hover:scale-105">
+                    Realizar Simulacro de Arquitectura Empresarial
+                </button>
+            </div>
+        ` : ''}
         <button id="mark-completed-btn" class="mt-6 bg-green-500 text-white px-5 py-2 rounded-lg hover:bg-green-600 transition duration-300" data-subtopic-id="${subtopic.id}">Marcar como Completado</button>
         `;
 
-    // Listener para el botón "Marcar como Completado"
-    const markCompletedBtn = document.getElementById('mark-completed-btn');
-    if (markCompletedBtn) {
-        markCompletedBtn.addEventListener('click', (e) => {
-            const subtopicId = e.target.dataset.subtopicId;
-            markSubtopicAsCompleted(subtopicId, true);
-            alert(`¡"${subtopic.title}" marcado como completado!`);
-            e.target.disabled = true; // Deshabilitar el botón
-            e.target.textContent = 'Completado';
-            checkAchievements(); // Verificar logros al completar un subtema
-        });
-        // Si ya está completado, deshabilitar al cargar
-        if (getSubtopicCompletionStatus(subtopic.id)) {
-            markCompletedBtn.disabled = true;
-            markCompletedBtn.textContent = 'Completado';
-        }
-    }
+    // ... (resto del código de renderSubtopicContent, incluyendo el listener para markCompletedBtn) ...
 
     // Listener para el botón del simulacro específico de Organización del Distrito Capital
     if (subtopic.id === 'organizacion-distrito') {
@@ -569,18 +560,31 @@ function renderSubtopicContent(subtopic) {
         }
     }
 
-    // === NUEVO: Listener para el botón del simulacro específico de Compromiso ===
+    // Listener para el botón del simulacro específico de Compromiso
     if (subtopic.id === 'integridad-compromiso') {
         const startCompromisoQuizBtn = document.getElementById('start-compromiso-quiz-btn');
         if (startCompromisoQuizBtn) {
             startCompromisoQuizBtn.addEventListener('click', () => {
                 navigateTo('simulacros');
                 setTimeout(() => {
+                    quizTypeSelect.value = 'integridad-compromiso'; 
+                    alert('Selecciona "Compromiso" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este valor. (Asegúrate de tener suficientes preguntas de Compromiso en tu questions.json)');
+                }, 100); 
+            });
+        }
+    }
+
+    // === NUEVO: Listener para el botón del simulacro específico de Arquitectura Empresarial ===
+    if (subtopic.id === 'arquitectura-empresarial') {
+        const startAeQuizBtn = document.getElementById('start-ae-quiz-btn');
+        if (startAeQuizBtn) {
+            startAeQuizBtn.addEventListener('click', () => {
+                navigateTo('simulacros');
+                setTimeout(() => {
                     const quizTypeSelect = document.getElementById('quiz-type-select');
                     if (quizTypeSelect) {
-                        // AHORA PRECISAMENTE FILTRAMOS POR EL SUBTOPIC_ID 'integridad-compromiso'
-                        quizTypeSelect.value = 'integridad-compromiso'; 
-                        alert('Selecciona "Compromiso" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este valor. (Asegúrate de tener suficientes preguntas de Compromiso en tu questions.json)');
+                        quizTypeSelect.value = 'arquitectura-empresarial'; 
+                        alert('Selecciona "Arquitectura Empresarial" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Arquitectura Empresarial en tu questions.json)');
                     }
                 }, 100); 
             });
@@ -588,13 +592,6 @@ function renderSubtopicContent(subtopic) {
     }
     // === FIN NUEVO LISTENER ===
 }
-
-// ... (resto del código en main.js) ...
-
-
-
-
-
 
 
 
@@ -656,10 +653,11 @@ function renderSimulacrosView() {
         <div id="quiz-options" class="bg-white p-6 rounded-lg shadow-lg mb-8">
             <h3 class="text-xl font-semibold mb-4">Configura tu Simulacro</h3>
             <div class="flex flex-col md:flex-row gap-4 items-center">
-                <select id="quiz-type-select" class="p-2 border rounded-md">
+                 <select id="quiz-type-select" class="p-2 border rounded-md">
                 <option value="all">Simulacro General (Todas las preguntas)</option>
                 <option value="organizacion-distrito">Organización del Distrito Capital (20 Preguntas)</option>
-                <option value="integridad-compromiso">Compromiso (20 Preguntas)</option> <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
+                <option value="integridad-compromiso">Compromiso (20 Preguntas)</option>
+                <option value="arquitectura-empresarial">Arquitectura Empresarial (20 Preguntas)</option> <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
                 <option value="funcionales-especificas">Funcionales Específicas</option>
                 <option value="integridad">Integridad (IDU)</option>
                 <option value="competencias-comportamentales">Comportamentales</option>
@@ -720,6 +718,7 @@ function renderSimulacrosView() {
 
     // --- LÓGICA DEL SIMULACRO ---
     // Dentro de renderSimulacrosView() -> startQuiz()
+// Dentro de renderSimulacrosView() -> startQuiz()
 function startQuiz() {
     const selectedType = quizTypeSelect.value;
     if (selectedType === 'all') {
@@ -730,11 +729,17 @@ function startQuiz() {
         if (currentQuizQuestions.length < 20) {
             alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Organización del Distrito Capital'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
         }
-    } else if (selectedType === 'integridad-compromiso') { // --- NUEVO: Lógica para 20 preguntas de Compromiso ---
+    } else if (selectedType === 'integridad-compromiso') {
         const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'integridad-compromiso');
         currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
         if (currentQuizQuestions.length < 20) {
             alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Compromiso'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+        }
+    } else if (selectedType === 'arquitectura-empresarial') { // --- NUEVO: Lógica para 20 preguntas de Arquitectura Empresarial ---
+        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'arquitectura-empresarial');
+        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+        if (currentQuizQuestions.length < 20) {
+            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Arquitectura Empresarial'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
         }
     } else {
         // Lógica para otros tipos de simulacros (funcionales, integridad general, comportamentales)
