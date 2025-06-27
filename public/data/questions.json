@@ -9549,7 +9549,417 @@
     },
     "correctAnswer": "B",
     "explanation": "El MAE establece los principios y lineamientos para la arquitectura empresarial, la gestión y desarrollo de proyectos con componentes de tecnologías de la información de las entidades públicas."
-  }
+  },
+
+  {
+        "id": "q_ae_181",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "arquitectura-empresarial",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "En el contexto del MAE del MinTIC, se busca garantizar que todas las tecnologías implementadas en una entidad pública estén alineadas con sus objetivos estratégicos, optimizando tanto los procesos internos como la entrega de valor a la ciudadanía. Es un proceso que involucra desde la definición de la arquitectura tecnológica hasta su ejecución y evaluación.",
+        "question": "¿Cómo asegura el MAE que la tecnología en las entidades públicas esté alineada con los objetivos estratégicos institucionales?",
+        "options": {
+            "A": "A través de la implementación de un modelo rígido de tecnología que no permite modificaciones durante el proceso.",
+            "B": "Al establecer una metodología flexible que permite alinear la tecnología con los objetivos institucionales, optimizando los procesos y la entrega de valor público.",
+            "C": "Fomentando una cultura de innovación tecnológica independiente de los objetivos estratégicos, sin un marco de alineación claro."
+        },
+        "correctAnswer": "B",
+        "explanation": "El MAE establece una metodología flexible que garantiza que las tecnologías estén alineadas con los objetivos institucionales, mejorando los procesos internos y la entrega de valor público."
+    },
+    {
+        "id": "q_ae_182",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "arquitectura-empresarial",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El Modelo de Arquitectura Empresarial (MAE) se aplica en el sector público colombiano con el objetivo de facilitar la alineación entre las políticas tecnológicas y las estrategias institucionales, promoviendo la integración de los recursos y capacidades tecnológicas de manera eficiente.",
+        "question": "¿Cuál es el principal objetivo de implementar el MAE en las entidades públicas colombianas?",
+        "options": {
+            "A": "Simplificar el proceso de adquisición de nuevas tecnologías sin necesidad de alinearlas a los objetivos institucionales.",
+            "B": "Alinear las estrategias institucionales con los recursos tecnológicos de manera eficiente, promoviendo la integración de capacidades tecnológicas.",
+            "C": "Asegurar que las entidades públicas utilicen solo tecnologías nacionales, sin importar su alineación con los objetivos estratégicos."
+        },
+        "correctAnswer": "B",
+        "explanation": "El principal objetivo del MAE es alinear las estrategias institucionales con los recursos tecnológicos de manera eficiente, promoviendo la integración de capacidades tecnológicas en el sector público."
+    },
+    {
+        "id": "q_ae_183",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "arquitectura-empresarial",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "En las entidades públicas, la implementación del MAE requiere una gestión integral que abarque desde la arquitectura institucional hasta la seguridad de los sistemas y la gestión de la información. El enfoque se orienta hacia la creación de un entorno de TI que apoye la misión y visión de las entidades públicas.",
+        "question": "¿Cómo contribuye el MAE a la seguridad de los sistemas y la gestión de la información en las entidades públicas?",
+        "options": {
+            "A": "El MAE no cubre aspectos de seguridad ni de gestión de la información, centrándose solo en la infraestructura tecnológica.",
+            "B": "El MAE integra la seguridad de los sistemas y la gestión de la información dentro de su enfoque general de alineación de las tecnologías con los objetivos institucionales.",
+            "C": "El MAE delega la seguridad de los sistemas y la gestión de la información a entidades externas sin definir un marco interno claro."
+        },
+        "correctAnswer": "B",
+        "explanation": "El MAE abarca la seguridad de los sistemas y la gestión de la información, asegurando que ambos estén alineados con los objetivos estratégicos de las entidades públicas."
+    },
+    {
+        "id": "q_ae_184",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "arquitectura-empresarial",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El MAE del MinTIC ofrece un enfoque detallado para la gestión de los sistemas de información, donde se identifican las necesidades tecnológicas específicas y se promueve la mejora continua mediante el uso de nuevas herramientas y tecnologías que optimicen los servicios públicos.",
+        "question": "¿Qué enfoque adopta el MAE para la gestión de los sistemas de información en las entidades públicas?",
+        "options": {
+            "A": "Adopta un enfoque pasivo, donde se implementan tecnologías sin un proceso de mejora continua o evaluación.",
+            "B": "Promueve un enfoque dinámico que identifica las necesidades tecnológicas y fomenta la mejora continua mediante el uso de nuevas herramientas y tecnologías.",
+            "C": "Permite que cada área de la entidad implemente sus propias tecnologías sin ningún tipo de alineación estratégica o supervisión."
+        },
+        "correctAnswer": "B",
+        "explanation": "El MAE promueve un enfoque dinámico que identifica las necesidades tecnológicas y fomenta la mejora continua mediante el uso de nuevas herramientas y tecnologías para optimizar los servicios públicos."
+    },
+    {
+        "id": "q_ae_185",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "arquitectura-empresarial",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La implementación del MAE requiere la coordinación entre diferentes dominios de la arquitectura empresarial, como la institucional, la tecnológica, la de sistemas de información, y la de seguridad. Esto garantiza una integración efectiva y eficiente de todos los componentes tecnológicos dentro de la entidad pública.",
+        "question": "¿Qué se garantiza al coordinar los diferentes dominios de la arquitectura empresarial en la implementación del MAE?",
+        "options": {
+            "A": "Se asegura que los componentes tecnológicos funcionen de manera aislada, permitiendo a cada dominio operar sin necesidad de comunicación entre sí.",
+            "B": "Se garantiza una integración efectiva y eficiente de todos los componentes tecnológicos dentro de la entidad pública, facilitando el cumplimiento de los objetivos institucionales.",
+            "C": "Solo se permite la integración de los dominios tecnológicos, excluyendo la infraestructura y la seguridad."
+        },
+        "correctAnswer": "B",
+        "explanation": "Al coordinar los diferentes dominios del MAE, se garantiza una integración efectiva y eficiente de todos los componentes tecnológicos, facilitando el cumplimiento de los objetivos institucionales."
+    },
+    {
+        "id": "q_ae_186",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "arquitectura-empresarial",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El MAE establece un modelo para la gestión del conocimiento dentro de las entidades públicas, que permite la identificación, captura y uso de conocimientos clave para el desarrollo y optimización de los procesos institucionales.",
+        "question": "¿Cómo facilita el MAE la gestión del conocimiento en las entidades públicas?",
+        "options": {
+            "A": "A través de la creación de bases de datos estáticas que no requieren actualización.",
+            "B": "A través de un modelo que identifica, captura y utiliza conocimientos clave para el desarrollo y optimización de procesos.",
+            "C": "Fomentando la creación de conocimientos de manera individual y aislada, sin compartirlos institucionalmente."
+        },
+        "correctAnswer": "B",
+        "explanation": "El MAE facilita la gestión del conocimiento al establecer un modelo que permite identificar, capturar y usar los conocimientos clave para mejorar los procesos institucionales."
+    },
+    {
+        "id": "q_ae_187",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "arquitectura-empresarial",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El MAE promueve el uso de tecnologías emergentes y avanzadas, como la inteligencia artificial y el big data, con el objetivo de transformar la gestión pública mediante la mejora continua.",
+        "question": "¿Qué objetivo persigue el MAE al promover el uso de tecnologías emergentes como la inteligencia artificial y el big data en la gestión pública?",
+        "options": {
+            "A": "Implementar tecnologías emergentes de manera que generen resultados inmediatos sin considerar la estrategia a largo plazo.",
+            "B": "Transformar la gestión pública mediante la mejora continua, utilizando tecnologías emergentes para optimizar los procesos y servicios.",
+            "C": "Limitar el uso de tecnologías emergentes a pruebas piloto, sin una implementación a gran escala."
+        },
+        "correctAnswer": "B",
+        "explanation": "El MAE busca transformar la gestión pública mediante la mejora continua, utilizando tecnologías emergentes como la inteligencia artificial y el big data para optimizar procesos y servicios."
+    },
+    {
+        "id": "q_ae_188",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "arquitectura-empresarial",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La implementación del MAE requiere que las entidades públicas estén comprometidas con la creación de un entorno colaborativo, donde los sistemas de información y la infraestructura tecnológica trabajen conjuntamente para mejorar los servicios.",
+        "question": "¿Cómo asegura el MAE que los sistemas de información y la infraestructura tecnológica trabajen conjuntamente en un entorno colaborativo?",
+        "options": {
+            "A": "Al fomentar el trabajo individual de los sistemas de información y la infraestructura, permitiendo su desarrollo autónomo.",
+            "B": "Al integrar los sistemas de información y la infraestructura tecnológica en un marco de trabajo conjunto, asegurando una colaboración efectiva.",
+            "C": "Al limitar la integración de la infraestructura tecnológica con los sistemas de información solo a áreas clave, sin una colaboración general."
+        },
+        "correctAnswer": "B",
+        "explanation": "El MAE asegura que los sistemas de información y la infraestructura tecnológica trabajen conjuntamente mediante un marco de trabajo colaborativo, optimizando los servicios y procesos públicos."
+    },
+    {
+        "id": "q_ae_189",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "arquitectura-empresarial",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El MAE se orienta hacia el uso eficiente de los recursos tecnológicos, promoviendo la sostenibilidad y garantizando que las inversiones tecnológicas generen el máximo valor a largo plazo.",
+        "question": "¿Cómo contribuye el MAE al uso eficiente de los recursos tecnológicos en las entidades públicas?",
+        "options": {
+            "A": "Fomentando el gasto inmediato en nuevas tecnologías sin considerar su sostenibilidad.",
+            "B": "Promoviendo el uso eficiente de los recursos tecnológicos, asegurando que las inversiones generen valor a largo plazo.",
+            "C": "Reduciendo la inversión en tecnologías emergentes para centrarse en la infraestructura existente."
+        },
+        "correctAnswer": "B",
+        "explanation": "El MAE promueve el uso eficiente de los recursos tecnológicos, asegurando que las inversiones generen un valor sostenido y óptimo a largo plazo."
+    },
+    {
+        "id": "q_ae_190",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "arquitectura-empresarial",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La implementación del MAE en las entidades públicas permite la optimización de procesos, la integración de sistemas y el fortalecimiento de la seguridad tecnológica, generando un entorno que favorece la eficiencia administrativa.",
+        "question": "¿Cómo impacta la implementación del MAE en la eficiencia administrativa de las entidades públicas?",
+        "options": {
+            "A": "Generando procesos administrativos que no están alineados con los sistemas tecnológicos existentes.",
+            "B": "A través de la optimización de procesos, integración de sistemas y fortalecimiento de la seguridad, creando un entorno que favorece la eficiencia administrativa.",
+            "C": "Excluyendo la integración de los sistemas tecnológicos en los procesos administrativos para evitar complicaciones."
+        },
+        "correctAnswer": "B",
+        "explanation": "La implementación del MAE optimiza los procesos, integra los sistemas y fortalece la seguridad tecnológica, creando un entorno que favorece la eficiencia administrativa."
+    },
+
+    {
+    "id": "q_ae_191",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "arquitectura-empresarial",
+    "type": "APPLICATION",
+    "difficulty": "hard",
+    "case": "El IDU está modernizando su sistema de gestión de proyectos urbanos. Según el MAE, se requiere alinear los componentes tecnológicos con los objetivos estratégicos de la entidad. El equipo debate si priorizar la compra de un software comercial o desarrollar una solución personalizada.",
+    "question": "¿Cuál acción alinea mejor con los principios del MAE?",
+    "options": {
+      "A": "Desarrollar una solución personalizada sin consultar estándares del MinTIC, para cubrir necesidades específicas del IDU.",
+      "B": "Evaluar soluciones existentes en el mercado que cumplan con los estándares de interoperabilidad y seguridad del MAE, y adaptarlas a los procesos del IDU.",
+      "C": "Postergar la decisión hasta que el MinTIC publique una guía específica para sistemas de gestión urbana."
+    },
+    "correctAnswer": "B",
+    "explanation": "El MAE promueve la reutilización y estandarización. Optar por soluciones que cumplan con estándares (ej: interoperabilidad) reduce costos y riesgos."
+  },
+{
+    "id": "q_ae_192",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "arquitectura-empresarial",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El MAE del MinTIC define capas para organizar los componentes de TI. Una de ellas garantiza que los datos críticos sean accesibles y seguros.",
+    "question": "¿A qué capa del MAE corresponde esta descripción?",
+    "options": {
+      "A": "Capa de Negocio.",
+      "B": "Capa de Información.",
+      "C": "Capa de Tecnología."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Capa de Información gestiona datos estructurados (ej: bases de datos) y su gobierno."
+  },
+
+  {
+    "id": "q_ae_193",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "arquitectura-empresarial",
+    "type": "ANALYSIS",
+    "difficulty": "hard",
+    "case": "El IDU implementará un nuevo módulo de contratación integrado con SECOP II. Según el MAE, debe asegurar que el sistema cumpla con principios de interoperabilidad y seguridad.",
+    "question": "¿Qué documento del MinTIC debe consultar para validar los estándares técnicos?",
+    "options": {
+      "A": "Ley 2015 de 2020 (Gobierno Digital).",
+      "B": "Guía de Referencia de Arquitectura Empresarial v4.0.",
+      "C": "Decreto 1078 de 2015 (Único Reglamentario del Sector TIC)."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Guía de Referencia del MAE detalla estándares técnicos para interoperabilidad y seguridad."
+  },
+
+  {
+    "id": "q_ae_194",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "arquitectura-empresarial",
+    "type": "APPLICATION",
+    "difficulty": "hard",
+    "case": "Un proveedor ofrece al IDU un software de gestión de proyectos que no usa estándares abiertos. El equipo de TI argumenta que esto viola el MAE.",
+    "question": "¿Qué principio del MAE justifica rechazar esta solución?",
+    "options": {
+      "A": "Orientación al Ciudadano.",
+      "B": "Estandarización.",
+      "C": "Reutilización."
+    },
+    "correctAnswer": "B",
+    "explanation": "El MAE exige estándares abiertos para garantizar interoperabilidad y evitar dependencia de proveedores."
+  },
+
+  {
+    "id": "q_ae_195",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "arquitectura-empresarial",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El MAE establece que las entidades deben priorizar soluciones tecnológicas que optimicen recursos públicos.",
+    "question": "¿Qué principio del MAE se relaciona con esta directriz?",
+    "options": {
+      "A": "Seguridad por Diseño.",
+      "B": "Reutilización.",
+      "C": "Interoperabilidad."
+    },
+    "correctAnswer": "B",
+    "explanation": "La reutilización evita duplicar esfuerzos y reduce costos."
+  },
+
+  {
+      "id": "q_ae_201",
+      "topic_id": "funcionales-especificas",
+      "subtopic_id": "arquitectura-empresarial",
+      "type": "APPLICATION",
+      "difficulty": "hard",
+      "case": "El IDU planea integrar su sistema de gestión de proyectos con la Plataforma de Interoperabilidad del Estado (PIPE). El equipo técnico duda entre usar APIs REST o SOAP.",
+      "question": "Según los estándares del MAE, ¿qué tipo de API debe priorizar el IDU?",
+      "options": {
+        "A": "SOAP, por ser más seguro y compatible con sistemas legacy.",
+        "B": "REST, ya que el MAE recomienda estándares abiertos y ligeros para interoperabilidad.",
+        "C": "Cualquiera, pues el MAE no especifica estándares para APIs."
+      },
+      "correctAnswer": "B",
+      "explanation": "El MAE v4.0 promueve APIs RESTful (estándares abiertos) para facilitar interoperabilidad. Ver Guía de Referencia del MAE, Cap. 5.2."
+    },
+    {
+      "id": "q_ae_202",
+      "topic_id": "funcionales-especificas",
+      "subtopic_id": "arquitectura-empresarial",
+      "type": "ANALYSIS",
+      "difficulty": "hard",
+      "case": "El IDU debe actualizar su política de seguridad digital para alinearla con el MAE. El MinTIC ha emitido nuevas resoluciones sobre ciberseguridad.",
+      "question": "¿Qué documento del MinTIC debe consultar el IDU para garantizar el cumplimiento?",
+      "options": {
+        "A": "Resolución 3354 de 2021 (Seguridad Digital).",
+        "B": "Ley 2015 de 2020 (Gobierno Digital).",
+        "C": "Decreto 1078 de 2015 (Único Reglamentario TIC)."
+      },
+      "correctAnswer": "A",
+      "explanation": "La Resolución 3354 de 2021 establece los requisitos de seguridad digital exigidos por el MAE. Capa de Seguridad, MAE v4.0."
+    },
+    {
+      "id": "q_ae_203",
+      "topic_id": "funcionales-especificas",
+      "subtopic_id": "arquitectura-empresarial",
+      "type": "KNOWLEDGE",
+      "difficulty": "hard",
+      "case": "El MAE del MinTIC establece que las entidades deben evitar la duplicidad de sistemas.",
+      "question": "¿Qué principio del MAE justifica esta directriz?",
+      "options": {
+        "A": "Reutilización.",
+        "B": "Orientación al Ciudadano.",
+        "C": "Interoperabilidad."
+      },
+      "correctAnswer": "A",
+      "explanation": "El principio de Reutilización busca optimizar recursos evitando desarrollos redundantes. MAE v4.0, Principio 4."
+    },
+    {
+      "id": "q_ae_204",
+      "topic_id": "funcionales-especificas",
+      "subtopic_id": "arquitectura-empresarial",
+      "type": "APPLICATION",
+      "difficulty": "hard",
+      "case": "El IDU implementará un sistema de quejas ciudadanas. Según el MAE, debe garantizar que los datos sean accesibles para otras entidades.",
+      "question": "¿Qué capa del MAE debe revisar el equipo técnico para cumplir este requisito?",
+      "options": {
+        "A": "Capa de Negocio.",
+        "B": "Capa de Información.",
+        "C": "Capa de Tecnología."
+      },
+      "correctAnswer": "B",
+      "explanation": "La Capa de Información gestiona estándares de datos para interoperabilidad. MAE v4.0, Cap. 3."
+    },
+    {
+      "id": "q_ae_205",
+      "topic_id": "funcionales-especificas",
+      "subtopic_id": "arquitectura-empresarial",
+      "type": "ANALYSIS",
+      "difficulty": "hard",
+      "case": "El IDU desea migrar su infraestructura a la nube, pero el proveedor no cumple con los estándares de seguridad del MinTIC.",
+      "question": "¿Qué acción debe tomar el IDU según el MAE?",
+      "options": {
+        "A": "Aceptar el proveedor y ajustar los estándares internos.",
+        "B": "Exigir al proveedor cumplir con los estándares o buscar alternativas.",
+        "C": "Postergar la migración hasta que el MinTIC actualice sus estándares."
+      },
+      "correctAnswer": "B",
+      "explanation": "El MAE obliga a priorizar estándares de seguridad (Resolución 3354/2021). Principio: Seguridad por Diseño."
+    },
+    {
+      "id": "q_ae_206",
+      "topic_id": "funcionales-especificas",
+      "subtopic_id": "arquitectura-empresarial",
+      "type": "KNOWLEDGE",
+      "difficulty": "hard",
+      "case": "El MAE del MinTIC incluye un marco de gobierno de TI para el sector público.",
+      "question": "¿Qué componente NO es parte de este marco?",
+      "options": {
+        "A": "Gestión de Proyectos TIC.",
+        "B": "Arquitectura de Negocio.",
+        "C": "Políticas de Recursos Humanos."
+      },
+      "correctAnswer": "C",
+      "explanation": "El MAE se enfoca en TI, no en gestión humana. Ver MAE v4.0, Cap. 1."
+    },
+    {
+      "id": "q_ae_207",
+      "topic_id": "funcionales-especificas",
+      "subtopic_id": "arquitectura-empresarial",
+      "type": "APPLICATION",
+      "difficulty": "hard",
+      "case": "El IDU desarrollará una app móvil para reportar fallas en vías. Según el MAE, debe priorizar la experiencia del usuario.",
+      "question": "¿Qué principio del MAE aplica?",
+      "options": {
+        "A": "Orientación al Ciudadano.",
+        "B": "Estandarización.",
+        "C": "Reutilización."
+      },
+      "correctAnswer": "A",
+      "explanation": "El principio de Orientación al Ciudadano exige diseñar soluciones centradas en el usuario. MAE v4.0, Principio 1."
+    },
+    {
+      "id": "q_ae_208",
+      "topic_id": "funcionales-especificas",
+      "subtopic_id": "arquitectura-empresarial",
+      "type": "ANALYSIS",
+      "difficulty": "hard",
+      "case": "El IDU debe compartir datos de proyectos con la Alcaldía de Bogotá. El sistema actual no es interoperable.",
+      "question": "¿Qué herramienta del MinTIC debe usar para resolver esto?",
+      "options": {
+        "A": "Plataforma PIPE.",
+        "B": "SECOP II.",
+        "C": "URÚS."
+      },
+      "correctAnswer": "A",
+      "explanation": "La Plataforma PIPE facilita interoperabilidad entre entidades. MAE v4.0, Cap. 6."
+    },
+    {
+      "id": "q_ae_209",
+      "topic_id": "funcionales-especificas",
+      "subtopic_id": "arquitectura-empresarial",
+      "type": "KNOWLEDGE",
+      "difficulty": "hard",
+      "case": "El MAE establece que las entidades deben documentar su arquitectura TI.",
+      "question": "¿Qué artefacto del MAE es obligatorio para el IDU?",
+      "options": {
+        "A": "Mapa de Procesos.",
+        "B": "Inventario de Aplicaciones.",
+        "C": "Ambos."
+      },
+      "correctAnswer": "C",
+      "explanation": "El MAE exige documentar procesos y aplicaciones. Guía de Implementación MAE, Anexo 2."
+    },
+    {
+      "id": "q_ae_210",
+      "topic_id": "funcionales-especificas",
+      "subtopic_id": "arquitectura-empresarial",
+      "type": "APPLICATION",
+      "difficulty": "hard",
+      "case": "El IDU quiere adoptar inteligencia artificial para análisis de datos urbanos. Según el MAE, debe garantizar que la solución cumpla con estándares éticos y técnicos.",
+      "question": "¿Qué capa del MAE debe revisarse para esto?",
+      "options": {
+        "A": "Capa de Negocio (para alineación estratégica).",
+        "B": "Capa de Aplicaciones (para integración con sistemas existentes).",
+        "C": "Todas las capas (negocio, información, aplicaciones, tecnología y seguridad)."
+      },
+      "correctAnswer": "C",
+      "explanation": "Proyectos complejos como IA requieren revisión transversal en todas las capas del MAE. Ver MAE v4.0, Cap. 7."
+    }
+
+
+
+
   
 ]
 
