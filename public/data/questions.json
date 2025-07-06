@@ -9955,11 +9955,489 @@
       },
       "correctAnswer": "C",
       "explanation": "Proyectos complejos como IA requieren revisión transversal en todas las capas del MAE. Ver MAE v4.0, Cap. 7."
+    },
+
+        {
+        "id": "q_dil_001",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Usted, como Profesional Especializado del IDU, está a cargo de la revisión de unos planos técnicos para una obra crucial. El plazo de entrega es inminente y detecta un error menor que, aunque no compromete la seguridad, podría generar un reproceso mínimo si no se corrige antes de la aprobación final.",
+        "question": "¿Cuál acción demuestra mayor diligencia en esta situación?",
+        "options": {
+            "A": "Aprobar los planos y notificar el error por correo para que lo corrijan en una fase posterior, priorizando la prontitud.",
+            "B": "Corregir el error usted mismo sin notificar a nadie, para evitar demoras y demostrar eficiencia.",
+            "C": "Detener la aprobación, corregir el error de inmediato, documentarlo y comunicar la acción a los responsables para asegurar la calidad final."
+        },
+        "correctAnswer": "C",
+        "explanation": "La diligencia implica actuar con atención, destreza y eficiencia para asegurar la calidad y optimizar el uso de los recursos del Estado, evitando reprocesos. La opción C demuestra proactividad, atención al detalle y responsabilidad en la garantía de calidad[cite: 154, 156, 166, 198]."
+    },
+    {
+        "id": "q_dil_002",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "La Cartilla de Integridad Gente IDU define la diligencia como una de las cualidades esenciales del servidor público.",
+        "question": "¿Cuál de las siguientes es una cualidad asociada a la diligencia según la definición del IDU?",
+        "options": {
+            "A": "Amabilidad",
+            "B": "Prontitud",
+            "C": "Lealtad"
+        },
+        "correctAnswer": "B",
+        "explanation": "La definición oficial de diligencia incluye actuar con 'atención, prontitud, destreza y eficiencia'[cite: 150]."
+    },
+    {
+        "id": "q_dil_003",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Un ciudadano ha presentado una PQRSD (Petición, Queja, Reclamo, Sugerencia o Denuncia) referente a un daño en la infraestructura vial que requiere una solución urgente. El trámite pasa por su área y usted identifica que se ha estancado debido a la falta de un documento por parte de otra dependencia. El plazo legal para la respuesta se acerca.",
+        "question": "¿Cómo actuaría usted con mayor diligencia para resolver esta situación?",
+        "options": {
+            "A": "Devolver el trámite a la dependencia anterior, señalando la falta del documento para que lo gestionen.",
+            "B": "Contactar proactivamente a la dependencia responsable, coordinar la obtención del documento y agilizar el proceso para cumplir con el plazo de respuesta al ciudadano.",
+            "C": "Enviar una notificación al ciudadano informando que la respuesta se retrasará debido a un problema inter-administrativo."
+        },
+        "correctAnswer": "B",
+        "explanation": "La diligencia implica actuar con prontitud y proactividad, comunicando a tiempo y buscando soluciones para problemáticas ciudadanas, sin postergar decisiones[cite: 155, 168, 172]."
+    },
+    {
+        "id": "q_dil_004",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "La Cartilla de Integridad Gente IDU establece comportamientos deseables y no deseables para cada valor.",
+        "question": "¿Cuál de los siguientes es un comportamiento NO deseable relacionado con la diligencia?",
+        "options": {
+            "A": "Uso responsable de recursos públicos.",
+            "B": "Postergación de decisiones.",
+            "C": "Garantía de calidad."
+        },
+        "correctAnswer": "B",
+        "explanation": "La postergación de decisiones o actividades que dan solución a problemáticas ciudadanas es un comportamiento no deseable, contrario a la diligencia[cite: 172]."
+    },
+    {
+        "id": "q_dil_005",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Usted es responsable de la gestión de equipos informáticos en el IDU. Durante una inspección, descubre que algunos equipos están siendo utilizados para fines personales y el consumo energético es mayor de lo esperado, lo cual representa un malgasto de recursos públicos.",
+        "question": "¿Cuál sería la acción más diligente y ética en esta situación?",
+        "options": {
+            "A": "Ignorar la situación, ya que es una práctica común y enfocarse solo en sus tareas principales.",
+            "B": "Comunicar la situación a su supervisor y proponer medidas para optimizar el uso de los equipos y evitar el malgasto de recursos públicos.",
+            "C": "Advertir directamente a los compañeros involucrados sin reportar a su supervisor, para evitar conflictos internos."
+        },
+        "correctAnswer": "B",
+        "explanation": "La diligencia implica el uso responsable y la optimización de los recursos públicos, así como la proactividad en comunicar propuestas de mejora. [cite_start]La opción B aborda el malgasto de forma institucional y proactiva[cite: 162, 168, 171, 194]."
+    },
+    {
+        "id": "q_dil_006",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "La diligencia es un valor que se articula con otros en el 'ADN IDU'.",
+        "question": "¿Con cuál de los siguientes valores se vincula la diligencia al implicar la búsqueda de soluciones proactivas y no justificaciones?",
+        "options": {
+            "A": "Respeto",
+            "B": "Honestidad",
+            "C": "Compromiso"
+        },
+        "correctAnswer": "C",
+        "explanation": "La diligencia se vincula con el Compromiso, ya que un servidor comprometido busca soluciones proactivas, reflejadas en la prontitud y eficiencia de la diligencia[cite: 179, 181]."
+    },
+    {
+        "id": "q_dil_007",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Un colega de su equipo en el IDU está teniendo dificultades para cumplir con el plazo de su parte de un proyecto de software, lo que podría generar un retraso en la entrega final. Aunque no es su responsabilidad directa, usted tiene experiencia en el área y podría ofrecerle una orientación rápida.",
+        "question": "¿Cuál acción demuestra mayor diligencia y colaboración?",
+        "options": {
+            "A": "Enfocarse en su propia parte del proyecto para asegurar su cumplimiento individual.",
+            "B": "Ofrecer ayuda a su colega y, si es necesario, comunicar la situación al supervisor para buscar una solución conjunta que evite el retraso.",
+            "C": "Esperar a que su colega solicite ayuda explícitamente o a que el retraso sea inminente para intervenir."
+        },
+        "correctAnswer": "B",
+        "explanation": "La diligencia implica proactividad, la búsqueda de mejoras continuas y el trabajo en red. Ofrecer ayuda y comunicar oportunamente para evitar retrasos demuestra este valor. [cite_start]Las opciones A y C reflejan una falta de proactividad y colaboración[cite: 168, 186]."
+    },
+    {
+        "id": "q_dil_008",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "El cumplimiento de los estándares de gestión pública es esencial para la eficiencia.",
+        "question": "¿Qué modelo o norma establece que la planeación, ejecución y evaluación de la gestión pública debe ser diligente y orientada a resultados?",
+        "options": {
+            "A": "Ley 2195 de 2022",
+            "B": "Modelo Integrado de Planeación y Gestión (MIPG)",
+            "C": "Código Disciplinario Único"
+        },
+        "correctAnswer": "B",
+        "explanation": "El Modelo Integrado de Planeación y Gestión (MIPG) establece estándares de gestión pública que incluyen la diligencia y la orientación a resultados[cite: 262, 365]."
+    },
+    {
+        "id": "q_dil_009",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "En el IDU, usted ha recibido un informe técnico que, a primera vista, parece completo. Sin embargo, una revisión superficial le genera dudas sobre la exactitud de algunos datos clave. La fecha límite para enviar el informe a la siguiente etapa del proyecto es hoy mismo.",
+        "question": "¿Cómo aplicaría el principio de diligencia para proceder con este informe?",
+        "options": {
+            "A": "Enviar el informe tal cual está para cumplir el plazo, asumiendo que el error será detectado en la siguiente etapa.",
+            "B": "Revisar detalladamente los datos sospechosos, solicitar aclaración si es necesario, e informar sobre una posible mínima demora para asegurar la calidad y exactitud del informe.",
+            "C": "Posponer la entrega del informe hasta tener una validación externa completa, aun si excede la fecha límite."
+        },
+        "correctAnswer": "B",
+        "explanation": "La diligencia no es solo prontitud, sino también atención y garantía de calidad. Asegurar la calidad en cada producto entregado es una conducta deseable. [cite_start]La opción B demuestra proactividad para verificar la exactitud y comunicar oportunamente, priorizando la calidad sobre la celeridad ciega[cite: 154, 157, 166, 201]."
+    },
+    {
+        "id": "q_dil_010",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La Ley 2195 de 2022 adopta medidas para la transparencia y lucha contra la corrupción.",
+        "question": "¿Cómo enmarca la Ley 2195 de 2022 el concepto de diligencia?",
+        "options": {
+            "A": "Como una habilidad de negociación en contratos públicos.",
+            "B": "Dentro de los criterios para la prevención de la corrupción.",
+            "C": "Como un requisito para el ascenso de servidores públicos."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Ley 2195 de 2022 enmarca la diligencia dentro de los criterios para la prevención y lucha contra la corrupción, promoviendo la eficiencia y transparencia en el manejo de lo público[cite: 188, 363, 190]."
+    },
+    {
+        "id": "q_dil_011",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Usted está desarrollando un componente de software crítico para un proyecto del IDU. Se encuentra con un bug menor que no es visible para el usuario final pero que, a largo plazo, podría afectar el rendimiento del sistema. El plazo de entrega del componente es ajustado.",
+        "question": "¿Cuál acción demuestra mayor diligencia en esta situación?",
+        "options": {
+            "A": "Dejar el bug para una fase de mantenimiento posterior y cumplir con la fecha límite de entrega.",
+            "B": "Priorizar la corrección del bug de inmediato, incluso si implica un retraso mínimo, y documentar la solución.",
+            "C": "Informar al equipo que el bug existe, pero continuar con el desarrollo para cumplir el cronograma inicial."
+        },
+        "correctAnswer": "B",
+        "explanation": "La diligencia implica la garantía de calidad y la proactividad en la mejora continua, buscando la eficiencia a largo plazo. [cite_start]Corregir el bug de inmediato, aunque genere un pequeño retraso, previene problemas mayores y optimiza el uso de recursos futuros[cite: 166, 168]."
+    },
+    {
+        "id": "q_dil_012",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "La diligencia en el IDU promueve el uso eficiente de los bienes públicos.",
+        "question": "Según la Cartilla de Integridad Gente IDU, ¿cuál es una conducta deseable relacionada con los recursos públicos?",
+        "options": {
+            "A": "Malgastar los recursos públicos.",
+            "B": "Usar responsablemente los recursos públicos.",
+            "C": "Priorizar el uso personal de los recursos si no afecta a terceros."
+        },
+        "correctAnswer": "B",
+        "explanation": "Usar responsablemente los recursos públicos es una conducta deseable que demuestra diligencia, ya que 'Lo público es de todos y todas y siempre se cuida'[cite: 162, 268]."
+    },
+    {
+        "id": "q_dil_013",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Usted es un gestor de proyectos en el IDU. Ha solicitado un informe a otra subdirección para continuar con una etapa crítica de su proyecto. El informe debía ser entregado ayer, pero aún no lo ha recibido. Sabe que el retraso de este informe impactará su cronograma.",
+        "question": "¿Qué acción demuestra mayor diligencia para gestionar este incumplimiento?",
+        "options": {
+            "A": "Esperar unos días más, ya que no quiere presionar a la otra subdirección y afectar la colaboración.",
+            "B": "Comunicar proactivamente el retraso a su supervisor y a la otra subdirección, solicitando una fecha de entrega actualizada y ofreciendo apoyo si es posible para agilizarlo.",
+            "C": "Asumir que el proyecto se retrasará y ajustar su cronograma interno sin consultar a nadie."
+        },
+        "correctAnswer": "B",
+        "explanation": "La diligencia implica cumplir los tiempos, no dejar para mañana las tareas de hoy y la proactividad comunicativa para mejorar continuamente. [cite_start]La opción B busca resolver el problema, comunicar a tiempo y mantener el flujo de trabajo del proyecto[cite: 164, 168]."
+    },
+    {
+        "id": "q_dil_014",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "El Código Disciplinario Único (Ley 734 de 2002) establece las faltas de los servidores públicos.",
+        "question": "¿Con qué concepto del Código Disciplinario Único se relaciona la falta de diligencia en el servicio público?",
+        "options": {
+            "A": "Incompatibilidad",
+            "B": "Conflicto de Intereses",
+            "C": "Negligencia"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Ley 734 de 2002 (Código Disciplinario Único) sanciona la negligencia en servidores públicos, que es la antítesis de la diligencia[cite: 230, 296]."
+    },
+    {
+        "id": "q_dil_015",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Usted es el encargado de la mesa de ayuda de TI en el IDU. Un usuario reporta una falla crítica que afecta la operación diaria de una dependencia. Identifica la causa rápidamente, pero la solución requeriría un procedimiento que no está documentado y que pocos conocen.",
+        "question": "¿Cómo demostraría mayor diligencia para resolver esta situación?",
+        "options": {
+            "A": "Resolver el problema con la información que tiene, y si vuelve a ocurrir, entonces documentar el proceso.",
+            "B": "Solicitar a otro compañero que se encargue, ya que la falta de documentación no es su responsabilidad directa.",
+            "C": "Resolver el problema de inmediato, documentar el procedimiento al mismo tiempo (o justo después) y comunicar la solución a sus compañeros para compartir el conocimiento y evitar futuros inconvenientes."
+        },
+        "correctAnswer": "C",
+        "explanation": "La diligencia implica prontitud, destreza y eficiencia, y se complementa con la proactividad comunicativa y la mejora continua. [cite_start]Resolver y documentar, además de compartir, asegura la calidad, previene futuros problemas y optimiza el conocimiento institucional[cite: 155, 156, 166, 168, 272]."
+    },
+    {
+        "id": "q_dil_016",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "La diligencia en el IDU busca optimizar los recursos del Estado.",
+        "question": "¿Cuál frase de la Cartilla de Integridad Gente IDU resume el propósito de la diligencia en relación con los recursos públicos?",
+        "options": {
+            "A": "'El dinero no crece en los árboles.'",
+            "B": "'Lo público es de todos y todas y siempre se cuida.'",
+            "C": "'Cada quien es responsable de lo suyo.'"
+        },
+        "correctAnswer": "B",
+        "explanation": "La definición de diligencia en el IDU culmina con el fin de 'optimizar el uso de los recursos del Estado', y se refuerza con la frase 'Lo público es de todos y todas y siempre se cuida'[cite: 158, 162, 268]."
+    },
+    {
+        "id": "q_dil_017",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Durante la supervisión de un avance de obra de una vía del IDU, el contratista presenta un informe que no cumple con el formato estándar establecido. El contenido parece correcto, pero el formato irregular dificultará el procesamiento y la auditoría posterior.",
+        "question": "¿Cómo actuaría usted con diligencia frente a esta situación?",
+        "options": {
+            "A": "Aceptar el informe para no retrasar el proceso, solicitando verbalmente que el próximo se ajuste al formato.",
+            "B": "Rechazar el informe exigiendo su corrección inmediata, lo que podría generar una leve demora en el proceso.",
+            "C": "Aceptar el informe, pero dejar constancia por escrito de la falta de formato y la necesidad de ajuste para futuros informes."
+        },
+        "correctAnswer": "B",
+        "explanation": "La diligencia implica 'asegurar la calidad en cada uno de los productos que entregamos bajo los estándares del servicio público. No se valen las cosas a medias.' [cite_start]Rechazar para corregir demuestra la búsqueda de calidad y el cumplimiento de estándares, lo que previene problemas futuros[cite: 166, 216, 270]."
+    },
+    {
+        "id": "q_dil_018",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "El valor de la diligencia se manifiesta en el día a día del IDU.",
+        "question": "¿Qué implica la diligencia al decir 'no dejamos para el otro día las tareas de hoy'?",
+        "options": {
+            "A": "Solo trabajar en el horario establecido.",
+            "B": "Cumplir con los tiempos estipulados para cada obligación laboral.",
+            "C": "Delegar tareas para evitar la sobrecarga."
+        },
+        "correctAnswer": "B",
+        "explanation": "Esta frase de la Cartilla Gente IDU enfatiza el cumplimiento de los tiempos y plazos, siendo un pilar de la prontitud en la diligencia[cite: 164, 215, 269]."
+    },
+    {
+        "id": "q_dil_019",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Usted ha detectado un posible error en un cálculo crítico de un presupuesto de obra que ya ha sido aprobado en una instancia previa. Corregirlo ahora implicaría un reproceso burocrático, pero no corregirlo podría llevar a un sobrecosto futuro o a problemas de financiación.",
+        "question": "¿Cuál acción refleja el mayor grado de diligencia y responsabilidad?",
+        "options": {
+            "A": "Proceder con el presupuesto aprobado, ya que no fue su responsabilidad inicial y corregirlo ahora podría causar retrasos.",
+            "B": "Comunicar la inconsistencia de inmediato a su superior y proponer la corrección, argumentando la optimización de recursos y la legalidad, aunque implique un reproceso.",
+            "C": "Ajustar el cálculo internamente sin informar a las instancias de aprobación para evitar complicaciones."
+        },
+        "correctAnswer": "B",
+        "explanation": "La diligencia exige no postergar decisiones que den solución a problemáticas y actuar con proactividad para mejorar continuamente, buscando la optimización de recursos del Estado. [cite_start]La opción B demuestra responsabilidad, transparencia y proactividad para evitar un problema mayor[cite: 158, 168, 172, 191, 201]."
+    },
+    {
+        "id": "q_dil_020",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "La diligencia es un valor que busca la eficiencia en la función pública.",
+        "question": "¿Qué concepto es sinónimo de 'actuar con celeridad y sin demoras innecesarias' en la definición de diligencia?",
+        "options": {
+            "A": "Destreza",
+            "B": "Atención",
+            "C": "Prontitud"
+        },
+        "correctAnswer": "C",
+        "explanation": "La prontitud es la cualidad de actuar con celeridad y sin demoras innecesarias, siendo una parte esencial de la definición de diligencia[cite: 155, 215, 329]."
+    },
+    {
+        "id": "q_dil_021",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "PJS",
+        "difficulty": "easy",
+        "case": "Usted debe redactar un informe sobre el progreso de un proyecto de software en el IDU. Sabe que, con un poco más de esfuerzo, podría incluir gráficos interactivos que harían el informe mucho más claro y útil para la dirección, aunque el requisito mínimo es solo texto.",
+        "question": "¿Cómo aplicaría la diligencia en la entrega de este informe?",
+        "options": {
+            "A": "Entregar el informe en formato de texto para cumplir con el requisito mínimo y ahorrar tiempo.",
+            "B": "Dedicar el tiempo adicional para incluir los gráficos interactivos, asegurando la mejor calidad posible de entrega.",
+            "C": "Pedir a un colega que le ayude a crear los gráficos para no extender su jornada."
+        },
+        "correctAnswer": "B",
+        "explanation": "La diligencia implica hacer las cosas 'de la mejor manera posible' y 'asegurar la calidad en cada uno de los productos que entregamos', buscando la excelencia más allá de lo mínimo requerido[cite: 152, 166]."
+    },
+    {
+        "id": "q_dil_022",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "La diligencia en el servicio público tiene implicaciones legales.",
+        "question": "¿Qué normativa sanciona la negligencia en servidores públicos?",
+        "options": {
+            "A": "Ley 2195 de 2022",
+            "B": "Estatuto Anticorrupción",
+            "C": "Código Disciplinario Único (Ley 734 de 2002)"
+        },
+        "correctAnswer": "C",
+       "explanation": "El Código Disciplinario Único (Ley 734 de 2002) es la normativa que establece y sanciona la negligencia en los servidores públicos[cite: 230, 296]."
+    },
+    {
+        "id": "q_dil_023",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Usted está a cargo de un equipo que gestiona las PQRS de la ciudadanía relacionadas con obras del IDU. Su equipo ha empezado a acumular un volumen alto de solicitudes y los tiempos de respuesta se están extendiendo más allá de lo esperado. Un colega sugiere 'dejar para mañana lo de hoy' para aliviar la carga diaria.",
+        "question": "¿Cuál sería la respuesta más diligente y adecuada a la sugerencia de su colega?",
+        "options": {
+            "A": "Aceptar la sugerencia para reducir la presión del equipo, justificando que es una medida temporal.",
+            "B": "Rechazar la sugerencia, buscar optimizar los procesos o escalar la situación para obtener más recursos, ya que 'no dejamos para el otro día las tareas de hoy'.",
+            "C": "Priorizar solo las solicitudes más urgentes y dejar las demás para cuando el volumen disminuya."
+        },
+        "correctAnswer": "B",
+        "explanation": "La diligencia implica no postergar decisiones o actividades que den solución a problemáticas ciudadanas, y la proactividad para mejorar continuamente. [cite_start]La opción B demuestra liderazgo diligente para asegurar el cumplimiento de los plazos y la atención eficiente al ciudadano[cite: 164, 168, 172, 276]."
+    },
+    {
+        "id": "q_dil_024",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "La Cartilla de Integridad Gente IDU define claramente la diligencia.",
+        "question": "Según la Cartilla de Integridad Gente IDU, ¿cuál de las siguientes palabras NO es una cualidad específica de la diligencia?",
+        "options": {
+            "A": "Atención",
+            "B": "Improvisación",
+            "C": "Destreza"
+        },
+        "correctAnswer": "B",
+        "explanation": "La definición de diligencia incluye 'atención, prontitud, destreza y eficiencia'. La improvisación es lo opuesto a actuar con diligencia[cite: 154, 155, 156, 157]."
+    },
+    {
+        "id": "q_dil_025",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está implementando un nuevo sistema de gestión de proyectos que requerirá una curva de aprendizaje para todos los equipos. Usted, como líder de un equipo de TI, nota que algunos miembros están resistiéndose a usar el nuevo sistema, lo que podría afectar la eficiencia general del proyecto.",
+        "question": "¿Cuál acción demuestra un enfoque diligente en la gestión de su equipo y la implementación del nuevo sistema?",
+        "options": {
+            "A": "Obligar al equipo a usar el nuevo sistema sin ofrecer soporte adicional, para cumplir con la implementación.",
+            "B": "Ignorar la resistencia, asumiendo que con el tiempo se adaptarán, y enfocarse en sus propias tareas.",
+            "C": "Identificar las razones de la resistencia, ofrecer capacitaciones adicionales o apoyo personalizado, y comunicar proactivamente la importancia del sistema para la eficiencia del IDU."
+        },
+        "correctAnswer": "C",
+        "explanation": "La diligencia implica proactividad, la búsqueda de mejora continua y la atención a las necesidades de los compañeros para optimizar el uso de recursos del Estado (en este caso, la inversión en el nuevo sistema). [cite_start]La opción C demuestra un liderazgo diligente que busca la eficiencia y la adopción efectiva[cite: 154, 157, 168, 174]."
+    },
+    {
+        "id": "q_dil_026",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "El IDU cuenta con subsistemas de gestión que apoyan sus valores.",
+        "question": "¿Qué subsistema del IDU busca ambientes laborales libres de discriminación y respetuosos de la diferencia, lo cual favorece la productividad y la diligencia?",
+        "options": {
+            "A": "Subsistema de Gestión Antisoborno (SGAS)",
+            "B": "Modelo y Subsistema de Gestión Empresa Familiarmente Responsable (efr)",
+            "C": "Programa CALDAS (Construcción de Ambientes Laborales Diversos, Amorosos y Seguros)"
+        },
+        "correctAnswer": "C",
+        "explanation": "El Programa CALDAS busca ambientes laborales seguros y respetuosos, lo que se alinea con la diligencia al favorecer la productividad y la atención en el trabajo[cite: 283]."
+    },
+    {
+        "id": "q_dil_027",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "En un proyecto de infraestructura del IDU, se presenta una situación imprevista que requiere una decisión urgente y la reasignación temporal de algunos recursos. El no tomar una decisión rápida podría generar un sobrecosto significativo y un gran retraso en la obra.",
+        "question": "¿Cómo actuaría usted con diligencia para manejar esta situación?",
+        "options": {
+            "A": "Esperar la autorización de la máxima autoridad, incluso si eso implica exceder el plazo crítico.",
+            "B": "Tomar la decisión más adecuada con la información disponible, comunicando de inmediato a las partes interesadas y buscando la aprobación posterior si es necesaria, para minimizar el impacto en el proyecto.",
+            "C": "Documentar el problema detalladamente y enviarlo a todas las partes para que decidan, sin proponer una solución inmediata."
+        },
+        "correctAnswer": "B",
+        "explanation": "La diligencia implica prontitud, proactividad y responsabilidad en la toma de decisiones para optimizar el uso de los recursos y garantizar el cumplimiento de metas. [cite_start]La opción B demuestra iniciativa, gestión de riesgos y comunicación oportuna para resolver la problemática[cite: 155, 168, 172, 202]."
+    },
+    {
+        "id": "q_dil_028",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "La diligencia es una parte fundamental de la ética en el servicio público.",
+        "question": "¿Cuál es uno de los comportamientos no deseables asociados a la diligencia según la Cartilla de Integridad Gente IDU?",
+        "options": {
+            "A": "Cumplir con los tiempos estipulados.",
+            "B": "Malgastar los recursos públicos.",
+            "C": "Asegurar la calidad en cada producto."
+        },
+        "correctAnswer": "B",
+       "explanation": "Malgastar los recursos públicos es un comportamiento no deseable, contrario al uso responsable y la optimización que promueve la diligencia[cite: 171, 275]."
+    },
+    {
+        "id": "q_dil_029",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Usted ha completado una tarea importante en el IDU. Un colega le pide ayuda con una parte de su trabajo que usted podría resolver rápidamente, pero no está directamente relacionada con sus funciones principales. Su propia lista de tareas del día ya está completa.",
+        "question": "¿Cómo actuaría usted con diligencia y colaboración en esta situación?",
+        "options": {
+            "A": "Rechazar la solicitud, ya que su propia agenda está completa y no es su responsabilidad directa.",
+            "B": "Ofrecer su ayuda, demostrando proactividad y apoyo al equipo, ya que su jornada laboral aún no termina.",
+            "C": "Solo ofrecer ayuda si el supervisor lo solicita formalmente."
+        },
+        "correctAnswer": "B",
+        "explanation": "La diligencia y el trabajo en red implican proactividad en la mejora continua y la integración de esfuerzos. Ofrecer ayuda a un compañero para optimizar el trabajo general de la entidad es coherente con la diligencia y el compromiso[cite: 168, 186]."
+    },
+    {
+        "id": "q_dil_030",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-diligencia",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "La diligencia, como valor, tiene un impacto directo en la confianza ciudadana.",
+        "question": "¿Cómo fortalece la diligencia la confianza de la ciudadanía en el IDU?",
+        "options": {
+            "A": "Al reducir el número de reuniones internas.",
+            "B": "Al garantizar la prontitud en la atención de problemáticas ciudadanas y la calidad en los productos.",
+            "C": "Al permitir la autogestión de los recursos públicos."
+        },
+        "correctAnswer": "B",
+        "explanation": "La prontitud en la atención de problemáticas ciudadanas y la garantía de calidad en los productos fortalecen la confianza de la ciudadanía en la entidad, siendo pilares de la diligencia[cite: 196]."
     }
-
-
-
-
+ 
   
 ]
 

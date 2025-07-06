@@ -538,6 +538,15 @@ function renderSubtopicContent(subtopic) {
                 </button>
             </div>
         ` : ''}
+        ${subtopic.id === 'integridad-diligencia' ? `
+        <div class="mt-8 p-4 bg-red-50 rounded-lg border-l-4 border-red-500 text-red-800">
+            <p class="font-semibold mb-3">¡Pon a prueba tu Diligencia!</p>
+            <button id="start-diligencia-quiz-btn" 
+                    class="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition duration-300 transform hover:scale-105">
+                Realizar Simulacro de Diligencia
+            </button>
+        </div>
+    ` : ''}
         <button id="mark-completed-btn" class="mt-6 bg-green-500 text-white px-5 py-2 rounded-lg hover:bg-green-600 transition duration-300" data-subtopic-id="${subtopic.id}">Marcar como Completado</button>
         `;
 
@@ -590,6 +599,27 @@ function renderSubtopicContent(subtopic) {
             });
         }
     }
+
+
+if (subtopic.id === 'integridad-diligencia') {
+    const startDiligenciaQuizBtn = document.getElementById('start-diligencia-quiz-btn');
+    if (startDiligenciaQuizBtn) {
+        startDiligenciaQuizBtn.addEventListener('click', () => {
+            navigateTo('simulacros');
+            setTimeout(() => {
+                const quizTypeSelect = document.getElementById('quiz-type-select');
+                if (quizTypeSelect) {
+                    quizTypeSelect.value = 'integridad-diligencia'; 
+                    alert('Selecciona "Diligencia" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este valor. (Asegúrate de tener suficientes preguntas de Diligencia en tu questions.json)');
+                }
+            }, 100); 
+        });
+    }
+}
+
+
+
+
     // === FIN NUEVO LISTENER ===
 }
 
@@ -658,6 +688,7 @@ function renderSimulacrosView() {
                 <option value="organizacion-distrito">Organización del Distrito Capital (20 Preguntas)</option>
                 <option value="integridad-compromiso">Compromiso (20 Preguntas)</option>
                 <option value="arquitectura-empresarial">Arquitectura Empresarial (20 Preguntas)</option> <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
+                <option value="integridad-diligencia">Diligencia (20 Preguntas)</option> 
                 <option value="funcionales-especificas">Funcionales Específicas</option>
                 <option value="integridad">Integridad (IDU)</option>
                 <option value="competencias-comportamentales">Comportamentales</option>
@@ -729,12 +760,26 @@ function startQuiz() {
         if (currentQuizQuestions.length < 20) {
             alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Organización del Distrito Capital'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
         }
+
+        
     } else if (selectedType === 'integridad-compromiso') {
         const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'integridad-compromiso');
         currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
         if (currentQuizQuestions.length < 20) {
             alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Compromiso'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
         }
+    } else if (selectedType === 'integridad-diligencia') { // <--- NUEVO BLOQUE
+        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'integridad-diligencia');
+        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+        if (currentQuizQuestions.length < 20) {
+            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Diligencia'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+        }
+    
+    
+    
+    
+    
+    
     } else if (selectedType === 'arquitectura-empresarial') { // --- NUEVO: Lógica para 20 preguntas de Arquitectura Empresarial ---
         const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'arquitectura-empresarial');
         currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
