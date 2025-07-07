@@ -529,6 +529,8 @@ function renderSubtopicContent(subtopic) {
                 </button>
             </div>
         ` : ''}
+
+
         ${subtopic.id === 'arquitectura-empresarial' ? `
             <div class="mt-8 p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-500 text-yellow-800">
                 <p class="font-semibold mb-3">¡Desafía tu saber en Arquitectura Empresarial!</p>
@@ -538,6 +540,19 @@ function renderSubtopicContent(subtopic) {
                 </button>
             </div>
         ` : ''}
+
+${subtopic.id === 'contratacion-publica' ? `
+            <div class="mt-8 p-4 bg-teal-50 rounded-lg border-l-4 border-teal-500 text-teal-800">
+                <p class="font-semibold mb-3">¡Evalúa tus conocimientos en Contratación Pública Aplicada a Ingeniería!</p>
+                <button id="start-contratacion-quiz-btn" 
+                        class="bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-teal-700 transition duration-300 transform hover:scale-105">
+                    Realizar Simulacro de Contratación Pública
+                </button>
+            </div>
+        ` : ''}
+
+
+
         ${subtopic.id === 'integridad-diligencia' ? `
         <div class="mt-8 p-4 bg-red-50 rounded-lg border-l-4 border-red-500 text-red-800">
             <p class="font-semibold mb-3">¡Pon a prueba tu Diligencia!</p>
@@ -683,16 +698,22 @@ function renderSimulacrosView() {
         <div id="quiz-options" class="bg-white p-6 rounded-lg shadow-lg mb-8">
             <h3 class="text-xl font-semibold mb-4">Configura tu Simulacro</h3>
             <div class="flex flex-col md:flex-row gap-4 items-center">
-                 <select id="quiz-type-select" class="p-2 border rounded-md">
+                
+            
+            
+         <select id="quiz-type-select" class="p-2 border rounded-md">
                 <option value="all">Simulacro General (Todas las preguntas)</option>
                 <option value="organizacion-distrito">Organización del Distrito Capital (20 Preguntas)</option>
                 <option value="integridad-compromiso">Compromiso (20 Preguntas)</option>
-                <option value="arquitectura-empresarial">Arquitectura Empresarial (20 Preguntas)</option> <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
-                <option value="integridad-diligencia">Diligencia (20 Preguntas)</option> 
+                <option value="integridad-diligencia">Diligencia (20 Preguntas)</option>
+                <option value="arquitectura-empresarial">Arquitectura Empresarial (20 Preguntas)</option>
+                <option value="contratacion-publica">Contratación Pública (20 Preguntas)</option> <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
                 <option value="funcionales-especificas">Funcionales Específicas</option>
                 <option value="integridad">Integridad (IDU)</option>
                 <option value="competencias-comportamentales">Comportamentales</option>
             </select>
+
+
                 <button id="start-quiz-btn" class="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">Iniciar Simulacro</button>
             </div>
         </div>
@@ -773,12 +794,7 @@ function startQuiz() {
         currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
         if (currentQuizQuestions.length < 20) {
             alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Diligencia'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
-        }
-    
-    
-    
-    
-    
+        }    
     
     } else if (selectedType === 'arquitectura-empresarial') { // --- NUEVO: Lógica para 20 preguntas de Arquitectura Empresarial ---
         const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'arquitectura-empresarial');
@@ -786,6 +802,16 @@ function startQuiz() {
         if (currentQuizQuestions.length < 20) {
             alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Arquitectura Empresarial'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
         }
+
+     } else if (selectedType === 'contratacion-publica') { // --- ESTE ES EL BLOQUE A CORREGIR ---
+            // CORRECCIÓN: Filtrar por subtopic_id 'contratacion-publica'
+            const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'contratacion-publica'); 
+            currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+            if (currentQuizQuestions.length < 20) {
+                alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Contratación Pública'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+            }
+
+        
     } else {
         // Lógica para otros tipos de simulacros (funcionales, integridad general, comportamentales)
         currentQuizQuestions = allQuestionsData.filter(q => q.topic_id === selectedType);
