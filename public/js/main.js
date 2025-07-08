@@ -498,6 +498,10 @@ function renderStudyModulesView() {
 
 
 // Función para renderizar el contenido de un subtema específico
+
+// ... (código anterior en main.js, dentro de renderStudyModulesView) ...
+
+// Función para renderizar el contenido de un subtema específico
 function renderSubtopicContent(subtopic) {
     moduleContentDisplay.innerHTML = `
         <h3 class="text-2xl font-bold text-blue-700 mb-4">${subtopic.title}</h3>
@@ -510,7 +514,7 @@ function renderSubtopicContent(subtopic) {
                 </ul>
             ` : ''}
         </div>
-        
+
         ${subtopic.id === 'organizacion-distrito' ? `
             <div class="mt-8 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-500 text-blue-800">
                 <p class="font-semibold mb-3">¡Pon a prueba tu conocimiento de la Organización del Distrito Capital!</p>
@@ -520,7 +524,6 @@ function renderSubtopicContent(subtopic) {
                 </button>
             </div>
         ` : ''}
-        
         ${subtopic.id === 'integridad-compromiso' ? `
             <div class="mt-8 p-4 bg-green-50 rounded-lg border-l-4 border-green-500 text-green-800">
                 <p class="font-semibold mb-3">¡Evalúa tu comprensión sobre el valor del Compromiso!</p>
@@ -530,7 +533,6 @@ function renderSubtopicContent(subtopic) {
                 </button>
             </div>
         ` : ''}
-
         ${subtopic.id === 'integridad-diligencia' ? `
             <div class="mt-8 p-4 bg-red-50 rounded-lg border-l-4 border-red-500 text-red-800">
                 <p class="font-semibold mb-3">¡Pon a prueba tu Diligencia!</p>
@@ -540,7 +542,6 @@ function renderSubtopicContent(subtopic) {
                 </button>
             </div>
         ` : ''}
-        
         ${subtopic.id === 'arquitectura-empresarial' ? `
             <div class="mt-8 p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-500 text-yellow-800">
                 <p class="font-semibold mb-3">¡Desafía tu saber en Arquitectura Empresarial!</p>
@@ -550,7 +551,6 @@ function renderSubtopicContent(subtopic) {
                 </button>
             </div>
         ` : ''}
-
         ${subtopic.id === 'contratacion-publica' ? `
             <div class="mt-8 p-4 bg-teal-50 rounded-lg border-l-4 border-teal-500 text-teal-800">
                 <p class="font-semibold mb-3">¡Evalúa tus conocimientos en Contratación Pública Aplicada a Ingeniería!</p>
@@ -560,7 +560,6 @@ function renderSubtopicContent(subtopic) {
                 </button>
             </div>
         ` : ''}
-
         ${subtopic.id === 'razonamiento-analitico' ? `
             <div class="mt-8 p-4 bg-purple-50 rounded-lg border-l-4 border-purple-500 text-purple-800">
                 <p class="font-semibold mb-3">¡Desafía tu Lógica y Análisis!</p>
@@ -570,7 +569,6 @@ function renderSubtopicContent(subtopic) {
                 </button>
             </div>
         ` : ''}
-
         ${subtopic.id === 'desarrollo-software' ? `
             <div class="mt-8 p-4 bg-orange-50 rounded-lg border-l-4 border-orange-500 text-orange-800">
                 <p class="font-semibold mb-3">¡Mide tu dominio en Desarrollo de Software!</p>
@@ -580,9 +578,17 @@ function renderSubtopicContent(subtopic) {
                 </button>
             </div>
         ` : ''}
+        ${subtopic.id === 'diseno-bases-datos' ? `
+            <div class="mt-8 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-500 text-indigo-800">
+                <p class="font-semibold mb-3">¡Evalúa tu destreza en Diseño y Gestión de Bases de Datos!</p>
+                <button id="start-bases-datos-quiz-btn" 
+                        class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition duration-300 transform hover:scale-105">
+                    Realizar Simulacro de Bases de Datos
+                </button>
+            </div>
+        ` : ''}
         <button id="mark-completed-btn" class="mt-6 bg-green-500 text-white px-5 py-2 rounded-lg hover:bg-green-600 transition duration-300" data-subtopic-id="${subtopic.id}">Marcar como Completado</button>
         `;
-
     // Listener para el botón "Marcar como Completado"
     const markCompletedBtn = document.getElementById('mark-completed-btn');
     if (markCompletedBtn) {
@@ -609,9 +615,7 @@ function renderSubtopicContent(subtopic) {
         }
     }
 
-    // --- Listeners para los botones de simulacro específicos (todos dentro de esta sección) ---
-
-    // Listener para Organización del Distrito Capital
+    // Listener para el botón del simulacro específico de Organización del Distrito Capital
     if (subtopic.id === 'organizacion-distrito') {
         const startOrgQuizBtn = document.getElementById('start-org-quiz-btn');
         if (startOrgQuizBtn) {
@@ -628,7 +632,7 @@ function renderSubtopicContent(subtopic) {
         }
     }
 
-    // Listener para Compromiso
+    // Listener para el botón del simulacro específico de Compromiso
     if (subtopic.id === 'integridad-compromiso') {
         const startCompromisoQuizBtn = document.getElementById('start-compromiso-quiz-btn');
         if (startCompromisoQuizBtn) {
@@ -645,7 +649,7 @@ function renderSubtopicContent(subtopic) {
         }
     }
 
-    // Listener para Diligencia
+    // Listener para el botón del simulacro específico de Diligencia
     if (subtopic.id === 'integridad-diligencia') {
         const startDiligenciaQuizBtn = document.getElementById('start-diligencia-quiz-btn');
         if (startDiligenciaQuizBtn) {
@@ -662,7 +666,7 @@ function renderSubtopicContent(subtopic) {
         }
     }
 
-    // Listener para Arquitectura Empresarial
+    // Listener para el botón del simulacro específico de Arquitectura Empresarial
     if (subtopic.id === 'arquitectura-empresarial') {
         const startAeQuizBtn = document.getElementById('start-ae-quiz-btn');
         if (startAeQuizBtn) {
@@ -679,7 +683,7 @@ function renderSubtopicContent(subtopic) {
         }
     }
 
-    // Listener para Contratación Pública
+    // Listener para el botón del simulacro específico de Contratación Pública
     if (subtopic.id === 'contratacion-publica') {
         const startContratacionQuizBtn = document.getElementById('start-contratacion-quiz-btn');
         if (startContratacionQuizBtn) {
@@ -696,7 +700,7 @@ function renderSubtopicContent(subtopic) {
         }
     }
 
-    // Listener para Razonamiento Analítico
+    // Listener para el botón del simulacro específico de Razonamiento Analítico
     if (subtopic.id === 'razonamiento-analitico') {
         const startRazonamientoQuizBtn = document.getElementById('start-razonamiento-quiz-btn');
         if (startRazonamientoQuizBtn) {
@@ -713,7 +717,7 @@ function renderSubtopicContent(subtopic) {
         }
     }
 
-    // Listener para Desarrollo de Software
+    // Listener para el botón del simulacro específico de Desarrollo de Software
     if (subtopic.id === 'desarrollo-software') {
         const startDesarrolloSoftwareQuizBtn = document.getElementById('start-desarrollo-software-quiz-btn');
         if (startDesarrolloSoftwareQuizBtn) {
@@ -729,8 +733,25 @@ function renderSubtopicContent(subtopic) {
             });
         }
     }
-}
 
+    // === NUEVO: Listener para el botón del simulacro específico de Diseño y Gestión de Bases de Datos ===
+    if (subtopic.id === 'diseno-bases-datos') {
+        const startBasesDatosQuizBtn = document.getElementById('start-bases-datos-quiz-btn');
+        if (startBasesDatosQuizBtn) {
+            startBasesDatosQuizBtn.addEventListener('click', () => {
+                navigateTo('simulacros');
+                setTimeout(() => {
+                    const quizTypeSelect = document.getElementById('quiz-type-select');
+                    if (quizTypeSelect) {
+                        quizTypeSelect.value = 'diseno-bases-datos'; 
+                        alert('Selecciona "Diseño y Gestión de Bases de Datos" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Diseño y Gestión de Bases de Datos en tu questions.json)');
+                    }
+                }, 100); 
+            });
+        }
+    }
+    // === FIN NUEVO LISTENER ===
+}
 
 
 
@@ -802,7 +823,8 @@ function renderSimulacrosView() {
                 <option value="arquitectura-empresarial">Arquitectura Empresarial (20 Preguntas)</option>
                 <option value="contratacion-publica">Contratación Pública (20 Preguntas)</option>
                 <option value="razonamiento-analitico">Razonamiento Analítico (20 Preguntas)</option>
-                <option value="desarrollo-software">Desarrollo de Software (20 Preguntas)</option> <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
+                <option value="desarrollo-software">Desarrollo de Software (20 Preguntas)</option>
+                <option value="diseno-bases-datos">Diseño y Gestión de Bases de Datos (20 Preguntas)</option> <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
                 <option value="funcionales-especificas">Funcionales Específicas</option>
                 <option value="integridad">Integridad (IDU)</option>
                 <option value="competencias-comportamentales">Comportamentales</option>
@@ -868,6 +890,7 @@ function renderSimulacrosView() {
  
 
 // Dentro de renderSimulacrosView() -> startQuiz()
+// Dentro de renderSimulacrosView() -> startQuiz()
 function startQuiz() {
     const selectedType = quizTypeSelect.value;
     if (selectedType === 'all') {
@@ -908,11 +931,17 @@ function startQuiz() {
         if (currentQuizQuestions.length < 20) {
             alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Razonamiento Analítico'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
         }
-    } else if (selectedType === 'desarrollo-software') { // --- NUEVO: Lógica para 20 preguntas de Desarrollo de Software ---
+    } else if (selectedType === 'desarrollo-software') {
         const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'desarrollo-software');
         currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
         if (currentQuizQuestions.length < 20) {
             alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Desarrollo de Software'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+        }
+    } else if (selectedType === 'diseno-bases-datos') { // --- NUEVO: Lógica para 20 preguntas de Diseño y Gestión de Bases de Datos ---
+        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'diseno-bases-datos');
+        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+        if (currentQuizQuestions.length < 20) {
+            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Diseño y Gestión de Bases de Datos'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
         }
     } else {
         // Lógica para otros tipos de simulacros (funcionales generales, funcionales específicas generales, integridad general, comportamentales)

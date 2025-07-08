@@ -21110,11 +21110,1266 @@
         },
         "correctAnswer": "A",
         "explanation": "Una parte esencial de TDD es refactorizar el código después de que las pruebas pasen, lo que garantiza que el código se mantenga limpio y eficiente."
+    },
+
+    {
+        "id": "q_db_001",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "El IDU está diseñando una base de datos para registrar los detalles de cada obra pública, incluyendo la información de los contratistas. Inicialmente, se propone una tabla única que almacena el nombre de la obra, su presupuesto y, en la misma fila, una lista de los teléfonos de contacto del contratista.",
+        "question": "¿Qué forma normal NO cumple esta propuesta de tabla, y por qué?",
+        "options": {
+            "A": "Tercera Forma Normal (3NF), por dependencia transitiva.",
+            "B": "Primera Forma Normal (1NF), por atributos no atómicos.",
+            "C": "Segunda Forma Normal (2NF), por dependencia parcial."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Primera Forma Normal (1NF) exige que cada columna contenga valores atómicos, es decir, indivisibles. Una lista de teléfonos en una misma columna viola esta regla. Cada número de teléfono debería ser una entrada separada o estar en una tabla relacionada."
+    },
+    {
+        "id": "q_db_002",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Los Diagramas Entidad-Relación (ERD) son fundamentales en el modelado de datos.",
+        "question": "¿Qué componente de un ERD se dibuja como un rombo y representa una asociación entre entidades?",
+        "options": {
+            "A": "Entidad",
+            "B": "Atributo",
+            "C": "Relación"
+        },
+        "correctAnswer": "C",
+        "explanation": "Las relaciones en un ERD se dibujan como rombos y representan las asociaciones o vínculos entre dos o más entidades."
+    },
+    {
+        "id": "q_db_003",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Usted está optimizando una base de datos del IDU para un sistema de seguimiento de proyectos. Observa que las consultas que buscan proyectos por su nombre o por la fecha de inicio son muy lentas, a pesar de que el servidor tiene buenos recursos.",
+        "question": "¿Qué técnica de optimización de rendimiento en bases de datos es la más adecuada para acelerar estas búsquedas?",
+        "options": {
+            "A": "Normalización de la base de datos a 3NF.",
+            "B": "Creación de índices en las columnas 'nombre' y 'fecha_inicio'.",
+            "C": "Migración de la base de datos a un modelo NoSQL."
+        },
+        "correctAnswer": "B",
+        "explanation": "La indexación es la técnica más efectiva para acelerar significativamente la recuperación de datos en columnas utilizadas frecuentemente en búsquedas o filtros. La normalización mejora la integridad, y la migración a NoSQL no siempre es la solución para consultas lentas en bases de datos relacionales."
+    },
+    {
+        "id": "q_db_004",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Las bases de datos se clasifican comúnmente en Relacionales y NoSQL.",
+        "question": "¿Qué tipo de bases de datos se caracterizan por organizar los datos en tablas con filas y columnas, utilizando SQL como lenguaje principal?",
+        "options": {
+            "A": "Bases de Datos NoSQL",
+            "B": "Bases de Datos Relacionales",
+            "C": "Bases de Datos de Grafos"
+        },
+        "correctAnswer": "B",
+        "explanation": "Las Bases de Datos Relacionales organizan los datos en tablas (o relaciones) con un esquema estricto y utilizan SQL para su gestión."
+    },
+    {
+        "id": "q_db_005",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un incidente de seguridad ha expuesto datos personales sensibles de ciudadanos en una base de datos del IDU. La auditoría revela que el acceso a la base de datos no estaba suficientemente restringido, permitiendo que usuarios no autorizados consultaran información crítica. No se había implementado un control granular de quién podía ver qué datos.",
+        "question": "¿Qué aspecto de la seguridad en bases de datos falló en este escenario?",
+        "options": {
+            "A": "Cifrado de datos en reposo.",
+            "B": "Respaldo y recuperación.",
+            "C": "Control de Acceso (roles y privilegios)."
+        },
+        "correctAnswer": "C",
+        "explanation": "El Control de Acceso, basado en roles, usuarios y privilegios, es el mecanismo para restringir quién puede acceder a qué datos y qué operaciones puede realizar. La falta de este control granular llevó a la exposición de datos."
+    },
+    {
+        "id": "q_db_006",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "SQL es el lenguaje estándar para las bases de datos relacionales.",
+        "question": "¿Qué categoría de comandos SQL se utiliza para definir, modificar y controlar la estructura de la base de datos (ej. CREATE TABLE, ALTER TABLE)?",
+        "options": {
+            "A": "DML (Data Manipulation Language)",
+            "B": "DDL (Data Definition Language)",
+            "C": "DCL (Data Control Language)"
+        },
+        "correctAnswer": "B",
+        "explanation": "DDL (Data Definition Language) se utiliza para definir, modificar y controlar la estructura de la base de datos, incluyendo comandos como CREATE, ALTER y DROP."
+    },
+    {
+        "id": "q_db_007",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "En el IDU, se está diseñando una base de datos para almacenar información de proyectos y los equipos de trabajo asignados a cada uno. Un equipo está conformado por varios empleados, y un empleado puede estar en varios equipos. Se propone que la tabla 'Proyectos' tenga una columna 'Empleados' que contenga una lista de IDs de empleados, y la tabla 'Empleados' tenga una columna 'Proyectos' con una lista de IDs de proyectos.",
+        "question": "¿Qué anomalía de la normalización es más probable que surja con este diseño?",
+        "options": {
+            "A": "Anomalía de Inserción, si se intenta añadir un proyecto sin empleados asignados.",
+            "B": "Anomalía de Actualización, si un empleado cambia de ID y debe actualizarse en múltiples listas de proyectos.",
+            "C": "Anomalía de Eliminación, si se elimina un proyecto y con ello se pierde información única de un empleado."
+        },
+        "correctAnswer": "B",
+        "explanation": "Este diseño viola la 1NF al tener atributos no atómicos (listas de IDs en una columna) y la 2NF/3NF por redundancia. La anomalía de actualización es muy probable: si la información de un empleado (como su ID o nombre) cambia, debería actualizarse en todas las listas de proyectos donde aparece. Si no se actualiza en todas partes, se produce una inconsistencia de datos, que es una anomalía de actualización."
+    },
+    {
+        "id": "q_db_008",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "Las transacciones en bases de datos relacionales deben garantizar la fiabilidad.",
+        "question": "¿Qué propiedad ACID asegura que las transacciones concurrentes se ejecutan de forma independiente y no interfieren entre sí?",
+        "options": {
+            "A": "Atomicidad",
+            "B": "Consistencia",
+            "C": "Aislamiento (Isolation)"
+        },
+        "correctAnswer": "C",
+        "explanation": "La propiedad de Aislamiento (Isolation) garantiza que las transacciones concurrentes se ejecutan de forma independiente y no interfieren entre sí, haciendo que cada transacción parezca ejecutarse de forma aislada."
+    },
+    {
+        "id": "q_db_009",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está implementando un sistema para almacenar datos de sensores de tráfico en tiempo real, que genera un volumen masivo de datos no estructurados a una alta velocidad de escritura. La prioridad es la disponibilidad y la escalabilidad horizontal para manejar picos de tráfico, incluso si la consistencia inmediata no es estricta.",
+        "question": "¿Qué tipo de base de datos es la más adecuada para este caso de uso?",
+        "options": {
+            "A": "PostgreSQL (Relacional)",
+            "B": "MongoDB (NoSQL Documental)",
+            "C": "Oracle (Relacional)"
+        },
+        "correctAnswer": "B",
+        "explanation": "Las bases de datos NoSQL (como MongoDB o Cassandra) están diseñadas para manejar grandes volúmenes de datos no estructurados o semiestructurados, ofreciendo flexibilidad y escalabilidad horizontal, y priorizando la disponibilidad y consistencia eventual, lo cual es ideal para datos en tiempo real de alta velocidad de escritura."
+    },
+    {
+        "id": "q_db_010",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "El modelado de datos es el primer paso en el diseño de una base de datos.",
+        "question": "¿Qué elemento de un Diagrama Entidad-Relación (ERD) se dibuja como un rectángulo y representa un objeto o concepto del mundo real?",
+        "options": {
+            "A": "Atributo",
+            "B": "Relación",
+            "C": "Entidad"
+        },
+        "correctAnswer": "C",
+        "explanation": "Las entidades en un ERD se dibujan como rectángulos y representan objetos o conceptos del mundo real sobre los que se desea almacenar información."
+    },
+    {
+        "id": "q_db_011",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Usted debe realizar una consulta en la base de datos de proyectos del IDU para obtener los nombres de todos los empleados y el nombre del proyecto en el que trabajan. Algunos proyectos no tienen empleados asignados aún, y aun así desea que esos proyectos aparezcan en la lista.",
+        "question": "¿Qué tipo de JOIN en SQL es el más adecuado para esta consulta?",
+        "options": {
+            "A": "INNER JOIN",
+            "B": "LEFT JOIN",
+            "C": "RIGHT JOIN"
+        },
+        "correctAnswer": "B",
+        "explanation": "Un LEFT JOIN (o LEFT OUTER JOIN) devuelve todos los registros de la tabla izquierda (en este caso, proyectos) y los registros coincidentes de la tabla derecha (empleados). Si no hay coincidencia, devuelve NULL en las columnas de la tabla derecha, pero el registro de la izquierda se mantiene."
+    },
+    {
+        "id": "q_db_012",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "La normalización de bases de datos ayuda a mejorar la integridad de los datos.",
+        "question": "¿Qué anomalía ocurre si, al eliminar un dato, se elimina inadvertidamente otro dato relacionado que no se quería borrar, debido a una base de datos no normalizada?",
+        "options": {
+            "A": "Anomalía de Inserción",
+            "B": "Anomalía de Actualización",
+            "C": "Anomalía de Eliminación"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Anomalía de Eliminación ocurre cuando, al eliminar un registro, se pierden accidentalmente otros datos relacionados que no se pretendía borrar, debido a la redundancia en una base de datos no normalizada."
+    },
+    {
+        "id": "q_db_013",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Se ha presentado una falla crítica en el centro de datos del IDU que ha dejado inaccesible la base de datos principal de proyectos durante 8 horas. El objetivo de la entidad es que el tiempo máximo aceptable que una aplicación puede estar inactiva después de un desastre no supere las 4 horas.",
+        "question": "¿Qué métrica clave de recuperación ante desastres (DRP) se ha incumplido en este escenario?",
+        "options": {
+            "A": "RPO (Recovery Point Objective)",
+            "B": "RTO (Recovery Time Objective)",
+            "C": "DRP (Disaster Recovery Plan)"
+        },
+        "correctAnswer": "B",
+        "explanation": "El RTO (Recovery Time Objective) es el tiempo máximo aceptable que una aplicación puede estar inactiva después de un desastre. Si la base de datos estuvo inactiva por 8 horas y el objetivo era 4 horas, se incumplió el RTO. El RPO se refiere a la pérdida de datos, y el DRP es el plan completo."
+    },
+    {
+        "id": "q_db_014",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Los comandos SQL se clasifican según su función.",
+        "question": "¿Qué categoría de comandos SQL incluye SELECT, INSERT, UPDATE y DELETE, y se utiliza para manipular los datos dentro de las tablas?",
+        "options": {
+            "A": "DDL (Data Definition Language)",
+            "B": "DCL (Data Control Language)",
+            "C": "DML (Data Manipulation Language)"
+        },
+        "correctAnswer": "C",
+        "explanation": "DML (Data Manipulation Language) se utiliza para manipular (leer, insertar, actualizar, eliminar) los datos dentro de las tablas, e incluye comandos como SELECT, INSERT, UPDATE y DELETE."
+    },
+    {
+        "id": "q_db_015",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "El IDU está diseñando una base de datos para almacenar información de los ciudadanos y sus trámites. Para cumplir con la Ley 1581 de 2012 (Protección de Datos Personales) y asegurar que solo el personal autorizado pueda acceder a la información sensible, se necesita implementar un mecanismo que defina quién puede ver qué datos y qué operaciones puede realizar.",
+        "question": "¿Qué técnica de seguridad en bases de datos es la más adecuada para implementar este control de acceso granular?",
+        "options": {
+            "A": "Cifrado de datos en tránsito.",
+            "B": "Auditoría de registros de la base de datos.",
+            "C": "Control de Acceso basado en roles y privilegios (GRANT / REVOKE)."
+        },
+        "correctAnswer": "C",
+        "explanation": "El Control de Acceso basado en roles, usuarios y privilegios (usando GRANT/REVOKE en SQL) es el mecanismo fundamental para restringir quién puede acceder a qué datos y qué operaciones puede realizar, aplicando el principio de mínimo privilegio."
+    },
+    {
+        "id": "q_db_016",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Las bases de datos NoSQL ofrecen diferentes modelos de almacenamiento.",
+        "question": "¿Qué tipo de base de datos NoSQL almacena datos en documentos (ej., JSON, BSON) y es popular por su flexibilidad en el esquema?",
+        "options": {
+            "A": "Clave-Valor",
+            "B": "Orientada a Columnas",
+            "C": "Orientada a Documentos"
+        },
+        "correctAnswer": "C",
+        "explanation": "Las bases de datos Orientadas a Documentos (como MongoDB) almacenan datos en documentos JSON o BSON, lo que les confiere gran flexibilidad en el esquema."
+    },
+    {
+        "id": "q_db_017",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU utiliza una base de datos relacional para gestionar una gran cantidad de datos históricos de obras públicas. Se ha detectado que las consultas que recuperan la información de obras de un año específico son muy lentas. Se propone crear un índice sobre la columna 'año_ejecucion' para mejorar el rendimiento.",
+        "question": "¿Cuál es el beneficio principal de crear un índice en esta columna?",
+        "options": {
+            "A": "Minimizar la redundancia de datos en la tabla.",
+            "B": "Acelerar significativamente la recuperación de datos en búsquedas o filtros por esa columna.",
+            "C": "Asegurar la atomicidad de los datos en la columna."
+        },
+        "correctAnswer": "B",
+        "explanation": "La indexación acelera significativamente la recuperación de datos en columnas utilizadas frecuentemente en búsquedas, filtros (cláusulas WHERE) o uniones (JOIN), al permitir que el sistema de base de datos encuentre los registros más rápido."
+    },
+    {
+        "id": "q_db_018",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "Las propiedades ACID garantizan la fiabilidad de las transacciones en bases de datos relacionales.",
+        "question": "¿Qué propiedad ACID asegura que, una vez que una transacción ha sido confirmada (commit), sus cambios son permanentes y persistirán incluso en caso de fallos del sistema?",
+        "options": {
+            "A": "Atomicidad",
+            "B": "Consistencia",
+            "C": "Durabilidad"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Durabilidad (Durability) es la propiedad ACID que garantiza que, una vez que una transacción ha sido confirmada, sus cambios son permanentes y persistirán incluso en caso de fallos del sistema, gracias a mecanismos como los registros de transacciones."
+    },
+    {
+        "id": "q_db_019",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo del IDU debe diseñar una base de datos para una nueva aplicación que gestionará las interacciones de los ciudadanos con el sistema de información geográfico (GIS) del instituto. El sistema debe ser altamente escalable para manejar picos masivos de usuarios y la estructura de los datos de interacción puede evolucionar frecuentemente sin necesidad de un esquema rígido.",
+        "question": "¿Qué tipo de base de datos sería la más ventajosa para este escenario, priorizando la escalabilidad horizontal y la flexibilidad del esquema?",
+        "options": {
+            "A": "PostgreSQL (Relacional)",
+            "B": "MongoDB (NoSQL Documental)",
+            "C": "MySQL (Relacional)"
+        },
+        "correctAnswer": "B",
+        "explanation": "Las bases de datos NoSQL (como MongoDB) son ideales para manejar grandes volúmenes de datos y alto tráfico gracias a su escalabilidad horizontal y su esquema flexible, que permite que la estructura de los datos evolucione sin un esquema predefinido rígido, a diferencia de las bases de datos relacionales."
+    },
+    {
+        "id": "q_db_020",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "El respaldo y la recuperación de bases de datos son procesos críticos.",
+        "question": "¿Qué tipo de respaldo (backup) copia solo los datos que han cambiado desde el último respaldo COMPLETO, siendo más rápido de restaurar que un respaldo incremental (pues solo necesita el completo y el último diferencial)?",
+        "options": {
+            "A": "Respaldo Completo",
+            "B": "Respaldo Incremental",
+            "C": "Respaldo Diferencial"
+        },
+        "correctAnswer": "C",
+        "explanation": "El Respaldo Diferencial copia los datos que han cambiado desde el último respaldo completo. Aunque son más grandes que los incrementales, su restauración es más rápida ya que solo requiere el último respaldo completo y el último diferencial."
+    },
+
+
+    {
+        "id": "q_db_021",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está migrando datos históricos de obras viales desde un sistema heredado a una nueva base de datos relacional. Los datos heredados incluyen una columna 'Dirección_Contratista' que contiene, en una sola cadena, la calle, número, ciudad y código postal del contratista (ej. 'Calle 10 # 5-20, Bogotá, 11001').",
+        "question": "¿Qué acción sería prioritaria para normalizar esta tabla a la Primera Forma Normal (1NF)?",
+        "options": {
+            "A": "Crear una tabla separada para 'Contratistas' y relacionarla con 'Obras'.",
+            "B": "Dividir la columna 'Dirección_Contratista' en atributos atómicos separados (ej. 'Calle', 'Número', 'Ciudad', 'Código_Postal').",
+            "C": "Asegurar que cada obra tenga una clave primaria única."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Primera Forma Normal (1NF) exige que cada columna en una tabla contenga valores atómicos (indivisibles). La columna 'Dirección_Contratista' al contener múltiples datos (calle, número, ciudad, código postal) en una sola cadena viola este principio. Dividirla en atributos atómicos separados es la acción directa para cumplir la 1NF."
+    },
+    {
+        "id": "q_db_022",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "En un sistema de gestión de proyectos del IDU, una tabla 'Tareas' (ID_Tarea, Nombre_Tarea, ID_Proyecto, Nombre_Proyecto, Presupuesto_Proyecto) tiene una clave primaria compuesta {ID_Tarea, ID_Proyecto}.",
+        "question": "¿Si 'Nombre_Proyecto' depende solo de 'ID_Proyecto', qué forma normal NO cumple esta tabla y por qué?",
+        "options": {
+            "A": "Primera Forma Normal (1NF), por atributos multivalorados.",
+            "B": "Tercera Forma Normal (3NF), por dependencia transitiva.",
+            "C": "Segunda Forma Normal (2NF), por dependencia parcial."
+        },
+        "correctAnswer": "C",
+        "explanation": "La Segunda Forma Normal (2NF) requiere que todos los atributos no clave dependan completamente de la clave primaria completa. Si 'Nombre_Proyecto' depende solo de 'ID_Proyecto' (parte de la clave compuesta) y no de 'ID_Tarea', existe una dependencia parcial, violando la 2NF."
+    },
+    {
+        "id": "q_db_023",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está evaluando una base de datos de auditoría de logs que registra cada acceso a los sistemas. Esta base de datos crece exponencialmente cada día y necesita soportar millones de escrituras por segundo y ser altamente disponible, aunque no requiera transacciones ACID estrictas y la consistencia eventual sea aceptable.",
+        "question": "¿Qué tipo de base de datos sería la más adecuada para este escenario de alto volumen de escrituras y alta disponibilidad, con consistencia eventual?",
+        "options": {
+            "A": "PostgreSQL (Relacional)",
+            "B": "Cassandra (NoSQL Orientada a Columnas)",
+            "C": "MySQL (Relacional)"
+        },
+        "correctAnswer": "B",
+        "explanation": "Cassandra es una base de datos NoSQL orientada a columnas, diseñada específicamente para una escalabilidad masiva y alta disponibilidad sin puntos únicos de fallo, ideal para grandes conjuntos de datos distribuidos con alta tasa de escritura y donde la consistencia eventual es aceptable. Las bases de datos relacionales priorizan ACID y tienen diferentes modelos de escalabilidad."
+    },
+    {
+        "id": "q_db_024",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Las propiedades BASE son características de las bases de datos NoSQL.",
+        "question": "¿Qué propiedad BASE indica que el estado del sistema puede cambiar con el tiempo incluso sin entrada de datos, debido a la 'consistencia eventual'?",
+        "options": {
+            "A": "Básicamente Disponible (Basically Available)",
+            "B": "Consistencia Eventual (Eventually consistent)",
+            "C": "Estado Suave (Soft state)"
+        },
+        "correctAnswer": "C",
+        "explanation": "El 'Estado Suave' (Soft state) en las propiedades BASE indica que el estado del sistema puede cambiar con el tiempo incluso sin entrada de datos, debido a la 'consistencia eventual' (los datos finalmente alcanzarán un estado consistente, pero puede haber un retraso)."
+    },
+    {
+        "id": "q_db_025",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un desarrollador del IDU está escribiendo una consulta SQL para el sistema de contratos. Necesita actualizar el estado de un contrato de 'Pendiente' a 'Activo' y al mismo tiempo insertar un nuevo registro en la tabla de 'Historial_Contratos' que documente este cambio. Si alguna de las dos operaciones falla, ninguna debe persistir en la base de datos.",
+        "question": "¿Qué comandos del Lenguaje de Control de Transacciones (TCL) debería usar para asegurar que ambas operaciones se completen exitosamente o se deshagan por completo?",
+        "options": {
+            "A": "GRANT y REVOKE",
+            "B": "CREATE y ALTER",
+            "C": "BEGIN TRANSACTION y COMMIT/ROLLBACK"
+        },
+        "correctAnswer": "C",
+        "explanation": "Los comandos BEGIN TRANSACTION (o START TRANSACTION) y COMMIT/ROLLBACK son parte del TCL y se utilizan para gestionar las transacciones. BEGIN TRANSACTION inicia una, COMMIT guarda los cambios permanentemente si todo es exitoso, y ROLLBACK deshace todos los cambios si ocurre un error, garantizando la atomicidad."
+    },
+    {
+        "id": "q_db_026",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El DRP (Plan de Recuperación ante Desastres) es vital para la continuidad del negocio.",
+        "question": "¿Qué métrica del Plan de Recuperación ante Desastres (DRP) define la cantidad máxima aceptable de pérdida de datos que una organización puede tolerar después de un desastre?",
+        "options": {
+            "A": "RTO (Recovery Time Objective)",
+            "B": "RPO (Recovery Point Objective)",
+            "C": "SLA (Service Level Agreement)"
+        },
+        "correctAnswer": "B",
+        "explanation": "El RPO (Recovery Point Objective) es la cantidad máxima aceptable de pérdida de datos que una organización puede tolerar después de un desastre. Se refiere a qué tan atrás en el tiempo se puede recuperar la información."
+    },
+    {
+        "id": "q_db_027",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un administrador de bases de datos del IDU necesita otorgar a un nuevo auditor permiso para consultar solo la información de los contratos públicos, pero sin poder modificarlos ni eliminarlos. Posteriormente, si el auditor ya no necesita ese acceso, deberá revocársele el permiso.",
+        "question": "¿Qué comandos SQL de control de acceso debería utilizar el administrador para estas acciones?",
+        "options": {
+            "A": "SELECT y INSERT",
+            "B": "CREATE y DROP",
+            "C": "GRANT y REVOKE"
+        },
+        "correctAnswer": "C",
+        "explanation": "Los comandos GRANT (otorgar) y REVOKE (revocar) son parte del Lenguaje de Control de Datos (DCL) en SQL y se utilizan para gestionar los permisos y el control de acceso a los datos de la base de datos, lo que permite implementar el principio de mínimo privilegio."
+    },
+    {
+        "id": "q_db_028",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La optimización de consultas SQL es crucial para el rendimiento de la base de datos.",
+        "question": "¿Qué herramienta o técnica de optimización ayuda a entender cómo el sistema de base de datos ejecuta una consulta, para identificar cuellos de botella?",
+        "options": {
+            "A": "Normalización a 3NF",
+            "B": "Plan de Ejecución (EXPLAIN en SQL)",
+            "C": "Creación de vistas materializadas"
+        },
+        "correctAnswer": "B",
+        "explanation": "El 'Plan de Ejecución' (a menudo obtenido con el comando EXPLAIN en SQL) es una herramienta que permite analizar cómo el motor de la base de datos procesa una consulta, identificando qué índices usa, qué tablas escanea, y los costos de cada operación, lo que es vital para la optimización."
+    },
+    {
+        "id": "q_db_029",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU tiene una tabla 'Empleados' (ID_Empleado, Nombre_Empleado, ID_Departamento, Nombre_Departamento) donde 'ID_Empleado' es la clave primaria. El 'Nombre_Departamento' depende de 'ID_Departamento', y 'ID_Departamento' no es parte de la clave primaria. Esta tabla está generando redundancia y anomalías de actualización.",
+        "question": "¿Qué forma normal se está violando principalmente en esta tabla y cuál sería la acción para corregirla a la siguiente forma normal?",
+        "options": {
+            "A": "Primera Forma Normal (1NF), se corrige dividiendo la dirección en campos atómicos.",
+            "B": "Segunda Forma Normal (2NF), se corrige eliminando dependencias parciales.",
+            "C": "Tercera Forma Normal (3NF), se corrige eliminando la dependencia transitiva creando una tabla 'Departamentos' separada."
+        },
+        "correctAnswer": "C",
+        "explanation": "Existe una dependencia transitiva: 'ID_Empleado' (PK) -> 'ID_Departamento' -> 'Nombre_Departamento'. 'Nombre_Departamento' es un atributo no clave que depende de otro atributo no clave ('ID_Departamento'), no directamente de la clave primaria. Esto viola la Tercera Forma Normal (3NF). La corrección implica separar la información del departamento en una tabla 'Departamentos' y dejar solo 'ID_Departamento' como clave foránea en 'Empleados'."
+    },
+    {
+        "id": "q_db_030",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Las bases de datos NoSQL ofrecen diferentes modelos de datos.",
+        "question": "¿Qué tipo de base de datos NoSQL es óptima para explorar conexiones complejas entre datos, representando la información como nodos (entidades) y aristas (relaciones)?",
+        "options": {
+            "A": "Base de Datos Clave-Valor",
+            "B": "Base de Datos Orientada a Documentos",
+            "C": "Base de Datos de Grafos"
+        },
+        "correctAnswer": "C",
+        "explanation": "Las Bases de Datos de Grafos almacenan datos como nodos (entidades) y aristas (relaciones), y están optimizadas específicamente para explorar conexiones y relaciones complejas entre los datos, lo que las hace ideales para redes sociales, sistemas de recomendación, etc."
+    },
+    {
+        "id": "q_db_031",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está planificando su estrategia de recuperación ante desastres para la base de datos principal de contratación. Necesitan un plan que les permita restaurar la base de datos a un momento exacto en el tiempo (ej. justo antes de que ocurriera una corrupción de datos), incluso si han pasado varios respaldos incrementales.",
+        "question": "¿Qué estrategia de recuperación es la más adecuada para este requisito?",
+        "options": {
+            "A": "Solo realizar respaldos completos diarios.",
+            "B": "Implementar una Recuperación a un Punto en el Tiempo (PITR) utilizando respaldos completos y registros de transacciones.",
+            "C": "Confiar únicamente en la alta disponibilidad del clúster de la base de datos."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Recuperación a un Punto en el Tiempo (PITR) permite restaurar la base de datos a un momento exacto utilizando una copia de seguridad completa y aplicando los registros de transacciones (logs) desde ese punto. Esto es crucial para recuperarse de corrupciones de datos o errores humanos específicos en el tiempo."
+    },
+    {
+        "id": "q_db_032",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Los sistemas de gestión de bases de datos relacionales garantizan la fiabilidad de las transacciones.",
+        "question": "¿Qué propiedad ACID asegura que una transacción se completa en su totalidad o no se completa en absoluto ('todo o nada')?",
+        "options": {
+            "A": "Consistencia",
+            "B": "Aislamiento",
+            "C": "Atomicidad"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Atomicidad (Atomicity) es la propiedad ACID que garantiza que una transacción es una unidad indivisible de trabajo; o se ejecuta completamente con todos sus cambios persistidos, o no se ejecuta en absoluto y se deshacen todos sus cambios."
+    },
+    {
+        "id": "q_db_033",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El equipo de TI del IDU ha implementado una nueva versión del software de gestión de bases de datos que incluye mejoras de seguridad, pero también algunas vulnerabilidades conocidas en versiones anteriores. Se recibe una alerta de que hay un nuevo tipo de ataque que explota esas vulnerabilidades.",
+        "question": "¿Qué aspecto de la seguridad en bases de datos es prioritario para abordar esta situación de forma proactiva?",
+        "options": {
+            "A": "Realizar una auditoría completa de los registros de acceso.",
+            "B": "Implementar un cifrado de datos en tránsito.",
+            "C": "Gestionar vulnerabilidades y aplicar los últimos parches de seguridad."
+        },
+        "correctAnswer": "C",
+        "explanation": "La gestión de vulnerabilidades y la aplicación de parches de seguridad son cruciales para proteger la base de datos contra exploits conocidos. Ante una alerta de un nuevo ataque que explota vulnerabilidades en el software, la acción más proactiva es aplicar los parches para mitigar el riesgo."
+    },
+    {
+        "id": "q_db_034",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La normalización de bases de datos es un proceso fundamental para el diseño.",
+        "question": "¿Qué forma normal se viola si existe una dependencia transitiva, es decir, un atributo no clave depende de otro atributo no clave y no directamente de la clave primaria?",
+        "options": {
+            "A": "Primera Forma Normal (1NF)",
+            "B": "Segunda Forma Normal (2NF)",
+            "C": "Tercera Forma Normal (3NF)"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Tercera Forma Normal (3NF) se viola cuando un atributo no clave depende de otro atributo no clave, en lugar de depender directamente de la clave primaria. Eliminar estas dependencias transitivas es el objetivo de la 3NF."
+    },
+    {
+        "id": "q_db_035",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU necesita realizar un respaldo de su base de datos de gestión de talento humano. Quieren que los respaldos sean pequeños y rápidos de crear, pero aceptan que la restauración pueda ser más lenta, ya que implicaría restaurar el último respaldo completo y luego aplicar todos los cambios desde ese punto.",
+        "question": "¿Qué tipo de respaldo (backup) sería el más adecuado para esta estrategia?",
+        "options": {
+            "A": "Respaldo Completo",
+            "B": "Respaldo Incremental",
+            "C": "Respaldo Diferencial"
+        },
+        "correctAnswer": "B",
+        "explanation": "El Respaldo Incremental copia solo los datos que han cambiado desde el último respaldo (de cualquier tipo). Son pequeños y rápidos de crear, pero la restauración puede ser más lenta ya que requiere el último respaldo completo más todos los incrementales subsiguientes en orden, lo cual se alinea con la descripción del caso."
+    },
+    {
+        "id": "q_db_036",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Las bases de datos NoSQL ofrecen flexibilidad y escalabilidad, pero también diferentes modelos de consistencia.",
+        "question": "¿Qué propiedad BASE describe que los datos finalmente alcanzarán un estado consistente en todos los nodos, pero puede haber un retraso en esta propagación?",
+        "options": {
+            "A": "Básicamente Disponible (Basically Available)",
+            "B": "Consistencia Eventual (Eventually consistent)",
+            "C": "Estado Suave (Soft state)"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Consistencia Eventual (Eventually consistent) es una propiedad BASE que indica que los datos finalmente alcanzarán un estado consistente en todos los nodos, pero puede haber un retraso en la propagación de las actualizaciones, priorizando la disponibilidad."
+    },
+    {
+        "id": "q_db_037",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo del IDU está realizando pruebas de integración de un nuevo módulo de pagos con el módulo de inventario de obras. La transacción implica disminuir la cantidad de materiales en el inventario y registrar el pago. Si la disminución del inventario falla, el pago no debe registrarse. Se utiliza un lenguaje de programación que interactúa con la base de datos.",
+        "question": "¿Qué tipo de comando SQL debe utilizarse en el código de la aplicación para asegurar la atomicidad de esta transacción?",
+        "options": {
+            "A": "CREATE y DROP",
+            "B": "GRANT y REVOKE",
+            "C": "COMMIT y ROLLBACK"
+        },
+        "correctAnswer": "C",
+        "explanation": "Los comandos COMMIT y ROLLBACK son parte del Lenguaje de Control de Transacciones (TCL) y se utilizan para asegurar la atomicidad de las operaciones. COMMIT guarda permanentemente los cambios de una transacción, mientras que ROLLBACK deshace todos los cambios si alguna parte de la transacción falla, garantizando que la operación sea 'todo o nada'."
+    },
+    {
+        "id": "q_db_038",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El rendimiento de las bases de datos es clave para la eficiencia de los sistemas del IDU.",
+        "question": "¿Cuál es una buena práctica para optimizar el rendimiento de consultas SQL que involucra la revisión de cómo el motor de la base de datos procesa la solicitud?",
+        "options": {
+            "A": "Normalización a la Primera Forma Normal (1NF).",
+            "B": "Evitar el uso de JOINs en consultas complejas.",
+            "C": "Analizar el plan de ejecución de las consultas (ej. usando EXPLAIN)."
+        },
+        "correctAnswer": "C",
+        "explanation": "Analizar el plan de ejecución de las consultas (usando comandos como EXPLAIN en SQL) es una práctica fundamental para la optimización de consultas, ya que permite ver cómo el motor de la base de datos procesa la consulta y dónde se pueden encontrar cuellos de botella."
+    },
+    {
+        "id": "q_db_039",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU requiere almacenar datos sobre las relaciones complejas entre los diferentes proyectos de infraestructura, los contratistas, los proveedores y las dependencias intervinientes. La prioridad es poder navegar y analizar estas interconexiones de forma eficiente, más allá de las consultas tabulares tradicionales.",
+        "question": "¿Qué tipo de base de datos NoSQL sería la más adecuada para modelar y consultar estas interconexiones complejas?",
+        "options": {
+            "A": "Base de Datos Clave-Valor",
+            "B": "Base de Datos de Grafos",
+            "C": "Base de Datos Orientada a Documentos"
+        },
+        "correctAnswer": "B",
+        "explanation": "Las Bases de Datos de Grafos están diseñadas específicamente para almacenar y explorar relaciones complejas entre datos, representándolos como nodos (entidades) y aristas (relaciones), lo cual es ideal para analizar interconexiones en redes de proyectos, contratistas, etc."
+    },
+    {
+        "id": "q_db_040",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Los registros de transacciones son esenciales para la recuperación de bases de datos.",
+        "question": "¿Qué estrategia de recuperación permite restaurar la base de datos a un momento exacto en el tiempo utilizando una copia de seguridad completa y aplicando los registros de transacciones desde ese punto?",
+        "options": {
+            "A": "Respaldo Diferencial",
+            "B": "Recuperación a un Punto en el Tiempo (PITR)",
+            "C": "Respaldo Incremental"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Recuperación a un Punto en el Tiempo (Point-in-Time Recovery - PITR) es la estrategia que permite restaurar la base de datos a un momento exacto utilizando una copia de seguridad completa y aplicando los registros de transacciones (logs) desde ese punto, siendo crucial para restauraciones precisas."
+    },
+
+    {
+        "id": "q_db_041",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU necesita diseñar una base de datos para el sistema de contratación pública. Se requiere registrar contratos, proveedores y las relaciones entre ellos, donde un contrato puede tener múltiples proveedores y un proveedor puede participar en múltiples contratos.",
+        "question": "¿Qué modelo de relación es el más adecuado para representar esta estructura en una base de datos relacional?",
+        "options": {
+            "A": "Relación uno a uno (1:1)",
+            "B": "Relación uno a muchos (1:N)",
+            "C": "Relación muchos a muchos (N:M) con tabla intermedia"
+        },
+        "correctAnswer": "C",
+        "explanation": "Las relaciones muchos a muchos requieren una tabla intermedia (ej: 'Contrato_Proveedor') que contenga las claves foráneas de ambas entidades. Esto permite modelar correctamente la participación múltiple en ambos sentidos."
+    },
+    {
+        "id": "q_db_042",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Al analizar la tabla 'Empleados(ID, Nombre, Departamento, Ciudad_Departamento)' en el sistema de recursos humanos del IDU, se identifica que actualizar la ciudad de un departamento requiere modificar múltiples registros.",
+        "question": "¿Qué problema de normalización existe y cómo se solucionaría?",
+        "options": {
+            "A": "Violación de 1FN - Separar en múltiples tablas",
+            "B": "Violación de 3FN - Crear tabla 'Departamentos' independiente",
+            "C": "Violación de 2FN - Eliminar la columna 'Ciudad_Departamento'"
+        },
+        "correctAnswer": "B",
+        "explanation": "Es una violación de 3FN porque 'Ciudad_Departamento' depende de 'Departamento' (no de la clave primaria). La solución es crear una tabla 'Departamentos' con (Departamento, Ciudad_Departamento) y relacionarla."
+    },
+    {
+        "id": "q_db_043",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU planea migrar su sistema de gestión documental a una base de datos que soporte alta disponibilidad y distribución geográfica, con datos que no requieren transacciones complejas pero sí flexibilidad en el esquema.",
+        "question": "¿Qué tipo de base de datos NoSQL sería más adecuada?",
+        "options": {
+            "A": "Base de datos clave-valor como Redis",
+            "B": "Base de datos documental como MongoDB",
+            "C": "Base de datos columnar como Cassandra"
+        },
+        "correctAnswer": "C",
+        "explanation": "Cassandra es ideal para distribución geográfica y alta disponibilidad gracias a su arquitectura descentralizada. Aunque MongoDB también es documental, Cassandra ofrece mejor escalabilidad horizontal para este caso."
+    },
+    {
+        "id": "q_db_044",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "En la base de datos del IDU, la consulta `SELECT * FROM contratos WHERE fecha BETWEEN '2024-01-01' AND '2024-03-31' ORDER BY valor DESC` tarda más de 10 segundos en ejecutarse.",
+        "question": "¿Qué estrategia de optimización sería más efectiva?",
+        "options": {
+            "A": "Crear un índice compuesto en (fecha, valor)",
+            "B": "Particionar la tabla por año",
+            "C": "Ambas estrategias combinadas"
+        },
+        "correctAnswer": "C",
+        "explanation": "El índice compuesto aceleraría el filtrado por fecha y el ordenamiento. El particionamiento por año reduciría el volumen de datos escaneados. Ambas estrategias son complementarias."
+    },
+    {
+        "id": "q_db_045",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El equipo de TI del IDU debe garantizar la integridad de las transacciones financieras donde múltiples actualizaciones a tablas diferentes deben ser atómicas.",
+        "question": "¿Qué propiedad ACID es crítica y cómo se implementa en SQL?",
+        "options": {
+            "A": "Consistencia - Usando CHECK constraints",
+            "B": "Atomicidad - Mediante bloques BEGIN TRANSACTION/COMMIT",
+            "C": "Durabilidad - Configurando WAL (Write-Ahead Logging)"
+        },
+        "correctAnswer": "B",
+        "explanation": "La atomicidad garantiza que todas las operaciones de una transacción se completen o ninguna. Se implementa con BEGIN TRANSACTION para iniciar y COMMIT/ROLLBACK para finalizar."
+    },
+    {
+        "id": "q_db_046",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Se diseña una tabla para el registro de cambios en documentos contractuales del IDU, donde cada documento puede tener múltiples versiones con historial completo de modificaciones.",
+        "question": "¿Qué patrón de diseño de bases de datos sería más apropiado?",
+        "options": {
+            "A": "Patrón Singleton para acceder a la versión actual",
+            "B": "Patrón Audit Trail con tabla de historial",
+            "C": "Patrón Materialized View para versiones recientes"
+        },
+        "correctAnswer": "B",
+        "explanation": "El patrón Audit Trail registra cada cambio en una tabla separada (ej: 'Documentos_Historial'), permitiendo rastrear versiones anteriores sin modificar los datos actuales."
+    },
+    {
+        "id": "q_db_047",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "La tabla 'Proyectos(ID, Nombre, Fecha_Inicio, Fecha_Fin, ID_Lider)' del IDU tiene redundancia porque el cálculo de 'Duración' se hace frecuentemente en consultas.",
+        "question": "¿Cómo optimizar esto sin violar las formas normales?",
+        "options": {
+            "A": "Crear una columna calculada 'Duración'",
+            "B": "Usar una vista materializada",
+            "C": "Almacenar 'Duración' y actualizarla con triggers"
+        },
+        "correctAnswer": "A",
+        "explanation": "Las columnas calculadas (ej: GENERATED ALWAYS AS (Fecha_Fin - Fecha_Inicio)) evitan redundancia y se actualizan automáticamente, manteniendo la normalización."
+    },
+    {
+        "id": "q_db_048",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU requiere una consulta que muestre los empleados y sus proyectos activos, incluyendo aquellos sin proyectos asignados.",
+        "question": "¿Qué tipo de JOIN debe utilizarse?",
+        "options": {
+            "A": "INNER JOIN",
+            "B": "LEFT JOIN",
+            "C": "FULL OUTER JOIN"
+        },
+        "correctAnswer": "B",
+        "explanation": "LEFT JOIN entre 'Empleados' y 'Proyectos' incluye todos los empleados (tabla izquierda), tengan o no proyectos asignados. FULL OUTER no es necesario si no se requieren proyectos sin empleados."
+    },
+    {
+        "id": "q_db_049",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "En PostgreSQL del IDU, se necesita garantizar que dos transacciones simultáneas no puedan aprobar el mismo contrato.",
+        "question": "¿Qué técnica de concurrencia aplicar?",
+        "options": {
+            "A": "Bloqueo optimista (Optimistic Locking)",
+            "B": "Bloqueo pesimista (SELECT FOR UPDATE)",
+            "C": "Niveles de aislamiento SERIALIZABLE"
+        },
+        "correctAnswer": "B",
+        "explanation": "SELECT FOR UPDATE bloquea el registro hasta que la transacción termine, evitando que otra transacción modifique el mismo contrato simultáneamente."
+    },
+    {
+        "id": "q_db_050",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "La base de datos del IDU almacena documentos JSON con estructuras variables en una columna PostgreSQL de tipo JSONB.",
+        "question": "¿Qué ventaja ofrece JSONB sobre JSON simple?",
+        "options": {
+            "A": "Permite indexación eficiente",
+            "B": "Ocupa menos espacio de almacenamiento",
+            "C": "Ambas ventajas"
+        },
+        "correctAnswer": "C",
+        "explanation": "JSONB almacena datos binarios (menor espacio) y permite crear índices GIN para búsquedas rápidas en el contenido JSON."
+    },
+    {
+        "id": "q_db_051",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU implementa replicación en su base de datos PostgreSQL para alta disponibilidad. El servidor secundario tiene 5 segundos de retraso en replicar datos.",
+        "question": "¿Qué tipo de replicación está configurada?",
+        "options": {
+            "A": "Replicación síncrona",
+            "B": "Replicación asíncrona",
+            "C": "Replicación multimaster"
+        },
+        "correctAnswer": "B",
+        "explanation": "La replicación asíncrona permite retrasos entre primario y secundario, a cambio de mejor rendimiento. La síncrona espera confirmación de todos los nodos."
+    },
+    {
+        "id": "q_db_052",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un desarrollador del IDU escribe la consulta: SELECT e.nombre, d.nombre FROM empleados e CROSS JOIN departamentos d",
+        "question": "¿Qué problema potencial tiene esta consulta?",
+        "options": {
+            "A": "Genera un producto cartesiano innecesario",
+            "B": "No filtra por empleados activos",
+            "C": "Usa sintaxis obsoleta de JOIN"
+        },
+        "correctAnswer": "A",
+        "explanation": "CROSS JOIN combina cada fila de 'empleados' con todas las de 'departamentos', generando un resultado enorme. Debería usarse INNER JOIN con condición."
+    },
+    {
+        "id": "q_db_053",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU necesita migrar datos sensibles a la nube. Por políticas de seguridad, los números de identificación deben almacenarse encriptados.",
+        "question": "¿Qué enfoque de PostgreSQL cumple este requisito?",
+        "options": {
+            "A": "Usar la extensión pgcrypto con funciones como pgp_sym_encrypt()",
+            "B": "Configurar SSL para las conexiones",
+            "C": "Particionar la tabla por rangos de ID"
+        },
+        "correctAnswer": "A",
+        "explanation": "pgcrypto permite encriptar datos a nivel de columna. SSL protege datos en tránsito, no en almacenamiento."
+    },
+    {
+        "id": "q_db_054",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "La tabla 'Contratos' del IDU tiene 10 millones de registros. La consulta frecuente es: SELECT * FROM contratos WHERE id_proveedor = ? AND estado = 'Activo'",
+        "question": "¿Qué índice mejoraría el rendimiento?",
+        "options": {
+            "A": "CREATE INDEX idx_proveedor ON contratos(id_proveedor)",
+            "B": "CREATE INDEX idx_compuesto ON contratos(id_proveedor, estado)",
+            "C": "CREATE INDEX idx_estado ON contratos(estado)"
+        },
+        "correctAnswer": "B",
+        "explanation": "El índice compuesto en (id_proveedor, estado) cubre ambos filtros de la consulta, permitiendo búsquedas más eficientes que índices simples."
+    },
+    {
+        "id": "q_db_055",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU usa MongoDB para almacenar datos de sensores IoT. Las consultas frecuentes filtran por 'tipo_sensor' y 'fecha' en colecciones con 100M+ documentos.",
+        "question": "¿Qué estrategia de optimización es esencial?",
+        "options": {
+            "A": "Crear un índice compuesto {tipo_sensor: 1, fecha: -1}",
+            "B": "Particionar la colección por hash del _id",
+            "C": "Usar agregaciones con $match y $group"
+        },
+        "correctAnswer": "A",
+        "explanation": "En MongoDB, los índices compuestos optimizan consultas con múltiples filtros. El orden 1 (ascendente)/-1 (descendente) afecta el rendimiento según el patrón de acceso."
+    },
+    {
+        "id": "q_db_056",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU planea usar Redis para cachear respuestas de API que raramente cambian (ej: listado de tipos de contrato).",
+        "question": "¿Qué política de expiración es más adecuada?",
+        "options": {
+            "A": "TTL (Time-To-Live) de 24 horas",
+            "B": "Expiración LRU (Least Recently Used)",
+            "C": "Sin expiración (persistente)"
+        },
+        "correctAnswer": "A",
+        "explanation": "Un TTL fijo (ej: 24h) asegura que los datos se refresquen periódicamente, balanceando consistencia y rendimiento. LRU es para cuando el caché se llena."
+    },
+    {
+        "id": "q_db_057",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "En Cassandra del IDU, se diseñan tablas para consultar proyectos por 'departamento' y 'fecha_inicio'. Los datos se distribuyen en 3 nodos.",
+        "question": "¿Qué debería ser la clave de partición (partition key)?",
+        "options": {
+            "A": "Solo 'departamento'",
+            "B": "Solo 'fecha_inicio'",
+            "C": "La combinación 'departamento' y 'fecha_inicio'"
+        },
+        "correctAnswer": "A",
+        "explanation": "En Cassandra, la partition key debe ser el campo usado en filtros WHERE para distribuir datos. Aquí, 'departamento' es el filtro principal. 'fecha_inicio' podría ser clustering key."
+    },
+    {
+        "id": "q_db_058",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU ejecuta backups completos de PostgreSQL cada noche, pero necesita recuperar datos eliminados accidentalmente a las 2 PM.",
+        "question": "¿Qué técnica permite esta recuperación?",
+        "options": {
+            "A": "PITR (Point-In-Time Recovery) usando WAL",
+            "B": "Restaurar el último backup completo",
+            "C": "Usar pg_dump con la opción --data-only"
+        },
+        "correctAnswer": "A",
+        "explanation": "PITR combina el último backup completo con los WAL (Write-Ahead Logs) para restaurar la base de datos a cualquier momento específico."
+    },
+    {
+        "id": "q_db_059",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU tiene una tabla 'empleados' con índices en 'departamento' y 'salario'. La consulta `SELECT * FROM empleados WHERE salario > 5000000 AND departamento = 'TI'` sigue siendo lenta.",
+        "question": "¿Cuál es la causa más probable?",
+        "options": {
+            "A": "Faltan estadísticas actualizadas",
+            "B": "Los índices no se usan porque falta uno compuesto",
+            "C": "PostgreSQL no soporta índices en condiciones AND"
+        },
+        "correctAnswer": "B",
+        "explanation": "PostgreSQL puede usar un solo índice por consulta. Un índice compuesto en (departamento, salario) permitiría buscar eficientemente empleados de TI con salario > 5M."
+    },
+    {
+        "id": "q_db_060",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU usa MySQL con el motor InnoDB. Una transacción que actualiza 10,000 filas falla al 50%, dejando algunas filas modificadas y otras no.",
+        "question": "¿Qué propiedad ACID no se cumplió y cómo evitarlo?",
+        "options": {
+            "A": "Atomicidad - Usar transacciones más pequeñas",
+            "B": "Consistencia - Agregar FOREIGN KEY constraints",
+            "C": "Durabilidad - Configurar innodb_flush_log_at_trx_commit=1"
+        },
+        "correctAnswer": "A",
+        "explanation": "La atomicidad garantiza que toda la transacción se aplique o nada. Dividir transacciones grandes en lotes más pequeños (ej: 1,000 filas por lote) reduce el riesgo de fallos parciales."
+    },
+
+    {
+        "id": "q_db_061",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo está creando una base de datos para una aplicación de comercio electrónico. La base de datos debe manejar relaciones complejas entre productos, clientes y pedidos, con un esquema fijo que debe garantizar integridad referencial y transacciones ACID.",
+        "question": "¿Qué tipo de base de datos sería la más adecuada para este tipo de aplicación, priorizando la consistencia y la integridad de los datos?",
+        "options": {
+            "A": "PostgreSQL (Relacional)",
+            "B": "MongoDB (NoSQL Documental)",
+            "C": "Cassandra (NoSQL de Columnas)"
+        },
+        "correctAnswer": "A",
+        "explanation": "Las bases de datos relacionales como PostgreSQL son ideales para aplicaciones que requieren consistencia y transacciones ACID, características clave para garantizar la integridad referencial y el manejo de relaciones complejas."
+    },
+    {
+        "id": "q_db_062",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo está diseñando una base de datos para una aplicación de redes sociales que necesita soportar millones de usuarios y realizar consultas complejas en tiempo real sobre los comentarios y publicaciones. Los datos deben almacenarse de manera eficiente para poder escalar horizontalmente.",
+        "question": "¿Qué tipo de base de datos sería la más adecuada para este escenario, priorizando la escalabilidad y la velocidad de consultas?",
+        "options": {
+            "A": "MongoDB (NoSQL Documental)",
+            "B": "MySQL (Relacional)",
+            "C": "PostgreSQL (Relacional)"
+        },
+        "correctAnswer": "A",
+        "explanation": "MongoDB, como base de datos NoSQL documental, es altamente escalable y adecuada para manejar grandes volúmenes de datos sin esquema rígido, lo que es ideal para aplicaciones como redes sociales con grandes cantidades de datos y consultas rápidas."
+    },
+    {
+        "id": "q_db_063",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "En un sistema bancario, la base de datos debe garantizar transacciones seguras y consistentes, asegurando que todas las transacciones sean atómicas y que los datos no se pierdan ni se corrompan. La base de datos también debe ser capaz de manejar grandes cantidades de transacciones simultáneas.",
+        "question": "¿Qué tipo de base de datos sería la más adecuada para este tipo de aplicación, priorizando la consistencia y las transacciones seguras?",
+        "options": {
+            "A": "MySQL (Relacional)",
+            "B": "Cassandra (NoSQL de Columnas)",
+            "C": "MongoDB (NoSQL Documental)"
+        },
+        "correctAnswer": "A",
+        "explanation": "MySQL es una base de datos relacional que ofrece soporte completo para transacciones ACID, lo que la hace ideal para aplicaciones que requieren alta consistencia y seguridad en las transacciones, como en el caso de sistemas bancarios."
+    },
+    {
+        "id": "q_db_064",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El equipo de desarrollo está creando una base de datos para un sistema de gestión de inventarios. Necesitan una base de datos que permita un esquema flexible para los productos, pero también que sea capaz de realizar consultas rápidas sobre el stock y las ventas.",
+        "question": "¿Qué tipo de base de datos sería la más adecuada para este escenario, priorizando la flexibilidad y el rendimiento en consultas?",
+        "options": {
+            "A": "MongoDB (NoSQL Documental)",
+            "B": "PostgreSQL (Relacional)",
+            "C": "SQLite (Relacional)"
+        },
+        "correctAnswer": "A",
+        "explanation": "MongoDB, como base de datos NoSQL, ofrece flexibilidad para manejar datos sin un esquema rígido y permite consultas rápidas, lo que es ideal para aplicaciones como gestión de inventarios donde los datos pueden variar y escalar."
+    },
+    {
+        "id": "q_db_065",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo está creando una base de datos para un sistema de mensajería en tiempo real. El sistema debe ser capaz de manejar millones de mensajes en tiempo real, con un esquema flexible para adaptarse a nuevos tipos de mensajes que pueden ser agregados sin afectar el rendimiento.",
+        "question": "¿Qué tipo de base de datos sería la más adecuada para este escenario, priorizando la escalabilidad y la flexibilidad del esquema?",
+        "options": {
+            "A": "Cassandra (NoSQL de Columnas)",
+            "B": "PostgreSQL (Relacional)",
+            "C": "MySQL (Relacional)"
+        },
+        "correctAnswer": "A",
+        "explanation": "Cassandra es una base de datos NoSQL de columnas que ofrece alta escalabilidad horizontal y flexibilidad en el esquema, lo que es ideal para manejar grandes volúmenes de datos en tiempo real, como los mensajes de una aplicación de mensajería."
+    },
+    {
+        "id": "q_db_066",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo debe crear una base de datos para un sistema de logística que necesita realizar consultas complejas y unir datos de múltiples fuentes, incluyendo información sobre vehículos, rutas y pedidos.",
+        "question": "¿Qué tipo de base de datos sería la más adecuada para este escenario, priorizando consultas complejas y uniones de datos?",
+        "options": {
+            "A": "MySQL (Relacional)",
+            "B": "MongoDB (NoSQL Documental)",
+            "C": "Cassandra (NoSQL de Columnas)"
+        },
+        "correctAnswer": "A",
+        "explanation": "MySQL es una base de datos relacional adecuada para realizar consultas complejas y uniones de datos entre múltiples tablas, lo que es necesario para sistemas de logística que gestionan información diversa y relacional."
+    },
+    {
+        "id": "q_db_067",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El equipo de desarrollo está creando un sistema para una plataforma de contenido multimedia que requiere almacenar videos y metadatos asociados. El sistema debe manejar petabytes de datos y permitir búsquedas rápidas sobre los metadatos.",
+        "question": "¿Qué tipo de base de datos sería la más adecuada para este escenario, priorizando el almacenamiento de grandes volúmenes de datos y la rapidez en las búsquedas de metadatos?",
+        "options": {
+            "A": "MongoDB (NoSQL Documental)",
+            "B": "PostgreSQL (Relacional)",
+            "C": "MySQL (Relacional)"
+        },
+        "correctAnswer": "A",
+        "explanation": "MongoDB, como base de datos NoSQL, es ideal para almacenar grandes volúmenes de datos no estructurados, como videos y metadatos, y permite realizar búsquedas rápidas a través de su índice flexible."
+    },
+    {
+        "id": "q_db_068",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo está creando una base de datos para una aplicación de comercio electrónico con miles de productos. Los productos tienen características complejas, como colores, tamaños y materiales, que deben ser fácilmente modificables sin afectar el rendimiento de las consultas.",
+        "question": "¿Qué tipo de base de datos sería la más adecuada para este escenario, priorizando la flexibilidad del esquema y la eficiencia de las consultas?",
+        "options": {
+            "A": "MongoDB (NoSQL Documental)",
+            "B": "PostgreSQL (Relacional)",
+            "C": "SQLite (Relacional)"
+        },
+        "correctAnswer": "A",
+        "explanation": "MongoDB es ideal para manejar datos semi-estructurados como los atributos variables de productos en un esquema flexible, lo que permite realizar consultas eficientes sin necesidad de un esquema rígido."
+    },
+    {
+        "id": "q_db_069",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo está trabajando en una base de datos para un sistema financiero que requiere realizar transacciones de manera rápida y eficiente, manteniendo la integridad de los datos en todo momento.",
+        "question": "¿Qué tipo de base de datos sería la más adecuada para este escenario, priorizando la rapidez de las transacciones y la integridad de los datos?",
+        "options": {
+            "A": "PostgreSQL (Relacional)",
+            "B": "Cassandra (NoSQL de Columnas)",
+            "C": "MongoDB (NoSQL Documental)"
+        },
+        "correctAnswer": "A",
+        "explanation": "PostgreSQL es una base de datos relacional que garantiza la integridad de los datos mediante transacciones ACID, lo que es esencial para sistemas financieros donde se manejan transacciones críticas."
+    },
+
+
+    {
+        "id": "q_db_070",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo está creando una base de datos para una aplicación de reservas de vuelos. El sistema debe permitir la integración con otras plataformas externas y manejar transacciones rápidamente sin perder datos.",
+        "question": "¿Qué tipo de base de datos sería la más adecuada para este escenario, priorizando transacciones rápidas y la integridad de los datos?",
+        "options": {
+            "A": "PostgreSQL (Relacional)",
+            "B": "MongoDB (NoSQL Documental)",
+            "C": "MySQL (Relacional)"
+        },
+        "correctAnswer": "A",
+        "explanation": "PostgreSQL es ideal para manejar transacciones rápidas y mantener la integridad de los datos mediante transacciones ACID, lo cual es crucial para un sistema de reservas de vuelos."
+    },
+    {
+        "id": "q_db_071",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un sistema de redes sociales debe manejar millones de publicaciones diarias. Además, los datos de interacción deben poder evolucionar sin necesidad de estructurarlos rígidamente.",
+        "question": "¿Qué tipo de base de datos sería la más adecuada para este escenario, priorizando la escalabilidad horizontal y la flexibilidad del esquema?",
+        "options": {
+            "A": "MongoDB (NoSQL Documental)",
+            "B": "PostgreSQL (Relacional)",
+            "C": "Oracle DB (Relacional)"
+        },
+        "correctAnswer": "A",
+        "explanation": "MongoDB, como base de datos NoSQL, ofrece una escalabilidad horizontal excelente y la flexibilidad de un esquema dinámico, lo cual es ideal para sistemas de redes sociales con gran volumen de interacciones."
+    },
+    {
+        "id": "q_db_072",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Una empresa de comercio electrónico necesita almacenar información sobre productos, ventas y clientes. Requiere que las consultas sean rápidas y que los datos sean consistentes en todo momento.",
+        "question": "¿Qué tipo de base de datos sería la más adecuada para este escenario, priorizando consistencia y consultas rápidas?",
+        "options": {
+            "A": "MySQL (Relacional)",
+            "B": "MongoDB (NoSQL Documental)",
+            "C": "Cassandra (NoSQL de Columnas)"
+        },
+        "correctAnswer": "A",
+        "explanation": "MySQL, como base de datos relacional, ofrece soporte completo para transacciones ACID y consultas complejas mediante SQL, lo cual es ideal para sistemas que necesitan mantener la consistencia de los datos."
+    },
+    {
+        "id": "q_db_073",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Una aplicación de gestión de contenidos necesita almacenar datos de imágenes, videos y metadatos asociados. El sistema debe ser flexible y escalable para manejar grandes volúmenes de datos multimedia.",
+        "question": "¿Qué tipo de base de datos sería la más adecuada para este escenario, priorizando almacenamiento de grandes volúmenes de datos y escalabilidad?",
+        "options": {
+            "A": "MongoDB (NoSQL Documental)",
+            "B": "MySQL (Relacional)",
+            "C": "PostgreSQL (Relacional)"
+        },
+        "correctAnswer": "A",
+        "explanation": "MongoDB es adecuado para manejar grandes volúmenes de datos semi-estructurados, como los metadatos de imágenes y videos, y permite una escalabilidad horizontal para manejar grandes cantidades de datos."
+    },
+    {
+        "id": "q_db_074",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un sistema de gestión empresarial necesita una base de datos que pueda realizar consultas complejas sobre ventas, inventarios y clientes, con un enfoque en la normalización y la integridad de los datos.",
+        "question": "¿Qué tipo de base de datos sería la más adecuada para este escenario, priorizando la integridad y consultas complejas?",
+        "options": {
+            "A": "MySQL (Relacional)",
+            "B": "PostgreSQL (Relacional)",
+            "C": "MongoDB (NoSQL Documental)"
+        },
+        "correctAnswer": "B",
+        "explanation": "PostgreSQL, como base de datos relacional, es ideal para manejar consultas complejas y garantizar la integridad de los datos a través de un esquema estrictamente definido."
+    },
+    {
+        "id": "q_db_075",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Una empresa de telecomunicaciones necesita gestionar grandes volúmenes de datos de clientes, dispositivos y facturación. Se requiere una base de datos que maneje transacciones de alta concurrencia y escalabilidad horizontal.",
+        "question": "¿Qué tipo de base de datos sería la más adecuada para este escenario, priorizando la concurrencia y la escalabilidad?",
+        "options": {
+            "A": "Cassandra (NoSQL de Columnas)",
+            "B": "MySQL (Relacional)",
+            "C": "MongoDB (NoSQL Documental)"
+        },
+        "correctAnswer": "A",
+        "explanation": "Cassandra es una base de datos NoSQL diseñada para manejar grandes volúmenes de datos con alta concurrencia, lo que la hace ideal para empresas de telecomunicaciones con grandes cargas de trabajo."
+    },
+    {
+        "id": "q_db_076",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un sistema de análisis de datos requiere una base de datos que pueda manejar grandes volúmenes de información y realizar consultas rápidas sin necesidad de una estructura predefinida para cada tipo de dato.",
+        "question": "¿Qué tipo de base de datos sería la más adecuada para este escenario, priorizando la flexibilidad y rapidez en consultas?",
+        "options": {
+            "A": "MongoDB (NoSQL Documental)",
+            "B": "PostgreSQL (Relacional)",
+            "C": "MySQL (Relacional)"
+        },
+        "correctAnswer": "A",
+        "explanation": "MongoDB es ideal para manejar datos no estructurados y realizar consultas rápidas sin necesidad de una estructura rígida, lo cual es perfecto para aplicaciones de análisis de datos."
+    },
+    {
+        "id": "q_db_077",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un sistema de gestión de contenido necesita una base de datos para almacenar publicaciones, comentarios y usuarios. La base de datos debe ser capaz de manejar transacciones rápidas y un alto volumen de lecturas y escrituras simultáneas.",
+        "question": "¿Qué tipo de base de datos sería la más adecuada para este escenario, priorizando el manejo de transacciones y el alto volumen de operaciones?",
+        "options": {
+            "A": "MySQL (Relacional)",
+            "B": "PostgreSQL (Relacional)",
+            "C": "Cassandra (NoSQL de Columnas)"
+        },
+        "correctAnswer": "A",
+        "explanation": "MySQL es ideal para manejar transacciones rápidas y operaciones de lectura/escritura de alto volumen, lo cual es clave para sistemas de gestión de contenido."
+    },
+    {
+        "id": "q_db_078",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "diseno-bases-datos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo debe crear una base de datos para un sistema de monitoreo de dispositivos IoT. El sistema debe manejar datos en tiempo real con alta disponibilidad y tolerancia a fallos.",
+        "question": "¿Qué tipo de base de datos sería la más adecuada para este escenario, priorizando la disponibilidad y la tolerancia a fallos?",
+        "options": {
+            "A": "Cassandra (NoSQL de Columnas)",
+            "B": "MySQL (Relacional)",
+            "C": "MongoDB (NoSQL Documental)"
+        },
+        "correctAnswer": "A",
+        "explanation": "Cassandra es ideal para aplicaciones que requieren alta disponibilidad y tolerancia a fallos, lo cual es necesario para sistemas que manejan grandes volúmenes de datos en tiempo real, como IoT."
     }
 
 
 
-        
+       
    
 ]
 
