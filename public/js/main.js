@@ -541,12 +541,24 @@ function renderSubtopicContent(subtopic) {
             </div>
         ` : ''}
 
+
+
 ${subtopic.id === 'contratacion-publica' ? `
             <div class="mt-8 p-4 bg-teal-50 rounded-lg border-l-4 border-teal-500 text-teal-800">
                 <p class="font-semibold mb-3">¡Evalúa tus conocimientos en Contratación Pública Aplicada a Ingeniería!</p>
                 <button id="start-contratacion-quiz-btn" 
                         class="bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-teal-700 transition duration-300 transform hover:scale-105">
                     Realizar Simulacro de Contratación Pública
+                </button>
+            </div>
+        ` : ''}
+
+${subtopic.id === 'razonamiento-analitico' ? `
+            <div class="mt-8 p-4 bg-purple-50 rounded-lg border-l-4 border-purple-500 text-purple-800">
+                <p class="font-semibold mb-3">¡Desafía tu Lógica y Análisis!</p>
+                <button id="start-razonamiento-quiz-btn" 
+                        class="bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition duration-300 transform hover:scale-105">
+                    Realizar Simulacro de Razonamiento Analítico
                 </button>
             </div>
         ` : ''}
@@ -566,6 +578,32 @@ ${subtopic.id === 'contratacion-publica' ? `
         `;
 
     // ... (resto del código de renderSubtopicContent, incluyendo el listener para markCompletedBtn) ...
+
+    // Listener para el botón "Marcar como Completado"
+    const markCompletedBtn = document.getElementById('mark-completed-btn');
+    if (markCompletedBtn) {
+        markCompletedBtn.addEventListener('click', (e) => {
+            const subtopicId = e.target.dataset.subtopicId;
+            markSubtopicAsCompleted(subtopicId, true);
+            alert(`¡"${subtopic.title}" marcado como completado!`);
+            e.target.disabled = true; // Deshabilitar el botón
+            e.target.textContent = 'Completado';
+            checkAchievements(); // Verificar logros al completar un subtema
+            // También actualiza la lista del menú lateral para mostrar "Completado"
+            const navLinkElement = document.querySelector(`a[data-subtopic-id="${subtopicId}"]`);
+            if (navLinkElement && !navLinkElement.querySelector('span')) { // Si no tiene ya el span de completado
+                const span = document.createElement('span');
+                span.className = 'ml-2 text-green-500 text-xs';
+                span.textContent = '(Completado)';
+                navLinkElement.appendChild(span);
+            }
+        });
+        // Si ya está completado, deshabilitar al cargar
+        if (getSubtopicCompletionStatus(subtopic.id)) {
+            markCompletedBtn.disabled = true;
+            markCompletedBtn.textContent = 'Completado';
+        }
+    }
 
     // Listener para el botón del simulacro específico de Organización del Distrito Capital
     if (subtopic.id === 'organizacion-distrito') {
@@ -631,6 +669,23 @@ if (subtopic.id === 'integridad-diligencia') {
         });
     }
 }
+
+// === NUEVO: Listener para el botón del simulacro específico de Razonamiento Analítico ===
+    if (subtopic.id === 'razonamiento-analitico') {
+        const startRazonamientoQuizBtn = document.getElementById('start-razonamiento-quiz-btn');
+        if (startRazonamientoQuizBtn) {
+            startRazonamientoQuizBtn.addEventListener('click', () => {
+                navigateTo('simulacros');
+                setTimeout(() => {
+                    const quizTypeSelect = document.getElementById('quiz-type-select');
+                    if (quizTypeSelect) {
+                        quizTypeSelect.value = 'razonamiento-analitico'; // Usar el subtopic_id
+                        alert('Selecciona "Razonamiento Analítico" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Razonamiento Analítico en tu questions.json)');
+                    }
+                }, 100); 
+            });
+        }
+    }
 
 
 
@@ -707,11 +762,13 @@ function renderSimulacrosView() {
                 <option value="integridad-compromiso">Compromiso (20 Preguntas)</option>
                 <option value="integridad-diligencia">Diligencia (20 Preguntas)</option>
                 <option value="arquitectura-empresarial">Arquitectura Empresarial (20 Preguntas)</option>
-                <option value="contratacion-publica">Contratación Pública (20 Preguntas)</option> <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
+                <option value="contratacion-publica">Contratación Pública (20 Preguntas)</option>
+                <option value="razonamiento-analitico">Razonamiento Analítico (20 Preguntas)</option> <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
                 <option value="funcionales-especificas">Funcionales Específicas</option>
                 <option value="integridad">Integridad (IDU)</option>
                 <option value="competencias-comportamentales">Comportamentales</option>
             </select>
+
 
 
                 <button id="start-quiz-btn" class="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">Iniciar Simulacro</button>
@@ -810,6 +867,14 @@ function startQuiz() {
             if (currentQuizQuestions.length < 20) {
                 alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Contratación Pública'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
             }
+
+
+    } else if (selectedType === 'razonamiento-analitico') { // --- NUEVO: Lógica para 20 preguntas de Razonamiento Analítico ---
+        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'razonamiento-analitico');
+        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+        if (currentQuizQuestions.length < 20) {
+            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Razonamiento Analítico'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+        }
 
         
     } else {
