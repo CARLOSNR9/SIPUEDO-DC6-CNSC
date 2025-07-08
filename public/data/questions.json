@@ -18800,7 +18800,2319 @@
     },
     "correctAnswer": "B",
     "explanation": "El texto indica que 'El tiempo promedio de respuesta a los tickets es de 2 horas hábiles'."
-  }
+  },
+
+  {
+        "id": "q_dev_001",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Usted está liderando un proyecto de desarrollo de software en el IDU para un sistema de gestión de licencias. Los requisitos iniciales fueron muy claros, pero a mitad del proyecto, el cliente solicita cambios significativos que afectan la arquitectura ya diseñada. Su equipo había optado por un modelo de ciclo de vida secuencial y rígido.",
+        "question": "¿Qué modelo de ciclo de vida del software sería el menos adecuado para adaptarse a estos cambios inesperados?",
+        "options": {
+            "A": "Modelo en Espiral",
+            "B": "Modelo en Cascada",
+            "C": "Modelo Incremental"
+        },
+        "correctAnswer": "B",
+        "explanation": "El Modelo en Cascada es conocido por su rigidez y su dificultad para incorporar cambios una vez que una fase ha terminado. Es el menos adecuado para proyectos donde los requisitos son cambiantes[cite: 264, 485]."
+    },
+    {
+        "id": "q_dev_002",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Scrum es un marco de trabajo ágil muy utilizado en el desarrollo de software.",
+        "question": "¿Cuál de los siguientes no es un rol clave en el marco de trabajo Scrum?",
+        "options": {
+            "A": "Product Manager",
+            "B": "Scrum Master",
+            "C": "Product Owner"
+        },
+        "correctAnswer": "A",
+        "explanation": "Los roles clave de Scrum son Product Owner, Scrum Master y Equipo de Desarrollo. Product Manager no es un rol definido en Scrum[cite: 297, 529]."
+    },
+    {
+        "id": "q_dev_003",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Su equipo de desarrollo en el IDU está experimentando cuellos de botella en la entrega de funcionalidades. Hay muchas tareas iniciadas pero pocas terminadas, lo que genera frustración y retrasa los avances. Deciden adoptar un método visual para gestionar el flujo de trabajo.",
+        "question": "¿Cuál metodología ágil sería la más adecuada para abordar esta situación, enfocándose en limitar el trabajo en progreso?",
+        "options": {
+            "A": "Scrum",
+            "B": "Kanban",
+            "C": "Programación Extrema (XP)"
+        },
+        "correctAnswer": "B",
+        "explanation": "Kanban es un método visual para gestionar el flujo de trabajo que enfatiza la limitación del trabajo en progreso (WIP - Work In Progress) para evitar sobrecargar al equipo y optimizar la finalización de tareas[cite: 311, 314, 556]."
+    },
+    {
+        "id": "q_dev_004",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Los principios SOLID son fundamentales para un buen diseño de software.",
+        "question": "¿Qué principio SOLID establece que 'una clase (o módulo, o función) debe tener una, y solo una, razón para cambiar'?",
+        "options": {
+            "A": "Principio Abierto/Cerrado (OCP)",
+            "B": "Principio de Responsabilidad Única (SRP)",
+            "C": "Principio de Sustitución de Liskov (LSP)"
+        },
+        "correctAnswer": "B",
+        "explanation": "El Principio de Responsabilidad Única (SRP) establece que una clase debe tener una única responsabilidad bien definida, y por lo tanto, una sola razón para cambiar[cite: 574, 419]."
+    },
+    {
+        "id": "q_dev_005",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Su equipo está desarrollando un nuevo módulo de seguridad para un sistema crítico del IDU. La calidad y la detección temprana de errores son cruciales. Deciden implementar una práctica donde los desarrolladores escriben las pruebas unitarias antes de escribir el código de producción.",
+        "question": "¿Cuál práctica de Programación Extrema (XP) están aplicando en este escenario?",
+        "options": {
+            "A": "Programación en Parejas (Pair Programming)",
+            "B": "Integración Continua (Continuous Integration)",
+            "C": "Desarrollo Guiado por Pruebas (Test-Driven Development - TDD)"
+        },
+        "correctAnswer": "C",
+        "explanation": "El Desarrollo Guiado por Pruebas (TDD) es una práctica de XP donde se escriben las pruebas unitarias antes de escribir el código de producción, lo que ayuda a asegurar la calidad y el cumplimiento de requisitos[cite: 329, 412, 566]."
+    },
+    {
+        "id": "q_dev_006",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "Las pruebas de software son fundamentales para asegurar la calidad de las aplicaciones.",
+        "question": "¿Qué tipo de prueba de software tiene como propósito verificar que los componentes individuales de código funcionan correctamente de forma aislada?",
+        "options": {
+            "A": "Pruebas de Integración",
+            "B": "Pruebas de Sistema",
+            "C": "Pruebas Unitarias"
+        },
+        "correctAnswer": "C",
+        "explanation": "Las Pruebas Unitarias verifican que los componentes individuales o unidades más pequeñas del código (ej. una función, un método, una clase) funcionan correctamente de forma aislada[cite: 338, 593]."
+    },
+    {
+        "id": "q_dev_007",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "El IDU está desarrollando una nueva plataforma de trámites en línea. Los requisitos son complejos y se espera que evolucionen a medida que los usuarios finales den feedback. Se necesita entregar versiones funcionales del sistema en ciclos cortos para obtener retroalimentación constante.",
+        "question": "¿Qué modelo de ciclo de vida del software sería el más apropiado para este proyecto, dada la evolución de requisitos y la necesidad de feedback continuo?",
+        "options": {
+            "A": "Modelo en Cascada",
+            "B": "Modelo en Espiral",
+            "C": "Modelo Iterativo"
+        },
+        "correctAnswer": "C",
+        "explanation": "El Modelo Iterativo es adecuado para proyectos donde los requisitos evolucionan con el tiempo y se busca la mejora continua del producto a través de ciclos repetitivos y feedback constante del cliente[cite: 289, 293, 505]."
+    },
+    {
+        "id": "q_dev_008",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "La integración continua es una práctica clave en DevOps.",
+        "question": "¿Cuál es el objetivo principal de la Integración Continua (CI)?",
+        "options": {
+            "A": "Desplegar automáticamente el software en producción sin intervención manual.",
+            "B": "Verificar cada integración de código con una construcción automatizada y pruebas para detectar errores rápidamente.",
+            "C": "Crear versiones de software solo una vez al año."
+        },
+        "correctAnswer": "B",
+        "explanation": "En Integración Continua, los desarrolladores integran el código frecuentemente, y cada integración se verifica con una construcción automatizada y pruebas, detectando errores rápidamente[cite: 344, 613]."
+    },
+    {
+        "id": "q_dev_009",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo del IDU está trabajando en un componente crítico del sistema de infraestructura. Dos desarrolladores experimentados trabajan juntos en la misma estación de trabajo, colaborando en el mismo código para revisar y mejorar la calidad en tiempo real.",
+        "question": "¿Qué práctica de Programación Extrema (XP) están aplicando estos desarrolladores?",
+        "options": {
+            "A": "Desarrollo Guiado por Pruebas (TDD)",
+            "B": "Integración Continua",
+            "C": "Programación en Parejas (Pair Programming)"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Programación en Parejas (Pair Programming) es una práctica de XP donde dos desarrolladores trabajan juntos en la misma estación de trabajo en el mismo código, lo que mejora la calidad y el intercambio de conocimiento[cite: 328, 411, 565]."
+    },
+    {
+        "id": "q_dev_010",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Clean Code es una filosofía importante en el desarrollo de software.",
+        "question": "¿Cuál de las siguientes es una característica clave del 'Clean Code'?",
+        "options": {
+            "A": "Uso extensivo de comentarios para explicar cada línea de código.",
+            "B": "Nombres significativos y descriptivos para variables y funciones.",
+            "C": "Funciones largas que manejan múltiples responsabilidades."
+        },
+        "correctAnswer": "B",
+        "explanation": "El Clean Code enfatiza el uso de nombres significativos y descriptivos para variables, funciones y clases, y funciones pequeñas que hagan una sola cosa[cite: 336, 587]."
+    },
+    {
+        "id": "q_dev_011",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "El IDU está por desplegar una actualización crítica a su portal de servicios ciudadanos. Para minimizar riesgos y asegurar que la nueva versión funcione sin problemas en producción, deciden realizar pruebas exhaustivas del sistema completo en un entorno que simula el de operación real, verificando su rendimiento y seguridad.",
+        "question": "¿Qué tipo de prueba de software se está realizando en esta etapa?",
+        "options": {
+            "A": "Pruebas Unitarias",
+            "B": "Pruebas de Integración",
+            "C": "Pruebas de Sistema"
+        },
+        "correctAnswer": "C",
+        "explanation": "Las Pruebas de Sistema evalúan el sistema completo e integrado para verificar que cumple con los requisitos funcionales y no funcionales (rendimiento, seguridad, usabilidad) en un entorno similar al de producción[cite: 340, 599]."
+    },
+    {
+        "id": "q_dev_012",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "El Principio Abierto/Cerrado (OCP) es uno de los principios SOLID.",
+        "question": "¿Qué significa que las entidades de software deben estar 'abiertas a la extensión, pero cerradas a la modificación'?",
+        "options": {
+            "A": "Que el código existente no debe ser tocado, solo se pueden añadir nuevas funcionalidades.",
+            "B": "Que el software no puede ser modificado por usuarios externos.",
+            "C": "Que se pueden añadir nuevas funcionalidades sin cambiar el código existente."
+        },
+        "correctAnswer": "C",
+        "explanation": "El Principio Abierto/Cerrado (OCP) establece que las entidades de software deben estar abiertas a la extensión (añadir nueva funcionalidad), pero cerradas a la modificación (no cambiar el código existente), lo que promueve la estabilidad[cite: 576, 420]."
+    },
+    {
+        "id": "q_dev_013",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Un equipo de desarrollo del IDU utiliza Scrum. Al final de un Sprint, el equipo se reúne para inspeccionar cómo fue el Sprint en términos de personas, relaciones, procesos y herramientas, e identificar mejoras para el próximo Sprint.",
+        "question": "¿Qué evento de Scrum están realizando?",
+        "options": {
+            "A": "Daily Scrum",
+            "B": "Sprint Review",
+            "C": "Sprint Retrospective"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Retrospectiva del Sprint es la ceremonia de Scrum donde el equipo inspecciona su proceso y colabora para identificar mejoras que se aplicarán en el siguiente Sprint[cite: 305, 545]."
+    },
+    {
+        "id": "q_dev_014",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "El Manifiesto Ágil es la base de las metodologías ágiles.",
+        "question": "¿Cuál de los siguientes principios NO forma parte del Manifiesto Ágil?",
+        "options": {
+            "A": "Software funcionando sobre documentación exhaustiva.",
+            "B": "Negociación contractual sobre colaboración con el cliente.",
+            "C": "Individuos e interacciones sobre procesos y herramientas."
+        },
+        "correctAnswer": "B",
+        "explanation": "El Manifiesto Ágil prioriza 'Colaboración con el cliente sobre negociación contractual'. La opción B invierte este principio, siendo incorrecta[cite: 385, 521]."
+    },
+    {
+        "id": "q_dev_015",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está planificando un proyecto de desarrollo de software con requisitos iniciales muy estables y bien definidos. La entidad requiere un control estricto sobre el avance y la documentación en cada fase, y las pruebas se realizarán al final del desarrollo. El riesgo de cambios durante el proyecto es bajo.",
+        "question": "¿Qué modelo de ciclo de vida del software sería el más adecuado para este proyecto, dada la estabilidad de los requisitos y la necesidad de un control secuencial?",
+        "options": {
+            "A": "Modelo en Espiral",
+            "B": "Modelo en Cascada",
+            "C": "Modelo Iterativo"
+        },
+        "correctAnswer": "B",
+        "explanation": "El Modelo en Cascada es ideal para proyectos con requisitos muy estables y bien definidos desde el inicio, ya que ofrece claridad en las fases y es fácil de gestionar en un enfoque secuencial[cite: 262, 484]."
+    },
+    {
+        "id": "q_dev_016",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "Kanban es un método Lean para gestionar el flujo de trabajo.",
+        "question": "¿Qué práctica clave de Kanban busca evitar la sobrecarga del equipo y promover la finalización de tareas?",
+        "options": {
+            "A": "Visualizar el trabajo.",
+            "B": "Limitar el trabajo en curso (WIP).",
+            "C": "Hacer las políticas explícitas."
+        },
+        "correctAnswer": "B",
+        "explanation": "Limitar el trabajo en curso (WIP) es un principio clave de Kanban que establece un número máximo de tareas en progreso para evitar la sobrecarga y optimizar el flujo de trabajo[cite: 314, 556]."
+    },
+    {
+        "id": "q_dev_017",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Un desarrollador del IDU crea una clase en su código que se encarga tanto de guardar datos en la base de datos como de generar un log de errores. Posteriormente, se solicita un cambio que solo afecta la forma en que se guardan los datos, pero obliga a revisar también la lógica del log.",
+        "question": "¿Qué principio SOLID se está violando en el diseño de esta clase?",
+        "options": {
+            "A": "Principio Abierto/Cerrado (OCP)",
+            "B": "Principio de Responsabilidad Única (SRP)",
+            "C": "Principio de Inversión de Dependencias (DIP)"
+        },
+        "correctAnswer": "B",
+        "explanation": "El Principio de Responsabilidad Única (SRP) establece que una clase debe tener una sola razón para cambiar. Si una clase maneja el guardado de datos y la generación de logs, tiene dos responsabilidades y, por lo tanto, dos razones para cambiar, violando el SRP[cite: 335, 419, 574]."
+    },
+    {
+        "id": "q_dev_018",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "El despliegue de software es el proceso final de poner una aplicación a disposición de los usuarios.",
+        "question": "¿Cuál es el concepto principal de Integración Continua (CI)?",
+        "options": {
+            "A": "Integrar el código al final del proyecto para una única entrega.",
+            "B": "Integrar el código frecuentemente en un repositorio compartido y verificarlo con pruebas automatizadas.",
+            "C": "Desplegar el software solo cuando un error crítico es detectado."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Integración Continua (CI) se basa en que los desarrolladores integran el código frecuentemente en un repositorio compartido, y cada integración se verifica con una construcción automatizada y pruebas, detectando errores rápidamente[cite: 344, 613]."
+    },
+    {
+        "id": "q_dev_019",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Al final de un ciclo de desarrollo de software en el IDU, el equipo presenta la versión funcional del sistema a los usuarios clave para que la revisen y determinen si cumple con sus necesidades y expectativas de negocio, dando su 'visto bueno' final antes de la puesta en producción.",
+        "question": "¿Qué tipo de prueba de software se está realizando en esta fase?",
+        "options": {
+            "A": "Pruebas de Sistema",
+            "B": "Pruebas de Aceptación",
+            "C": "Pruebas de Integración"
+        },
+        "correctAnswer": "B",
+        "explanation": "Las Pruebas de Aceptación (UAT - User Acceptance Testing) tienen como propósito determinar si el sistema cumple con los requisitos del usuario y los criterios de aceptación del negocio, siendo la última fase antes del despliegue en producción[cite: 341, 603]."
+    },
+    {
+        "id": "q_dev_020",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Un equipo de desarrollo de software quiere mejorar la legibilidad y mantenibilidad de su código.",
+        "question": "¿Cuál de las siguientes es una buena práctica del 'Clean Code'?",
+        "options": {
+            "A": "Usar nombres abreviados y crípticos para variables para ahorrar espacio.",
+            "B": "Crear funciones que realicen múltiples tareas complejas.",
+            "C": "Escribir nombres significativos y descriptivos para variables y funciones."
+        },
+        "correctAnswer": "C",
+        "explanation": "El Clean Code enfatiza el uso de nombres significativos y descriptivos para variables, funciones y clases para hacer el código más legible y fácil de mantener[cite: 336, 587]."
+    },
+
+    {
+        "id": "q_dev_021",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "En el IDU, un equipo de desarrollo está trabajando en un módulo para calcular impuestos y, además, validar la información del contribuyente. Se decide que estas dos funcionalidades residan en una única clase llamada 'CalculadorImpuestosYValidador'. Surge un requisito nuevo que exige cambiar solo la lógica de validación del contribuyente, pero esto fuerza a modificar la clase existente, lo cual genera un alto riesgo de introducir errores en el cálculo de impuestos.",
+        "question": "¿Qué principio SOLID se está violando principalmente en el diseño de la clase 'CalculadorImpuestosYValidador'?",
+        "options": {
+            "A": "Principio Abierto/Cerrado (OCP)",
+            "B": "Principio de Responsabilidad Única (SRP)",
+            "C": "Principio de Segregación de Interfaces (ISP)"
+        },
+        "correctAnswer": "B",
+        "explanation": "El Principio de Responsabilidad Única (SRP) establece que una clase debe tener una, y solo una, razón para cambiar. Al combinar 'calcular impuestos' y 'validar información del contribuyente' en una misma clase, esta tiene dos responsabilidades distintas, violando el SRP y haciendo que un cambio en una afecte potencialmente la otra."
+    },
+    {
+        "id": "q_dev_022",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU decide migrar un sistema legado de gestión de contratos a una nueva plataforma. El contrato original no especificaba claramente la propiedad intelectual del código fuente, y la empresa desarrolladora original ya no existe. Se encuentra con un módulo crítico que no funciona y necesita ser adaptado a la nueva plataforma.",
+        "question": "¿Cuál es la mejor práctica de 'Clean Code' que, de haberse aplicado en el desarrollo original, hubiera facilitado la adaptación de este módulo por un nuevo equipo?",
+        "options": {
+            "A": "Funciones muy cortas y nombres crípticos para evitar que terceros las entiendan fácilmente.",
+            "B": "Uso de comentarios extensivos en cada línea para explicar la lógica de negocio.",
+            "C": "Código con nombres significativos y descriptivos para variables y funciones, y una estructura clara que se autoexplique."
+        },
+        "correctAnswer": "C",
+        "explanation": "Clean Code enfatiza el código fácil de leer, entender y mantener. El uso de nombres significativos y una estructura clara (opción C) hace que el código sea autoexplicativo, reduciendo la dependencia de la documentación externa o del conocimiento del desarrollador original, lo cual es crucial para el mantenimiento de sistemas legados. Las otras opciones son malas prácticas de Clean Code."
+    },
+    {
+        "id": "q_dev_023",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo del IDU está utilizando la metodología Scrum para una aplicación de visualización de datos geográficos. En la 'Daily Scrum' (reunión diaria), un miembro del equipo empieza a detallar cada paso que realizó ayer y planea realizar hoy, extendiéndose por más de 10 minutos, lo cual desvía la atención de los demás.",
+        "question": "¿Cuál es el objetivo principal de la 'Daily Scrum' según Scrum y cómo debería corregirse esta situación?",
+        "options": {
+            "A": "Discutir en detalle los problemas técnicos encontrados y buscar soluciones colaborativas entre todos los miembros.",
+            "B": "Sincronizar las actividades del Equipo de Desarrollo y planificar el trabajo del día, respondiendo a tres preguntas clave de forma concisa.",
+            "C": "Presentar un informe de progreso detallado al Product Owner sobre las tareas completadas y pendientes del día anterior."
+        },
+        "correctAnswer": "B",
+        "explanation": "El Daily Scrum es una reunión de 15 minutos para que el Equipo de Desarrollo sincronice actividades y planifique el trabajo del día, respondiendo concisamente a 'qué hice ayer', 'qué haré hoy' y 'veo algún impedimento'. No es para discusiones detalladas o informes exhaustivos."
+    },
+    {
+        "id": "q_dev_024",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU decide implementar un nuevo sistema de PQRS (Peticiones, Quejas, Reclamos y Sugerencias) en varias fases. La primera fase entregará una funcionalidad básica de registro de PQRS. La segunda fase añadirá seguimiento en tiempo real y la tercera, integración con otros sistemas. Cada fase será una versión funcional e independiente.",
+        "question": "¿Qué modelo de ciclo de vida del software se ajusta mejor a esta estrategia de entrega de versiones funcionales en partes?",
+        "options": {
+            "A": "Modelo en Cascada",
+            "B": "Modelo Incremental",
+            "C": "Modelo en Espiral"
+        },
+        "correctAnswer": "B",
+        "explanation": "El Modelo Incremental construye y entrega el software en pequeñas partes funcionales (incrementos), donde cada incremento es un subsistema completo y utilizable. Esto coincide con la entrega por fases con funcionalidades crecientes."
+    },
+    {
+        "id": "q_dev_025",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La gestión del Product Backlog es una actividad crucial en Scrum para maximizar el valor del producto.",
+        "question": "¿Quién es el rol clave en Scrum responsable de maximizar el valor del producto y de gestionar el Product Backlog?",
+        "options": {
+            "A": "Scrum Master",
+            "B": "Development Team",
+            "C": "Product Owner"
+        },
+        "correctAnswer": "C",
+        "explanation": "El Product Owner es el responsable de maximizar el valor del producto resultante del trabajo del Equipo de Desarrollo y es quien gestiona y prioriza el Product Backlog."
+    },
+    {
+        "id": "q_dev_026",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo del IDU ha creado una nueva función para calcular el área de un polígono irregular en un sistema GIS. Para asegurar la calidad, se ejecuta una prueba que verifica si la función devuelve el área correcta para diferentes conjuntos de coordenadas, sin interactuar con ninguna otra parte del sistema.",
+        "question": "¿Qué tipo de prueba de software se está realizando en este escenario?",
+        "options": {
+            "A": "Pruebas de Integración",
+            "B": "Pruebas Unitarias",
+            "C": "Pruebas de Sistema"
+        },
+        "correctAnswer": "B",
+        "explanation": "Las Pruebas Unitarias tienen como propósito verificar que los componentes individuales o unidades más pequeñas del código (como una función específica) funcionan correctamente de forma aislada, sin depender de la interacción con otros módulos."
+    },
+    {
+        "id": "q_dev_027",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El Principio de Sustitución de Liskov (LSP) es fundamental en la herencia de objetos.",
+        "question": "¿Qué implicación principal tiene el Principio de Sustitución de Liskov (LSP) en el diseño de software orientado a objetos?",
+        "options": {
+            "A": "Permite que cualquier clase sea extendida sin restricciones.",
+            "B": "Asegura que los objetos de un subtipo pueden reemplazar a objetos de su tipo base sin romper el programa.",
+            "C": "Obliga a que todas las clases tengan una única responsabilidad."
+        },
+        "correctAnswer": "B",
+        "explanation": "El LSP establece que los objetos de un programa deben ser sustituibles por instancias de sus subtipos sin alterar la corrección del programa, lo que significa que el comportamiento de los subtipos debe ser compatible con el de sus tipos base."
+    },
+    {
+        "id": "q_dev_028",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo del IDU está utilizando una pipeline de Integración Continua (CI). Un desarrollador sube cambios al repositorio compartido. Automáticamente, el sistema compila el código y ejecuta un conjunto de pruebas unitarias y de integración, notificando al equipo si alguna falla. Si todo es exitoso, el cambio está listo para la siguiente etapa.",
+        "question": "¿Qué fase del proceso de CI/CD se describe con la verificación automática del código y pruebas tras cada integración?",
+        "options": {
+            "A": "Despliegue Continuo (Continuous Deployment)",
+            "B": "Entrega Continua (Continuous Delivery)",
+            "C": "Integración Continua (Continuous Integration)"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Integración Continua (CI) se define por la práctica de que los desarrolladores integren el código frecuentemente en un repositorio compartido, y cada integración se verifica con una construcción automatizada y pruebas, detectando errores rápidamente."
+    },
+    {
+        "id": "q_dev_029",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El Manifiesto Ágil es un documento fundacional para las metodologías ágiles.",
+        "question": "¿Cuál de los siguientes principios del Manifiesto Ágil prioriza la adaptabilidad del proyecto?",
+        "options": {
+            "A": "Individuos e interacciones sobre procesos y herramientas.",
+            "B": "Software funcionando sobre documentación exhaustiva.",
+            "C": "Respuesta al cambio sobre seguir un plan."
+        },
+        "correctAnswer": "C",
+        "explanation": "El principio de 'Respuesta al cambio sobre seguir un plan' del Manifiesto Ágil prioriza la flexibilidad y la adaptabilidad del proyecto a nuevos requisitos o condiciones, en lugar de adherirse estrictamente a un plan inicial."
+    },
+    {
+        "id": "q_dev_030",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo del IDU está desarrollando una API que será consumida por múltiples aplicaciones internas y externas. Para no forzar a los clientes a depender de funcionalidades que no necesitan (ej. una aplicación solo necesita leer datos, otra necesita escribir y eliminar), se decide diseñar varias interfaces más pequeñas y especializadas en lugar de una única interfaz grande.",
+        "question": "¿Qué principio SOLID se está aplicando en este enfoque de diseño de interfaces?",
+        "options": {
+            "A": "Principio de Responsabilidad Única (SRP)",
+            "B": "Principio de Inversión de Dependencias (DIP)",
+            "C": "Principio de Segregación de Interfaces (ISP)"
+        },
+        "correctAnswer": "C",
+        "explanation": "El Principio de Segregación de Interfaces (ISP) establece que los clientes no deben ser forzados a depender de interfaces que no utilizan. Es mejor tener muchas interfaces pequeñas y específicas que una interfaz grande y monolítica, lo cual se alinea con el diseño propuesto."
+    },
+    {
+        "id": "q_dev_031",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El proceso de desarrollo de software puede seguir diferentes estructuras.",
+        "question": "¿Qué modelo de ciclo de vida del software combina elementos secuenciales con un enfoque iterativo y pone un énfasis explícito en la evaluación y reducción de riesgos?",
+        "options": {
+            "A": "Modelo Incremental",
+            "B": "Modelo en Cascada",
+            "C": "Modelo en Espiral"
+        },
+        "correctAnswer": "C",
+        "explanation": "El Modelo en Espiral es un modelo iterativo y basado en riesgos, que combina elementos del modelo en cascada con la flexibilidad de la prototipación y un enfoque explícito en la gestión de riesgos en cada iteración."
+    },
+    {
+        "id": "q_dev_032",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Usted está revisando el código de un módulo de seguridad en el IDU. Encuentra que un módulo de alto nivel que gestiona la autenticación de usuarios depende directamente de una implementación concreta de un módulo de bajo nivel que maneja la base de datos específica. Esto hace que sea difícil cambiar la base de datos sin afectar el módulo de autenticación.",
+        "question": "¿Qué principio SOLID se está violando en esta situación?",
+        "options": {
+            "A": "Principio de Sustitución de Liskov (LSP)",
+            "B": "Principio Abierto/Cerrado (OCP)",
+            "C": "Principio de Inversión de Dependencias (DIP)"
+        },
+        "correctAnswer": "C",
+        "explanation": "El Principio de Inversión de Dependencias (DIP) establece que los módulos de alto nivel no deben depender de módulos de bajo nivel; ambos deben depender de abstracciones. La dependencia directa del módulo de autenticación (alto nivel) de una implementación concreta de la base de datos (bajo nivel) viola este principio, impidiendo el desacoplamiento."
+    },
+    {
+        "id": "q_dev_033",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "En el marco de las metodologías ágiles, los eventos de Scrum tienen un propósito específico.",
+        "question": "¿Qué evento de Scrum tiene un 'time-box' fijo y es el corazón de cada ciclo de desarrollo, durante el cual se crea un 'Incremento' de producto potencialmente utilizable?",
+        "options": {
+            "A": "Daily Scrum",
+            "B": "Sprint Planning",
+            "C": "Sprint"
+        },
+        "correctAnswer": "C",
+        "explanation": "El Sprint es el time-box (duración fija, generalmente de 1 a 4 semanas) que constituye el corazón de Scrum, dentro del cual ocurren todos los demás eventos y se crea un Incremento de producto potencialmente utilizable."
+    },
+    {
+        "id": "q_dev_034",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo del IDU está trabajando en un componente central. Un desarrollador propone 'refactorizar' una parte antigua del código que funciona, pero es difícil de leer y mantener, para mejorar su estructura interna sin cambiar su comportamiento externo. Otro miembro del equipo argumenta que no hay tiempo para eso, ya que el código 'ya funciona'.",
+        "question": "¿Cuál de las siguientes es la mejor práctica de Programación Extrema (XP) que el desarrollador está intentando aplicar, y por qué es importante?",
+        "options": {
+            "A": "Desarrollo Guiado por Pruebas (TDD), para asegurar que el código no se rompa.",
+            "B": "Refactorización, para mejorar el diseño del código y su mantenibilidad a largo plazo.",
+            "C": "Integración Continua, para detectar errores de forma temprana."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Refactorización es una práctica de XP que consiste en mejorar la estructura interna del código sin cambiar su comportamiento externo. Es crucial para mantener el código limpio, legible y fácil de mantener a largo plazo, lo que reduce costos y riesgos futuros, incluso si el código 'funciona' actualmente."
+    },
+    {
+        "id": "q_dev_035",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Las pruebas de software se realizan en distintos niveles para garantizar la calidad.",
+        "question": "¿Qué tipo de prueba se enfoca en verificar que los módulos o componentes individuales (ya probados unitariamente) funcionan correctamente cuando se combinan e interactúan entre sí?",
+        "options": {
+            "A": "Pruebas de Aceptación",
+            "B": "Pruebas de Sistema",
+            "C": "Pruebas de Integración"
+        },
+        "correctAnswer": "C",
+        "explanation": "Las Pruebas de Integración tienen como propósito verificar que los módulos o componentes individuales funcionan correctamente cuando se combinan e interactúan entre sí, buscando detectar errores en las interfaces y la comunicación."
+    },
+    {
+        "id": "q_dev_036",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está planificando un proyecto de TI muy innovador y de alto riesgo, donde la incertidumbre en los requisitos es considerable y se espera que evolucione. La entidad necesita un enfoque que permita identificar y mitigar estos riesgos de manera continua a lo largo del desarrollo.",
+        "question": "¿Qué modelo de ciclo de vida del software sería el más adecuado para gestionar los riesgos de este proyecto de alto grado de incertidumbre?",
+        "options": {
+            "A": "Modelo en Cascada",
+            "B": "Modelo Incremental",
+            "C": "Modelo en Espiral"
+        },
+        "correctAnswer": "C",
+        "explanation": "El Modelo en Espiral es un modelo iterativo y basado en riesgos, que combina flexibilidad con un enfoque explícito en la gestión de riesgos en cada iteración, haciéndolo ideal para proyectos grandes, complejos y de alto riesgo con requisitos inciertos."
+    },
+    {
+        "id": "q_dev_037",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La Entrega Continua (Continuous Delivery - CD) es una extensión de la Integración Continua (CI).",
+        "question": "¿Cuál es la principal característica que distingue la Entrega Continua (CD) del Despliegue Continuo (Continuous Deployment)?",
+        "options": {
+            "A": "En CD, el software se despliega automáticamente en producción sin intervención manual.",
+            "B": "En CD, el software está siempre en un estado desplegable, pero la decisión de ir a producción es manual.",
+            "C": "CD solo aplica a entornos de prueba, no a producción."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Entrega Continua (CD) asegura que el software puede ser liberado de forma fiable en cualquier momento y está siempre en un estado desplegable. Sin embargo, el despliegue final a producción requiere una decisión manual. El Despliegue Continuo (Continuous Deployment) es la automatización completa hasta producción sin intervención manual."
+    },
+    {
+        "id": "q_dev_038",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "En un equipo Scrum del IDU, el Product Owner presenta una lista de requisitos priorizados (Product Backlog) para el próximo Sprint. Sin embargo, el Equipo de Desarrollo no está de acuerdo con el orden de algunas tareas, argumentando que no podrán completarlas en el tiempo estimado del Sprint. La reunión se alarga sin un acuerdo claro.",
+        "question": "¿Cuál evento de Scrum es el lugar adecuado para que el Equipo de Desarrollo negocie qué elementos del Product Backlog pueden comprometerse a entregar en el próximo Sprint?",
+        "options": {
+            "A": "Daily Scrum",
+            "B": "Sprint Review",
+            "C": "Sprint Planning"
+        },
+        "correctAnswer": "C",
+        "explanation": "El Sprint Planning es el evento al inicio de cada Sprint donde el Equipo de Desarrollo, junto con el Product Owner, define qué se hará en el Sprint (seleccionando elementos del Product Backlog) y cómo se hará, generando el Sprint Backlog. Es el momento de la negociación y compromiso del alcance del Sprint."
+    },
+    {
+        "id": "q_dev_039",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Los principios de diseño de software guían la construcción de sistemas robustos.",
+        "question": "¿Qué principio SOLID establece que los módulos de alto nivel no deben depender de módulos de bajo nivel, sino que ambos deben depender de abstracciones?",
+        "options": {
+            "A": "Principio de Sustitución de Liskov (LSP)",
+            "B": "Principio Abierto/Cerrado (OCP)",
+            "C": "Principio de Inversión de Dependencias (DIP)"
+        },
+        "correctAnswer": "C",
+        "explanation": "El Principio de Inversión de Dependencias (DIP) promueve el desacoplamiento al establecer que los módulos de alto nivel y bajo nivel deben depender de abstracciones (interfaces o clases abstractas), no de implementaciones concretas."
+    },
+    {
+        "id": "q_dev_040",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está a punto de lanzar una nueva versión de su plataforma de contratación, la cual ha pasado todas las pruebas internas. Sin embargo, el equipo de TI y el equipo legal tienen criterios diferentes sobre si el sistema está listo para ser 'aceptado' y puesto en producción, debido a interpretaciones distintas de los requisitos de negocio.",
+        "question": "¿Qué tipo de prueba de software se encarga de determinar si el sistema cumple con los requisitos del usuario y los criterios de aceptación del negocio, siendo clave para resolver este desacuerdo?",
+        "options": {
+            "A": "Pruebas de Sistema",
+            "B": "Pruebas de Aceptación (UAT)",
+            "C": "Pruebas de Rendimiento"
+        },
+        "correctAnswer": "B",
+        "explanation": "Las Pruebas de Aceptación (UAT - User Acceptance Testing) son realizadas por el usuario final o cliente para determinar si el sistema cumple con los requisitos del negocio y los criterios de aceptación definidos, siendo la fase final antes del despliegue en producción."
+    },
+    {
+        "id": "q_dev_041",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La refactorización es una práctica clave en metodologías ágiles como XP.",
+        "question": "¿Cuál es el objetivo principal de la 'Refactorización' en el desarrollo de software?",
+        "options": {
+            "A": "Cambiar el comportamiento externo del código para añadir nuevas funcionalidades.",
+            "B": "Mejorar la estructura interna del código sin cambiar su comportamiento externo.",
+            "C": "Reescribir el código desde cero para solucionar problemas de rendimiento."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Refactorización consiste en mejorar la estructura interna del código, su diseño o legibilidad, sin alterar su funcionalidad externa. Su objetivo es mantener la calidad del código a lo largo del tiempo."
+    },
+    {
+        "id": "q_dev_042",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo del IDU ha decidido adoptar la Programación Extrema (XP). Para facilitar la colaboración y la revisión de código en tiempo real, se implementa una práctica donde dos desarrolladores trabajan juntos en la misma estación de trabajo, uno escribiendo el código y el otro revisando y sugiriendo mejoras.",
+        "question": "¿Qué práctica de XP están aplicando?",
+        "options": {
+            "A": "Desarrollo Guiado por Pruebas (TDD)",
+            "B": "Programación en Parejas (Pair Programming)",
+            "C": "Cliente en el Sitio (On-site Customer)"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Programación en Parejas (Pair Programming) es una práctica de XP donde dos desarrolladores trabajan juntos en la misma estación de trabajo en el mismo código, uno conduciendo y el otro observando y sugiriendo, lo que mejora la calidad y el intercambio de conocimiento."
+    },
+    {
+        "id": "q_dev_043",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Los modelos de ciclo de vida del software establecen la estructura de un proyecto.",
+        "question": "¿Qué modelo de ciclo de vida del software es conocido por su rigidez y por realizar las pruebas principalmente al final, lo que puede llevar a una detección tardía de errores?",
+        "options": {
+            "A": "Modelo en Espiral",
+            "B": "Modelo Incremental",
+            "C": "Modelo en Cascada"
+        },
+        "correctAnswer": "C",
+        "explanation": "El Modelo en Cascada es un modelo secuencial y lineal, rígido, donde las fases se completan una tras otra y las pruebas se realizan al final, lo que puede resultar en detección tardía de errores."
+    },
+    {
+        "id": "q_dev_044",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está desarrollando un sistema de monitoreo de vías con sensores IoT. Los desarrolladores integran sus cambios al código varias veces al día en un repositorio compartido, y cada integración dispara automáticamente una construcción y un conjunto de pruebas. Si las pruebas fallan, el equipo es notificado de inmediato.",
+        "question": "¿Qué práctica moderna de desarrollo de software se está aplicando para detectar errores rápidamente en cada integración?",
+        "options": {
+            "A": "Entrega Continua (Continuous Delivery)",
+            "B": "Despliegue Continuo (Continuous Deployment)",
+            "C": "Integración Continua (Continuous Integration)"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Integración Continua (CI) implica que los desarrolladores integren código frecuentemente en un repositorio compartido, y que cada integración se verifique con una construcción automatizada y pruebas, detectando errores rápidamente."
+    },
+    {
+        "id": "q_dev_045",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La calidad del código es fundamental para la mantenibilidad de un sistema.",
+        "question": "¿Cuál es uno de los principios del 'Clean Code' relacionado con la claridad del código?",
+        "options": {
+            "A": "Funciones que hagan múltiples cosas complejas para optimizar el rendimiento.",
+            "B": "Comentarios en cada línea de código para asegurar la comprensión.",
+            "C": "Nombres significativos y descriptivos para variables, funciones y clases."
+        },
+        "correctAnswer": "C",
+        "explanation": "El Clean Code enfatiza el uso de nombres significativos y descriptivos para hacer el código autoexplicativo y fácil de leer y entender, reduciendo la necesidad de comentarios excesivos y promoviendo funciones pequeñas y de una sola responsabilidad."
+    },
+    {
+        "id": "q_dev_046",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Después de haber implementado un nuevo módulo para gestionar los permisos de acceso en el sistema de trámites del IDU, se necesita verificar que este módulo funcione correctamente cuando interactúa con el módulo de autenticación de usuarios y con el de auditoría de logs. Las pruebas unitarias de cada módulo ya pasaron.",
+        "question": "¿Qué tipo de prueba de software se debe realizar a continuación para verificar la interacción entre estos módulos?",
+        "options": {
+            "A": "Pruebas de Aceptación",
+            "B": "Pruebas de Sistema",
+            "C": "Pruebas de Integración"
+        },
+        "correctAnswer": "C",
+        "explanation": "Las Pruebas de Integración tienen como propósito verificar que los módulos o componentes individuales (ya probados unitariamente) funcionan correctamente cuando se combinan e interactúan entre sí, buscando detectar errores en las interfaces y la comunicación entre partes del sistema."
+    },
+    {
+        "id": "q_dev_047",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El Manifiesto Ágil es un referente para el desarrollo de software moderno.",
+        "question": "¿Cuál es la prioridad del Manifiesto Ágil con respecto a la documentación?",
+        "options": {
+            "A": "Prioriza la documentación exhaustiva sobre el software funcionando.",
+            "B": "Prioriza el software funcionando sobre la documentación exhaustiva.",
+            "C": "No considera la documentación como relevante."
+        },
+        "correctAnswer": "B",
+        "explanation": "Uno de los principios del Manifiesto Ágil es 'Software funcionando sobre documentación exhaustiva', lo que significa que el valor se centra más en un producto funcional que en una documentación excesiva."
+    },
+    {
+        "id": "q_dev_048",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Usted es el Scrum Master de un equipo en el IDU. Durante la 'Sprint Review', el Product Owner y los stakeholders expresan que el 'Incremento' desarrollado en el Sprint no cumple completamente con sus expectativas. El Equipo de Desarrollo se siente frustrado.",
+        "question": "¿Qué evento de Scrum debe realizarse a continuación para que el equipo pueda inspeccionar su proceso y mejorar para el próximo Sprint?",
+        "options": {
+            "A": "Sprint Planning del próximo Sprint.",
+            "B": "Daily Scrum del día siguiente.",
+            "C": "Sprint Retrospective."
+        },
+        "correctAnswer": "C",
+        "explanation": "La Retrospectiva del Sprint es el evento de Scrum que se realiza al final de cada Sprint (después del Sprint Review) para que el equipo inspeccione cómo fue el Sprint en términos de personas, relaciones, procesos y herramientas, e identifique mejoras para el próximo Sprint. Es un espacio para la auto-mejora del equipo."
+    },
+    {
+        "id": "q_dev_049",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "En el contexto de la gestión de flujo de trabajo visual en el desarrollo de software.",
+        "question": "¿Qué elemento clave de Kanban se utiliza para representar las tareas o elementos de trabajo que se mueven a través de las diferentes etapas del flujo?",
+        "options": {
+            "A": "Sprints",
+            "B": "Tarjetas",
+            "C": "Historias de Usuario"
+        },
+        "correctAnswer": "B",
+        "explanation": "En Kanban, las tareas o elementos de trabajo se representan visualmente como 'tarjetas' que se mueven a través de las columnas del tablero Kanban, que representan los estados del flujo de trabajo."
+    },
+    {
+        "id": "q_dev_050",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU ha contratado el desarrollo de un módulo de atención ciudadana a una empresa externa. Al recibir la primera entrega, se observa que, aunque el módulo cumple con los requisitos funcionales, su código es muy difícil de leer, las funciones son extremadamente largas y los nombres de las variables son incomprensibles para el equipo interno. Esto dificultará el mantenimiento futuro.",
+        "question": "¿Qué conjunto de 'Buenas Prácticas de Codificación' no se aplicaron adecuadamente en este desarrollo, lo que afecta su mantenibilidad?",
+        "options": {
+            "A": "Desarrollo Guiado por Pruebas (TDD) y Programación en Parejas.",
+            "B": "Principios SOLID y Despliegue Continuo (CD).",
+            "C": "Principios de Clean Code (código limpio)."
+        },
+        "correctAnswer": "C",
+        "explanation": "El problema descrito (código difícil de leer, funciones largas, nombres incomprensibles) son violaciones directas de los principios de Clean Code, que buscan la legibilidad y mantenibilidad del código a través de nombres significativos, funciones cortas y código autoexplicativo."
+    },
+
+    {
+    "id": "q_dev_051",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU ha iniciado un proyecto de gran envergadura para la digitalización de expedientes de obras públicas. La dirección ha insistido en un modelo de desarrollo que permita una entrega temprana de funcionalidades básicas y que el cliente (áreas jurídicas y de archivo) pueda dar feedback constante para ir refinando el producto. Sin embargo, el equipo de desarrollo, acostumbrado a modelos tradicionales, ha propuesto seguir un ciclo de vida lineal y secuencial para cada fase del proyecto, argumentando que esto garantiza una mayor documentación y control. La experiencia indica que los requisitos iniciales pueden cambiar a medida que el proyecto avanza.",
+    "question": "¿Qué modelo de ciclo de vida del software sería el más adecuado para cumplir con la necesidad de entrega temprana y feedback constante del cliente en este proyecto del IDU?",
+    "options": {
+      "A": "Modelo en Cascada (Waterfall), por su énfasis en la documentación y el control secuencial de cada fase.",
+      "B": "Modelo Incremental o Iterativo, ya que permiten la entrega temprana de funcionalidades y la incorporación de feedback continuo.",
+      "C": "Modelo en Espiral (Spiral), debido a que el proyecto es de gran envergadura y presenta riesgos que requieren gestión."
+    },
+    "correctAnswer": "B",
+    "explanation": "Los modelos Incremental e Iterativo se caracterizan por la entrega temprana de funcionalidades y la incorporación continua de feedback del cliente, lo que los hace adecuados para proyectos con requisitos cambiantes y la necesidad de una rápida validación. El Modelo en Cascada es rígido y no permite feedback temprano, mientras que el Espiral, aunque maneja riesgos, no es el más directo para la 'entrega temprana de funcionalidades básicas y feedback constante' cuando el foco es la funcionalidad sobre el riesgo extremo."
+  },
+  {
+    "id": "q_dev_052",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU está adoptando la metodología Scrum para la creación de una nueva plataforma de gestión de contratos. Durante el Sprint Planning, el Product Owner presenta una lista priorizada de 50 ítems. El equipo de desarrollo, después de analizar los ítems, estima que solo puede comprometerse a entregar 10 ítems en el próximo Sprint. El Product Owner presiona para que el equipo tome más ítems, argumentando que el plazo general del proyecto es ajustado.",
+    "question": "¿Qué acción debe tomar el Scrum Master para asegurar la correcta aplicación de Scrum y la salud del equipo en esta situación?",
+    "options": {
+      "A": "Presionar al equipo de desarrollo para que tome más ítems, ya que el Product Owner tiene la autoridad sobre el Product Backlog.",
+      "B": "Facilitar la discusión entre el Product Owner y el Equipo de Desarrollo, explicando que la estimación del equipo es final para el Sprint y que el objetivo del Sprint debe ser realista y alcanzable, protegiendo la autoorganización del equipo.",
+      "C": "Redefinir los ítems del Product Backlog para hacerlos más pequeños, de modo que el equipo pueda tomar más en el Sprint, sin cambiar la estimación de capacidad del equipo."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Scrum Master es un líder de servicio que facilita el proceso Scrum y remueve impedimentos. El Equipo de Desarrollo es autoorganizado y responsable de la estimación de su capacidad para el Sprint. El Scrum Master debe proteger al equipo de la sobrecarga y asegurar que el Sprint Goal sea realista y alcanzable, garantizando la sostenibilidad y la calidad del incremento."
+  },
+  {
+    "id": "q_dev_053",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU ha implementado un sistema de gestión de incidencias de TI. El equipo de desarrollo decide adoptar una metodología ágil para gestionar el flujo de trabajo de resolución de incidencias, donde la visualización del trabajo, la limitación del trabajo en curso y la gestión del flujo son cruciales. Necesitan una forma sencilla de ver el estado de cada incidencia en todo momento y evitar cuellos de botella.",
+    "question": "¿Qué metodología ágil es la más adecuada para gestionar este flujo de trabajo de resolución de incidencias, priorizando la visualización y la limitación del trabajo en curso?",
+    "options": {
+      "A": "Scrum, por sus roles y eventos definidos que permiten la autoorganización.",
+      "B": "Kanban, por sus principios de visualización del trabajo, limitación del WIP y gestión del flujo.",
+      "C": "Extreme Programming (XP), por su énfasis en la calidad del código y la refactorización."
+    },
+    "correctAnswer": "B",
+    "explanation": "Kanban es una metodología Lean que se enfoca en la gestión visual del flujo de trabajo, con principios como 'Visualizar el trabajo' (tablero Kanban), 'Limitar el trabajo en curso (WIP)' y 'Gestionar el flujo'. Es ideal para la gestión de incidencias donde el flujo continuo y la identificación de cuellos de botella son prioritarios."
+  },
+  {
+    "id": "q_dev_054",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU está construyendo un nuevo módulo de cálculo de tarifas para proyectos de infraestructura. Este módulo tiene múltiples dependencias con otros servicios y sistemas de la entidad. Para asegurar que el módulo funcione correctamente en conjunto con las otras partes del sistema, y para detectar errores en las interfaces y la comunicación, se necesita un tipo de prueba específico antes del despliegue final.",
+    "question": "¿Qué tipo de prueba de software es la más apropiada para verificar el funcionamiento de este módulo en conjunto con otros servicios y sistemas del IDU?",
+    "options": {
+      "A": "Pruebas Unitarias, para verificar el código individual del módulo.",
+      "B": "Pruebas de Integración, para verificar la interacción entre el módulo y los servicios/sistemas dependientes.",
+      "C": "Pruebas de Aceptación, para que el usuario final valide el cálculo de tarifas."
+    },
+    "correctAnswer": "B",
+    "explanation": "Las Pruebas de Integración verifican que los módulos o componentes individuales (ya probados unitariamente) funcionan correctamente cuando se combinan e interactúan entre sí. Se busca detectar errores en las interfaces y la comunicación entre partes del sistema."
+  },
+  {
+    "id": "q_dev_055",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está migrando una aplicación legada a una nueva arquitectura moderna. Un desarrollador junior ha creado una clase `GestorDeDocumentos` que contiene métodos para guardar documentos en una base de datos, validar su formato, enviar notificaciones por correo electrónico y generar reportes de uso. Aunque la clase funciona, un desarrollador senior identifica que esto podría generar problemas de mantenimiento y escalabilidad a futuro, ya que un cambio en cualquiera de esas funcionalidades obligaría a modificar la misma clase. \n",
+    "question": "¿Qué principio de diseño de software de los Principios SOLID se está violando principalmente en la clase `GestorDeDocumentos`?",
+    "options": {
+      "A": "Principio Abierto/Cerrado (Open/Closed Principle).",
+      "B": "Principio de Responsabilidad Única (Single Responsibility Principle - SRP).",
+      "C": "Principio de Sustitución de Liskov (Liskov Substitution Principle)."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Principio de Responsabilidad Única (SRP) establece que una clase debe tener una, y solo una, razón para cambiar. La clase `GestorDeDocumentos` tiene múltiples responsabilidades (guardar, validar, notificar, reportar), lo que la hace susceptible a cambios por diferentes motivos y viola el SRP."
+  },
+  {
+    "id": "q_dev_056",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU ha adoptado una metodología de desarrollo de software que enfatiza la entrega continua de software de alta calidad y la satisfacción del cliente a través de retroalimentación frecuente. El equipo utiliza prácticas como la programación en parejas, el desarrollo guiado por pruebas (TDD) y la integración continua. El cliente es un actor clave y está presente en el sitio de desarrollo para responder preguntas rápidamente. \n",
+    "question": "¿Qué metodología ágil está utilizando el equipo de desarrollo del IDU, dadas las prácticas descritas?",
+    "options": {
+      "A": "Scrum, por su enfoque en la autoorganización y los Sprints.",
+      "B": "Kanban, por su énfasis en la visualización del flujo de trabajo y la limitación del WIP.",
+      "C": "Extreme Programming (XP), por sus prácticas como programación en parejas, TDD, integración continua y cliente en el sitio."
+    },
+    "correctAnswer": "C",
+    "explanation": "Extreme Programming (XP) es una metodología ágil que se centra en la entrega continua de software de alta calidad y la satisfacción del cliente, con prácticas clave como la Programación en Parejas, el Desarrollo Guiado por Pruebas (TDD), la Integración Continua y la presencia del Cliente en el Sitio."
+  },
+  {
+    "id": "q_dev_057",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de TI del IDU ha desarrollado un nuevo módulo para la gestión de bienes. Antes de su integración con el sistema principal, el equipo de Control de Calidad (QA) debe realizar una verificación exhaustiva para asegurar que el módulo cumple con todos los requisitos funcionales y no funcionales (rendimiento, seguridad, usabilidad) especificados en el diseño, evaluando el módulo como un todo, en un entorno similar al de producción. \n",
+    "question": "¿Qué tipo de prueba de software es la más apropiada para esta fase de verificación realizada por el equipo de QA, evaluando el sistema completo?",
+    "options": {
+      "A": "Pruebas Unitarias, para verificar el código individual del módulo.",
+      "B": "Pruebas de Sistema, para evaluar el sistema completo e integrado contra los requisitos especificados.",
+      "C": "Pruebas de Integración, para verificar la interacción del módulo con otros componentes."
+    },
+    "correctAnswer": "B",
+    "explanation": "Las Pruebas de Sistema evalúan el sistema completo e integrado para verificar que cumple con los requisitos funcionales y no funcionales (rendimiento, seguridad, usabilidad) especificados en el diseño. Son realizadas por un equipo de QA o probadores independientes."
+  },
+  {
+    "id": "q_dev_058",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está desarrollando un sistema de información para la gestión de licitaciones, un proyecto complejo con requisitos que evolucionan. El equipo de desarrollo ha adoptado un ciclo de vida que se enfoca en la gestión de riesgos en cada iteración, identificando y mitigando posibles problemas antes de que se conviertan en crisis. Cada iteración produce una nueva versión del software más robusta. \n",
+    "question": "¿Qué modelo de ciclo de vida del software es el más adecuado para este proyecto, dada su complejidad y el énfasis en la gestión de riesgos en cada fase?",
+    "options": {
+      "A": "Modelo en Cascada (Waterfall), por su rigidez y control secuencial.",
+      "B": "Modelo Incremental, por la entrega de funcionalidades en partes pequeñas.",
+      "C": "Modelo en Espiral (Spiral), por ser iterativo, basado en riesgos y adecuado para proyectos grandes y complejos."
+    },
+    "correctAnswer": "C",
+    "explanation": "El Modelo en Espiral es iterativo y basado en riesgos. Es adecuado para proyectos grandes, complejos y de alto riesgo, ya que en cada 'espiral' se planifica, se analizan los riesgos, se desarrolla y se evalúa, permitiendo una gestión proactiva de los posibles problemas."
+  },
+  {
+    "id": "q_dev_059",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "En un proyecto del IDU, se ha diseñado una jerarquía de clases donde la clase base `Vehiculo` tiene un método `encenderMotor()`. Una subclase `Bicicleta` (que hereda de `Vehiculo`) sobrescribe este método, pero su implementación es vacía o lanza una excepción, rompiendo el comportamiento esperado cuando `Bicicleta` es usada como `Vehiculo`. Un desarrollador senior identifica que esto genera un comportamiento inesperado y potencialmente erróneo en el sistema. \n",
+    "question": "¿Qué principio de diseño de software de los Principios SOLID se está violando principalmente en esta jerarquía de clases?",
+    "options": {
+      "A": "Principio Abierto/Cerrado (Open/Closed Principle).",
+      "B": "Principio de Sustitución de Liskov (Liskov Substitution Principle - LSP).",
+      "C": "Principio de Inversión de Dependencias (Dependency Inversion Principle)."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Principio de Sustitución de Liskov (LSP) establece que los objetos de un programa deben ser sustituibles por instancias de sus subtipos sin alterar la corrección del programa. En este caso, al usar `Bicicleta` (subclase) como `Vehiculo` (clase base), el comportamiento de `encenderMotor()` se rompe, violando el LSP."
+  },
+  {
+    "id": "q_dev_060",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU ha desarrollado una aplicación para la gestión de proyectos de infraestructura. Antes de su lanzamiento oficial, los usuarios finales (jefes de proyecto y supervisores de obra) deben probar el sistema para verificar que satisface sus necesidades de negocio y que pueden realizar sus tareas diarias eficientemente con la aplicación. Esta fase es crítica para la adopción y el éxito del sistema. \n",
+    "question": "¿Qué tipo de prueba de software es la más apropiada para esta fase de verificación, donde los usuarios finales validan si el sistema satisface sus necesidades de negocio?",
+    "options": {
+      "A": "Pruebas de Sistema, para verificar el cumplimiento técnico de los requisitos.",
+      "B": "Pruebas de Aceptación (User Acceptance Testing - UAT), para que el usuario final determine si el sistema satisface sus necesidades y criterios de aceptación.",
+      "C": "Pruebas de Integración, para verificar la comunicación entre los módulos del sistema."
+    },
+    "correctAnswer": "B",
+    "explanation": "Las Pruebas de Aceptación (UAT) son pruebas formales realizadas por el usuario final o cliente para determinar si el sistema satisface los criterios de aceptación y si el usuario está satisfecho con el producto."
+  },
+  {
+    "id": "q_dev_061",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU está trabajando en una aplicación crítica para la gestión de datos catastrales. La dirección ha enfatizado la importancia de que el código sea extremadamente fácil de entender y mantener a largo plazo, incluso por desarrolladores que no hayan participado en su creación inicial. Se busca que el código sea autoexplicativo y que minimice la necesidad de comentarios excesivos. \n",
+    "question": "¿Qué conjunto de 'Buenas Prácticas de Codificación' es fundamental para lograr que el código de esta aplicación sea fácil de leer, entender y mantener, minimizando la necesidad de comentarios innecesarios?",
+    "options": {
+      "A": "Programación en Parejas y Refactorización Continua.",
+      "B": "Principios de Clean Code (código limpio), enfocados en la legibilidad y mantenibilidad del código.",
+      "C": "Integración Continua y Despliegue Continuo (CI/CD)."
+    },
+    "correctAnswer": "B",
+    "explanation": "Clean Code (Código Limpio) se enfoca en la legibilidad, mantenibilidad y simplicidad del código. Sus principios incluyen el uso de nombres significativos y descriptivos, funciones pequeñas y que hagan una sola cosa, y la minimización de comentarios innecesarios (el código debe ser autoexplicativo)."
+  },
+  {
+    "id": "q_dev_062",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está planificando el despliegue de una nueva versión de su portal web. Para minimizar riesgos y asegurar que el nuevo software esté disponible para los usuarios de manera fiable y rápida, se ha decidido automatizar el proceso de integración, pruebas y entrega, de modo que cada cambio que pase las pruebas pueda ser liberado en cualquier momento. \n",
+    "question": "¿Qué práctica moderna de desarrollo y operaciones (DevOps) se alinea con la automatización de la integración, pruebas y entrega, asegurando que el software pueda ser liberado de forma fiable en cualquier momento?",
+    "options": {
+      "A": "Integración Continua (CI) y Entrega Continua (Continuous Delivery - CD).",
+      "B": "Modelo en Cascada (Waterfall) con fases de despliegue manual.",
+      "C": "Programación en Parejas y Desarrollo Guiado por Pruebas (TDD)."
+    },
+    "correctAnswer": "A",
+    "explanation": "La Integración Continua (CI) se enfoca en integrar el código frecuentemente y verificarlo con pruebas automatizadas. La Entrega Continua (CD) es una extensión de CI que asegura que el software puede ser liberado de forma fiable en cualquier momento, automatizando el proceso hasta el punto de entrega."
+  },
+  {
+    "id": "q_dev_063",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU está trabajando en una aplicación modular donde diferentes componentes son desarrollados por equipos distintos. Para asegurar que estos componentes puedan ser sustituidos por otros similares (subtipos) sin romper la funcionalidad del sistema, los desarrolladores deben adherirse a un principio clave de la programación orientada a objetos que garantice la interoperabilidad sin errores. \n",
+    "question": "¿Qué principio de diseño de software de los Principios SOLID se enfoca en la sustituibilidad de subtipos por sus tipos base sin alterar la corrección del programa?",
+    "options": {
+      "A": "Principio de Responsabilidad Única (Single Responsibility Principle).",
+      "B": "Principio de Segregación de Interfaces (Interface Segregation Principle).",
+      "C": "Principio de Sustitución de Liskov (Liskov Substitution Principle - LSP)."
+    },
+    "correctAnswer": "C",
+    "explanation": "El Principio de Sustitución de Liskov (LSP) establece que los objetos de un programa deben ser sustituibles por instancias de sus subtipos sin alterar la corrección del programa."
+  },
+  {
+    "id": "q_dev_064",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está planificando un proyecto de desarrollo de software de largo plazo, de alta complejidad y con riesgos tecnológicos significativos (ej. integración con sistemas legados, uso de nuevas tecnologías). La dirección requiere una metodología que permita una gestión explícita de estos riesgos en cada fase del proyecto, y que combine la planificación detallada con la flexibilidad de la prototipación. \n",
+    "question": "¿Qué modelo de ciclo de vida del software es el más adecuado para este proyecto del IDU, dada su alta complejidad y el énfasis en la gestión de riesgos en cada iteración?",
+    "options": {
+      "A": "Modelo Incremental, por la entrega temprana de funcionalidades.",
+      "B": "Modelo en Espiral (Spiral), por ser un modelo iterativo y basado en riesgos, adecuado para proyectos complejos y de alto riesgo.",
+      "C": "Modelo en Cascada (Waterfall), por su estructura secuencial y control rígido."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Modelo en Espiral (Spiral) es iterativo y basado en riesgos. Es adecuado para proyectos grandes, complejos y de alto riesgo, ya que en cada 'espiral' se planifica, se analizan los riesgos, se desarrolla y se evalúa, permitiendo una gestión proactiva de los posibles problemas."
+  },
+  {
+    "id": "q_dev_065",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU ha decidido adoptar una filosofía de trabajo que prioriza 'individuos e interacciones sobre procesos y herramientas', 'software funcionando sobre documentación exhaustiva', 'colaboración con el cliente sobre negociación contractual', y 'respuesta al cambio sobre seguir un plan'. Este cambio busca una mayor flexibilidad y adaptabilidad en sus proyectos. \n",
+    "question": "¿Qué conjunto de principios metodológicos está adoptando el equipo de desarrollo del IDU?",
+    "options": {
+      "A": "Principios del Modelo en Cascada (Waterfall).",
+      "B": "Principios del Manifiesto Ágil.",
+      "C": "Principios de la Metodología en Espiral (Spiral)."
+    },
+    "correctAnswer": "B",
+    "explanation": "Los principios mencionados (individuos e interacciones, software funcionando, colaboración con el cliente, respuesta al cambio) son los cuatro valores centrales del Manifiesto Ágil."
+  },
+  {
+    "id": "q_dev_066",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está desarrollando una aplicación web para la gestión de solicitudes ciudadanas. El equipo de desarrollo ha adoptado una práctica donde escriben las pruebas unitarias *antes* de escribir el código de producción. Esto asegura que el código cumpla con los requisitos desde el inicio y facilita la detección temprana de errores. \n",
+    "question": "¿Qué práctica específica de Extreme Programming (XP) está utilizando el equipo de desarrollo del IDU?",
+    "options": {
+      "A": "Programación en Parejas (Pair Programming).",
+      "B": "Desarrollo Guiado por Pruebas (Test-Driven Development - TDD).",
+      "C": "Integración Continua (Continuous Integration)."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Desarrollo Guiado por Pruebas (TDD) es una práctica de XP donde se escriben las pruebas unitarias antes de escribir el código de producción, lo que asegura que el código cumpla con los requisitos desde el inicio y facilita la detección temprana de errores."
+  },
+  {
+    "id": "q_dev_067",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU está utilizando Scrum para un proyecto. En la reunión diaria de 15 minutos, los miembros del equipo responden a tres preguntas clave: ¿Qué hice ayer que ayudó al Equipo de Desarrollo a cumplir el objetivo del Sprint? ¿Qué haré hoy que ayude al Equipo de Desarrollo a cumplir el objetivo del Sprint? ¿Veo algún impedimento que impida al Equipo de Desarrollo cumplir el objetivo del Sprint? \n",
+    "question": "¿Qué evento (ceremonia) de Scrum está realizando el equipo de desarrollo del IDU?",
+    "options": {
+      "A": "Sprint Planning (Planificación del Sprint).",
+      "B": "Daily Scrum (Scrum Diario/Reunión Diaria).",
+      "C": "Sprint Review (Revisión del Sprint)."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Daily Scrum es una reunión diaria de 15 minutos para que el Equipo de Desarrollo sincronice actividades y planifique el trabajo del día, respondiendo a las tres preguntas mencionadas."
+  },
+  {
+    "id": "q_dev_068",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está desarrollando un sistema de información para la gestión de permisos de obra. La aplicación requiere interactuar con una base de datos, un servicio de autenticación y un módulo de generación de reportes. El equipo ha probado cada uno de estos componentes de forma individual. Sin embargo, antes de entregar la versión final al equipo de QA, necesitan verificar que todos estos componentes funcionan correctamente cuando se combinan e interactúan entre sí. \n",
+    "question": "¿Qué tipo de prueba de software es la más apropiada para verificar que estos componentes combinados funcionan correctamente y detectar errores en sus interfaces?",
+    "options": {
+      "A": "Pruebas Unitarias.",
+      "B": "Pruebas de Sistema.",
+      "C": "Pruebas de Integración."
+    },
+    "correctAnswer": "C",
+    "explanation": "Las Pruebas de Integración verifican que los módulos o componentes individuales (ya probados unitariamente) funcionan correctamente cuando se combinan e interactúan entre sí, buscando detectar errores en las interfaces y la comunicación entre partes del sistema."
+  },
+  {
+    "id": "q_dev_069",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU ha implementado una nueva clase `GeneradorDeReportes` que depende directamente de una clase concreta `ConexionBaseDeDatosSQL`. Un desarrollador senior identifica que esta dependencia directa hace que la clase `GeneradorDeReportes` sea difícil de probar y de cambiar si se decide usar otro tipo de base de datos en el futuro, ya que las clases de alto nivel dependen de las de bajo nivel. \n",
+    "question": "¿Qué principio de diseño de software de los Principios SOLID se está violando principalmente en esta dependencia directa entre clases?",
+    "options": {
+      "A": "Principio de Responsabilidad Única (Single Responsibility Principle).",
+      "B": "Principio Abierto/Cerrado (Open/Closed Principle).",
+      "C": "Principio de Inversión de Dependencias (Dependency Inversion Principle - DIP)."
+    },
+    "correctAnswer": "C",
+    "explanation": "El Principio de Inversión de Dependencias (DIP) establece que los módulos de alto nivel no deben depender de módulos de bajo nivel; ambos deben depender de abstracciones. Las abstracciones no deben depender de los detalles; los detalles deben depender de las abstracciones. La dependencia directa de `GeneradorDeReportes` (alto nivel) a `ConexionBaseDeDatosSQL` (bajo nivel, concreta) viola el DIP."
+  },
+  {
+    "id": "q_dev_070",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está planificando un proyecto de desarrollo de un sistema de gestión de mantenimiento de infraestructura que se espera dure más de dos años. Los requisitos iniciales son muy generales y se espera que evolucionen significativamente a medida que el proyecto avance y se obtenga feedback de los usuarios. Un modelo de ciclo de vida lineal y secuencial podría ser problemático. \n",
+    "question": "¿Qué modelo de ciclo de vida del software sería el menos adecuado para este proyecto del IDU, dada la duración y la alta probabilidad de evolución de requisitos?",
+    "options": {
+      "A": "Modelo en Cascada (Waterfall), debido a su rigidez y dificultad para incorporar cambios tardíos.",
+      "B": "Modelo Incremental, por su flexibilidad en la incorporación de requisitos evolutivos.",
+      "C": "Modelo Iterativo, por su capacidad de refinar y expandir el producto en ciclos repetidos."
+    },
+    "correctAnswer": "A",
+    "explanation": "El Modelo en Cascada (Waterfall) es rígido y difícil de incorporar cambios una vez que una fase ha terminado, lo que lo hace poco adecuado para proyectos de largo plazo con requisitos que se espera que evolucionen significativamente."
+  },
+  {
+    "id": "q_dev_071",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU está trabajando en un proyecto donde los desarrolladores integran su código frecuentemente, varias veces al día, en un repositorio compartido. Cada integración se verifica automáticamente con una construcción y pruebas, detectando errores rápidamente. Este proceso les permite mantener el código siempre listo para futuras entregas. \n",
+    "question": "¿Qué práctica moderna de desarrollo (DevOps) está utilizando el equipo del IDU para integrar su código frecuentemente y verificarlo automáticamente?",
+    "options": {
+      "A": "Entrega Continua (Continuous Delivery).",
+      "B": "Integración Continua (Continuous Integration - CI).",
+      "C": "Despliegue Continuo (Continuous Deployment)."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Integración Continua (CI) es una práctica donde los desarrolladores integran el código frecuentemente en un repositorio compartido. Cada integración se verifica con una construcción automatizada y pruebas, detectando errores rápidamente."
+  },
+  {
+    "id": "q_dev_072",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU ha encargado el desarrollo de un nuevo sistema de gestión de proyectos que será utilizado por diversas áreas con necesidades de informes y funcionalidades muy distintas. Para evitar que una única interfaz de usuario se vuelva sobrecargada con funcionalidades no relevantes para todos los usuarios, se busca diseñar interfaces específicas para cada tipo de usuario (ej. una para gerentes, otra para supervisores). \n",
+    "question": "¿Qué principio de diseño de software de los Principios SOLID se enfoca en que los clientes no deben ser forzados a depender de interfaces que no utilizan?",
+    "options": {
+      "A": "Principio de Responsabilidad Única (Single Responsibility Principle).",
+      "B": "Principio de Segregación de Interfaces (Interface Segregation Principle - ISP).",
+      "C": "Principio Abierto/Cerrado (Open/Closed Principle)."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Principio de Segregación de Interfaces (ISP) establece que los clientes no deben ser forzados a depender de interfaces que no utilizan. Es mejor tener muchas interfaces pequeñas y específicas que una interfaz grande y monolítica."
+  },
+  {
+    "id": "q_dev_073",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU está utilizando Scrum. Al final de un Sprint, el equipo, el Product Owner y los stakeholders se reúnen para mostrar el Incremento completado y obtener retroalimentación. Esta reunión es crucial para la transparencia y la adaptación del producto. \n",
+    "question": "¿Qué evento (ceremonia) de Scrum se está realizando al final del Sprint para mostrar el Incremento y obtener feedback de los stakeholders?",
+    "options": {
+      "A": "Daily Scrum (Scrum Diario).",
+      "B": "Sprint Retrospective (Retrospectiva del Sprint).",
+      "C": "Sprint Review (Revisión del Sprint)."
+    },
+    "correctAnswer": "C",
+    "explanation": "La Sprint Review (Revisión del Sprint) se realiza al final del Sprint, donde el equipo muestra el Incremento completado a los stakeholders para obtener feedback."
+  },
+  {
+    "id": "q_dev_074",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está planificando el desarrollo de un sistema para la gestión de su flota vehicular. Se ha decidido construir el software y entregarlo en pequeñas partes funcionales. Por ejemplo, la primera entrega incluirá solo la funcionalidad de registro de vehículos, la segunda la de asignación de rutas, y así sucesivamente. Cada entrega será un subsistema completo y utilizable. \n",
+    "question": "¿Qué modelo de ciclo de vida del software está utilizando el IDU para construir y entregar el software en pequeñas partes funcionales y utilizables?",
+    "options": {
+      "A": "Modelo en Cascada (Waterfall).",
+      "B": "Modelo Incremental.",
+      "C": "Modelo Iterativo."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Modelo Incremental se caracteriza por la construcción y entrega del software en pequeñas partes funcionales (incrementos). Cada incremento es un subsistema completo y utilizable que se entrega al cliente."
+  },
+  {
+    "id": "q_dev_075",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU está trabajando en un proyecto donde dos desarrolladores se sientan en la misma estación de trabajo y colaboran activamente en el mismo código, discutiendo soluciones y revisando el trabajo en tiempo real. Esta práctica busca mejorar la calidad del código y la transferencia de conocimiento. \n",
+    "question": "¿Qué práctica específica de Extreme Programming (XP) está utilizando el equipo de desarrollo del IDU?",
+    "options": {
+      "A": "Test-Driven Development (TDD).",
+      "B": "Integración Continua (Continuous Integration).",
+      "C": "Programación en Parejas (Pair Programming)."
+    },
+    "correctAnswer": "C",
+    "explanation": "La Programación en Parejas (Pair Programming) es una práctica de XP donde dos desarrolladores trabajan en la misma estación de trabajo en el mismo código, buscando mejorar la calidad del código y la transferencia de conocimiento."
+  },
+  {
+    "id": "q_dev_076",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU ha implementado una metodología ágil donde el trabajo se visualiza en un tablero con columnas que representan los estados del flujo de trabajo (ej. 'Por hacer', 'En progreso', 'Hecho'). Se ha establecido un número máximo de tareas que pueden estar en progreso en cada etapa para evitar cuellos de botella y promover la finalización. \n",
+    "question": "¿Qué metodología ágil está utilizando el IDU, priorizando la visualización del trabajo y la limitación del trabajo en curso?",
+    "options": {
+      "A": "Scrum.",
+      "B": "Kanban.",
+      "C": "Extreme Programming (XP)."
+    },
+    "correctAnswer": "B",
+    "explanation": "Kanban es una metodología Lean que se enfoca en la gestión visual del flujo de trabajo, con principios como 'Visualizar el trabajo' (tablero Kanban) y 'Limitar el trabajo en curso (WIP)' para evitar la sobrecarga y promover la finalización."
+  },
+  {
+    "id": "q_dev_077",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU ha desarrollado un módulo de gestión de documentos. Antes de liberar el módulo a los usuarios finales, el equipo de Control de Calidad (QA) debe realizar una verificación exhaustiva de todos los requisitos funcionales y no funcionales del sistema completo, para asegurarse de que cumple con las especificaciones de diseño. \n",
+    "question": "¿Qué tipo de prueba de software es la más apropiada para esta fase de verificación integral del sistema completo, realizada por el equipo de QA?",
+    "options": {
+      "A": "Pruebas Unitarias.",
+      "B": "Pruebas de Sistema.",
+      "C": "Pruebas de Integración."
+    },
+    "correctAnswer": "B",
+    "explanation": "Las Pruebas de Sistema evalúan el sistema completo e integrado para verificar que cumple con los requisitos funcionales y no funcionales (rendimiento, seguridad, usabilidad) especificados en el diseño. Son realizadas por un equipo de QA o probadores independientes."
+  },
+  {
+    "id": "q_dev_078",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU ha diseñado una aplicación para el cálculo de presupuestos de obras. Han identificado que, si bien la clase `CalculadoraDePresupuestos` es muy eficiente, también maneja la lógica de validación de datos de entrada y la persistencia de los resultados en la base de datos. Un arquitecto de software senior sugiere que esta clase podría volverse compleja de mantener y escalar. \n",
+    "question": "¿Qué principio de diseño de software de los Principios SOLID se está violando principalmente en la clase `CalculadoraDePresupuestos`?",
+    "options": {
+      "A": "Principio Abierto/Cerrado (Open/Closed Principle).",
+      "B": "Principio de Responsabilidad Única (Single Responsibility Principle - SRP).",
+      "C": "Principio de Sustitución de Liskov (Liskov Substitution Principle)."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Principio de Responsabilidad Única (SRP) establece que una clase debe tener una, y solo una, razón para cambiar. La clase `CalculadoraDePresupuestos` tiene múltiples responsabilidades (cálculo, validación, persistencia), violando el SRP."
+  },
+  {
+    "id": "q_dev_079",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está planificando un proyecto de desarrollo de un sistema de información donde los requisitos iniciales son muy inciertos y se espera que cambien drásticamente a lo largo del tiempo. Sin embargo, la dirección exige una fase de planificación inicial exhaustiva y una entrega formal al final del proyecto, antes de cualquier cambio. \n",
+    "question": "¿Qué modelo de ciclo de vida del software sería el menos adecuado para este proyecto del IDU, dada la alta incertidumbre y la probabilidad de cambios drásticos en los requisitos?",
+    "options": {
+      "A": "Modelo en Cascada (Waterfall), debido a su rigidez y dificultad para incorporar cambios tardíos en requisitos inciertos.",
+      "B": "Modelo Incremental, por su flexibilidad en la incorporación de requisitos evolutivos.",
+      "C": "Modelo en Espiral (Spiral), por su enfoque en la gestión de riesgos y la prototipación en cada iteración."
+    },
+    "correctAnswer": "A",
+    "explanation": "El Modelo en Cascada (Waterfall) es rígido y difícil de incorporar cambios una vez que una fase ha terminado, lo que lo hace poco adecuado para proyectos con requisitos muy inciertos y que se espera que cambien drásticamente."
+  },
+  {
+    "id": "q_dev_080",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU ha adoptado una práctica donde el código se integra varias veces al día en un repositorio compartido. Después de cada integración, se ejecuta una construcción automatizada y un conjunto de pruebas para detectar errores rápidamente. Esto asegura que el código base esté siempre en un estado funcional y listo para futuras entregas. \n",
+    "question": "¿Qué práctica de DevOps está utilizando el equipo del IDU para mantener el código base siempre en un estado funcional y listo para futuras entregas?",
+    "options": {
+      "A": "Entrega Continua (Continuous Delivery).",
+      "B": "Integración Continua (Continuous Integration - CI).",
+      "C": "Despliegue Continuo (Continuous Deployment)."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Integración Continua (CI) es una práctica donde los desarrolladores integran el código frecuentemente en un repositorio compartido. Cada integración se verifica con una construcción automatizada y pruebas, detectando errores rápidamente."
+  },
+  {
+    "id": "q_dev_081",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está desarrollando un sistema de gestión de la información geográfica (GIS). Han creado una clase base `FormaGeometrica` y varias subclases como `Circulo` y `Cuadrado`. Sin embargo, la subclase `Elipse` hereda de `Circulo`, pero su implementación del método `getRadio()` no es coherente con el comportamiento de un círculo, generando errores cuando se espera un `Circulo`. \n",
+    "question": "¿Qué principio de diseño de software de los Principios SOLID se está violando principalmente en esta jerarquía de clases?",
+    "options": {
+      "A": "Principio Abierto/Cerrado (Open/Closed Principle).",
+      "B": "Principio de Sustitución de Liskov (Liskov Substitution Principle - LSP).",
+      "C": "Principio de Inversión de Dependencias (Dependency Inversion Principle)."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Principio de Sustitución de Liskov (LSP) establece que los objetos de un programa deben ser sustituibles por instancias de sus subtipos sin alterar la corrección del programa. Si `Elipse` (subclase) no se comporta como un `Circulo` (superclase) cuando se invoca `getRadio()`, viola el LSP."
+  },
+  {
+    "id": "q_dev_082",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU ha completado la implementación de un nuevo sistema de gestión de obras. Ahora, antes de que el sistema sea puesto en producción, el cliente principal (Dirección de Obras) necesita realizar una verificación final para asegurarse de que el sistema cumple con todas sus expectativas de negocio y que puede utilizarse para la gestión diaria de las obras. \n",
+    "question": "¿Qué tipo de prueba de software es la más apropiada para esta verificación final por parte del cliente, asegurando que el sistema satisface sus necesidades de negocio?",
+    "options": {
+      "A": "Pruebas de Sistema.",
+      "B": "Pruebas de Integración.",
+      "C": "Pruebas de Aceptación (User Acceptance Testing - UAT)."
+    },
+    "correctAnswer": "C",
+    "explanation": "Las Pruebas de Aceptación (UAT) son pruebas formales realizadas por el usuario final o cliente para determinar si el sistema satisface los criterios de aceptación y si el usuario está satisfecho con el producto."
+  },
+  {
+    "id": "q_dev_083",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está planificando un proyecto de desarrollo de software que requiere una colaboración constante con el cliente y una alta adaptabilidad a los cambios en los requisitos. Se busca una metodología que permita la entrega de software funcionando sobre documentación exhaustiva y la respuesta rápida al cambio. \n",
+    "question": "¿Qué conjunto de principios metodológicos es el más adecuado para este proyecto del IDU, buscando flexibilidad y adaptabilidad al cambio?",
+    "options": {
+      "A": "Principios del Modelo en Cascada (Waterfall).",
+      "B": "Principios del Manifiesto Ágil.",
+      "C": "Principios del Modelo en Espiral (Spiral)."
+    },
+    "correctAnswer": "B",
+    "explanation": "Los principios del Manifiesto Ágil priorizan 'individuos e interacciones sobre procesos y herramientas', 'software funcionando sobre documentación exhaustiva', 'colaboración con el cliente sobre negociación contractual', y 'respuesta al cambio sobre seguir un plan'. Son ideales para la flexibilidad y adaptabilidad."
+  },
+  {
+    "id": "q_dev_084",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU está utilizando Scrum. Al final de cada Sprint, el equipo, el Product Owner y los stakeholders se reúnen para mostrar el Incremento completado. Después de esta reunión, el Equipo Scrum realiza otra reunión para inspeccionar cómo fue el Sprint en términos de personas, relaciones, procesos y herramientas, e identificar mejoras para el próximo Sprint. \n",
+    "question": "¿Qué evento (ceremonia) de Scrum se realiza para inspeccionar el Sprint y planificar mejoras para el próximo?",
+    "options": {
+      "A": "Sprint Planning (Planificación del Sprint).",
+      "B": "Sprint Review (Revisión del Sprint).",
+      "C": "Sprint Retrospective (Retrospectiva del Sprint)."
+    },
+    "correctAnswer": "C",
+    "explanation": "La Sprint Retrospective (Retrospectiva del Sprint) se realiza al final del Sprint para que el equipo inspeccione cómo fue el Sprint en términos de personas, relaciones, procesos y herramientas, e identifique mejoras para el próximo Sprint."
+  },
+  {
+    "id": "q_dev_085",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU ha implementado una metodología ágil para la gestión de su portafolio de proyectos de TI, donde se visualiza el trabajo en un tablero, se limita el trabajo en curso (WIP) y se gestiona el flujo de proyectos de forma continua. Esta metodología busca optimizar la entrega de valor y evitar la sobrecarga de los equipos. \n",
+    "question": "¿Qué metodología ágil se basa en la visualización del trabajo, la limitación del trabajo en curso (WIP) y la gestión del flujo?",
+    "options": {
+      "A": "Scrum.",
+      "B": "Kanban.",
+      "C": "Extreme Programming (XP)."
+    },
+    "correctAnswer": "B",
+    "explanation": "Kanban es una metodología Lean que se enfoca en la gestión visual del flujo de trabajo, con principios como 'Visualizar el trabajo' (tablero Kanban), 'Limitar el trabajo en curso (WIP)' y 'Gestionar el flujo'. Es ideal para la gestión del portafolio y evitar cuellos de botella."
+  },
+  {
+    "id": "q_dev_086",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está desarrollando un sistema de gestión de la calidad donde se ha creado una clase `ValidadorDeDatos` que se encarga de validar la información de entrada de múltiples módulos (ej. `ModuloUsuarios`, `ModuloProyectos`). Para añadir un nuevo tipo de validación o un nuevo módulo, la clase `ValidadorDeDatos` debe ser modificada directamente, lo que puede introducir errores en funcionalidades ya existentes. \n",
+    "question": "¿Qué principio de diseño de software de los Principios SOLID se está violando principalmente en la clase `ValidadorDeDatos`?",
+    "options": {
+      "A": "Principio de Responsabilidad Única (Single Responsibility Principle).",
+      "B": "Principio Abierto/Cerrado (Open/Closed Principle - OCP).",
+      "C": "Principio de Inversión de Dependencias (Dependency Inversion Principle)."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Principio Abierto/Cerrado (OCP) establece que las entidades de software deben estar abiertas a la extensión, pero cerradas a la modificación. Si `ValidadorDeDatos` debe ser modificada cada vez que se añade una nueva validación o un nuevo módulo, viola este principio."
+  },
+  {
+    "id": "q_dev_087",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU ha adoptado una práctica donde mejoran la estructura interna del código de sus aplicaciones sin cambiar su comportamiento externo. Esto les permite mantener el código limpio y fácil de entender a largo plazo, incluso si no se añaden nuevas funcionalidades. \n",
+    "question": "¿Qué práctica específica de Extreme Programming (XP) está utilizando el equipo de desarrollo del IDU para mejorar la estructura interna del código sin cambiar su comportamiento?",
+    "options": {
+      "A": "Desarrollo Guiado por Pruebas (TDD).",
+      "B": "Integración Continua (Continuous Integration).",
+      "C": "Refactorización (Refactoring)."
+    },
+    "correctAnswer": "C",
+    "explanation": "La Refactorización es una práctica de XP donde se mejora la estructura interna del código sin cambiar su comportamiento externo, lo que contribuye a mantener el código limpio y mantenible."
+  },
+  {
+    "id": "q_dev_088",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está a punto de lanzar un sistema de información para la gestión de su flota vehicular. Antes de ponerlo a disposición de todos los usuarios finales, es crucial realizar una verificación exhaustiva del sistema completo, para determinar si satisface los criterios de aceptación del negocio y si los usuarios están satisfechos con el producto en un entorno real. \n",
+    "question": "¿Qué tipo de prueba de software es la más apropiada para esta verificación final por parte del cliente o usuario final, para asegurar la satisfacción con el producto?",
+    "options": {
+      "A": "Pruebas de Sistema.",
+      "B": "Pruebas de Aceptación (User Acceptance Testing - UAT).",
+      "C": "Pruebas de Integración."
+    },
+    "correctAnswer": "B",
+    "explanation": "Las Pruebas de Aceptación (UAT) son pruebas formales realizadas por el usuario final o cliente para determinar si el sistema satisface los criterios de aceptación y si el usuario está satisfecho con el producto. Es la última fase de prueba antes del despliegue en producción."
+  },
+  {
+    "id": "q_dev_089",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU ha implementado una nueva clase `ProcesadorDePagos` que depende directamente de una implementación concreta de un servicio de pasarela de pagos. Esto hace que la clase sea difícil de probar en entornos de desarrollo y que un cambio de proveedor de pasarela de pagos requiera una modificación significativa en `ProcesadorDePagos`. \n",
+    "question": "¿Qué principio de diseño de software de los Principios SOLID se está violando principalmente en esta dependencia directa de una implementación concreta?",
+    "options": {
+      "A": "Principio de Responsabilidad Única (Single Responsibility Principle).",
+      "B": "Principio de Inversión de Dependencias (Dependency Inversion Principle - DIP).",
+      "C": "Principio de Segregación de Interfaces (Interface Segregation Principle)."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Principio de Inversión de Dependencias (DIP) establece que los módulos de alto nivel no deben depender de módulos de bajo nivel; ambos deben depender de abstracciones. La dependencia directa de una clase a una implementación concreta viola este principio, promoviendo el acoplamiento."
+  },
+  {
+    "id": "q_dev_090",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está planificando el desarrollo de un sistema de información para la gestión de permisos de obra que se espera dure varios años. Los requisitos se conocen en líneas generales al inicio, pero se anticipa que el detalle se definirá y evolucionará a lo largo del tiempo a medida que se obtenga feedback de los usuarios. La dirección busca un ciclo de vida que permita el refinamiento y la expansión del producto en ciclos repetidos. \n",
+    "question": "¿Qué modelo de ciclo de vida del software es el más adecuado para este proyecto del IDU, dado el enfoque en el refinamiento y la expansión del producto en ciclos repetidos?",
+    "options": {
+      "A": "Modelo en Cascada (Waterfall), por su estructura lineal y predictiva.",
+      "B": "Modelo Incremental, por la entrega de funcionalidades en partes utilizables.",
+      "C": "Modelo Iterativo, por su enfoque en ciclos repetidos que refinan y expanden el producto con feedback continuo."
+    },
+    "correctAnswer": "C",
+    "explanation": "El Modelo Iterativo se caracteriza por organizar el desarrollo en ciclos repetidos (iteraciones), donde cada iteración produce una versión mejorada del software que se refina y expande en la siguiente, permitiendo la incorporación continua de feedback y el manejo de requisitos cambiantes."
+  },
+  {
+    "id": "q_dev_091",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU ha implementado una metodología donde cada cambio de código que pasa las pruebas automatizadas se despliega automáticamente en el entorno de producción sin intervención manual. Esto les permite entregar nuevas funcionalidades a los usuarios de manera muy rápida y frecuente. \n",
+    "question": "¿Qué práctica de DevOps está utilizando el equipo del IDU para desplegar automáticamente el código en producción después de pasar las pruebas automatizadas?",
+    "options": {
+      "A": "Integración Continua (Continuous Integration).",
+      "B": "Entrega Continua (Continuous Delivery).",
+      "C": "Despliegue Continuo (Continuous Deployment)."
+    },
+    "correctAnswer": "C",
+    "explanation": "El Despliegue Continuo (Continuous Deployment) es una extensión de la Entrega Continua, donde cada cambio que pasa las pruebas automatizadas se despliega automáticamente en producción sin intervención manual."
+  },
+  {
+    "id": "q_dev_092",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU ha contratado a una empresa para desarrollar una aplicación. Al recibir la primera entrega, el equipo de Control de Calidad detecta que, aunque el código es funcional, los nombres de las variables son abreviaciones crípticas, las funciones tienen más de 100 líneas de código y los comentarios son inconsistentes o inexistentes. Esto hace que el código sea muy difícil de leer y entender para cualquier otro desarrollador. \n",
+    "question": "¿Qué conjunto de 'Buenas Prácticas de Codificación' no se aplicaron adecuadamente en este desarrollo, lo que afecta su legibilidad y mantenibilidad a largo plazo?",
+    "options": {
+      "A": "Principios SOLID.",
+      "B": "Principios de Clean Code (código limpio).",
+      "C": "Programación en Parejas y TDD."
+    },
+    "correctAnswer": "B",
+    "explanation": "Clean Code (Código Limpio) se enfoca en la legibilidad, mantenibilidad y simplicidad del código, promoviendo el uso de nombres significativos, funciones pequeñas y autoexplicativas, y comentarios mínimos y útiles. La descripción del caso es una violación directa de estos principios."
+  },
+  {
+    "id": "q_dev_093",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU está utilizando Scrum. Al inicio de cada Sprint, el equipo se reúne para definir qué se hará en el Sprint y cómo se hará, seleccionando los ítems de mayor prioridad del Product Backlog que pueden completar en el time-box del Sprint. \n",
+    "question": "¿Qué evento (ceremonia) de Scrum se realiza al inicio de cada Sprint para planificar el trabajo a realizar?",
+    "options": {
+      "A": "Daily Scrum (Scrum Diario).",
+      "B": "Sprint Planning (Planificación del Sprint).",
+      "C": "Sprint Review (Revisión del Sprint)."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Sprint Planning (Planificación del Sprint) se realiza al inicio de cada Sprint, donde el equipo define qué se hará en el Sprint y cómo se hará, seleccionando ítems del Product Backlog."
+  },
+  {
+    "id": "q_dev_094",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está planificando un proyecto de desarrollo de un sistema de información para la gestión de permisos de construcción. Se ha optado por un ciclo de vida que se ejecuta en fases lineales y secuenciales, con una fuerte dependencia de la finalización de una fase para iniciar la siguiente. Los requisitos se esperan que sean estables y bien definidos desde el inicio. \n",
+    "question": "¿Qué modelo de ciclo de vida del software es el más adecuado para este proyecto del IDU, dada su naturaleza lineal y secuencial con requisitos estables?",
+    "options": {
+      "A": "Modelo en Cascada (Waterfall), por su estructura lineal y secuencial, y su idoneidad para requisitos estables.",
+      "B": "Modelo Incremental, por su flexibilidad en la incorporación de requisitos evolutivos.",
+      "C": "Modelo en Espiral (Spiral), por su enfoque en la gestión de riesgos y la prototipación."
+    },
+    "correctAnswer": "A",
+    "explanation": "El Modelo en Cascada (Waterfall) es un modelo secuencial y lineal, donde las fases se completan una tras otra. Es adecuado para proyectos con requisitos muy estables y bien definidos desde el inicio."
+  },
+  {
+    "id": "q_dev_095",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU ha creado una interfaz `IGestionUsuarios` con métodos como `crearUsuario()`, `eliminarUsuario()`, `obtenerUsuario()` y `generarReporteDeUso()`. Sin embargo, los clientes que necesitan solo gestionar usuarios (crear/eliminar/obtener) se ven forzados a implementar `generarReporteDeUso()`, que no necesitan. \n",
+    "question": "¿Qué principio de diseño de software de los Principios SOLID se está violando principalmente en la interfaz `IGestionUsuarios`?",
+    "options": {
+      "A": "Principio de Responsabilidad Única (Single Responsibility Principle).",
+      "B": "Principio de Segregación de Interfaces (Interface Segregation Principle - ISP).",
+      "C": "Principio Abierto/Cerrado (Open/Closed Principle)."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Principio de Segregación de Interfaces (ISP) establece que los clientes no deben ser forzados a depender de interfaces que no utilizan. Es mejor tener muchas interfaces pequeñas y específicas que una interfaz grande y monolítica."
+  },
+  {
+    "id": "q_dev_096",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está planificando el despliegue de una nueva versión de su sistema de información geográfica (GIS). Para asegurar una liberación fiable y rápida del software a los usuarios, se ha decidido automatizar el proceso completo, desde la integración y pruebas hasta la entrega y despliegue en producción, sin intervención manual. \n",
+    "question": "¿Qué práctica moderna de desarrollo y operaciones (DevOps) se alinea con la automatización completa del ciclo de integración, pruebas, entrega y despliegue en producción sin intervención manual?",
+    "options": {
+      "A": "Integración Continua (Continuous Integration).",
+      "B": "Entrega Continua (Continuous Delivery - CD).",
+      "C": "Despliegue Continuo (Continuous Deployment)."
+    },
+    "correctAnswer": "C",
+    "explanation": "El Despliegue Continuo (Continuous Deployment) es una extensión de la Entrega Continua, donde cada cambio que pasa las pruebas automatizadas se despliega automáticamente en producción sin intervención manual."
+  },
+  {
+    "id": "q_dev_097",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU ha implementado una metodología ágil que prioriza la visualización del trabajo y el control del flujo, utilizando un tablero donde las tareas se mueven entre columnas y se establecen límites de trabajo en curso (WIP) para evitar la sobrecarga. No hay Sprints de duración fija, sino un flujo continuo de entregas. \n",
+    "question": "¿Qué metodología ágil está utilizando el equipo de desarrollo del IDU, dadas sus características de visualización, limitación de WIP y flujo continuo?",
+    "options": {
+      "A": "Scrum.",
+      "B": "Kanban.",
+      "C": "Extreme Programming (XP)."
+    },
+    "correctAnswer": "B",
+    "explanation": "Kanban es una metodología Lean que se enfoca en la gestión visual del flujo de trabajo, con principios como 'Visualizar el trabajo' (tablero Kanban), 'Limitar el trabajo en curso (WIP)' y 'Gestionar el flujo'. No utiliza Sprints de duración fija."
+  },
+  {
+    "id": "q_dev_098",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU requiere desarrollar un nuevo sistema de información para la gestión de sus activos de infraestructura. El equipo ha decidido que cada funcionalidad (ej. registro de activo, historial de mantenimiento) se construirá como una unidad independiente y será probada en aislamiento antes de integrarse. \n",
+    "question": "¿Qué tipo de prueba de software es la más apropiada para verificar que cada componente individual de este sistema funciona correctamente de forma aislada?",
+    "options": {
+      "A": "Pruebas de Integración.",
+      "B": "Pruebas de Sistema.",
+      "C": "Pruebas Unitarias."
+    },
+    "correctAnswer": "C",
+    "explanation": "Las Pruebas Unitarias verifican que los componentes individuales o unidades más pequeñas del código (ej. una función, un método, una clase) funcionan correctamente de forma aislada. Son realizadas por los propios desarrolladores."
+  },
+  {
+    "id": "q_dev_099",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU ha implementado una nueva arquitectura para un servicio crítico. La clase `ServicioNotificacion` depende directamente de una clase concreta `Log4jLogger` para el registro de eventos. El arquitecto de software sugiere que esto acopla fuertemente el `ServicioNotificacion` a una implementación de logging específica, dificultando su reutilización y testeo con otros sistemas de logging. \n",
+    "question": "¿Qué principio de diseño de software de los Principios SOLID se está violando principalmente en esta dependencia directa entre clases?",
+    "options": {
+      "A": "Principio de Responsabilidad Única (Single Responsibility Principle).",
+      "B": "Principio de Inversión de Dependencias (Dependency Inversion Principle - DIP).",
+      "C": "Principio de Sustitución de Liskov (Liskov Substitution Principle)."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Principio de Inversión de Dependencias (DIP) establece que los módulos de alto nivel no deben depender de módulos de bajo nivel; ambos deben depender de abstracciones. La dependencia directa de `ServicioNotificacion` (alto nivel) a `Log4jLogger` (bajo nivel, concreta) viola el DIP, promoviendo el acoplamiento y dificultando la flexibilidad y el testeo."
+  },
+  {
+    "id": "q_dev_100",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está planificando un proyecto de desarrollo de un sistema de gestión de incidencias de TI. Los requisitos son bastante inciertos al inicio, pero se requiere una entrega en fases que permitan incorporar feedback y refinar el producto en cada ciclo. El proyecto tiene una duración media, y la gestión de riesgos no es el foco principal, pero sí es importante la adaptabilidad. \n",
+    "question": "¿Qué modelo de ciclo de vida del software es el más adecuado para este proyecto del IDU, dada la incertidumbre inicial de requisitos y el enfoque en el refinamiento en ciclos repetidos?",
+    "options": {
+      "A": "Modelo en Cascada (Waterfall).",
+      "B": "Modelo Incremental.",
+      "C": "Modelo Iterativo."
+    },
+    "correctAnswer": "C",
+    "explanation": "El Modelo Iterativo se caracteriza por organizar el desarrollo en ciclos repetidos (iteraciones), donde cada iteración produce una versión mejorada del software que se refina y expande, permitiendo la incorporación continua de feedback y el manejo de requisitos cambiantes. Es adecuado para requisitos inciertos y proyectos de duración media que buscan adaptabilidad."
+  },
+  {
+    "id": "q_dev_101",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU ha adoptado una metodología ágil que se centra en el liderazgo de servicio del Scrum Master, la autoorganización del equipo de desarrollo y la maximización del valor del producto por parte del Product Owner. El trabajo se organiza en 'Sprints' de duración fija y culmina con la entrega de un 'Incremento' usable. \n",
+    "question": "¿Qué metodología ágil está utilizando el equipo de desarrollo del IDU, dadas sus características de roles, Sprints e Incrementos?",
+    "options": {
+      "A": "Kanban.",
+      "B": "Scrum.",
+      "C": "Extreme Programming (XP)."
+    },
+    "correctAnswer": "B",
+    "explanation": "Scrum es un marco de trabajo que se caracteriza por roles definidos (Product Owner, Scrum Master, Development Team), eventos (Sprint, Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective) y artefactos (Product Backlog, Sprint Backlog, Increment), con trabajo organizado en Sprints de duración fija."
+  },
+  {
+    "id": "q_dev_102",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU ha implementado una metodología ágil donde el flujo de trabajo es gestionado visualmente en un tablero, se establecen límites estrictos en el número de tareas 'En progreso' para evitar la sobrecarga del equipo, y las políticas para mover las tareas entre etapas son explícitas y bien conocidas por todos. \n",
+    "question": "¿Qué metodología ágil se basa en la visualización del trabajo, la limitación del WIP y la explicitación de políticas del proceso?",
+    "options": {
+      "A": "Scrum.",
+      "B": "Kanban.",
+      "C": "Extreme Programming (XP)."
+    },
+    "correctAnswer": "B",
+    "explanation": "Kanban es una metodología Lean que se enfoca en la gestión visual del flujo de trabajo, con principios como 'Visualizar el trabajo' (tablero Kanban), 'Limitar el trabajo en curso (WIP)' y 'Hacer las políticas del proceso explícitas'."
+  },
+  {
+    "id": "q_dev_103",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU está a punto de entregar una nueva versión de su sistema de gestión de contratos. Antes de que el sistema sea utilizado por la Dirección de Contratos, el equipo de Control de Calidad (QA) debe realizar una verificación final para asegurar que el sistema completo e integrado cumple con todos los requisitos funcionales y no funcionales, y que es estable y robusto en un entorno que simula la producción. \n",
+    "question": "¿Qué tipo de prueba de software es la más apropiada para esta verificación integral del sistema completo, realizada por el equipo de QA antes del lanzamiento?",
+    "options": {
+      "A": "Pruebas Unitarias.",
+      "B": "Pruebas de Sistema.",
+      "C": "Pruebas de Aceptación."
+    },
+    "correctAnswer": "B",
+    "explanation": "Las Pruebas de Sistema evalúan el sistema completo e integrado para verificar que cumple con los requisitos funcionales y no funcionales (rendimiento, seguridad, usabilidad) especificados en el diseño. Son realizadas por un equipo de QA o probadores independientes antes de las pruebas de aceptación final por parte del cliente."
+  },
+  {
+    "id": "q_dev_104",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El equipo de desarrollo de software del IDU ha creado una clase `ProcesadorDeArchivos` que se encarga de leer archivos, validar su contenido y, si son válidos, enviarlos a un servicio de almacenamiento en la nube. Un arquitecto de software senior advierte que esta clase asume demasiadas responsabilidades y que un cambio en la validación o en el servicio de almacenamiento obligaría a modificarla. \n",
+    "question": "¿Qué principio de diseño de software de los Principios SOLID se está violando principalmente en la clase `ProcesadorDeArchivos`?",
+    "options": {
+      "A": "Principio Abierto/Cerrado (Open/Closed Principle).",
+      "B": "Principio de Responsabilidad Única (Single Responsibility Principle - SRP).",
+      "C": "Principio de Sustitución de Liskov (Liskov Substitution Principle)."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Principio de Responsabilidad Única (SRP) establece que una clase (o módulo, o función) debe tener una, y solo una, razón para cambiar. La clase `ProcesadorDeArchivos` tiene múltiples responsabilidades (leer, validar, enviar a almacenamiento), violando el SRP."
+  },
+  {
+    "id": "q_dev_105",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "desarrollo-software",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está planificando el despliegue de una nueva versión de su sistema de trámites en línea. Para asegurar que el software esté disponible de forma fiable y rápida, se ha decidido automatizar el proceso completo: desde la integración y pruebas, pasando por la entrega a un entorno de staging, hasta el despliegue final en producción. La intervención manual se reduce al mínimo, solo para decisiones clave de negocio. \n",
+    "question": "¿Qué práctica moderna de desarrollo y operaciones (DevOps) se alinea con la automatización del proceso desde la integración y pruebas hasta la entrega y despliegue en producción, con mínima intervención manual?",
+    "options": {
+      "A": "Integración Continua (Continuous Integration).",
+      "B": "Entrega Continua (Continuous Delivery - CD).",
+      "C": "Despliegue Continuo (Continuous Deployment)."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Entrega Continua (CD) es una extensión de la Integración Continua. Asegura que el software puede ser liberado de forma fiable en cualquier momento, automatizando el proceso hasta el punto de entrega (ej. a un entorno de staging) con mínima intervención manual, dejando la decisión final de despliegue a la intervención humana."
+  },
+
+  {
+        "id": "q_dev_106",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo del IDU está desarrollando un sistema de gestión de contratos con clases monolíticas donde 'Contrato' maneja validación jurídica, cálculo financiero y generación de reportes. Cambios en un área requieren modificar toda la clase.",
+        "question": "¿Qué principio SOLID se viola principalmente en este diseño?",
+        "options": {
+            "A": "Principio de Responsabilidad Única (SRP)",
+            "B": "Principio de Sustitución de Liskov (LSP)",
+            "C": "Principio de Segregación de Interfaces (ISP)"
+        },
+        "correctAnswer": "A",
+        "explanation": "SRP se viola porque la clase 'Contrato' tiene múltiples responsabilidades (jurídica, financiera, reportes). Debería separarse en clases especializadas."
+    },
+    {
+        "id": "q_dev_107",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "En un Sprint Planning, el Product Owner del IDU presenta un backlog con 50 ítems sin priorizar. El equipo discute 3 horas sin llegar a un acuerdo sobre qué incluir en el sprint.",
+        "question": "¿Qué artefacto ágil no se preparó adecuadamente para esta planificación?",
+        "options": {
+            "A": "Sprint Retrospective",
+            "B": "Product Backlog priorizado",
+            "C": "Definition of Done"
+        },
+        "correctAnswer": "B",
+        "explanation": "El Product Backlog debe estar priorizado antes del Sprint Planning para facilitar la selección de ítems. La falta de priorización causa retrasos."
+    },
+    {
+        "id": "q_dev_108",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un desarrollador del IDU crea una interfaz 'IReporte' con métodos para generar PDF, Excel y enviar por email. Al implementarla, algunas clases quedan con métodos vacíos.",
+        "question": "¿Qué principio SOLID debería aplicarse para corregir este diseño?",
+        "options": {
+            "A": "Principio de Inversión de Dependencias (DIP)",
+            "B": "Principio de Segregación de Interfaces (ISP)",
+            "C": "Principio Abierto/Cerrado (OCP)"
+        },
+        "correctAnswer": "B",
+        "explanation": "ISP recomienda interfaces específicas (ej: IGeneradorPDF, IEmailSender) en lugar de una interfaz genérica que obliga a implementar métodos no usados."
+    },
+    {
+        "id": "q_dev_109",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU migra un sistema de escritorio a web. El equipo escribe pruebas unitarias para cada componente, pero al integrarlos fallan las interacciones entre módulos.",
+        "question": "¿Qué tipo de prueba falta implementar para detectar estos errores temprano?",
+        "options": {
+            "A": "Pruebas de aceptación",
+            "B": "Pruebas de integración",
+            "C": "Pruebas de regresión"
+        },
+        "correctAnswer": "B",
+        "explanation": "Las pruebas de integración validan la interacción entre componentes. Las unitarias solo prueban unidades aisladas."
+    },
+    {
+        "id": "q_dev_110",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo del IDU usa Kanban con WIP limitado a 3 tareas por desarrollador. Aún así, hay retrasos porque los testers no dan abasto con las validaciones.",
+        "question": "¿Qué ajuste ágil podría mejorar este cuello de botella?",
+        "options": {
+            "A": "Aumentar el WIP a 5 tareas",
+            "B": "Incluir a los testers en el límite WIP del equipo",
+            "C": "Eliminar el límite WIP"
+        },
+        "correctAnswer": "B",
+        "explanation": "Kanban debe limitar el WIP en todas las etapas del flujo. Incluir testers en el límite evita sobrecargarlos."
+    },
+    {
+        "id": "q_dev_111",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU contrata un sistema de gestión de proyectos usando Cascada. Tras 6 meses, se descubre que los requisitos iniciales no cubren necesidades actuales.",
+        "question": "¿Qué metodología hubiera sido más adecuada para este escenario?",
+        "options": {
+            "A": "Scrum con iteraciones cortas",
+            "B": "Modelo Espiral con prototipos",
+            "C": "XP con programación en parejas"
+        },
+        "correctAnswer": "A",
+        "explanation": "Scrum permite ajustar requisitos en cada sprint (2-4 semanas). Cascada es rígido para cambios."
+    },
+    {
+        "id": "q_dev_112",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un módulo del IDU usa herencia donde 'ContratoObra' extiende 'DocumentoLegal'. Al modificar 'DocumentoLegal', se rompe 'ContratoObra'.",
+        "question": "¿Qué principio SOLID se violó en este diseño?",
+        "options": {
+            "A": "Principio de Sustitución de Liskov (LSP)",
+            "B": "Principio de Responsabilidad Única (SRP)",
+            "C": "Principio Abierto/Cerrado (OCP)"
+        },
+        "correctAnswer": "A",
+        "explanation": "LSP exige que los subtipos (ContratoObra) sean reemplazables por su base (DocumentoLegal) sin alterar el comportamiento."
+    },
+    {
+        "id": "q_dev_113",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU implementa CI/CD. Las builds fallan cuando 2 desarrolladores integran código simultáneamente que usa una misma librería con versiones incompatibles.",
+        "question": "¿Qué práctica de DevOps podría prevenir este problema?",
+        "options": {
+            "A": "Usar un repositorio de dependencias (ej: Nexus)",
+            "B": "Aumentar la frecuencia de los deployments",
+            "C": "Ejecutar menos pruebas automatizadas"
+        },
+        "correctAnswer": "A",
+        "explanation": "Un repositorio centralizado de dependencias asegura consistencia en las versiones de librerías usadas por todo el equipo."
+    },
+    {
+        "id": "q_dev_114",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo del IDU hace TDD. Escriben pruebas para un módulo de cálculo de impuestos, pero el código pasa las pruebas aunque no maneja casos bordes.",
+        "question": "¿Qué aspecto del TDD no se aplicó correctamente?",
+        "options": {
+            "A": "No se escribieron pruebas suficientes",
+            "B": "No se refactorizó el código",
+            "C": "No se verificó cobertura de pruebas"
+        },
+        "correctAnswer": "A",
+        "explanation": "TDD requiere pruebas exhaustivas que incluyan casos bordes. Las pruebas existentes eran insuficientes."
+    },
+    {
+        "id": "q_dev_115",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU usa Scrum. En la Retrospectiva, el equipo identifica que los sprints no cumplen metas por cambios constantes en los requisitos durante el sprint.",
+        "question": "¿Qué práctica ágil ayudaría a mitigar este problema?",
+        "options": {
+            "A": "Sprint Reviews más largas",
+            "B": "Definition of Ready para ítems del backlog",
+            "C": "Menos reuniones diarias"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Definition of Ready asegura que los ítems estén claros y estables antes de entrar a un sprint, reduciendo cambios posteriores."
+    },
+    {
+        "id": "q_dev_116",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un sistema del IDU tiene alta cohesión (módulos bien enfocados) pero usa acoplamiento fuerte (cambios en un módulo afectan a muchos otros).",
+        "question": "¿Qué principio de diseño ayudaría a reducir este acoplamiento?",
+        "options": {
+            "A": "Principio de Inversión de Dependencias (DIP)",
+            "B": "Principio de Responsabilidad Única (SRP)",
+            "C": "Principio de Sustitución de Liskov (LSP)"
+        },
+        "correctAnswer": "A",
+        "explanation": "DIP recomienda depender de abstracciones (interfaces) no de implementaciones concretas, reduciendo acoplamiento."
+    },
+    {
+        "id": "q_dev_117",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU contrata un SaaS para gestión documental. El proveedor actualiza la API cada mes, rompiendo integraciones existentes.",
+        "question": "¿Qué práctica de DevOps permitiría detectar estas incompatibilidades temprano?",
+        "options": {
+            "A": "Integración Continua con pruebas de contrato",
+            "B": "Despliegue manual en entornos de prueba",
+            "C": "Usar solo versiones estables de la API"
+        },
+        "correctAnswer": "A",
+        "explanation": "Pruebas de contrato en la pipeline de CI validan que las integraciones con APIs externas funcionen tras actualizaciones."
+    },
+    {
+        "id": "q_dev_118",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo del IDU adopta Scrum pero los stakeholders no asisten a los Sprint Reviews, lo que retrasa la validación de funcionalidades.",
+        "question": "¿Qué valor ágil no se está respetando en este escenario?",
+        "options": {
+            "A": "Colaboración con el cliente",
+            "B": "Respuesta al cambio",
+            "C": "Software funcionando"
+        },
+        "correctAnswer": "A",
+        "explanation": "Scrum requiere participación activa de stakeholders en reviews para validar incrementos y ajustar prioridades."
+    },
+    {
+        "id": "q_dev_119",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un desarrollador del IDU escribe una clase 'Calculadora' con métodos para sumar, restar y validar usuarios. Otra clase 'Usuario' usa 'Calculadora' solo para validación.",
+        "question": "¿Qué dos principios SOLID se violan en este diseño?",
+        "options": {
+            "A": "SRP y ISP",
+            "B": "LSP y DIP",
+            "C": "OCP y LSP"
+        },
+        "correctAnswer": "A",
+        "explanation": "SRP: 'Calculadora' mezcla operaciones matemáticas y validación. ISP: 'Usuario' depende de una interfaz con métodos no usados."
+    },
+    {
+        "id": "q_dev_120",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU implementa Kanban. Las tarjetas de 'Pruebas' siempre están saturadas, mientras 'Desarrollo' tiene capacidad ociosa.",
+        "question": "¿Qué ajuste en el flujo de trabajo Kanban es más apropiado?",
+        "options": {
+            "A": "Aumentar el WIP de 'Desarrollo'",
+            "B": "Reducir el WIP de 'Pruebas' y capacitar testers",
+            "C": "Eliminar la columna 'Pruebas'"
+        },
+        "correctAnswer": "B",
+        "explanation": "Kanban busca equilibrar el flujo. Reducir WIP en cuellos de botella y capacitar recursos es la solución sostenible."
+    },
+    {
+        "id": "q_dev_121",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un sistema del IDU tiene clases 'ReportePDF' y 'ReporteExcel' con código duplicado para validar datos antes de generar reportes.",
+        "question": "¿Qué patrón de diseño resolvería mejor este problema?",
+        "options": {
+            "A": "Strategy",
+            "B": "Template Method",
+            "C": "Singleton"
+        },
+        "correctAnswer": "B",
+        "explanation": "Template Method permite definir la estructura común (validación) en una clase base y delegar la generación específica (PDF/Excel) a subclases."
+    },
+    {
+        "id": "q_dev_122",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU migra a microservicios. Un servicio 'Contratos' llama directamente a 'Pagos' usando su IP, lo que causa fallos cuando 'Pagos' se actualiza.",
+        "question": "¿Qué patrón de integración entre servicios debería implementarse?",
+        "options": {
+            "A": "API Gateway",
+            "B": "Service Mesh",
+            "C": "Broker de mensajería"
+        },
+        "correctAnswer": "C",
+        "explanation": "Un broker (ej: Kafka) desacopla servicios. 'Contratos' publica eventos y 'Pagos' los consume, evitando acoplamiento directo."
+    },
+    {
+        "id": "q_dev_123",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo del IDU usa XP. Las pruebas unitarias cubren el 90% del código, pero fallan frecuentemente por datos de prueba no actualizados.",
+        "question": "¿Qué práctica de XP ayudaría a mejorar esta situación?",
+        "options": {
+            "A": "Programación en parejas para revisar pruebas",
+            "B": "Refactorización constante de pruebas",
+            "C": "Integración Continua con datos de prueba versionados"
+        },
+        "correctAnswer": "C",
+        "explanation": "XP exige CI con entornos reproducibles. Versionar datos de prueba asegura consistencia entre ejecuciones."
+    },
+    {
+        "id": "q_dev_124",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU contrata un SaaS que cambia su API cada 3 meses. El equipo quiere minimizar el impacto en su sistema.",
+        "question": "¿Qué patrón de diseño deberían aplicar en su código?",
+        "options": {
+            "A": "Adapter",
+            "B": "Decorator",
+            "C": "Observer"
+        },
+        "correctAnswer": "A",
+        "explanation": "El patrón Adapter permite encapsular cambios en APIs externas, aislando al sistema principal de modificaciones."
+    },
+    {
+        "id": "q_dev_125",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU usa Scrum. En la Retrospectiva, el equipo identifica que los sprints no cumplen metas por cambios constantes en los requisitos durante el sprint.",
+        "question": "¿Qué práctica ágil ayudaría a mitigar este problema?",
+        "options": {
+            "A": "Sprint Reviews más largas",
+            "B": "Definition of Ready para ítems del backlog",
+            "C": "Menos reuniones diarias"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Definition of Ready asegura que los ítems estén claros y estables antes de entrar a un sprint, reduciendo cambios posteriores."
+    },
+
+    {
+        "id": "q_dev_126",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo está utilizando el modelo de ciclo de vida en cascada para desarrollar un sistema de gestión de proyectos. Después de completar la fase de desarrollo, descubren que varios de los requisitos clave han cambiado. El proyecto ha sido retrasado debido a la inflexibilidad del proceso.",
+        "question": "¿Cuál es la principal desventaja de usar el modelo de ciclo de vida en cascada en este escenario?",
+        "options": {
+            "A": "No se identifican los riesgos en las primeras etapas.",
+            "B": "La falta de flexibilidad para adaptarse a los cambios durante el desarrollo.",
+            "C": "La falta de un proceso de retroalimentación con el cliente."
+        },
+        "correctAnswer": "B",
+        "explanation": "El modelo de cascada es rígido y no permite adaptarse fácilmente a cambios en los requisitos una vez que se comienza una fase, lo que fue el caso en el ejemplo."
+    },
+    {
+        "id": "q_dev_127",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo está aplicando Scrum para gestionar un proyecto de software. Durante la planificación del sprint, el equipo de desarrollo estima que el trabajo está sobrado y al final no puede completar todas las tareas asignadas.",
+        "question": "¿Qué factor del marco de Scrum debe mejorar el equipo para evitar este problema en el futuro?",
+        "options": {
+            "A": "Estimar el trabajo de manera más precisa y realizar reuniones de retrospectiva más efectivas.",
+            "B": "Reducir el número de tareas y aumentar la duración del sprint.",
+            "C": "Desarrollar el código sin pruebas para acelerar el proceso."
+        },
+        "correctAnswer": "A",
+        "explanation": "El equipo necesita mejorar sus estimaciones y reflexionar sobre cómo su proceso puede ser más efectivo a través de las reuniones de retrospectiva, que están diseñadas para identificar áreas de mejora."
+    },
+    {
+        "id": "q_dev_128",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El equipo de desarrollo ha implementado Kanban para gestionar un flujo de trabajo. Sin embargo, las tareas se están acumulando en la columna de ‘En Progreso’ debido a que los desarrolladores están tomando demasiadas tareas al mismo tiempo.",
+        "question": "¿Qué cambio deben hacer en su flujo de trabajo para solucionar este problema?",
+        "options": {
+            "A": "Limitar el trabajo en progreso (WIP) en la columna 'En Progreso'.",
+            "B": "Aumentar el número de desarrolladores para acelerar el proceso.",
+            "C": "Implementar más reuniones diarias de seguimiento del trabajo."
+        },
+        "correctAnswer": "A",
+        "explanation": "Kanban se basa en limitar el trabajo en progreso para mejorar el flujo de trabajo. Si no se limita el número de tareas que se pueden realizar simultáneamente, se corre el riesgo de que las tareas se acumulen y no se terminen a tiempo."
+    },
+    {
+        "id": "q_dev_129",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo de software está utilizando XP (Programación Extrema). Para una nueva función, deciden implementar programación en parejas. Uno de los desarrolladores no está de acuerdo, alegando que está perdiendo tiempo al trabajar junto a otro programador.",
+        "question": "¿Cómo puedes convencer al desarrollador de que la programación en parejas es beneficiosa para el equipo y el proyecto?",
+        "options": {
+            "A": "La programación en pareja mejora la calidad del código y fomenta el aprendizaje compartido entre los desarrolladores.",
+            "B": "La programación en pareja aumenta la velocidad del desarrollo y permite que el código sea escrito de forma más rápida.",
+            "C": "La programación en pareja reduce el tiempo de las reuniones y facilita la delegación de tareas."
+        },
+        "correctAnswer": "A",
+        "explanation": "La programación en pareja ayuda a mejorar la calidad del código y fomenta el aprendizaje y la colaboración entre los desarrolladores, lo que a largo plazo aumenta la productividad y calidad del software."
+    },
+    {
+        "id": "q_dev_130",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El equipo de desarrollo decide seguir los principios SOLID para mejorar el diseño del código. Después de analizar su código, encuentran que hay clases con múltiples responsabilidades, lo que hace que el código sea difícil de mantener y escalar.",
+        "question": "¿Qué principio SOLID se ha violado en este caso?",
+        "options": {
+            "A": "Single Responsibility Principle (SRP)",
+            "B": "Open/Closed Principle (OCP)",
+            "C": "Liskov Substitution Principle (LSP)"
+        },
+        "correctAnswer": "A",
+        "explanation": "El principio de responsabilidad única (SRP) establece que una clase debe tener una única responsabilidad. Cuando las clases tienen múltiples responsabilidades, el código se vuelve más difícil de entender y mantener."
+    },
+    {
+        "id": "q_dev_131",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo está implementando pruebas unitarias y de integración en su proyecto de software. Sin embargo, después de un cambio en la base de datos, las pruebas de integración fallan debido a un cambio no sincronizado en la estructura de la base de datos.",
+        "question": "¿Qué práctica de buenas prácticas de pruebas debería el equipo mejorar para evitar este tipo de fallos en el futuro?",
+        "options": {
+            "A": "Automatizar las pruebas de integración y mantenerlas sincronizadas con la base de datos.",
+            "B": "Realizar pruebas manuales en lugar de pruebas automatizadas.",
+            "C": "Desarrollar las pruebas después de haber completado la implementación."
+        },
+        "correctAnswer": "A",
+        "explanation": "Las pruebas automatizadas deben mantenerse actualizadas y sincronizadas con la base de datos y el código, de modo que cualquier cambio en el sistema se refleje en las pruebas y no cause fallos inesperados."
+    },
+    {
+        "id": "q_dev_132",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo está utilizando la integración continua (CI) para asegurar que los cambios se integren de forma continua. Sin embargo, al realizar una integración reciente, las pruebas de aceptación fallan en el entorno de producción.",
+        "question": "¿Qué acción inmediata debe tomar el equipo para abordar este problema?",
+        "options": {
+            "A": "Revertir el código a la última versión funcional y corregir los errores antes de realizar otra integración.",
+            "B": "Hacer un despliegue manual sin pruebas para asegurar que el sistema esté en producción.",
+            "C": "Aumentar el tiempo entre integraciones para realizar pruebas más exhaustivas."
+        },
+        "correctAnswer": "A",
+        "explanation": "El equipo debe revertir los cambios que causaron el fallo, corregir los errores y garantizar que todas las pruebas de aceptación sean exitosas antes de intentar integrar de nuevo el código."
+    },
+    {
+        "id": "q_dev_133",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Durante la implementación de un sistema, el equipo descubre que las pruebas unitarias no cubren todos los casos posibles, lo que genera problemas al realizar cambios en el código.",
+        "question": "¿Qué práctica de pruebas debería implementar el equipo para mejorar la cobertura de las pruebas?",
+        "options": {
+            "A": "Incrementar la cobertura de las pruebas unitarias y asegurarse de que cubran todos los casos de uso relevantes.",
+            "B": "Reemplazar las pruebas unitarias por pruebas de integración.",
+            "C": "Eliminar las pruebas y hacer pruebas manuales."
+        },
+        "correctAnswer": "A",
+        "explanation": "El equipo debe asegurarse de que todas las funcionalidades estén cubiertas por pruebas unitarias para evitar problemas al hacer cambios en el código y asegurar la calidad del sistema."
+    },
+    {
+        "id": "q_dev_134",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un desarrollador está implementando una función en un sistema y decide escribir el código sin seguir ninguna guía de estilo, lo que resulta en un código desordenado y difícil de entender.",
+        "question": "¿Qué principio de Clean Code no se está aplicando en este caso?",
+        "options": {
+            "A": "El código debe seguir una guía de estilo consistente y ser legible para otros programadores.",
+            "B": "El código debe ser escrito de manera que sea único e irrepetible.",
+            "C": "No es necesario que el código siga ninguna guía si cumple con los requisitos funcionales."
+        },
+        "correctAnswer": "A",
+        "explanation": "El principio de Clean Code establece que el código debe ser legible y seguir una guía de estilo consistente para facilitar su comprensión y mantenimiento."
+    },
+
+       {
+        "id": "q_dev_135",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo está utilizando el modelo de ciclo de vida en cascada para desarrollar un sistema de gestión de proyectos. Después de completar la fase de desarrollo, descubren que varios de los requisitos clave han cambiado. El proyecto ha sido retrasado debido a la inflexibilidad del proceso.",
+        "question": "¿Cuál es la principal desventaja de usar el modelo de ciclo de vida en cascada en este escenario?",
+        "options": {
+            "A": "No se identifican los riesgos en las primeras etapas.",
+            "B": "La falta de flexibilidad para adaptarse a los cambios durante el desarrollo.",
+            "C": "La falta de un proceso de retroalimentación con el cliente."
+        },
+        "correctAnswer": "B",
+        "explanation": "El modelo de cascada es rígido y no permite adaptarse fácilmente a cambios en los requisitos una vez que se comienza una fase."
+    },
+    {
+        "id": "q_dev_136",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo está aplicando Scrum para gestionar un proyecto de software. Durante la planificación del sprint, el equipo de desarrollo estima que el trabajo está sobrado y al final no puede completar todas las tareas asignadas.",
+        "question": "¿Qué factor del marco de Scrum debe mejorar el equipo para evitar este problema en el futuro?",
+        "options": {
+            "A": "Estimar el trabajo de manera más precisa y realizar reuniones de retrospectiva más efectivas.",
+            "B": "Reducir el número de tareas y aumentar la duración del sprint.",
+            "C": "Desarrollar el código sin pruebas para acelerar el proceso."
+        },
+        "correctAnswer": "A",
+        "explanation": "El equipo necesita mejorar sus estimaciones y reflexionar sobre cómo su proceso puede ser más efectivo a través de las reuniones de retrospectiva, que están diseñadas para identificar áreas de mejora."
+    },
+    {
+        "id": "q_dev_137",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El equipo de desarrollo ha implementado Kanban para gestionar un flujo de trabajo. Sin embargo, las tareas se están acumulando en la columna de ‘En Progreso’ debido a que los desarrolladores están tomando demasiadas tareas al mismo tiempo.",
+        "question": "¿Qué cambio deben hacer en su flujo de trabajo para solucionar este problema?",
+        "options": {
+            "A": "Limitar el trabajo en progreso (WIP) en la columna 'En Progreso'.",
+            "B": "Aumentar el número de desarrolladores para acelerar el proceso.",
+            "C": "Implementar más reuniones diarias de seguimiento del trabajo."
+        },
+        "correctAnswer": "A",
+        "explanation": "Kanban se basa en limitar el trabajo en progreso para mejorar el flujo de trabajo. Si no se limita el número de tareas que se pueden realizar simultáneamente, se corre el riesgo de que las tareas se acumulen y no se terminen a tiempo."
+    },
+    {
+        "id": "q_dev_138",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo de software está utilizando XP (Programación Extrema). Para una nueva función, deciden implementar programación en parejas. Uno de los desarrolladores no está de acuerdo, alegando que está perdiendo tiempo al trabajar junto a otro programador.",
+        "question": "¿Cómo puedes convencer al desarrollador de que la programación en parejas es beneficiosa para el equipo y el proyecto?",
+        "options": {
+            "A": "La programación en pareja mejora la calidad del código y fomenta el aprendizaje compartido entre los desarrolladores.",
+            "B": "La programación en pareja aumenta la velocidad del desarrollo y permite que el código sea escrito de forma más rápida.",
+            "C": "La programación en pareja reduce el tiempo de las reuniones y facilita la delegación de tareas."
+        },
+        "correctAnswer": "A",
+        "explanation": "La programación en pareja ayuda a mejorar la calidad del código y fomenta el aprendizaje y la colaboración entre los desarrolladores, lo que a largo plazo aumenta la productividad y calidad del software."
+    },
+    {
+        "id": "q_dev_139",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El equipo de desarrollo decide seguir los principios SOLID para mejorar el diseño del código. Después de analizar su código, encuentran que hay clases con múltiples responsabilidades, lo que hace que el código sea difícil de mantener y escalar.",
+        "question": "¿Qué principio SOLID se ha violado en este caso?",
+        "options": {
+            "A": "Single Responsibility Principle (SRP)",
+            "B": "Open/Closed Principle (OCP)",
+            "C": "Liskov Substitution Principle (LSP)"
+        },
+        "correctAnswer": "A",
+        "explanation": "El principio de responsabilidad única (SRP) establece que una clase debe tener una única responsabilidad. Cuando las clases tienen múltiples responsabilidades, el código se vuelve más difícil de entender y mantener."
+    },
+    {
+        "id": "q_dev_140",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo está implementando pruebas unitarias y de integración en su proyecto de software. Sin embargo, después de un cambio en la base de datos, las pruebas de integración fallan debido a un cambio no sincronizado en la estructura de la base de datos.",
+        "question": "¿Qué práctica de buenas prácticas de pruebas debería el equipo mejorar para evitar este tipo de fallos en el futuro?",
+        "options": {
+            "A": "Automatizar las pruebas de integración y mantenerlas sincronizadas con la base de datos.",
+            "B": "Realizar pruebas manuales en lugar de pruebas automatizadas.",
+            "C": "Desarrollar las pruebas después de haber completado la implementación."
+        },
+        "correctAnswer": "A",
+        "explanation": "Las pruebas automatizadas deben mantenerse actualizadas y sincronizadas con la base de datos y el código, de modo que cualquier cambio en el sistema se refleje en las pruebas y no cause fallos inesperados."
+    },
+    {
+        "id": "q_dev_141",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo está utilizando la integración continua (CI) para asegurar que los cambios se integren de forma continua. Sin embargo, al realizar una integración reciente, las pruebas de aceptación fallan en el entorno de producción.",
+        "question": "¿Qué acción inmediata debe tomar el equipo para abordar este problema?",
+        "options": {
+            "A": "Revertir el código a la última versión funcional y corregir los errores antes de realizar otra integración.",
+            "B": "Hacer un despliegue manual sin pruebas para asegurar que el sistema esté en producción.",
+            "C": "Aumentar el tiempo entre integraciones para realizar pruebas más exhaustivas."
+        },
+        "correctAnswer": "A",
+        "explanation": "El equipo debe revertir los cambios que causaron el fallo, corregir los errores y garantizar que todas las pruebas de aceptación sean exitosas antes de intentar integrar de nuevo el código."
+    },
+    {
+        "id": "q_dev_142",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Durante la implementación de un sistema, el equipo descubre que las pruebas unitarias no cubren todos los casos posibles, lo que genera problemas al realizar cambios en el código.",
+        "question": "¿Qué práctica de pruebas debería implementar el equipo para mejorar la cobertura de las pruebas?",
+        "options": {
+            "A": "Incrementar la cobertura de las pruebas unitarias y asegurarse de que cubran todos los casos de uso relevantes.",
+            "B": "Reemplazar las pruebas unitarias por pruebas de integración.",
+            "C": "Eliminar las pruebas y hacer pruebas manuales."
+        },
+        "correctAnswer": "A",
+        "explanation": "El equipo debe asegurarse de que todas las funcionalidades estén cubiertas por pruebas unitarias para evitar problemas al hacer cambios en el código y asegurar la calidad del sistema."
+    },
+    {
+        "id": "q_dev_143",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un desarrollador está implementando una función en un sistema y decide escribir el código sin seguir ninguna guía de estilo, lo que resulta en un código desordenado y difícil de entender.",
+        "question": "¿Qué principio de Clean Code no se está aplicando en este caso?",
+        "options": {
+            "A": "El código debe seguir una guía de estilo consistente y ser legible para otros programadores.",
+            "B": "El código debe ser escrito de manera que sea único e irrepetible.",
+            "C": "No es necesario que el código siga ninguna guía si cumple con los requisitos funcionales."
+        },
+        "correctAnswer": "A",
+        "explanation": "El principio de Clean Code establece que el código debe ser legible y seguir una guía de estilo consistente para facilitar su comprensión y mantenimiento."
+    },
+    {
+        "id": "q_dev_144",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "desarrollo-software",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un equipo de desarrollo está utilizando TDD (Desarrollo Guiado por Pruebas) en su proyecto. Después de escribir las pruebas, los desarrolladores implementan el código de producción para satisfacer los casos de prueba, pero no refactorizan el código después de que las pruebas pasen.",
+        "question": "¿Qué práctica del TDD no están siguiendo correctamente los desarrolladores?",
+        "options": {
+            "A": "No están refactorizando el código después de que las pruebas pasen.",
+            "B": "No están escribiendo las pruebas antes de desarrollar el código.",
+            "C": "No están automatizando las pruebas."
+        },
+        "correctAnswer": "A",
+        "explanation": "Una parte esencial de TDD es refactorizar el código después de que las pruebas pasen, lo que garantiza que el código se mantenga limpio y eficiente."
+    }
+
+
 
         
    
