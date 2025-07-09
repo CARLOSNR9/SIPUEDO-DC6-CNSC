@@ -22365,8 +22365,1825 @@
         },
         "correctAnswer": "A",
         "explanation": "Cassandra es ideal para aplicaciones que requieren alta disponibilidad y tolerancia a fallos, lo cual es necesario para sistemas que manejan grandes volúmenes de datos en tiempo real, como IoT."
-    }
+    },
 
+
+    {
+        "id": "q_hon_001",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Usted, como Profesional Especializado en el IDU, está evaluando las ofertas para una licitación importante. Su familiar cercano, de quien depende económicamente, le contacta para informarle que su empresa presentó una oferta y le pide 'un vistazo' al pliego de condiciones, asegurándole que solo quiere verificar si cumple los requisitos.",
+        "question": "¿Cuál sería la acción más coherente con el valor de la Honestidad en esta situación?",
+        "options": {
+            "A": "Revisar el pliego y darle la información solicitada, ya que no le está pidiendo que altere el proceso, solo que verifique requisitos.",
+            "B": "Negarse rotundamente a la solicitud, informar a su superior sobre el posible conflicto de intereses y abstenerse de cualquier participación en el proceso de evaluación de esa licitación.",
+            "C": "Informar a su familiar que no puede darle un 'vistazo', pero buscar una forma indirecta de asegurarse de que su oferta no sea descalificada por fallas de forma."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Honestidad implica priorizar el interés general sobre los intereses personales y evitar cualquier conflicto de intereses. Negarse, informar el conflicto y abstenerse de la participación (opción B) es la única acción que garantiza la transparencia y la selección objetiva, pilares de la honestidad. Las otras opciones implican un favorecimiento indebido o una falta de transparencia."
+    },
+    {
+        "id": "q_hon_002",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "La honestidad es un valor esencial en la función pública.",
+        "question": "¿Cuál es el fundamento inquebrantable de toda actuación honesta según la Cartilla de Integridad Gente IDU?",
+        "options": {
+            "A": "La eficacia.",
+            "B": "La verdad.",
+            "C": "La celeridad."
+        },
+        "correctAnswer": "B",
+        "explanation": "La definición de Honestidad en la Cartilla de Integridad Gente IDU establece que 'Actuamos siempre con fundamento en la verdad', siendo esta la base inquebrantable de toda actuación honesta."
+    },
+    {
+        "id": "q_hon_003",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Usted descubre que un colega está utilizando el vehículo oficial del IDU para realizar diligencias personales fuera del horario laboral, lo cual está explícitamente prohibido por la normativa interna y representa un uso indebido de recursos públicos.",
+        "question": "¿Cuál es la acción más coherente con el valor de la Honestidad en esta situación?",
+        "options": {
+            "A": "Ignorar la situación, ya que no es su responsabilidad directa y podría generar un conflicto con su colega.",
+            "B": "Hablar directamente con su colega para que cese la conducta, sin reportar la situación a ninguna autoridad.",
+            "C": "Denunciar la falta a la instancia correspondiente (ej. Control Interno o superior jerárquico), ya que se trata de un uso indebido de recursos públicos."
+        },
+        "correctAnswer": "C",
+        "explanation": "La honestidad implica 'Cuidar los recursos públicos evidenciando siempre la ética' y 'Siempre denunciamos las faltas, delitos o violaciones de los derechos en el ejercicio del cargo'. La denuncia (opción C) es la acción correcta para preservar la integridad institucional."
+    },
+    {
+        "id": "q_hon_004",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "El Código de Integridad Gente IDU define comportamientos deseables y no deseables para la Honestidad.",
+        "question": "¿Cuál de las siguientes conductas es NO deseable relacionada con la Honestidad?",
+        "options": {
+            "A": "Aceptar la responsabilidad de nuestros actos.",
+            "B": "Denunciar las faltas en el ejercicio del cargo.",
+            "C": "Ocultar información en beneficio propio."
+        },
+        "correctAnswer": "C",
+        "explanation": "Ocultar o descuidar la información en beneficio propio es explícitamente un comportamiento no deseable asociado a la Honestidad."
+    },
+    {
+        "id": "q_hon_005",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Usted está a cargo de un informe técnico para la junta directiva del IDU sobre el avance de un proyecto de software. Se da cuenta de que, si incluye un dato específico que es técnicamente cierto pero que podría generar una percepción negativa del progreso, el proyecto podría perder financiación. Un compañero le sugiere omitir ese dato 'por el bien del proyecto'.",
+        "question": "¿Cómo debe actuar usted, guiado por el valor de la Honestidad?",
+        "options": {
+            "A": "Omitir el dato, ya que la financiación es vital para el proyecto y el dato es solo una 'percepción'.",
+            "B": "Incluir el dato completo y veraz, pero contextualizándolo de manera que se explique su impacto y se propongan soluciones, anteponiendo siempre la verdad y la transparencia.",
+            "C": "Consultar a la junta directiva si prefieren un informe 'optimizado' para asegurar la financiación."
+        },
+        "correctAnswer": "B",
+        "explanation": "La honestidad exige 'Actuamos siempre con fundamento en la verdad' y 'Siempre decimos la verdad, aun cuando ello afecte nuestros intereses personales'. Incluir el dato veraz y contextualizarlo demuestra transparencia y priorización del interés general (información correcta para la toma de decisiones), lo cual es el pilar de la honestidad. Omitir o manipular es deshonesto."
+    },
+    {
+        "id": "q_hon_006",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "La Honestidad es un valor que se articula con la lucha contra la corrupción.",
+        "question": "¿Qué normativa establece medidas en materia de transparencia, prevención y lucha contra la corrupción, articulándose con el Código de Integridad y el valor de la Honestidad?",
+        "options": {
+            "A": "Ley 80 de 1993",
+            "B": "Ley 2195 de 2022",
+            "C": "Decreto 1083 de 2015"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Ley 2195 de 2022 es la norma que adopta medidas en materia de transparencia, prevención y lucha contra la corrupción, y se articula directamente con el Código de Integridad y los valores como la Honestidad."
+    },
+    {
+        "id": "q_hon_007",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Usted es responsable de la adquisición de hardware para el IDU. Un proveedor le ofrece un 'regalo' costoso como 'muestra de agradecimiento' por su disposición a atenderlo, sin que esto esté ligado a ninguna decisión de compra específica. La política de la entidad prohíbe aceptar cualquier tipo de dádiva.",
+        "question": "¿Cuál sería la acción más honesta en esta situación?",
+        "options": {
+            "A": "Aceptar el regalo, ya que no hay una decisión de compra específica y es solo un gesto de cortesía.",
+            "B": "Rechazar el regalo y recordarle al proveedor la política de integridad del IDU, informando a su superior si la situación persiste o es recurrente.",
+            "C": "Aceptar el regalo, pero donarlo a una causa benéfica para evitar que sea usado para fines personales."
+        },
+        "correctAnswer": "B",
+        "explanation": "La honestidad implica 'Rechazar y denunciar incentivos, favores o regalos' y 'Aceptar y ofrecer incentivos, favores o regalos, en el cumplimiento de nuestras funciones' es una conducta no deseable. La opción B demuestra adherencia a la ética institucional y transparencia."
+    },
+    {
+        "id": "q_hon_008",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "El Código de Integridad del Servicio Público Colombiano establece valores para todos los servidores públicos.",
+        "question": "¿Cuál de los siguientes no es un valor esencial del Código de Integridad del Servicio Público Colombiano?",
+        "options": {
+            "A": "Respeto",
+            "B": "Justicia",
+            "C": "Lealtad"
+        },
+        "correctAnswer": "C",
+        "explanation": "Los cinco valores esenciales del Código de Integridad son Honestidad, Respeto, Justicia, Diligencia y Compromiso. Lealtad no es uno de ellos."
+    },
+    {
+        "id": "q_hon_009",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Usted es parte del equipo de formulación de proyectos en el IDU. Le asignan revisar la documentación de un proyecto propuesto por una entidad privada. Se da cuenta de que, si bien el proyecto parece viable, un pequeño detalle técnico en la documentación está redactado de forma ambigua y podría ser interpretado de dos maneras, una de las cuales beneficiaría a la entidad privada de forma desproporcionada. Su supervisor le pide que agilice la revisión.",
+        "question": "¿Cómo debería proceder usted con honestidad y diligencia?",
+        "options": {
+            "A": "Aprobar la documentación rápidamente para cumplir con el plazo, asumiendo que la ambigüedad se aclarará en etapas posteriores.",
+            "B": "Identificar la ambigüedad, documentarla claramente, y elevar la consulta a su supervisor para que se aclare antes de continuar, aunque esto implique una leve demora.",
+            "C": "Solicitar a la entidad privada que 'clarifique' el detalle técnico, sugiriéndoles la interpretación que más convenga al proyecto."
+        },
+        "correctAnswer": "B",
+        "explanation": "La honestidad exige 'Actuamos siempre con fundamento en la verdad, cumpliendo nuestros deberes con transparencia y rectitud, y siempre favoreciendo el interés general'. Identificar y aclarar ambigüedades que puedan llevar a un beneficio indebido, aunque cause una demora, es actuar con honestidad y diligencia para proteger el interés público. Las otras opciones implican pasividad o favorecimiento."
+    },
+    {
+        "id": "q_hon_010",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "La honestidad es una barrera activa contra la corrupción.",
+        "question": "¿Qué comportamiento honesto contribuye directamente a la transparencia y la lucha contra la corrupción?",
+        "options": {
+            "A": "Aceptar regalos si no son de gran valor.",
+            "B": "Ocultar información que podría afectar la imagen de la entidad.",
+            "C": "Denunciar faltas, delitos o violaciones de derechos."
+        },
+        "correctAnswer": "C",
+        "explanation": "La denuncia de faltas, delitos o violaciones de derechos es un comportamiento honesto que contribuye directamente a la transparencia, prevención y lucha contra la corrupción."
+    },
+    {
+        "id": "q_hon_011",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Usted ha cometido un error menor en un cálculo de presupuesto que, aunque no generará un sobrecosto inmediato, podría causar un desajuste en el futuro si no se corrige. Su jefe le pregunta si el presupuesto está 'perfecto'. Sabe que admitir el error podría afectar su evaluación de desempeño.",
+        "question": "¿Cómo actuaría usted con honestidad en esta situación?",
+        "options": {
+            "A": "Confirmar que está 'perfecto', esperando corregirlo discretamente antes de que cause problemas.",
+            "B": "Admitir el error, explicar la situación y proponer una solución para corregirlo, asumiendo la responsabilidad.",
+            "C": "Culpar a un colega por haberle dado datos incorrectos, para evitar la responsabilidad."
+        },
+        "correctAnswer": "B",
+        "explanation": "La honestidad implica 'Siempre decimos la verdad, aun cuando ello afecte nuestros intereses personales' y 'Aceptamos la responsabilidad en las consecuencias de nuestros actos'. Admitir el error y proponer una solución es la conducta honesta y responsable."
+    },
+    {
+        "id": "q_hon_012",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "El Subsistema de Gestión Antisoborno (SGAS) es una herramienta del IDU contra la corrupción.",
+        "question": "¿Qué prohíbe expresamente la política del SGAS en el IDU?",
+        "options": {
+            "A": "Solo los sobornos de gran valor.",
+            "B": "Cualquier práctica relacionada con ofrecer, prometer, entregar, aceptar o solicitar una ventaja indebida.",
+            "C": "La interacción con contratistas externos."
+        },
+        "correctAnswer": "B",
+        "explanation": "El Subsistema de Gestión Antisoborno (SGAS) prohíbe expresamente 'cualquier práctica relacionada con ofrecer, prometer, entregar, aceptar o solicitar de manera personal, o por interpuesta persona, una ventaja indebida', lo que abarca una amplia gama de conductas corruptas."
+    },
+    {
+        "id": "q_hon_013",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Usted está en una reunión informal de trabajo en el IDU. Un colega comienza a difundir rumores negativos y sin fundamento sobre un proyecto reciente que usted sabe que fue ejecutado con transparencia y eficiencia, pero que aún no ha tenido el impacto esperado. Sabe que estos rumores pueden dañar la imagen del Instituto.",
+        "question": "¿Cuál sería la acción más honesta y responsable de su parte?",
+        "options": {
+            "A": "Ignorar los rumores, ya que son solo comentarios informales y no afectan directamente su trabajo.",
+            "B": "Unirse a la conversación para no desentonar, pero sin contribuir a la difusión de información falsa.",
+            "C": "Intervenir para corregir la información falsa con datos verídicos sobre el proyecto y recordar la importancia de hablar bien de la institución."
+        },
+        "correctAnswer": "C",
+        "explanation": "La honestidad implica actuar con fundamento en la verdad y cuidar la imagen institucional ('Mal Hablar Institucional' es un comportamiento no deseable). Corregir la información falsa con hechos y recordar el valor institucional demuestra compromiso y honestidad."
+    },
+    {
+        "id": "q_hon_014",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La honestidad es un valor que se articula con otros principios en el servicio público.",
+        "question": "¿Qué principios de la Constitución Política de Colombia fundamentan la honestidad en la administración pública?",
+        "options": {
+            "A": "Centralización, jerarquía y burocracia.",
+            "B": "Moralidad, transparencia y eficiencia.",
+            "C": "Discrecionalidad, flexibilidad y autonomía."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Constitución Política de Colombia establece principios como moralidad, transparencia y eficiencia para la función administrativa (Artículo 209), que son pilares de la honestidad en la administración pública."
+    },
+    {
+        "id": "q_hon_015",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Usted tiene acceso a información confidencial de las empresas que participan en una licitación del IDU. Un amigo cercano, que no está involucrado en el proceso pero trabaja en una empresa del mismo sector, le pide 'por curiosidad' algunos detalles sobre las propuestas de la competencia para 'entender el mercado'.",
+        "question": "¿Cómo respondería usted de forma más honesta y ética a esta solicitud?",
+        "options": {
+            "A": "Proporcionarle algunos detalles generales, asegurándose de no revelar información crítica que afecte el proceso.",
+            "B": "Informarle que no puede compartir esa información por tratarse de un proceso confidencial y sensible, y que su deber es proteger la transparencia de la licitación.",
+            "C": "Revisar si la información ya es pública en alguna parte y, si lo es, compartirla."
+        },
+        "correctAnswer": "B",
+        "explanation": "La honestidad exige no ocultar o descuidar la información manejada y priorizar el interés general sobre el particular. Compartir información confidencial, incluso por 'curiosidad' y sin intención de fraude directo, viola la transparencia y el principio de la honestidad. La opción B demuestra un claro apego a la ética y la protección del proceso."
+    },
+    {
+        "id": "q_hon_016",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "La honestidad es fundamental en la gestión de recursos públicos.",
+        "question": "¿Qué garantiza la honestidad en el uso de los recursos públicos?",
+        "options": {
+            "A": "Que se utilicen para fines políticos específicos.",
+            "B": "Que se utilicen con ética y responsabilidad, evitando el uso indebido o malgasto.",
+            "C": "Que se destinen solo a proyectos de alta visibilidad."
+        },
+        "correctAnswer": "B",
+        "explanation": "La honestidad garantiza que los recursos públicos sean utilizados con ética y responsabilidad, evitando el uso indebido para fines personales o el malgasto, lo cual se relaciona directamente con la diligencia y la transparencia."
+    },
+    {
+        "id": "q_hon_017",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Usted está a cargo de un equipo en el IDU. Uno de sus subordinados comete un error grave que afectará el cronograma de un proyecto. El subordinado se siente muy mal y le pide que 'cubra' el error en el informe a la dirección para evitar sanciones.",
+        "question": "¿Cuál es la acción más honesta y profesional que debe tomar?",
+        "options": {
+            "A": "Cubrir el error por única vez, para proteger a su subordinado y el ambiente de equipo.",
+            "B": "Presentar el informe con la verdad sobre el error, y trabajar con su subordinado para proponer un plan de acción correctivo y aprender de la situación.",
+            "C": "Modificar el informe para que el error parezca menos grave y culpar a factores externos."
+        },
+        "correctAnswer": "B",
+        "explanation": "La honestidad implica 'Siempre decimos la verdad, aun cuando ello afecte nuestros intereses personales' y 'Aceptamos la responsabilidad en las consecuencias de nuestros actos'. La opción B demuestra veracidad, responsabilidad y un enfoque constructivo hacia el aprendizaje colectivo y la solución de problemas."
+    },
+    {
+        "id": "q_hon_018",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La Honestidad se articula con la Justicia en el IDU.",
+        "question": "¿Cómo se relaciona la Honestidad (verdad, imparcialidad) con el valor de la Justicia?",
+        "options": {
+            "A": "La honestidad es una condición para el compañerismo, mientras la justicia es para los ciudadanos.",
+            "B": "La honestidad de decir la verdad y ser transparente es la base para actuar con imparcialidad y sin discriminación, que son pilares de la justicia.",
+            "C": "La justicia es más importante que la honestidad en la resolución de conflictos."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Honestidad de decir la verdad y actuar con transparencia y rectitud es la base para la Justicia, que implica actuar con equidad, imparcialidad y sin discriminación, favoreciendo el trato igualitario para todas las personas."
+    },
+    {
+        "id": "q_hon_019",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un familiar cercano, que no cumple los requisitos para un puesto temporal en el IDU, le pide un 'favor' para que su hoja de vida sea 'considerada de forma especial' en un proceso de selección en el que usted no tiene participación directa, pero sí conoce al jefe del área que está contratando.",
+        "question": "¿Cuál acción refleja el mayor apego al valor de la Honestidad y la Transparencia?",
+        "options": {
+            "A": "Contactar al jefe del área para 'recomendar' la hoja de vida de su familiar, sin mencionar el parentesco.",
+            "B": "Informar a su familiar que no puede intervenir en procesos donde haya conflicto de intereses y abstenerse de cualquier tipo de influencia o gestión indirecta, aunque no participe directamente.",
+            "C": "Indicarle a su familiar que postule su hoja de vida por los canales regulares y esperar que el proceso sea justo."
+        },
+        "correctAnswer": "B",
+        "explanation": "La honestidad prohíbe 'Dar trato preferencial a personas cercanas para favorecerlas' y cualquier tipo de influencia indebida, incluso indirecta. La opción B demuestra un claro rechazo a la manipulación del proceso de selección y un apego total a la transparencia y la primacía del mérito."
+    },
+    {
+        "id": "q_hon_020",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "La Cartilla de Integridad Gente IDU define la honestidad y sus implicaciones.",
+        "question": "¿Cuál es uno de los comportamientos NO deseables asociados a la Honestidad, relacionado con los recursos públicos?",
+        "options": {
+            "A": "Cuidar los recursos públicos evidenciando la ética.",
+            "B": "Hacer uso de los recursos públicos para fines personales.",
+            "C": "Denunciar el malgasto de recursos."
+        },
+        "correctAnswer": "B",
+        "explanation": "Hacer uso de los recursos públicos para fines personales es un comportamiento explícitamente no deseable, contrario a la honestidad en la gestión de lo público."
+    },
+
+    {
+        "id": "q_hon_021",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "APPLICATION",
+        "difficulty": "hard",
+        "case": "Un contratista ofrece a un funcionario del IDU un porcentaje del valor del contrato si modifica los términos de referencia para favorecerlo. El funcionario rechaza la oferta pero no la reporta.",
+        "question": "¿Qué principio de honestidad del Código de Integridad del IDU incumple al no reportar?",
+        "options": {
+            "A": "Favorecer el interés general",
+            "B": "Denunciar faltas o delitos en el ejercicio del cargo",
+            "C": "Cuidar los recursos públicos"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Cartilla de Integridad Gente IDU (v6.0) exige denunciar faltas/delitos. No reportar un intento de soborno viola este deber, aunque se haya rechazado."
+    },
+    {
+        "id": "q_hon_022",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "ANALYSIS",
+        "difficulty": "hard",
+        "case": "Un coordinador del IDU usa el vehículo institucional los fines de semana para viajes familiares, argumentando que 'todos lo hacen' y 'no causa daño'.",
+        "question": "¿Qué dos valores del ADN IDU se violan principalmente en esta situación?",
+        "options": {
+            "A": "Honestidad y Respeto",
+            "B": "Honestidad y Diligencia",
+            "C": "Innovación y Trabajo en Red"
+        },
+        "correctAnswer": "B",
+        "explanation": "Violación de Honestidad (uso indebido de recursos) y Diligencia (no optimización de recursos públicos). El SGAS prohíbe explícitamente esta conducta."
+    },
+    {
+        "id": "q_hon_023",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Según la Ley 2195 de 2022 y el Código de Integridad del IDU.",
+        "question": "¿Qué acción constituye un conflicto de intereses que debe declararse?",
+        "options": {
+            "A": "Tener un familiar en segundo grado que trabaje en empresa contratista del IDU",
+            "B": "Recibir un regalo de valor simbólico por Navidad de un colega",
+            "C": "Participar en un proceso de contratación donde no se tiene relación con los proponentes"
+        },
+        "correctAnswer": "A",
+        "explanation": "El Artículo 8 de la Ley 2195 exige declarar conflictos cuando decisiones beneficien a familiares hasta segundo grado. Los regalos están prohibidos sin importar el valor."
+    },
+    {
+        "id": "q_hon_024",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "APPLICATION",
+        "difficulty": "hard",
+        "case": "Un funcionario del IDU descubre que su jefe alteró informes técnicos para justificar pagos a un contratista. Temiendo represalias, no denuncia.",
+        "question": "¿Qué artículo del Estatuto Anticorrupción (Ley 1474 de 2011) incumple al guardar silencio?",
+        "options": {
+            "A": "Art. 5: Deber de denunciar actos de corrupción",
+            "B": "Art. 12: Prohibición de obstruir investigaciones",
+            "C": "Art. 20: Sanciones por uso indebido de información"
+        },
+        "correctAnswer": "A",
+        "explanation": "El Art. 5 establece el deber de todo servidor público de denunciar actos corruptos. El IDU protege a denunciantes de represalias según su Política SGAS."
+    },
+    {
+        "id": "q_hon_025",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "ANALYSIS",
+        "difficulty": "hard",
+        "case": "Un proveedor envía al IDU 10 computadores portátiles de más en un pedido. El funcionario a cargo no reporta el excedente y los distribuye entre su equipo.",
+        "question": "¿Qué consecuencias tendría esta acción según la Norma ISO 37001 adoptada por el IDU?",
+        "options": {
+            "A": "Ninguna, si los equipos se usan para trabajo",
+            "B": "Investigación disciplinaria y posible despido",
+            "C": "Solo requiere devolver los equipos"
+        },
+        "correctAnswer": "B",
+        "explanation": "La ISO 37001 (Sistema Antisoborno) considera esto apropiación indebida. El Código Penal (Art. 248) tipifica este acto como peculado con pena de prisión."
+    },
+    {
+        "id": "q_hon_026",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "APPLICATION",
+        "difficulty": "hard",
+        "case": "Un supervisor del IDU asigna horas extras a su sobrino sin justificación, saltándose el procedimiento establecido.",
+        "question": "¿Qué valor del ADN IDU se viola PRINCIPALMENTE?",
+        "options": {
+            "A": "Innovación",
+            "B": "Justicia",
+            "C": "Trabajo en Red"
+        },
+        "correctAnswer": "B",
+        "explanation": "Violación de Justicia (trato preferencial a familiar) y Honestidad (falsear procedimientos). La Ley 2195 de 2022 prohíbe favorecer parientes en decisiones oficiales."
+    },
+    {
+        "id": "q_hon_027",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "ANALYSIS",
+        "difficulty": "hard",
+        "case": "Un contratista invita a un funcionario a un partido de fútbol en palco privado. El funcionario acepta argumentando que 'no afecta su imparcialidad'.",
+        "question": "¿Qué política del IDU incumple esta aceptación?",
+        "options": {
+            "A": "Política de Teletrabajo",
+            "B": "Política SGAS sobre regalos y beneficios",
+            "C": "Política de Comunicaciones"
+        },
+        "correctAnswer": "B",
+        "explanation": "El SGAS del IDU prohíbe aceptar beneficios que puedan comprometer la imparcialidad (Art. 4.2 Cartilla de Integridad). Incluye invitaciones a eventos exclusivos."
+    },
+    {
+        "id": "q_hon_028",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Según la Cartilla de Integridad Gente IDU (v6.0).",
+        "question": "¿Cuál es un comportamiento deseable de honestidad en la gestión de información?",
+        "options": {
+            "A": "Compartir información confidencial con colegas de confianza",
+            "B": "Ocultar errores para proteger la imagen institucional",
+            "C": "Mantener la veracidad incluso cuando perjudique intereses personales"
+        },
+        "correctAnswer": "C",
+        "explanation": "La honestidad exige veracidad absoluta (pág. 6 Cartilla). Ocultar información o compartirla indebidamente viola la transparencia y el deber de reserva."
+    },
+    {
+        "id": "q_hon_029",
+        "id": "q_hon_029",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "APPLICATION",
+        "difficulty": "hard",
+        "case": "Un funcionario del IDU recibe un regalo de $500.000 de un contratista por 'apoyo en trámites'. Lo devuelve pero no reporta el incidente.",
+        "question": "¿Qué requisito del Modelo Integrado de Planeación y Gestión (MIPG) incumple?",
+        "options": {
+            "A": "Gestión del Talento Humano",
+            "B": "Gestión de la Ética Pública",
+            "C": "Gestión de Tecnologías de la Información"
+        },
+        "correctAnswer": "B",
+        "explanation": "El Componente 4 del MIPG (Ética Pública) exige reportar estos incidentes al Comité de Integridad. La sola devolución no basta según la Ley 2195 de 2022."
+    },
+    {
+        "id": "q_hon_030",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "ANALYSIS",
+        "difficulty": "hard",
+        "case": "Un equipo del IDU falsifica firmas en actas de entrega para cumplir metas trimestrales, argumentando que 'los proyectos sí se ejecutaron pero el papeleo se atrasó'.",
+        "question": "¿Qué tipo de falta disciplinaria configura esta acción según la Ley 734 de 2002?",
+        "options": {
+            "A": "Falta gravísima",
+            "B": "Falta leve",
+            "C": "No constituye falta"
+        },
+        "correctAnswer": "A",
+        "explanation": "Falsificar documentos es falta gravísima (Art. 35 Ley 734). Aunque el proyecto se ejecutara, alterar evidencias viola la honestidad y puede ser delito penal."
+    },
+    {
+        "id": "q_hon_031",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "APPLICATION",
+        "difficulty": "hard",
+        "case": "Un proveedor envía facturas con valores inflados en un 5%. El funcionario a cargo lo detecta pero aprueba el pago 'para evitar retrasos en el proyecto'.",
+        "question": "¿Qué principio del Código de Integridad del Gobierno Nacional se viola?",
+        "options": {
+            "A": "Vocación de Servicio",
+            "B": "Transparencia",
+            "C": "Ambos principios"
+        },
+        "correctAnswer": "C",
+        "explanation": "Violación de Transparencia (ocultar sobrecostos) y Vocación de Servicio (no proteger recursos públicos). La Ley 80 de 1993 exige eficiencia en contratación."
+    },
+    {
+        "id": "q_hon_032",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Según la Cartilla de Integridad Gente IDU (v6.0).",
+        "question": "¿Qué debe hacer un servidor público si recibe un regalo de un contratista durante las fiestas de fin de año?",
+        "options": {
+            "A": "Aceptarlo si es de bajo valor económico",
+            "B": "Reportarlo al Comité de Integridad",
+            "C": "Devolverlo discretamente sin reportar"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Política SGAS del IDU prohíbe todo regalo de contratistas (Art. 4.2). Debe reportarse incluso si se devuelve, para transparencia."
+    },
+    {
+        "id": "q_hon_033",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "ANALYSIS",
+        "difficulty": "hard",
+        "case": "Un funcionario usa su cargo en el IDU para conseguir empleo a su hijo en una empresa que tiene contrato con el instituto.",
+        "question": "¿Qué artículo del Estatuto Anticorrupción (Ley 1474 de 2011) aplica a esta situación?",
+        "options": {
+            "A": "Art. 45: Tráfico de influencias",
+            "B": "Art. 30: Abuso de funciones",
+            "C": "Art. 22: Enriquecimiento ilícito"
+        },
+        "correctAnswer": "A",
+        "explanation": "El Art. 45 sanciona el tráfico de influencias para beneficiar a terceros. La Ley 2195 de 2022 también prohíbe favorecer familiares en procesos contractuales."
+    },
+    {
+        "id": "q_hon_034",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "APPLICATION",
+        "difficulty": "hard",
+        "case": "Un supervisor del IDU firma informes de avance de proyectos sin verificarlos, delegando toda responsabilidad en su equipo.",
+        "question": "¿Qué valor del ADN IDU incumple principalmente esta conducta?",
+        "options": {
+            "A": "Compromiso",
+            "B": "Innovación",
+            "C": "Trabajo en Red"
+        },
+        "correctAnswer": "A",
+        "explanation": "Violación de Compromiso (no asumir responsabilidades) y Honestidad (firmar sin verificar). La Ley 734 de 2002 considera esto falta disciplinaria por negligencia."
+    },
+    {
+        "id": "q_hon_035",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Según la Ley 2195 de 2022 y el Código de Integridad del IDU.",
+        "question": "¿Qué debe hacer un servidor público si tiene un familiar en segundo grado trabajando en una empresa que postula a un contrato del IDU?",
+        "options": {
+            "A": "Abstenerse de participar en el proceso y declarar el conflicto",
+            "B": "Participar pero ser objetivo en la evaluación",
+            "C": "Informar solo si el familiar tiene cargo directivo"
+        },
+        "correctAnswer": "A",
+        "explanation": "El Art. 8 de la Ley 2195 exige declarar y abstenerse en estos casos. No hacerlo constituye conflicto de intereses según la Cartilla de Integridad (pág. 8)."
+    },
+    {
+        "id": "q_hon_036",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "ANALYSIS",
+        "difficulty": "hard",
+        "case": "Un funcionario del IDU recibe información privilegiada sobre una futura licitación y la comparte con un amigo que es contratista.",
+        "question": "¿Qué tipo de conducta corrupta configura esta acción según la Ley 1474 de 2011?",
+        "options": {
+            "A": "Peculado por apropiación",
+            "B": "Utilización indebida de información privilegiada",
+            "C": "Abuso de confianza"
+        },
+        "correctAnswer": "B",
+        "explanation": "El Art. 49 de la Ley 1474 sanciona esta conducta. Además, viola el deber de reserva del Código de Integridad y puede acarrear despido según el Estatuto Anticorrupción."
+    },
+    {
+        "id": "q_hon_037",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "APPLICATION",
+        "difficulty": "hard",
+        "case": "Un proveedor envía un regalo navideño a toda la oficina (canasta básica). El jefe permite aceptarlo 'para no ser descortés'.",
+        "question": "¿Qué principio de la ISO 37001 (SGAS) se incumple?",
+        "options": {
+            "A": "Tolerancia cero al soborno",
+            "B": "Debida diligencia con terceros",
+            "C": "Mejora continua"
+        },
+        "correctAnswer": "A",
+        "explanation": "La ISO 37001 prohíbe cualquier regalo, sin excepciones. El IDU en su Cartilla (pág. 9) especifica que hasta los obsequios simbólicos deben rechazarse y reportarse."
+    },
+    {
+        "id": "q_hon_038",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Según el Código de Integridad del Gobierno Nacional y la Cartilla del IDU.",
+        "question": "¿Qué caracteriza a un servidor público honesto en la toma de decisiones?",
+        "options": {
+            "A": "Prioriza relaciones personales para agilizar trámites",
+            "B": "Antepone el interés general sobre intereses particulares",
+            "C": "Flexibiliza normas cuando beneficia a grupos vulnerables"
+        },
+        "correctAnswer": "B",
+        "explanation": "La honestidad exige imparcialidad y primacía del interés general (Cartilla pág. 6). Las otras opciones violan principios de igualdad y legalidad."
+    },
+    {
+        "id": "q_hon_039",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "ANALYSIS",
+        "difficulty": "hard",
+        "case": "Un contratista ofrece donar equipos a una escuela en la comunidad donde vive un funcionario del IDU que evalúa su propuesta.",
+        "question": "¿Por qué esta acción podría configurar un soborno indirecto según la ISO 37001?",
+        "options": {
+            "A": "Porque crea una obligación moral de reciprocidad",
+            "B": "Porque los equipos son de baja calidad",
+            "C": "Porque la escuela no los necesita"
+        },
+        "correctAnswer": "A",
+        "explanation": "El SGAS del IDU considera soborno cualquier beneficio que genere obligación moral, aunque no sea para el funcionario directamente (Cartilla pág. 10)."
+    },
+    {
+        "id": "q_hon_040",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "APPLICATION",
+        "difficulty": "hard",
+        "case": "Un funcionario del IDU falsifica su hoja de vida para acceder a un cargo de mayor jerarquía, argumentando que 'tiene la experiencia aunque no esté certificada'.",
+        "question": "¿Qué consecuencias tendría esta acción según el Estatuto Disciplinario (Ley 734 de 2002)?",
+        "options": {
+            "A": "Ninguna si demuestra competencia en el cargo",
+            "B": "Destitución e inhabilidad para servir en lo público",
+            "C": "Amonestación verbal por primera vez"
+        },
+        "correctAnswer": "B",
+        "explanation": "Falsificar documentos para acceder a un cargo es falta gravísima (Art. 35 Ley 734) que acarrea destitución e inhabilidad (Art. 49). Además, puede ser delito penal."
+    },
+
+    {
+        "id": "q_hon_041",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El Código de Integridad Gente IDU subraya la importancia de la honestidad en el ejercicio público, buscando promover la transparencia y evitar el uso indebido de recursos.",
+        "question": "¿Qué principio es fundamental para garantizar que los servidores públicos actúen con honestidad y eviten el conflicto de intereses?",
+        "options": {
+            "A": "Promover la confidencialidad en la gestión pública.",
+            "B": "Favorecer el interés personal sobre el general.",
+            "C": "Actuar siempre con transparencia y priorizar el interés general."
+        },
+        "correctAnswer": "C",
+        "explanation": "La honestidad en la administración pública implica siempre priorizar el interés general por encima de los intereses personales y actuar con transparencia en todas las decisiones."
+    },
+    {
+        "id": "q_hon_042",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El IDU ha implementado diversas medidas para garantizar la integridad en sus procesos, entre ellas, el rechazo rotundo a la corrupción y el uso indebido de recursos públicos.",
+        "question": "¿Cuál de las siguientes acciones constituye una violación de los principios de honestidad según la Cartilla de Integridad Gente IDU?",
+        "options": {
+            "A": "Denunciar el mal uso de los recursos públicos.",
+            "B": "Hacer uso de recursos públicos para beneficios personales.",
+            "C": "Cumplir con los deberes laborales con transparencia."
+        },
+        "correctAnswer": "B",
+        "explanation": "El uso de recursos públicos para fines personales es una violación directa de los principios de honestidad y ética en el sector público, ya que compromete la transparencia y la integridad."
+    },
+    {
+        "id": "q_hon_043",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un servidor público del IDU descubre que un compañero está involucrado en una práctica corrupta relacionada con el mal manejo de fondos públicos.",
+        "question": "Según la Cartilla de Integridad Gente IDU, ¿qué acción debe tomar este servidor público para cumplir con los principios de honestidad?",
+        "options": {
+            "A": "Ignorar la situación para evitar conflictos.",
+            "B": "Denunciar la práctica corrupta de manera formal y responsable.",
+            "C": "Participar en la práctica corrupta para obtener algún beneficio."
+        },
+        "correctAnswer": "B",
+        "explanation": "La honestidad requiere que los servidores públicos actúen con integridad y denuncien cualquier acto de corrupción, asegurando la transparencia y el cumplimiento de la ley."
+    },
+    {
+        "id": "q_hon_044",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El IDU ha implementado el Subsistema de Gestión Antisoborno (SGAS) para combatir el soborno y la corrupción entre sus empleados y contratistas.",
+        "question": "¿Qué comportamiento está prohibido por el SGAS en relación con los principios de honestidad?",
+        "options": {
+            "A": "Aceptar regalos y favores de contratistas como incentivo.",
+            "B": "Mantener la imparcialidad en la toma de decisiones.",
+            "C": "Realizar transacciones con contratistas de manera transparente."
+        },
+        "correctAnswer": "A",
+        "explanation": "Aceptar regalos y favores de contratistas como incentivo es una práctica corrupta que va en contra de los principios de honestidad y de la política de antisoborno del IDU."
+    },
+    {
+        "id": "q_hon_045",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La **Cartilla de Integridad Gente IDU** establece que los servidores públicos deben actuar siempre con transparencia y responsabilidad en sus funciones.",
+        "question": "¿Qué implica actuar con transparencia según los principios de honestidad del IDU?",
+        "options": {
+            "A": "Ocultar información que pueda afectar negativamente a la entidad.",
+            "B": "Informar de manera clara y veraz sobre todas las acciones y decisiones tomadas.",
+            "C": "Tomar decisiones sin consultar a los involucrados para agilizar los procesos."
+        },
+        "correctAnswer": "B",
+        "explanation": "La transparencia implica actuar con claridad y veracidad, informando adecuadamente a todas las partes interesadas sobre las decisiones y acciones tomadas."
+    },
+    {
+        "id": "q_hon_046",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La **Cartilla de Integridad Gente IDU** señala que los servidores públicos deben rechazar cualquier práctica que favorezca el interés personal en detrimento del bien común.",
+        "question": "¿Cuál de las siguientes situaciones sería una violación de la honestidad según la Cartilla de Integridad Gente IDU?",
+        "options": {
+            "A": "Tomar decisiones con base en la ley y el bien común.",
+            "B": "Aceptar favores o incentivos para influir en una decisión de contratación pública.",
+            "C": "Denunciar a quienes practiquen actos de corrupción."
+        },
+        "correctAnswer": "B",
+        "explanation": "Aceptar favores o incentivos para influir en decisiones es un claro conflicto de intereses y una violación de los principios de honestidad, ya que va en contra del interés general."
+    },
+    {
+        "id": "q_hon_047",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un servidor público del IDU debe gestionar un contrato para un proyecto. Durante el proceso, descubre que uno de los postores tiene vínculos con un familiar cercano.",
+        "question": "Según el Código de Integridad Gente IDU, ¿qué debe hacer este servidor público?",
+        "options": {
+            "A": "Excluir al postor inmediatamente sin justificar la decisión.",
+            "B": "Asegurarse de que no haya conflicto de intereses y, si lo hay, abstenerse de participar en el proceso.",
+            "C": "Aceptar la propuesta del postor sin informar sobre el vínculo familiar."
+        },
+        "correctAnswer": "B",
+        "explanation": "Cuando existe un conflicto de intereses, el servidor público debe abstenerse de participar en el proceso y garantizar que se cumpla con la normativa de transparencia."
+    },
+    {
+        "id": "q_hon_048",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un servidor público se entera de que otro colega está manipulando informes para beneficiar a un tercero.",
+        "question": "Según la Cartilla de Integridad Gente IDU, ¿qué debe hacer el servidor público al conocer esta situación?",
+        "options": {
+            "A": "Ignorar la situación para evitar conflictos.",
+            "B": "Informar la situación a las autoridades competentes y colaborar en la investigación.",
+            "C": "Pedirle al colega que corrija los informes sin hacer nada más."
+        },
+        "correctAnswer": "B",
+        "explanation": "La honestidad requiere que se denuncien las faltas y se colabore para garantizar la integridad en la gestión pública."
+    },
+    {
+        "id": "q_hon_049",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un servidor público del IDU descubre que se están utilizando fondos públicos para una actividad privada sin la debida justificación.",
+        "question": "¿Qué debe hacer el servidor público en este caso, según los principios de honestidad del IDU?",
+        "options": {
+            "A": "Utilizar los fondos para resolver el problema sin reportarlo.",
+            "B": "Denunciar el uso indebido de fondos públicos a las autoridades pertinentes.",
+            "C": "Ignorar la situación y seguir adelante con el trabajo."
+        },
+        "correctAnswer": "B",
+        "explanation": "El uso indebido de fondos públicos debe ser denunciado, ya que representa una grave violación de los principios de honestidad y transparencia."
+    },
+
+
+{
+        "id": "q_hon_050",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un servidor público del IDU ha sido testigo de que un compañero está otorgando favores a un contratista para beneficiarse personalmente.",
+        "question": "¿Qué debe hacer el servidor público según los principios de honestidad del Código de Integridad Gente IDU?",
+        "options": {
+            "A": "Abstenerse de intervenir, ya que no le corresponde.",
+            "B": "Denunciar inmediatamente el acto de corrupción a las autoridades competentes.",
+            "C": "Aceptar los favores y beneficiarse también de la situación."
+        },
+        "correctAnswer": "B",
+        "explanation": "El servidor público tiene la responsabilidad de denunciar actos de corrupción y asegurarse de que se mantengan los estándares de transparencia y honestidad en su entorno laboral."
+    },
+    {
+        "id": "q_hon_051",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El IDU ha lanzado un programa para garantizar que sus servidores públicos actúen con integridad y eviten conflictos de intereses. Un servidor público se ve en una situación en la que un familiar cercano es proveedor de servicios para el IDU.",
+        "question": "¿Qué debe hacer el servidor público para mantener la honestidad en este caso?",
+        "options": {
+            "A": "Seguir participando en el proceso de contratación, sin informar sobre el vínculo familiar.",
+            "B": "Abstenerse de participar en el proceso de contratación y declarar el conflicto de intereses.",
+            "C": "Aceptar la propuesta de su familiar sin ningún tipo de inconveniente."
+        },
+        "correctAnswer": "B",
+        "explanation": "La honestidad exige que el servidor público se abstenga de participar en decisiones donde haya un conflicto de intereses y lo declare de manera transparente."
+    },
+    {
+        "id": "q_hon_052",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un servidor público es consciente de que un compañero está ocultando información importante que podría afectar la decisión de contratación de un proveedor. El compañero actúa en beneficio de una empresa con la que tiene una relación personal.",
+        "question": "¿Qué debe hacer el servidor público al descubrir este comportamiento?",
+        "options": {
+            "A": "Rechazar la decisión del compañero y colaborar en la toma de decisiones con transparencia.",
+            "B": "Ignorar la situación ya que no le afecta directamente.",
+            "C": "Participar en la ocultación de la información para evitar conflictos."
+        },
+        "correctAnswer": "A",
+        "explanation": "La honestidad requiere que se actúe con transparencia y se rechace cualquier intento de manipulación o ocultamiento de información que pueda afectar el interés general."
+    },
+    {
+        "id": "q_hon_053",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Durante un proceso de contratación, un servidor público recibe una oferta de un proveedor para facilitar el proceso a cambio de un beneficio personal.",
+        "question": "Según el Código de Integridad Gente IDU, ¿cómo debe actuar el servidor público?",
+        "options": {
+            "A": "Aceptar la oferta, ya que podría beneficiar al proyecto.",
+            "B": "Rechazar la oferta y denunciar la situación a las autoridades correspondientes.",
+            "C": "Consultar con su jefe antes de tomar una decisión sobre la oferta."
+        },
+        "correctAnswer": "B",
+        "explanation": "La honestidad y la integridad pública requieren que el servidor público rechace cualquier oferta que implique corrupción y que denuncie este tipo de conductas de manera inmediata."
+    },
+    {
+        "id": "q_hon_054",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un servidor público del IDU está involucrado en la toma de decisiones sobre la adjudicación de un contrato. Un familiar cercano está participando como proveedor en el proceso.",
+        "question": "¿Qué acción debe tomar el servidor público para garantizar la honestidad en este proceso?",
+        "options": {
+            "A": "Dejar que el proceso continúe sin informar sobre el vínculo familiar.",
+            "B": "Abstenerse de participar en la toma de decisiones sobre este contrato y declarar el conflicto de intereses.",
+            "C": "Participar en el proceso, pero no tomar ninguna decisión final."
+        },
+        "correctAnswer": "B",
+        "explanation": "El servidor público debe ser transparente y declarar cualquier conflicto de intereses, y en este caso, debe abstenerse de participar en la toma de decisiones sobre el contrato."
+    },
+    {
+        "id": "q_hon_055",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El IDU realiza auditorías periódicas para verificar que sus servidores públicos cumplan con las normas de integridad y honestidad. Durante una auditoría, se detecta que algunos empleados han estado retrasando la aprobación de pagos para beneficiar a ciertos contratistas.",
+        "question": "¿Cuál es la medida más adecuada que debe tomar el IDU en este caso?",
+        "options": {
+            "A": "Poner en marcha una investigación interna para confirmar las irregularidades y aplicar sanciones si es necesario.",
+            "B": "Despedir a los empleados inmediatamente sin realizar una investigación.",
+            "C": "Permitir que los empleados continúen con su trabajo pero advertirles que no lo hagan nuevamente."
+        },
+        "correctAnswer": "A",
+        "explanation": "El IDU debe actuar con transparencia y justicia, investigando a fondo cualquier irregularidad antes de tomar decisiones drásticas. La integridad exige que los procesos sean justos y basados en evidencia."
+    },
+    {
+        "id": "q_hon_056",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un servidor público del IDU está considerando aceptar un regalo de un contratista que está participando en un proceso de licitación. El servidor público no cree que el regalo influencie su decisión.",
+        "question": "¿Qué debe hacer el servidor público según los principios de honestidad del Código de Integridad Gente IDU?",
+        "options": {
+            "A": "Aceptar el regalo si se considera de poca importancia y no afecta el proceso.",
+            "B": "Rechazar el regalo y denunciar la situación a las autoridades correspondientes.",
+            "C": "Aceptar el regalo y asegurarse de que no influya en el proceso, sin reportarlo."
+        },
+        "correctAnswer": "B",
+        "explanation": "La aceptación de regalos puede interpretarse como un intento de influir en decisiones y comprometer la integridad. El servidor público debe rechazar cualquier regalo de contratistas y denunciar la situación."
+    },
+
+    {
+        "id": "q_hon_057",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El IDU se encuentra realizando un proceso de licitación pública, y uno de los postores ofrece una recompensa personal al servidor público encargado de supervisar el proceso.",
+        "question": "Según el Código de Integridad Gente IDU, ¿qué debe hacer el servidor público al recibir esta oferta?",
+        "options": {
+            "A": "Aceptar la recompensa, ya que es un incentivo para su trabajo.",
+            "B": "Rechazar la recompensa y denunciar la oferta de manera formal a las autoridades.",
+            "C": "Aceptar la recompensa pero asegurarse de que no influya en el proceso de licitación."
+        },
+        "correctAnswer": "B",
+        "explanation": "La honestidad en la función pública requiere rechazar cualquier oferta que pueda comprometer la transparencia e imparcialidad, además de denunciar cualquier intento de soborno o conflicto de intereses."
+    },
+    {
+        "id": "q_hon_058",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Durante el análisis de un contrato, un servidor público descubre que hay irregularidades en la facturación que podrían favorecer indebidamente a un contratista. El servidor público no es parte directa en el proceso, pero conoce el tema.",
+        "question": "¿Qué debe hacer el servidor público para actuar con honestidad según los principios del Código de Integridad Gente IDU?",
+        "options": {
+            "A": "Ignorar la situación porque no está directamente involucrado en el proceso.",
+            "B": "Informar a su superior y a la autoridad competente para que se investigue la irregularidad.",
+            "C": "Tratar de solucionar el problema directamente con el contratista sin involucrar a otros."
+        },
+        "correctAnswer": "B",
+        "explanation": "La honestidad exige que cualquier irregularidad sea denunciada, independientemente de si el servidor público está involucrado directamente en el proceso o no."
+    },
+    {
+        "id": "q_hon_059",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un servidor público del IDU se encuentra con información privilegiada sobre un contrato próximo a adjudicarse. Un familiar cercano le solicita que le comparta esta información.",
+        "question": "Según el Código de Integridad Gente IDU, ¿qué debe hacer el servidor público al encontrarse en esta situación?",
+        "options": {
+            "A": "Compartir la información con el familiar para asegurarse de que se beneficie.",
+            "B": "Rechazar compartir la información y mantener la confidencialidad, denunciando cualquier intento de influenciar el proceso.",
+            "C": "Consultar con su jefe sobre si debe compartir la información o no."
+        },
+        "correctAnswer": "B",
+        "explanation": "El servidor público debe proteger la información confidencial y evitar cualquier conflicto de intereses, actuando con transparencia y rechazando compartir información privilegiada."
+    },
+    {
+        "id": "q_hon_060",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "En una reunión con un proveedor, un servidor público del IDU es tentado a aceptar un soborno para favorecer a la empresa en un proceso de licitación.",
+        "question": "Según los principios de honestidad del Código de Integridad Gente IDU, ¿qué debe hacer el servidor público?",
+        "options": {
+            "A": "Aceptar el soborno y asegurarse de que no se descubra.",
+            "B": "Rechazar el soborno, actuar con rectitud y denunciar el intento de soborno.",
+            "C": "Aceptar el soborno pero informar a su jefe para que tome la decisión."
+        },
+        "correctAnswer": "B",
+        "explanation": "Aceptar un soborno es una violación grave de la honestidad y los principios éticos del servicio público. El servidor público debe rechazar cualquier intento de corrupción y denunciarlo de inmediato."
+    },
+    {
+        "id": "q_hon_061",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un servidor público del IDU está manejando una queja sobre un contratista que no ha cumplido con los términos del contrato. Se siente presionado por un amigo cercano que trabaja en la empresa del contratista.",
+        "question": "¿Qué debe hacer el servidor público para mantener su honestidad en este caso?",
+        "options": {
+            "A": "Aceptar la presión y no investigar la queja para evitar problemas con su amigo.",
+            "B": "Investigar la queja de manera imparcial, seguir los procedimientos y tomar decisiones basadas en hechos objetivos.",
+            "C": "Resolver la queja de manera amigable sin seguir el procedimiento formal."
+        },
+        "correctAnswer": "B",
+        "explanation": "La honestidad requiere que el servidor público actúe de manera imparcial y siga los procedimientos establecidos, independientemente de la presión personal."
+    },
+    {
+        "id": "q_hon_062",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un servidor público se entera de que un colega está aceptando sobornos para adjudicar contratos a ciertos proveedores. Aunque no está directamente involucrado, tiene conocimiento de la situación.",
+        "question": "¿Qué debe hacer el servidor público para cumplir con los principios de honestidad del Código de Integridad Gente IDU?",
+        "options": {
+            "A": "Ignorar la situación y no involucrarse.",
+            "B": "Denunciar inmediatamente el soborno a las autoridades correspondientes para garantizar que se tomen las medidas adecuadas.",
+            "C": "Hablar con el colega y pedirle que detenga el comportamiento sin involucrar a las autoridades."
+        },
+        "correctAnswer": "B",
+        "explanation": "El servidor público tiene la responsabilidad ética de denunciar cualquier acto de corrupción, incluso si no está directamente involucrado, para asegurar la transparencia y la justicia."
+    },
+    {
+        "id": "q_hon_063",
+        "topic_id": "integridad",
+        "subtopic_id": "integridad-honestidad",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un servidor público tiene acceso a información sensible sobre una licitación y un familiar cercano le pide que comparta los detalles para poder obtener ventaja en el proceso.",
+        "question": "Según el Código de Integridad Gente IDU, ¿cómo debe actuar el servidor público?",
+        "options": {
+            "A": "Compartir la información con el familiar para ayudarlo a ganar la licitación.",
+            "B": "Rechazar compartir la información y proteger su confidencialidad, denunciando cualquier intento de manipulación del proceso.",
+            "C": "Consultar con su jefe si debe compartir la información o no."
+        },
+        "correctAnswer": "B",
+        "explanation": "El servidor público debe mantener la confidencialidad de la información y actuar con integridad, rechazando cualquier solicitud que implique conflicto de intereses."
+    },
+
+    {
+    "id": "q_hon_064",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "Usted, como Profesional Especializado del IDU, está a cargo de la evaluación técnica de una propuesta para un contrato de desarrollo de software de alta cuantía. Un colega, de otro equipo, le sugiere que, aunque la propuesta de un determinado oferente es sólida, podría tener un precio ligeramente inflado, pero que el proveedor es 'confiable' y 'facilita los procesos'. Si bien no hay un soborno directo, usted percibe una intención de influir en su criterio. \n\nConsiderando su compromiso con la 'Honestidad' y la 'selección objetiva' en los procesos de contratación del IDU, ¿cuál sería la acción más ética y adecuada?",
+    "question": "¿Cómo procedería para asegurar la probidad y la transparencia en la evaluación de la propuesta?",
+    "options": {
+      "A": "Acepta la sugerencia de su colega y no investiga más el precio, confiando en su 'confiabilidad' para agilizar el proceso de evaluación.",
+      "B": "Realiza un análisis exhaustivo del precio de la propuesta, contrastándolo con estudios de mercado y ofertas de otros proponentes, y comunica cualquier hallazgo que sugiera un precio inflado a las instancias pertinentes, buscando 'decir siempre la verdad' y 'cuidar los recursos públicos', sin aceptar 'incentivos, favores o regalos' indirectos.",
+      "C": "Ignora el comentario de su colega y solo evalúa los aspectos técnicos, dejando que otra área se encargue de la evaluación económica y de la detección de posibles sobreprecios, para deslindar su responsabilidad."
+    },
+    "correctAnswer": "B",
+    "explanation": "La honestidad implica 'decir siempre la verdad, aun cuando ello afecte nuestros intereses personales' y 'cuidar los recursos públicos evidenciando siempre la ética en el quehacer diario y las relaciones que se establecen con los terceros'. También significa 'no aceptar y ofrecer incentivos, favores o regalos'[cite: 226, 230, 234]. Una conducta honesta exige una evaluación rigurosa y la comunicación de hallazgos que puedan afectar el interés general."
+  },
+  {
+    "id": "q_hon_065",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU ha implementado una política de 'cero tolerancia' al uso de recursos públicos para fines personales, en línea con los principios de 'Honestidad' y 'responsabilidad'. Usted observa que un colega, de manera reiterada, utiliza los vehículos oficiales para desplazamientos personales fuera del horario laboral, aunque los justifica como 'urgencias' que no lo son. Esta acción, aunque no afecte directamente un proyecto, sí es un 'mal uso de los recursos públicos'. \n\nConsiderando su compromiso con la 'Honestidad' y la protección del patrimonio público, ¿cuál sería la acción más ética y adecuada?",
+    "question": "¿Cómo actuaría para abordar este uso indebido de recursos públicos?",
+    "options": {
+      "A": "Ignora la situación, asumiendo que es responsabilidad de la Dirección de Recursos Físicos controlar el uso de los vehículos, y que no le corresponde a usted intervenir en conductas de otros colegas.",
+      "B": "Documenta los incidentes de uso indebido de vehículos y los reporta a la instancia pertinente (ej., Oficina de Control Interno), buscando que se apliquen las medidas correctivas y que 'no se haga uso de los recursos públicos para fines personales', en pro de la 'ética en el quehacer diario'.",
+      "C": "Confronta directamente a su colega, exigiéndole que deje de usar los vehículos para fines personales, y amenaza con denunciarlo si no lo hace, para que cese la conducta."
+    },
+    "correctAnswer": "B",
+    "explanation": "La honestidad implica 'cuidamos los recursos públicos evidenciando siempre la ética en el quehacer diario y las relaciones que se establecen con los terceros' y 'hacemos uso de los recursos públicos para fines personales' es un comportamiento NO deseable[cite: 230, 235]. La acción ética requiere documentar y denunciar el mal uso de recursos públicos a las instancias competentes."
+  },
+  {
+    "id": "q_hon_066",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "Usted es parte del equipo de formulación de un nuevo proyecto de infraestructura del IDU. En una reunión, su supervisor le pide que omita intencionalmente algunos riesgos técnicos identificados en el estudio de factibilidad para 'no retrasar la aprobación del proyecto' y evitar la 'burocracia'. Sabe que omitir esta información podría comprometer la seguridad de la obra a futuro y afectar gravemente el interés general. \n\nConsiderando su compromiso con la 'Honestidad', la 'verdad' y la 'responsabilidad' en la gestión pública, ¿cuál sería su acción más ética y adecuada?",
+    "question": "¿Cómo actuaría frente a la solicitud de omitir información crítica en el informe?",
+    "options": {
+      "A": "Omite la información sobre los riesgos técnicos en el informe, priorizando la directriz de su supervisor para no retrasar el proyecto y evitar la burocracia, esperando que los riesgos no se materialicen.",
+      "B": "Se niega a omitir la información, explica a su supervisor las graves implicaciones de 'ocultar o descuidar la información' para la seguridad y el interés general, y busca alternativas para que el proyecto avance de manera transparente y segura, incluso si esto implica un retraso inicial para abordar los riesgos.",
+      "C": "Informa de la omisión a la Oficina de Control Interno de manera anónima, pero sigue la directriz de su supervisor en el informe, para protegerse de futuras responsabilidades."
+    },
+    "correctAnswer": "B",
+    "explanation": "La honestidad implica 'decir siempre la verdad, aun cuando ello afecte nuestros intereses personales' y 'aceptar la responsabilidad en las consecuencias de nuestros actos'[cite: 226, 229]. 'Ocultamos o descuidamos la información que manejamos, en beneficio propio' es un comportamiento NO deseable[cite: 233]. Negarse a omitir información crítica y buscar alternativas transparentes es la acción más honesta y responsable, priorizando el interés general y la seguridad de la obra."
+  },
+  {
+    "id": "q_hon_067",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "Usted es parte del comité evaluador de ofertas para un contrato de desarrollo de software en el IDU. Una de las propuestas, aunque no es la más ventajosa económicamente, es presentada por una empresa cuyo gerente es amigo personal de un miembro influyente de la alta dirección. Se percibe una presión implícita para favorecer esta oferta, aunque no haya una instrucción directa para ello. \n\nConsiderando su compromiso con la 'Honestidad' y la 'imparcialidad' en los procesos de contratación, ¿cuál sería la acción más ética y adecuada?",
+    "question": "¿Cómo actuaría para asegurar la transparencia y la objetividad en la evaluación de las ofertas?",
+    "options": {
+      "A": "Vota a favor de la propuesta del amigo de la alta dirección, para evitar conflictos y mantener una buena relación con la jerarquía, asumiendo que la propuesta cumple los requisitos mínimos.",
+      "B": "Evalúa todas las propuestas de forma rigurosa y objetiva, basándose únicamente en los criterios del pliego de condiciones, y si detecta alguna inconsistencia o presión, la eleva a la instancia de control correspondiente, buscando 'no dar trato preferencial a personas cercanas para favorecerlas' y 'actuar con fundamento en la verdad' en la evaluación.",
+      "C": "Se abstiene de votar en la evaluación de esa propuesta específica, delegando la responsabilidad en otros miembros del comité, para evitar cualquier conflicto de interés o presión."
+    },
+    "correctAnswer": "B",
+    "explanation": "La honestidad implica 'actuar siempre con fundamento en la verdad, cumpliendo nuestros deberes con transparencia y rectitud'[cite: 224]. 'Damos trato preferencial a personas cercanas para favorecerlas' es un comportamiento NO deseable[cite: 237]. La acción ética exige evaluar con objetividad y, si es necesario, denunciar presiones o favoritismos para proteger la transparencia del proceso de contratación."
+  },
+  {
+    "id": "q_hon_068",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "Usted, como Profesional Especializado en el IDU, ha cometido un error significativo en el cálculo de un presupuesto para un proyecto de infraestructura, lo que podría generar un 'sobrecosto' considerable para la entidad si no se corrige a tiempo. Es consciente de que admitir el error podría afectar su reputación y generar una amonestación. Un colega le sugiere 'no hacerse responsable de sus actos' y culpar a un cambio de última hora en los requisitos. \n\nConsiderando su compromiso con la 'Honestidad' y la 'responsabilidad' en la gestión de recursos públicos, ¿cuál sería la acción más ética y adecuada?",
+    "question": "¿Cómo actuaría frente a este error, priorizando la verdad y la protección de los recursos públicos?",
+    "options": {
+      "A": "Sigue la sugerencia de su colega y culpa a un cambio de última hora en los requisitos para evitar asumir la responsabilidad y la amonestación.",
+      "B": "Admite el error en el cálculo del presupuesto a su superior, explica la situación, y propone un plan para corregirlo y mitigar el sobrecosto, buscando 'aceptar la responsabilidad en las consecuencias de nuestros actos' y 'cuidar los recursos públicos' , en pro del interés general.",
+      "C": "Corrige el error discretamente sin informar a nadie, asumiendo que es una corrección menor y que no afectará el proyecto a largo plazo."
+    },
+    "correctAnswer": "B",
+    "explanation": "La honestidad implica 'aceptar la responsabilidad en las consecuencias de nuestros actos... buscando siempre alternativas de solución' y 'cuidar los recursos públicos evidenciando siempre la ética'[cite: 229, 230]. 'No nos hacemos responsables de nuestros actos' es un comportamiento NO deseable[cite: 236]. La acción honesta exige admitir el error y buscar soluciones para proteger los recursos públicos."
+  },
+  {
+    "id": "q_hon_069",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La Contraloría Distrital ha iniciado una auditoría a un proyecto de obra del IDU. Usted es consciente de que algunos documentos clave sobre la ejecución del contrato contienen información que podría interpretarse como una irregularidad menor, aunque no hay un delito. Un superior le sugiere 'ocultar o descuidar la información' que no sea estrictamente requerida por los auditores para 'evitar complicaciones'. \n\nConsiderando su compromiso con la 'Honestidad', la 'transparencia' y la 'legalidad' en la rendición de cuentas, ¿cuál sería su acción más ética y adecuada?",
+    "question": "¿Cómo actuaría frente a la sugerencia de ocultar información a los auditores?",
+    "options": {
+      "A": "Oculta la información sugerida por su superior, para evitar 'complicaciones' y confiar en el criterio de la jerarquía, ya que no es un delito grave.",
+      "B": "Proporciona a los auditores toda la información relevante y veraz sobre la ejecución del contrato, explicando cualquier posible 'irregularidad menor' y sus causas, y buscando 'decir siempre la verdad' y 'no ocultar o descuidar la información que manejamos', en pro de la 'transparencia'.",
+      "C": "Entrega la información, pero 'pierde' los documentos que podrían generar controversia, para evitar que sean auditados y no tener que explicarlos."
+    },
+    "correctAnswer": "B",
+    "explanation": "La honestidad implica 'decir siempre la verdad, aun cuando ello afecte nuestros intereses personales' y 'no ocultamos o descuidamos la información que manejamos, en beneficio propio' es un comportamiento NO deseable[cite: 226, 233]. La acción ética exige la transparencia total con los entes de control, incluso si la información es sensible."
+  },
+  {
+    "id": "q_hon_070",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "Usted es parte del equipo que negocia un contrato importante para el IDU. Durante el proceso, un representante de la empresa proponente le ofrece un 'regalo costoso' (ej., una invitación a un evento deportivo exclusivo) para 'agradecer' su disposición y 'facilitar' futuras conversaciones, aunque el contrato aún no está adjudicado. Sabe que aceptar podría ser percibido como una ventaja indebida o un acto de soborno. \n\nConsiderando su compromiso con la 'Honestidad' y la política 'Anti-Soborno' del IDU, ¿cuál sería la acción más ética y adecuada?",
+    "question": "¿Cómo actuaría frente al ofrecimiento de un regalo costoso por parte de un proponente?",
+    "options": {
+      "A": "Acepta el regalo, entendiéndolo como un gesto de cortesía y profesionalismo, y se asegura de que su decisión final en la negociación sea imparcial.",
+      "B": "Rechaza el regalo de manera firme y explícita, informando al representante que 'no aceptamos y ofrecemos incentivos, favores o regalos, en el cumplimiento de nuestras funciones', y que el IDU promueve la 'lucha contra el soborno y la corrupción', y lo reporta a la instancia pertinente según la política SGAS.",
+      "C": "Declina el regalo, pero no lo reporta a nadie, para evitar conflictos con el proponente y no perjudicar la negociación, manteniendo la discreción."
+    },
+    "correctAnswer": "B",
+    "explanation": "La honestidad implica 'no aceptamos y ofrecemos incentivos, favores o regalos, en el cumplimiento de nuestras funciones'[cite: 234]. El Sistema de Gestión Antisoborno (SGAS) del IDU prohíbe expresamente cualquier práctica relacionada con ofrecer, prometer, entregar, aceptar o solicitar una ventaja indebida. La acción ética exige rechazar el regalo y reportarlo, para proteger la integridad del proceso de contratación."
+  },
+  {
+    "id": "q_hon_071",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "Usted es consciente de que un colega del IDU está 'dando trato preferencial a personas cercanas para favorecerlas' en el acceso a información pública, lo que genera inequidad y desconfianza en la ciudadanía. Esta acción, aunque no sea ilegal, sí contraviene la 'transparencia' y la 'igualdad de oportunidades'. \n\nConsiderando su compromiso con la 'Honestidad' y la 'justicia' en el servicio público, ¿cuál sería la acción más ética y adecuada para abordar esta situación?",
+    "question": "¿Cómo actuaría frente al 'trato preferencial' a personas cercanas?",
+    "options": {
+      "A": "Ignora la situación, asumiendo que es una dinámica personal entre colegas y que no le corresponde a usted intervenir en el trato que otros dan a los ciudadanos.",
+      "B": "Aborda a su colega de manera privada y constructiva, le explica cómo 'dar trato preferencial a personas cercanas para favorecerlas' es un comportamiento NO deseable y afecta la 'transparencia' y la 'igualdad', y le recuerda la importancia de 'actuar con fundamento en la verdad' y 'brindar un trato igualitario a las y los compañeros, jefes y ciudadanía sin distinción', fomentando un cambio de actitud.",
+      "C": "Reporta a su colega a la Oficina de Control Interno por 'dar trato preferencial', solicitando una investigación formal, sin intentar una comunicación previa o mediación."
+    },
+    "correctAnswer": "B",
+    "explanation": "La honestidad implica 'dar trato preferencial a personas cercanas para favorecerlas' como un comportamiento NO deseable[cite: 237]. La 'Justicia' promueve 'brindar un trato igualitario a las y los compañeros, jefes y ciudadanía sin distinción'. La acción ética exige abordar el comportamiento de manera constructiva, buscando su corrección en pro de la transparencia e igualdad."
+  },
+  {
+    "id": "q_hon_072",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "Usted es parte de un equipo del IDU que ha desarrollado una herramienta innovadora que optimiza un proceso clave. Su supervisor, para ganar reconocimiento, se atribuye públicamente la idea y el mérito del equipo. Esta acción es una forma de 'aprovechar la posición de ventaja' y 'no hacerse responsable de sus actos' en la atribución de éxitos. \n\nConsiderando su compromiso con la 'Honestidad' y el 'reconocimiento del mérito', ¿cuál sería la acción más ética y adecuada?",
+    "question": "¿Cómo actuaría frente a la apropiación indebida del mérito del equipo?",
+    "options": {
+      "A": "Acepta la situación, asumiendo que es común que los superiores se atribuyan los logros de sus equipos, y no interviene para evitar conflictos con la jerarquía.",
+      "B": "De manera respetuosa y con tacto, busca un espacio para conversar con su supervisor, recordándole el valor del trabajo en equipo y la importancia de 'aceptar la responsabilidad en las consecuencias de nuestros actos, tanto aquellos que son exitosos, buscando el aprendizaje colectivo', y sugiere que el crédito sea compartido con el equipo, en pro de la 'transparencia' y el 'bien común'.",
+      "C": "Reporta inmediatamente a su supervisor a la Dirección de Talento Humano por 'aprovechar cualquier posición de ventaja' y 'no hacerse responsable de sus actos', solicitando una investigación formal."
+    },
+    "correctAnswer": "B",
+    "explanation": "La honestidad implica 'aceptar la responsabilidad en las consecuencias de nuestros actos, tanto aquellos que son exitosos, buscando el aprendizaje colectivo' y 'no nos hacemos responsables de nuestros actos' es un comportamiento NO deseable[cite: 229, 236]. Aprovechar la posición para atribuirse éxitos ajenos es una manifestación de deshonestidad. La acción ética busca el reconocimiento justo y la promoción de la transparencia en el mérito."
+  },
+  {
+    "id": "q_hon_073",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "Usted es consciente de que un colega del IDU está 'ocultando o descuidando información' clave de un proyecto, lo que podría generar un 'retraso significativo' y un 'malgasto de recursos públicos' a futuro. El colega justifica su acción para 'evitar problemas' con un área involucrada. \n\nConsiderando su compromiso con la 'Honestidad', la 'transparencia' y la 'Diligencia' en la gestión de la información, ¿cuál sería la acción más ética y adecuada?",
+    "question": "¿Cómo actuaría frente a la ocultación de información que afecta el proyecto?",
+    "options": {
+      "A": "Ignora la situación, asumiendo que el colega está gestionando el problema a su manera y que no le corresponde a usted intervenir en la forma en que otros manejan su información.",
+      "B": "Aborda a su colega de manera privada y constructiva, le explica las graves implicaciones de 'ocultar o descuidar la información que manejamos, en beneficio propio' para el proyecto y los 'recursos públicos', y le recuerda la importancia de 'decir siempre la verdad' y 'expresar a tiempo y con claridad los problemas' para encontrar una solución oportuna.",
+      "C": "Reporta inmediatamente al colega a la Oficina de Control Interno por 'ocultar información', solicitando una investigación formal, sin intentar una comunicación previa o mediación."
+    },
+    "correctAnswer": "B",
+    "explanation": "La honestidad implica 'ocultamos o descuidamos la información que manejamos, en beneficio propio' como un comportamiento NO deseable[cite: 233]. 'Decir siempre la verdad' y 'Expresar a tiempo y con claridad los problemas' son comportamientos deseables[cite: 226, 119]. La 'Diligencia' también fomenta 'no malgastar ningún recurso público'. La acción ética exige abordar la conducta de manera constructiva, buscando su corrección en pro de la transparencia y la eficiencia."
+  },
+  {
+    "id": "q_hon_074",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "Usted está participando en un proceso de adquisición de equipos tecnológicos para el IDU. Un proveedor le ofrece un 'incentivo financiero' para que su oferta sea mejor evaluada, prometiendo discreción absoluta. Sabe que la política del IDU es 'prohibir de manera expresa cualquier práctica relacionada con ofrecer, prometer, entregar, aceptar o solicitar de manera personal, o por interpuesta persona, una ventaja indebida'. \n\nConsiderando su compromiso con la 'Honestidad' y el 'Sistema de Gestión Antisoborno (SGAS)' del IDU, ¿cuál sería la acción más ética y adecuada?",
+    "question": "¿Cómo actuaría frente al ofrecimiento de un incentivo financiero?",
+    "options": {
+      "A": "Acepta el incentivo financiero, con la condición de que el proveedor cumpla con todos los requisitos técnicos y que su oferta sea realmente la mejor, para no perder la oportunidad de un beneficio personal.",
+      "B": "Rechaza el incentivo financiero de manera categórica, informa al proveedor que 'no aceptamos y ofrecemos incentivos, favores o regalos, en el cumplimiento de nuestras funciones', y reporta el incidente a la instancia interna del SGAS del IDU, conforme a la política 'Anti-Soborno'.",
+      "C": "Ignora el ofrecimiento y no lo acepta, pero no lo reporta a nadie, para evitar conflictos con el proveedor y no afectar el proceso de adquisición, manteniendo la discreción."
+    },
+    "correctAnswer": "B",
+    "explanation": "La honestidad implica 'no aceptamos y ofrecemos incentivos, favores o regalos, en el cumplimiento de nuestras funciones'[cite: 234]. El SGAS del IDU prohíbe expresamente cualquier práctica relacionada con ofrecer, prometer, entregar, aceptar o solicitar una ventaja indebida[cite: 205, 206]. La acción ética exige rechazar el incentivo y reportarlo a las instancias pertinentes del SGAS."
+  },
+  {
+    "id": "q_hon_075",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "Un servidor público del IDU ha sido descubierto utilizando los equipos de cómputo de la entidad para realizar un negocio personal durante el horario laboral, afectando su productividad y el 'Uso de los recursos públicos para fines personales'. La situación ha generado controversia interna y se requiere una acción contundente. \n\nConsiderando el marco de la 'Honestidad' en el IDU y la 'lucha contra la corrupción', ¿qué principio de honestidad se ve directamente vulnerado por el uso de recursos públicos para fines personales?",
+    "question": "¿Qué principio de honestidad se vulnera por el uso de recursos públicos para fines personales?",
+    "options": {
+      "A": "Aceptar la responsabilidad en las consecuencias de los actos.",
+      "B": "No hacer uso de los recursos públicos para fines personales.",
+      "C": "Decir siempre la verdad."
+    },
+    "correctAnswer": "B",
+    "explanation": "'Hacemos uso de los recursos públicos para fines personales' es un comportamiento NO deseable asociado a la Honestidad[cite: 235]. Este principio es fundamental para evitar la corrupción y garantizar el cuidado de lo público."
+  },
+  {
+    "id": "q_hon_076",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "Un servidor público del IDU ha sido acusado de 'no hacerse responsable de sus actos' y de 'buscar asignar culpas a otros' por un error en un informe que causó un retraso en un proyecto. La situación ha generado desconfianza en el equipo y afectó el ambiente laboral. La Cartilla de Integridad Gente IDU es clara sobre este tipo de conductas. \n\nConsiderando la definición de 'Honestidad' y sus comportamientos asociados, ¿cuál es uno de los comportamientos NO deseables directamente relacionado con la asunción de responsabilidad por los propios actos?",
+    "question": "¿Cuál es un comportamiento NO deseable relacionado con la responsabilidad de los propios actos?",
+    "options": {
+      "A": "Aceptar la responsabilidad en las consecuencias de los actos.",
+      "B": "No hacerse responsable de nuestros actos, buscando asignar culpas a otros.",
+      "C": "Buscar alternativas de solución para los problemas."
+    },
+    "correctAnswer": "B",
+    "explanation": "'No nos hacemos responsables de nuestros actos' es un comportamiento NO deseable asociado a la Honestidad[cite: 236]. La honestidad implica 'aceptar la responsabilidad en las consecuencias de nuestros actos'[cite: 229]."
+  },
+  {
+    "id": "q_hon_077",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está promoviendo una cultura de transparencia en todos sus procesos. Sin embargo, se ha detectado que algunos servidores públicos, de manera sutil, 'dan trato preferencial a personas cercanas para favorecerlas' en la asignación de citas o en el acceso a información que debería ser pública para todos. Esta práctica genera una percepción de injusticia y favoritismo. \n\nConsiderando la definición de 'Honestidad' y sus comportamientos asociados, ¿cuál es uno de los comportamientos NO deseables directamente relacionado con el favoritismo?",
+    "question": "¿Cuál es un comportamiento NO deseable relacionado con el favoritismo hacia personas cercanas?",
+    "options": {
+      "A": "Decir siempre la verdad.",
+      "B": "Cuidar los recursos públicos.",
+      "C": "Dar trato preferencial a personas cercanas para favorecerlas."
+    },
+    "correctAnswer": "C",
+    "explanation": "'Damos trato preferencial a personas cercanas para favorecerlas' es un comportamiento NO deseable asociado a la Honestidad[cite: 237]. La honestidad, por el contrario, busca la imparcialidad."
+  },
+  {
+    "id": "q_hon_078",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La política de 'transparencia, prevención y lucha contra la corrupción' del IDU se apalanca en el 'Sistema de Gestión Antisoborno (SGAS)', el cual prohíbe expresamente 'cualquier práctica relacionada con ofrecer, prometer, entregar, aceptar o solicitar de manera personal, o por interpuesta persona, una ventaja indebida, financiera o no financiera'. \n\n¿Qué comportamiento NO deseable, asociado a la Honestidad, se busca combatir directamente con esta política del SGAS?",
+    "question": "¿Qué comportamiento no deseable de la Honestidad se busca combatir con la política del SGAS?",
+    "options": {
+      "A": "Ocultar o descuidar la información.",
+      "B": "Aceptar y ofrecer incentivos, favores o regalos en el cumplimiento de funciones.",
+      "C": "No hacerse responsable de los actos."
+    },
+    "correctAnswer": "B",
+    "explanation": "La política del SGAS prohíbe 'ofrecer, prometer, entregar, aceptar o solicitar de manera personal, o por interpuesta persona, una ventaja indebida'[cite: 205, 206]. Esto se relaciona directamente con el comportamiento NO deseable de la Honestidad: 'Aceptamos y ofrecemos incentivos, favores o regalos, en el cumplimiento de nuestras funciones'[cite: 234]."
+  },
+  {
+    "id": "q_hon_079",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El Código de Integridad Gente IDU establece que la 'Honestidad' significa 'Actuamos siempre con fundamento en la verdad, cumpliendo nuestros deberes con transparencia y rectitud, y siempre favoreciendo el interés general'. Este principio es la base de la probidad en la función pública. \n\n¿Cuál es el fundamento principal de la Honestidad según la definición del IDU?",
+    "question": "¿Cuál es el fundamento principal de la Honestidad según la definición del IDU?",
+    "options": {
+      "A": "El cumplimiento estricto de los horarios laborales.",
+      "B": "Actuar siempre con fundamento en la verdad, la transparencia y la rectitud, favoreciendo el interés general.",
+      "C": "La capacidad de tomar decisiones rápidas sin consultar a otros."
+    },
+    "correctAnswer": "B",
+    "explanation": "La definición de Honestidad establece: 'Actuamos siempre con fundamento en la verdad, cumpliendo nuestros deberes con transparencia y rectitud, y siempre favoreciendo el interés general'[cite: 224]."
+  },
+  {
+    "id": "q_hon_080",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La 'Honestidad' en el IDU implica que los servidores públicos deben 'cuidar los recursos públicos evidenciando siempre la ética en el quehacer diario y las relaciones que se establecen con los terceros'. Este comportamiento es clave para la buena gestión del patrimonio del Estado. \n\n¿Qué implica el cuidado de los recursos públicos en el contexto de la Honestidad en el IDU?",
+    "question": "¿Qué implica el cuidado de los recursos públicos según el valor de la Honestidad?",
+    "options": {
+      "A": "Minimizar los gastos personales del servidor público.",
+      "B": "Evidenciar siempre la ética en el quehacer diario y las relaciones con terceros al gestionar los recursos públicos.",
+      "C": "Delegar la responsabilidad del cuidado de los recursos en el área de contabilidad."
+    },
+    "correctAnswer": "B",
+    "explanation": "Uno de los comportamientos deseables de la Honestidad es 'Cuidamos los recursos públicos evidenciando siempre la ética en el quehacer diario y las relaciones que se establecen con los terceros'[cite: 230]."
+  },
+  {
+    "id": "q_hon_081",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La 'Honestidad' en el IDU exige que los servidores públicos 'siempre denunciemos las faltas, delitos o violaciones de los derechos en el ejercicio del cargo'. Este es un comportamiento fundamental para la 'transparencia' y la 'lucha contra la corrupción'. \n\n¿Qué acción es un comportamiento deseable de la Honestidad, relacionado con la detección de irregularidades en el ejercicio del cargo?",
+    "question": "¿Qué acción es un comportamiento deseable de la Honestidad ante irregularidades?",
+    "options": {
+      "A": "Ignorar las faltas para no generar conflictos internos.",
+      "B": "Siempre denunciar las faltas, delitos o violaciones de los derechos en el ejercicio del cargo.",
+      "C": "Solo denunciar delitos graves, no faltas menores."
+    },
+    "correctAnswer": "B",
+    "explanation": "Uno de los comportamientos deseables de la Honestidad es 'Siempre denunciamos las faltas, delitos o violaciones de los derechos en el ejercicio del cargo'[cite: 231]."
+  },
+  {
+    "id": "q_hon_082",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El Código de Integridad Gente IDU establece que la 'Honestidad' implica la coherencia entre las palabras, los pensamientos y las sensaciones del servidor público en su labor diaria, manifestándose en conductas basadas en la rectitud y la transparencia. Esta coherencia es un pilar de la integridad. \n\n¿Qué implica la Honestidad en términos de coherencia para el servidor público del IDU?",
+    "question": "¿Qué implica la Honestidad en términos de coherencia para el servidor público?",
+    "options": {
+      "A": "Una diferencia entre lo que se piensa y lo que se hace.",
+      "B": "La coherencia entre las palabras, los pensamientos y las sensaciones del servidor público, manifestándose en rectitud y transparencia.",
+      "C": "Actuar con flexibilidad, incluso si implica inconsistencias menores."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Honestidad es 'un estado personal de coherencia entre las palabras, los pensamientos y las sensaciones del servidor público en su labor diaria, y se manifiesta en conductas basadas en la rectitud y la transparencia'."
+  },
+  {
+    "id": "q_hon_083",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La 'Honestidad' en el IDU promueve que los servidores públicos, al tener dudas sobre la aplicación de sus deberes, 'busquemos orientación' y reconozcamos que 'se vale no saberlo todo y también se vale pedir ayuda'. Esta actitud fomenta el aprendizaje y la proactividad. \n\n¿Qué comportamiento deseable de la Honestidad se relaciona con la gestión de la incertidumbre y el aprendizaje?",
+    "question": "¿Qué comportamiento deseable de la Honestidad se relaciona con la gestión de la incertidumbre y el aprendizaje?",
+    "options": {
+      "A": "Ocultar las dudas para no mostrar debilidad.",
+      "B": "Buscar orientación y pedir ayuda cuando se tienen dudas, aceptando que no se sabe todo.",
+      "C": "Actuar por intuición sin buscar confirmación."
+    },
+    "correctAnswer": "B",
+    "explanation": "Uno de los comportamientos deseables de la Honestidad es 'Cuando tenemos dudas respecto a la aplicación de nuestros deberes, buscamos orientación. Se vale no saberlo todo y también se vale pedir ayuda'[cite: 227, 228]."
+  },
+  {
+    "id": "q_hon_084",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La 'Honestidad' en el IDU exige que los servidores públicos 'aceptemos la responsabilidad en las consecuencias de nuestros actos, tanto aquellos que son exitosos, buscando el aprendizaje colectivo, como aquellos que no lo son, buscando siempre alternativas de solución'. Este es un pilar de la 'Responsabilidad' y la 'mejora continua'. \n\n¿Qué implica la Honestidad en términos de asumir las consecuencias de los actos, tanto exitosos como fallidos?",
+    "question": "¿Qué implica la Honestidad al asumir las consecuencias de los actos?",
+    "options": {
+      "A": "Solo aceptar la responsabilidad de los éxitos, no de los errores.",
+      "B": "Aceptar la responsabilidad en las consecuencias de los actos, exitosos o no, buscando el aprendizaje y alternativas de solución.",
+      "C": "Asignar culpas a otros cuando los actos no son exitosos."
+    },
+    "correctAnswer": "B",
+    "explanation": "Uno de los comportamientos deseables de la Honestidad es 'Aceptamos la responsabilidad en las consecuencias de nuestros actos, tanto aquellos que son exitosos, buscando el aprendizaje colectivo, como aquellos que no lo son, buscando siempre alternativas de solución'[cite: 229]."
+  },
+  {
+    "id": "q_hon_085",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La 'Honestidad' en el IDU se basa en 'Actuar siempre con fundamento en la verdad'. Este principio se aplica a todas las dimensiones de la verdad: consigo mismo, con quienes le rodean y con los hechos. \n\n¿Cuál es la base de las acciones de quien actúa con honestidad en su labor diaria?",
+    "question": "¿Cuál es la base de las acciones de quien actúa con honestidad?",
+    "options": {
+      "A": "La conveniencia del momento.",
+      "B": "El fundamento en la verdad, en sus diferentes dimensiones: consigo mismo, con quienes le rodean y con los hechos.",
+      "C": "La opinión de la mayoría del equipo."
+    },
+    "correctAnswer": "B",
+    "explanation": "Quien actúa con honestidad basa sus acciones en la verdad, en sus diferentes dimensiones: verdad consigo mismo, verdad con quienes le rodean y verdad con los hechos, tanto en su vida diaria como en su puesto de trabajo[cite: 115]."
+  },
+  {
+    "id": "q_hon_086",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La 'Honestidad' en el IDU se manifiesta en 'conductas basadas en la rectitud y la transparencia'. Esto es fundamental para construir confianza en la gestión pública. \n\n¿Cómo se manifiesta la Honestidad en la labor diaria del servidor público del IDU?",
+    "question": "¿Cómo se manifiesta la Honestidad en la labor diaria del servidor público?",
+    "options": {
+      "A": "En la omisión de información para agilizar procesos.",
+      "B": "En conductas basadas en la rectitud y la transparencia.",
+      "C": "En la delegación total de responsabilidades."
+    },
+    "correctAnswer": "B",
+    "explanation": "La honestidad es consecuencia es un estado personal de coherencia entre las palabras, los pensamientos y las sensaciones del servidor público en su labor diaria, y se manifiesta en conductas basadas en la rectitud y la transparencia[cite: 116]."
+  },
+  {
+    "id": "q_hon_087",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El Código de Integridad Gente IDU, en su definición de Honestidad, enfatiza la importancia de 'siempre favorecer el interés general' sobre cualquier otro tipo de interés. Este es un principio rector de la función pública. \n\n¿Cuál es el interés principal que debe favorecer el servidor público que actúa con Honestidad?",
+    "question": "¿Qué interés principal debe favorecer el servidor público honesto?",
+    "options": {
+      "A": "Los intereses personales o grupales.",
+      "B": "El interés de la Dirección de la entidad.",
+      "C": "El interés general."
+    },
+    "correctAnswer": "C",
+    "explanation": "La definición de Honestidad establece que es 'actuar siempre con fundamento en la verdad, cumpliendo nuestros deberes con transparencia y rectitud, y siempre favoreciendo el interés general'[cite: 224]."
+  },
+  {
+    "id": "q_hon_088",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La Honestidad es uno de los siete valores de integridad que estructuran el 'ADN IDU', junto con Respeto, Justicia, Diligencia, Compromiso, Innovación y Trabajo en Red. Esta integración de valores busca fortalecer la cultura organizacional. \n\n¿La Honestidad es uno de los siete valores de integridad que estructuran el 'ADN IDU'?",
+    "question": "¿Es la Honestidad uno de los siete valores de integridad que estructuran el 'ADN IDU'?",
+    "options": {
+      "A": "No, es solo un principio general.",
+      "B": "Sí.",
+      "C": "Es un valor externo al IDU."
+    },
+    "correctAnswer": "B",
+    "explanation": "Podemos decir entonces, que los siete valores de integridad del Instituto son: honestidad, respeto, justicia, diligencia, compromiso, innovación y el trabajo en red y estructuran el ADN IDU[cite: 218]."
+  },
+  {
+    "id": "q_hon_089",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El Sistema de Gestión Antisoborno (SGAS) del IDU tiene como política institucional 'Prohibir de manera expresa cualquier práctica relacionada con ofrecer, prometer, entregar, aceptar o solicitar de manera personal, o por interpuesta persona, una ventaja indebida, financiera o no financiera'. Esta política se apalanca en la Honestidad. \n\n¿Qué tipo de práctica se prohíbe expresamente en la política del SGAS del IDU, relacionado con las ventajas indebidas?",
+    "question": "¿Qué práctica se prohíbe expresamente en la política del SGAS del IDU?",
+    "options": {
+      "A": "Compartir información no confidencial con terceros.",
+      "B": "Ofrecer o aceptar ventajas indebidas (financieras o no financieras).",
+      "C": "Utilizar herramientas tecnológicas de la entidad."
+    },
+    "correctAnswer": "B",
+    "explanation": "La política institucional del SGAS consiste en: 'Prohibir de manera expresa cualquier práctica relacionada con ofrecer, prometer, entregar, aceptar o solicitar de manera personal, o por interpuesta persona, una ventaja indebida, financiera o no financiera'[cite: 205, 206]."
+  },
+  {
+    "id": "q_hon_090",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La Honestidad en el IDU está articulada con la Ley 2195 de 2022, que adopta medidas en materia de transparencia, prevención y lucha contra la corrupción. Esta articulación busca fortalecer un enfoque preventivo en torno a la integridad pública. \n\n¿Qué ley, relacionada con la transparencia y la lucha contra la corrupción, está articulada con el Código de Integridad (incluyendo la Honestidad) del IDU?",
+    "question": "¿Qué ley está articulada con el Código de Integridad del IDU en materia de transparencia y lucha contra la corrupción?",
+    "options": {
+      "A": "Ley 80 de 1993.",
+      "B": "Ley 1150 de 2007.",
+      "C": "Ley 2195 de 2022."
+    },
+    "correctAnswer": "C",
+    "explanation": "El Código de Integridad se encuentra articulado con... la ley 2195 de 2022 'Por medio de la cual se adoptan medidas en materia de transparencia, prevención y lucha contra la corrupción y se dictan otras disposiciones'[cite: 191]."
+  },
+  {
+    "id": "q_hon_091",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El Código de Integridad Gente IDU establece que la Honestidad, junto con otros valores, busca 'incentivar conductas positivas a favor de la legalidad, la vocación de servicio y el privilegio al bien general antes que al bien particular'. Este enfoque es parte de una tendencia mundial para fortalecer la integridad pública. \n\n¿Qué enfoque busca fortalecer el Gobierno Nacional a través del Código de Integridad (incluyendo la Honestidad) en torno a la integridad pública?",
+    "question": "¿Qué enfoque busca fortalecer el Gobierno Nacional a través del Código de Integridad?",
+    "options": {
+      "A": "Un enfoque reactivo y punitivo.",
+      "B": "Un enfoque preventivo.",
+      "C": "Un enfoque exclusivamente disciplinario."
+    },
+    "correctAnswer": "B",
+    "explanation": "La intención del gobierno nacional es reconocer la importancia de trabajar de la mano con nosotros y nosotras para incentivar conductas positivas a favor de la legalidad, la vocación de servicio y el privilegio al bien general antes que al bien particular, con lo cual se sigue la creciente tendencia mundial de fortalecer un enfoque preventivo en torno a la integridad pública[cite: 194]."
+  },
+  {
+    "id": "q_hon_092",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La 'Honestidad' en el IDU implica 'cuidar los recursos públicos evidenciando siempre la ética en el quehacer diario'. Esta conducta es vital porque 'los recursos públicos son sagrados y tienen por objeto la satisfacción del interés general, pues provienen del esfuerzo de sus conciudadanos'. \n\n¿Por qué es fundamental para la Honestidad cuidar los recursos públicos, según la cartilla?",
+    "question": "¿Por qué es fundamental para la Honestidad cuidar los recursos públicos?",
+    "options": {
+      "A": "Para reducir los costos operativos de la entidad.",
+      "B": "Porque son sagrados y tienen por objeto la satisfacción del interés general, proviniendo del esfuerzo de los ciudadanos.",
+      "C": "Para evitar que otros colegas los usen."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Honestidad implica 'Cuidamos los recursos públicos evidenciando siempre la ética en el quehacer diario y las relaciones que se establecen con los terceros'. Además, el texto de la versión 3 del Código (no visible en este extracto, pero parte de la información que consulté antes) explica que 'Entender que los recursos públicos son sagrados y que tienen por objeto la satisfacción del interés general, pues provienen del esfuerzo de sus conciudadanos' es una conducta deseable. El extracto actual lo ratifica con 'lo público es de todos y todas y siempre se cuida'[cite: 259]."
+  },
+  {
+    "id": "q_hon_093",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El Código de Integridad Gente IDU establece que la Honestidad, junto con el Respeto, la Justicia, la Diligencia y el Compromiso, son valores transversales definidos por el Departamento Administrativo de la Función Pública (DAFP). Estos valores buscan guiar la conducta de todos los servidores públicos en el país. \n\n¿La Honestidad es uno de los valores transversales definidos por el DAFP para el servicio público colombiano?",
+    "question": "¿Es la Honestidad un valor transversal definido por el DAFP?",
+    "options": {
+      "A": "No, es un valor exclusivo del IDU.",
+      "B": "Sí.",
+      "C": "Es un valor definido por el Ministerio de Hacienda."
+    },
+    "correctAnswer": "B",
+    "explanation": "Estos valores transversales definidos por el Departamento Administrativo de la Función Pública -DAFP, son: honestidad, respeto, justicia, diligencia y compromiso[cite: 195]."
+  },
+
+  {
+    "id": "q_hon_094",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "Usted es consciente de que un colega del IDU, en su rol de supervisor, 'abusa de la autoridad para afectar deliberadamente la moral de los equipos', lo cual genera un ambiente de miedo y desmotivación. Esta conducta, además de ser contraria a la 'Honestidad', compromete la productividad y el bienestar de los servidores públicos. \n\nConsiderando la 'definición y vivencia' de la Honestidad en el IDU, ¿cuál es el comportamiento no deseable que directamente se opone a un uso ético de la autoridad?",
+    "question": "¿Qué comportamiento no deseable de la Honestidad se opone al uso ético de la autoridad?",
+    "options": {
+      "A": "Hacer uso de las posiciones de autoridad para inspirar y acompañar a los equipos de trabajo.",
+      "B": "Aprovechar cualquier posición de ventaja que la calidad de servidor público le pueda ofrecer sobre el resto de la ciudadanía para la satisfacción de intereses personales.",
+      "C": "Abusar de la autoridad para afectar deliberadamente la moral de los equipos, satisfacer de manera negativa el orgullo personal o atender intereses profesionales, económicos, etc."
+    },
+    "correctAnswer": "C",
+    "explanation": "La Honestidad implica 'Hacer uso de las posiciones de autoridad para inspirar y acompañar los equipos de trabajo al cumplimiento de los fines institucionales' como comportamiento deseable. El comportamiento NO deseable que se opone a un uso ético de la autoridad es 'Abusar de la autoridad para afectar deliberadamente la moral de los equipos, satisfacer de manera negativa el orgullo personal o atender intereses profesionales, económicos, etc.'[cite: 148]."
+  },
+  {
+    "id": "q_hon_095",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está promoviendo una cultura de integridad donde la 'Honestidad' es un valor clave. Sin embargo, en el ejercicio diario, algunos servidores públicos 'buscan obtener réditos personales con recursos de los ciudadanos', lo cual es una conducta gravemente contraria a la 'ética' y al 'interés general'. \n\nConsiderando la 'definición y vivencia' de la Honestidad en el IDU, ¿cuál es el comportamiento no deseable que directamente se opone a la protección de los recursos públicos para el interés general?",
+    "question": "¿Qué comportamiento no deseable de la Honestidad se opone a la protección de los recursos públicos para el interés general?",
+    "options": {
+      "A": "Cuidar los recursos públicos evidenciando siempre la ética.",
+      "B": "Buscar obtener réditos personales con recursos de los ciudadanos.",
+      "C": "Entender que los recursos públicos son sagrados."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Honestidad implica 'Cuidamos los recursos públicos evidenciando siempre la ética' y 'Entender que los recursos públicos son sagrados y que tienen por objeto la satisfacción del interés general'. El comportamiento NO deseable que se opone a esto es 'Buscar obtener réditos personales con recursos de los ciudadanos'[cite: 148]."
+  },
+  {
+    "id": "q_hon_096",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La 'Honestidad' en el IDU se define por 'Actuamos siempre con fundamento en la verdad, cumpliendo nuestros deberes con transparencia y rectitud, y siempre favoreciendo el interés general'. Esta definición es la base de la 'probidad' y la 'integridad' en la función pública. \n\n¿Cuál es el valor principal que la Honestidad busca favorecer en la actuación del servidor público?",
+    "question": "¿Qué valor principal busca favorecer la Honestidad en la actuación del servidor público?",
+    "options": {
+      "A": "El interés particular del servidor.",
+      "B": "El interés general.",
+      "C": "El interés del equipo de trabajo."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Honestidad se define por 'Actuamos siempre con fundamento en la verdad, cumpliendo nuestros deberes con transparencia y rectitud, y siempre favoreciendo el interés general'[cite: 142]."
+  },
+  {
+    "id": "q_hon_097",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La 'Honestidad' en el IDU implica que los servidores públicos 'aceptamos la responsabilidad en las consecuencias de nuestros actos, tanto aquellos que son exitosos, buscando el aprendizaje colectivo, como aquellos que no lo son, buscando siempre alternativas de solución'. \n\n¿Qué comportamiento NO deseable de la Honestidad es una contradicción directa de la aceptación de responsabilidad por los propios actos?",
+    "question": "¿Qué comportamiento no deseable de la Honestidad contradice la aceptación de responsabilidad?",
+    "options": {
+      "A": "Aceptar la responsabilidad de los éxitos.",
+      "B": "No hacerse responsable de nuestros actos, buscando asignar culpas a otros.",
+      "C": "Buscar el aprendizaje colectivo."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Honestidad implica 'aceptar la responsabilidad en las consecuencias de nuestros actos'. El comportamiento NO deseable que contradice esto es 'No nos hacemos responsables de nuestros actos'[cite: 258, 265]."
+  },
+  {
+    "id": "q_hon_098",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La 'Honestidad' en el IDU exige 'Siempre denunciamos las faltas, delitos o violaciones de los derechos en el ejercicio del cargo'. Este comportamiento es clave para la 'lucha contra la corrupción' y la 'transparencia'. \n\n¿Qué tipo de situaciones, relacionadas con el ejercicio del cargo, deben ser siempre denunciadas como un comportamiento honesto?",
+    "question": "¿Qué situaciones deben ser siempre denunciadas como un comportamiento honesto?",
+    "options": {
+      "A": "Solo los delitos graves, no las faltas menores.",
+      "B": "Las faltas, delitos o violaciones de los derechos en el ejercicio del cargo.",
+      "C": "Únicamente las violaciones de derechos fundamentales."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Honestidad implica 'Siempre denunciamos las faltas, delitos o violaciones de los derechos en el ejercicio del cargo'[cite: 260]."
+  },
+  {
+    "id": "q_hon_099",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La 'Honestidad' en el IDU promueve que, cuando tenemos dudas respecto a la aplicación de nuestros deberes, 'buscamos orientación' y reconocemos que 'se vale no saberlo todo y también se vale pedir ayuda'. Esta actitud fomenta la 'proactividad' y la 'mejora continua'. \n\n¿Qué comportamiento deseable de la Honestidad se relaciona con la gestión de dudas y la búsqueda de conocimiento?",
+    "question": "¿Qué comportamiento deseable de la Honestidad se relaciona con la gestión de dudas y la búsqueda de conocimiento?",
+    "options": {
+      "A": "Ocultar las dudas para no mostrar debilidad profesional.",
+      "B": "Buscar orientación y pedir ayuda cuando se tienen dudas sobre la aplicación de los deberes.",
+      "C": "Ignorar las dudas y proceder según la intuición."
+    },
+    "correctAnswer": "B",
+    "explanation": "Uno de los comportamientos deseables de la Honestidad es 'Cuando tenemos dudas respecto a la aplicación de nuestros deberes, buscamos orientación. Se vale no saberlo todo y también se vale pedir ayuda'[cite: 257]."
+  },
+  {
+    "id": "q_hon_100",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La Honestidad en el IDU se manifiesta en 'conductas basadas en la rectitud y la transparencia'. Esta manifestación es crucial para la 'credibilidad' de la entidad y la 'confianza ciudadana'. \n\n¿Cómo se manifiesta la Honestidad en la labor diaria del servidor público del IDU, además de la coherencia entre palabras, pensamientos y sensaciones?",
+    "question": "¿Cómo se manifiesta la Honestidad en la labor diaria del servidor público?",
+    "options": {
+      "A": "En la agilidad para evadir responsabilidades.",
+      "B": "En conductas basadas en la rectitud y la transparencia.",
+      "C": "En el uso de atajos para optimizar procesos."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Honestidad 'se manifiesta en conductas basadas en la rectitud y la transparencia'[cite: 145]."
+  },
+  {
+    "id": "q_hon_101",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La 'Honestidad' en el IDU implica que los servidores públicos deben 'cuidar los recursos públicos evidenciando siempre la ética en el quehacer diario y las relaciones que se establecen con los terceros'. Este es un comportamiento fundamental para la 'Diligencia' y la 'protección del patrimonio público'. \n\n¿Qué comportamiento deseable de la Honestidad se relaciona directamente con la gestión ética de los recursos públicos?",
+    "question": "¿Qué comportamiento deseable de la Honestidad se relaciona con la gestión ética de los recursos públicos?",
+    "options": {
+      "A": "Hacer uso de los recursos públicos para fines personales.",
+      "B": "Cuidar los recursos públicos evidenciando siempre la ética en el quehacer diario y las relaciones con los terceros.",
+      "C": "Buscar obtener réditos personales con recursos de los ciudadanos."
+    },
+    "correctAnswer": "B",
+    "explanation": "Uno de los comportamientos deseables de la Honestidad es 'Cuidamos los recursos públicos evidenciando siempre la ética en el quehacer diario y las relaciones que se establecen con los terceros'[cite: 259]."
+  },
+  {
+    "id": "q_hon_102",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El Código de Integridad Gente IDU establece que la 'Honestidad' se fundamenta en la 'verdad' y busca 'favorecer el interés general'. Este principio es esencial para la 'integridad' en todas las actuaciones del servidor público. \n\n¿Cuál es uno de los dos pilares fundamentales de la Honestidad según su definición oficial en el IDU?",
+    "question": "¿Cuál es uno de los dos pilares fundamentales de la Honestidad según su definición oficial?",
+    "options": {
+      "A": "La celeridad en la toma de decisiones.",
+      "B": "El fundamento en la verdad y el favorecimiento del interés general.",
+      "C": "La capacidad de negociación con terceros."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Honestidad se define por 'Actuamos siempre con fundamento en la verdad, cumpliendo nuestros deberes con transparencia y rectitud, y siempre favoreciendo el interés general'[cite: 142]. La verdad y el interés general son pilares."
+  },
+  {
+    "id": "q_hon_103",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La 'Honestidad' en el IDU es uno de los siete valores que estructuran el 'ADN IDU'. Estos valores fueron construidos de manera participativa con la 'Gente IDU' para asegurar su apropiación y vivencia diaria. \n\n¿La Honestidad fue construida de manera participativa con la 'Gente IDU'?",
+    "question": "¿Fue la Honestidad construida de manera participativa con la 'Gente IDU'?",
+    "options": {
+      "A": "No, fue impuesta por la alta dirección.",
+      "B": "Sí.",
+      "C": "Solo fue construida por consultores externos."
+    },
+    "correctAnswer": "B",
+    "explanation": "Estos valores organizacionales (que incluyen la Honestidad) 'fueron construidos de una manera participativa de la Gente IDU, y en particular, con los valiosos aportes de las y los gestores de integridad del IDU'[cite: 242]."
+  },
+  {
+    "id": "q_hon_104",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El Sistema de Gestión Antisoborno (SGAS) del IDU tiene como política institucional 'Prohibir de manera expresa cualquier práctica relacionada con ofrecer, prometer, entregar, aceptar o solicitar de manera personal, o por interpuesta persona, una ventaja indebida, financiera o no financiera'. Esta política es esencial para la 'Honestidad' y la 'transparencia' en los procesos. \n\n¿Qué tipo de ventaja (financiera o no financiera) se prohíbe en la política del SGAS en relación con la Honestidad?",
+    "question": "¿Qué tipo de ventaja se prohíbe en la política del SGAS en relación con la Honestidad?",
+    "options": {
+      "A": "Solo las ventajas financieras.",
+      "B": "Las ventajas indebidas, sean financieras o no financieras.",
+      "C": "Únicamente las ventajas que afectan directamente al servidor público."
+    },
+    "correctAnswer": "B",
+    "explanation": "La política institucional del SGAS consiste en: 'Prohibir de manera expresa cualquier práctica relacionada con ofrecer, prometer, entregar, aceptar o solicitar de manera personal, o por interpuesta persona, una ventaja indebida, financiera o no financiera'[cite: 234, 235]."
+  },
+  {
+    "id": "q_hon_105",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La 'Honestidad' en el IDU está articulada con la Ley 2195 de 2022, que adopta medidas en materia de 'transparencia, prevención y lucha contra la corrupción'. Esta articulación es un pilar fundamental para la 'integridad pública' y la 'vocación de servicio'. \n\n¿El Código de Integridad (que incluye la Honestidad) del IDU se encuentra articulado con la Ley 2195 de 2022?",
+    "question": "¿El Código de Integridad del IDU se encuentra articulado con la Ley 2195 de 2022?",
+    "options": {
+      "A": "No, es una ley externa que no afecta directamente al Código de Integridad.",
+      "B": "Sí.",
+      "C": "Solo si la ley 2195 es reglamentada por un decreto distrital."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Código de Integridad se encuentra articulado con la Constitución Política, el Modelo Integrado de Planeación y Gestión MIPG, el Código Disciplinario Único, el Estatuto Anticorrupción, la ley 2195 de 2022 'Por medio de la cual se adoptan medidas en materia de transparencia, prevención y lucha contra la corrupción y se dictan otras disposiciones'[cite: 220]."
+  },
+  {
+    "id": "q_hon_106",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El Código de Integridad Gente IDU establece que la Honestidad, junto con otros valores, busca 'incentivar conductas positivas a favor de la legalidad, la vocación de servicio y el privilegio al bien general antes que al bien particular'. Este enfoque preventivo es clave para la 'integridad pública'. \n\n¿Qué tipo de conductas busca incentivar el Código de Integridad (incluyendo la Honestidad) en los servidores públicos?",
+    "question": "¿Qué tipo de conductas busca incentivar el Código de Integridad en los servidores públicos?",
+    "options": {
+      "A": "Conductas que prioricen los intereses particulares del servidor.",
+      "B": "Conductas positivas a favor de la legalidad, la vocación de servicio y el privilegio al bien general antes que al bien particular.",
+      "C": "Conductas que agilicen procesos, incluso si implican desviaciones menores."
+    },
+    "correctAnswer": "B",
+    "explanation": "La intención del gobierno nacional es reconocer la importancia de trabajar de la mano con nosotros y nosotras para incentivar conductas positivas a favor de la legalidad, la vocación de servicio y el privilegio al bien general antes que al bien particular[cite: 223]."
+  },
+  {
+    "id": "q_hon_107",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La 'Honestidad' en el IDU implica que los recursos públicos son 'sagrados y tienen por objeto la satisfacción del interés general, pues provienen del esfuerzo de sus conciudadanos'. Este entendimiento es fundamental para el 'cuidado' y 'uso ético' de dichos recursos. \n\n¿Por qué se consideran 'sagrados' los recursos públicos en el contexto de la Honestidad en el IDU?",
+    "question": "¿Por qué se consideran 'sagrados' los recursos públicos en el contexto de la Honestidad?",
+    "options": {
+      "A": "Porque son de difícil acceso y control.",
+      "B": "Porque tienen por objeto la satisfacción del interés general y provienen del esfuerzo de los ciudadanos.",
+      "C": "Porque son administrados por entidades religiosas."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Honestidad implica 'Entender que los recursos públicos son sagrados y que tienen por objeto la satisfacción del interés general, pues provienen del esfuerzo de sus conciudadanos'[cite: 148]."
+  },
+  {
+    "id": "q_hon_108",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El Código de Integridad Gente IDU establece que la Honestidad es uno de los valores transversales definidos por el Departamento Administrativo de la Función Pública (DAFP) a nivel nacional. Esto significa que la Honestidad es un principio rector para todos los servidores públicos en Colombia. \n\n¿La Honestidad es un valor exclusivo del IDU, o es uno de los valores transversales definidos por el DAFP para el servicio público colombiano en general?",
+    "question": "¿Es la Honestidad un valor exclusivo del IDU, o es un valor transversal definido por el DAFP para el servicio público general?",
+    "options": {
+      "A": "Es un valor exclusivo del IDU.",
+      "B": "Es uno de los valores transversales definidos por el DAFP para el servicio público colombiano en general.",
+      "C": "Es un valor definido por el Concejo de Bogotá."
+    },
+    "correctAnswer": "B",
+    "explanation": "Estos valores transversales definidos por el Departamento Administrativo de la Función Pública -DAFP, son: honestidad, respeto, justicia, diligencia y compromiso. Por su parte, la política distrital de talento humano da cuenta del programa de Construcción de Ambientes Laborales Diversos, Amorosos y Seguros CALDAS[cite: 224, 225]."
+  },
+  {
+    "id": "q_hon_109",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La 'Honestidad' en el IDU, al igual que los demás valores de integridad, contribuye a que la entidad sea 'líder a nivel nacional y distrital en la lucha contra la corrupción' y busque la 'eficiencia y la transparencia en su gestión diaria'. Este es un objetivo estratégico del Instituto. \n\n¿La Honestidad contribuye al posicionamiento del IDU como una entidad líder en la lucha contra la corrupción y en la búsqueda de eficiencia y transparencia?",
+    "question": "¿Contribuye la Honestidad al posicionamiento del IDU como líder en la lucha contra la corrupción y en la búsqueda de eficiencia y transparencia?",
+    "options": {
+      "A": "No, su contribución se limita al cumplimiento individual de deberes.",
+      "B": "Sí, la Honestidad contribuye al posicionamiento del IDU como una entidad líder en la lucha contra la corrupción y en la búsqueda de eficiencia y transparencia en su gestión diaria.",
+      "C": "Solo contribuye a la eficiencia, no a la lucha contra la corrupción."
+    },
+    "correctAnswer": "B",
+    "explanation": "Lo anterior, con el propósito de posicionar al Instituto como una entidad líder a nivel nacional y distrital en la lucha contra la corrupción y buscar la eficiencia y la transparencia en su gestión diaria. Podemos decir entonces, que los siete valores de integridad del Instituto son: honestidad, respeto, justicia, diligencia, compromiso, innovación y el trabajo en red y estructuran el ADN IDU[cite: 246, 247]."
+  },
+  {
+    "id": "q_hon_110",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El Código de Integridad Gente IDU establece que la Honestidad es una virtud característica de 'actuar con fundamento en la verdad y la justicia, anteponiéndolos a sus intereses personales en pro del interés general'. Esta definición es la piedra angular de la ética en el servicio público. \n\n¿Cuál es la virtud característica de la Honestidad según su definición en la Cartilla de Integridad Gente IDU?",
+    "question": "¿Cuál es la virtud característica de la Honestidad según su definición en la Cartilla?",
+    "options": {
+      "A": "La capacidad de liderazgo en los equipos.",
+      "B": "Actuar con fundamento en la verdad y la justicia, anteponiéndolos a los intereses personales en pro del interés general.",
+      "C": "La habilidad para resolver problemas técnicos complejos."
+    },
+    "correctAnswer": "B",
+    "explanation": "La honestidad es aquella virtud característica de actuar con fundamento en la verdad y la justicia, anteponiéndolos a sus intereses personales en pro del interés general[cite: 142]."
+  },
+  {
+    "id": "q_hon_111",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La 'Honestidad' en el IDU se manifiesta en la 'coherencia entre las palabras, los pensamientos y las sensaciones del servidor público en su labor diaria, y se manifiesta en conductas basadas en la rectitud y la transparencia'. Esta coherencia es un pilar de la 'credibilidad'. \n\n¿Qué tipo de coherencia es fundamental para la manifestación de la Honestidad en el servidor público?",
+    "question": "¿Qué tipo de coherencia es fundamental para la manifestación de la Honestidad?",
+    "options": {
+      "A": "Coherencia solo en la comunicación formal.",
+      "B": "Coherencia entre las palabras, los pensamientos y las sensaciones del servidor público.",
+      "C": "Coherencia entre los intereses personales y los institucionales."
+    },
+    "correctAnswer": "B",
+    "explanation": "La honestidad es consecuencia es un estado personal de coherencia entre las palabras, los pensamientos y las sensaciones del servidor público en su labor diaria, y se manifiesta en conductas basadas en la rectitud y la transparencia[cite: 145]."
+  },
+  {
+    "id": "q_hon_112",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "La 'Honestidad' en el IDU implica que los servidores públicos deben 'expresar a tiempo y con claridad los problemas o inconvenientes que se presentan en su trabajo, en busca de una solución oportuna'. Esta proactividad en la comunicación es esencial para la 'eficiencia' y la 'resolución de problemas'. \n\n¿Qué tipo de comunicación es un comportamiento deseable de la Honestidad en la gestión de problemas laborales?",
+    "question": "¿Qué tipo de comunicación es un comportamiento deseable de la Honestidad en la gestión de problemas?",
+    "options": {
+      "A": "Comunicar los problemas de forma indirecta a través de chismes.",
+      "B": "Expresar a tiempo y con claridad los problemas o inconvenientes, en busca de una solución oportuna.",
+      "C": "Ocultar los problemas para no generar preocupación."
+    },
+    "correctAnswer": "B",
+    "explanation": "Uno de los comportamientos deseables de la Honestidad es 'Expresar a tiempo y con claridad los problemas o inconvenientes que se presentan en su trabajo, en busca de una solución oportuna'[cite: 148]."
+  },
+  {
+    "id": "q_hon_113",
+    "topic_id": "integridad",
+    "subtopic_id": "integridad-honestidad",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El Código de Integridad Gente IDU, que incluye la Honestidad, busca generar un 'instrumento motivador, simple y corto' que permita 'entender el significado y las implicaciones de Ser Servidor Público en el ejercicio de la función administrativa'. \n\n¿Cuál es el objetivo del Código de Integridad (que incluye la Honestidad) en relación con el significado de ser Servidor Público?",
+    "question": "¿Cuál es el objetivo del Código de Integridad en relación con ser Servidor Público?",
+    "options": {
+      "A": "Crear un documento legal complejo para sancionar faltas.",
+      "B": "Generar un instrumento motivador para entender el significado y las implicaciones de Ser Servidor Público.",
+      "C": "Establecer únicamente reglas técnicas para la gestión contractual."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Código de Integridad... 'con el fin de generar un instrumento motivador, simple y corto que permitiera entender el Significado y las implicaciones de Ser Servidor Público en el ejercicio de la función administrativa'[cite: 48]."
+  }
 
 
        

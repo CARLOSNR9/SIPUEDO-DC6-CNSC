@@ -490,268 +490,288 @@ function renderStudyModulesView() {
     const mainTopicsList = document.getElementById('main-topics-list');
     const moduleContentDisplay = document.getElementById('module-content-display');
 
-   
-
-
-
-// Función para renderizar el contenido de un subtema específico
-
-
-// Función para renderizar el contenido de un subtema específico
-
-// ... (código anterior en main.js, dentro de renderStudyModulesView) ...
-
-// Función para renderizar el contenido de un subtema específico
-function renderSubtopicContent(subtopic) {
-    moduleContentDisplay.innerHTML = `
-        <h3 class="text-2xl font-bold text-blue-700 mb-4">${subtopic.title}</h3>
-        <div class="prose max-w-none text-gray-800">
-            <p>${subtopic.content}</p>
-            ${subtopic.resources && subtopic.resources.length > 0 ? `
-                <h4 class="text-xl font-semibold mt-6 mb-2">Recursos Recomendados:</h4>
-                <ul class="list-disc list-inside ml-5">
-                    ${subtopic.resources.map(res => `<li>${res}</li>`).join('')}
-                </ul>
+    // Función para renderizar el contenido de un subtema específico
+    function renderSubtopicContent(subtopic) {
+        moduleContentDisplay.innerHTML = `
+            <h3 class="text-2xl font-bold text-blue-700 mb-4">${subtopic.title}</h3>
+            <div class="prose max-w-none text-gray-800">
+                <p>${subtopic.content}</p>
+                ${subtopic.resources && subtopic.resources.length > 0 ? `
+                    <h4 class="text-xl font-semibold mt-6 mb-2">Recursos Recomendados:</h4>
+                    <ul class="list-disc list-inside ml-5">
+                        ${subtopic.resources.map(res => `<li>${res}</li>`).join('')}
+                    </ul>
+                ` : ''}
+            </div>
+            
+            ${subtopic.id === 'organizacion-distrito' ? `
+                <div class="mt-8 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-500 text-blue-800">
+                    <p class="font-semibold mb-3">¡Pon a prueba tu conocimiento de la Organización del Distrito Capital!</p>
+                    <button id="start-org-quiz-btn" 
+                            class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 transform hover:scale-105">
+                        Realizar Simulacro de este Tema
+                    </button>
+                </div>
             ` : ''}
-        </div>
+            
+            ${subtopic.id === 'integridad-compromiso' ? `
+                <div class="mt-8 p-4 bg-green-50 rounded-lg border-l-4 border-green-500 text-green-800">
+                    <p class="font-semibold mb-3">¡Evalúa tu comprensión sobre el valor del Compromiso!</p>
+                    <button id="start-compromiso-quiz-btn" 
+                            class="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition duration-300 transform hover:scale-105">
+                        Realizar Simulacro de Compromiso
+                    </button>
+                </div>
+            ` : ''}
 
-        ${subtopic.id === 'organizacion-distrito' ? `
-            <div class="mt-8 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-500 text-blue-800">
-                <p class="font-semibold mb-3">¡Pon a prueba tu conocimiento de la Organización del Distrito Capital!</p>
-                <button id="start-org-quiz-btn" 
-                        class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 transform hover:scale-105">
-                    Realizar Simulacro de este Tema
-                </button>
-            </div>
-        ` : ''}
-        ${subtopic.id === 'integridad-compromiso' ? `
-            <div class="mt-8 p-4 bg-green-50 rounded-lg border-l-4 border-green-500 text-green-800">
-                <p class="font-semibold mb-3">¡Evalúa tu comprensión sobre el valor del Compromiso!</p>
-                <button id="start-compromiso-quiz-btn" 
-                        class="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition duration-300 transform hover:scale-105">
-                    Realizar Simulacro de Compromiso
-                </button>
-            </div>
-        ` : ''}
-        ${subtopic.id === 'integridad-diligencia' ? `
-            <div class="mt-8 p-4 bg-red-50 rounded-lg border-l-4 border-red-500 text-red-800">
-                <p class="font-semibold mb-3">¡Pon a prueba tu Diligencia!</p>
-                <button id="start-diligencia-quiz-btn" 
-                        class="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition duration-300 transform hover:scale-105">
-                    Realizar Simulacro de Diligencia
-                </button>
-            </div>
-        ` : ''}
-        ${subtopic.id === 'arquitectura-empresarial' ? `
-            <div class="mt-8 p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-500 text-yellow-800">
-                <p class="font-semibold mb-3">¡Desafía tu saber en Arquitectura Empresarial!</p>
-                <button id="start-ae-quiz-btn" 
-                        class="bg-yellow-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-yellow-700 transition duration-300 transform hover:scale-105">
-                    Realizar Simulacro de Arquitectura Empresarial
-                </button>
-            </div>
-        ` : ''}
-        ${subtopic.id === 'contratacion-publica' ? `
-            <div class="mt-8 p-4 bg-teal-50 rounded-lg border-l-4 border-teal-500 text-teal-800">
-                <p class="font-semibold mb-3">¡Evalúa tus conocimientos en Contratación Pública Aplicada a Ingeniería!</p>
-                <button id="start-contratacion-quiz-btn" 
-                        class="bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-teal-700 transition duration-300 transform hover:scale-105">
-                    Realizar Simulacro de Contratación Pública
-                </button>
-            </div>
-        ` : ''}
-        ${subtopic.id === 'razonamiento-analitico' ? `
-            <div class="mt-8 p-4 bg-purple-50 rounded-lg border-l-4 border-purple-500 text-purple-800">
-                <p class="font-semibold mb-3">¡Desafía tu Lógica y Análisis!</p>
-                <button id="start-razonamiento-quiz-btn" 
-                        class="bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition duration-300 transform hover:scale-105">
-                    Realizar Simulacro de Razonamiento Analítico
-                </button>
-            </div>
-        ` : ''}
-        ${subtopic.id === 'desarrollo-software' ? `
-            <div class="mt-8 p-4 bg-orange-50 rounded-lg border-l-4 border-orange-500 text-orange-800">
-                <p class="font-semibold mb-3">¡Mide tu dominio en Desarrollo de Software!</p>
-                <button id="start-desarrollo-software-quiz-btn" 
-                        class="bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 transition duration-300 transform hover:scale-105">
-                    Realizar Simulacro de Desarrollo de Software
-                </button>
-            </div>
-        ` : ''}
-        ${subtopic.id === 'diseno-bases-datos' ? `
-            <div class="mt-8 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-500 text-indigo-800">
-                <p class="font-semibold mb-3">¡Evalúa tu destreza en Diseño y Gestión de Bases de Datos!</p>
-                <button id="start-bases-datos-quiz-btn" 
-                        class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition duration-300 transform hover:scale-105">
-                    Realizar Simulacro de Bases de Datos
-                </button>
-            </div>
-        ` : ''}
-        <button id="mark-completed-btn" class="mt-6 bg-green-500 text-white px-5 py-2 rounded-lg hover:bg-green-600 transition duration-300" data-subtopic-id="${subtopic.id}">Marcar como Completado</button>
-        `;
-    // Listener para el botón "Marcar como Completado"
-    const markCompletedBtn = document.getElementById('mark-completed-btn');
-    if (markCompletedBtn) {
-        markCompletedBtn.addEventListener('click', (e) => {
-            const subtopicId = e.target.dataset.subtopicId;
-            markSubtopicAsCompleted(subtopicId, true);
-            alert(`¡"${subtopic.title}" marcado como completado!`);
-            e.target.disabled = true; // Deshabilitar el botón
-            e.target.textContent = 'Completado';
-            checkAchievements(); // Verificar logros al completar un subtema
-            // También actualiza la lista del menú lateral para mostrar "Completado"
-            const navLinkElement = document.querySelector(`a[data-subtopic-id="${subtopicId}"]`);
-            if (navLinkElement && !navLinkElement.querySelector('span')) { // Si no tiene ya el span de completado
-                const span = document.createElement('span');
-                span.className = 'ml-2 text-green-500 text-xs';
-                span.textContent = '(Completado)';
-                navLinkElement.appendChild(span);
+            ${subtopic.id === 'integridad-diligencia' ? `
+                <div class="mt-8 p-4 bg-red-50 rounded-lg border-l-4 border-red-500 text-red-800">
+                    <p class="font-semibold mb-3">¡Pon a prueba tu Diligencia!</p>
+                    <button id="start-diligencia-quiz-btn"
+                            class="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition duration-300 transform hover:scale-105">
+                        Realizar Simulacro de Diligencia
+                    </button>
+                </div>
+            ` : ''}
+            
+            ${subtopic.id === 'integridad-honestidad' ? `
+                
+            ` : ''}
+            
+            ${subtopic.id === 'arquitectura-empresarial' ? `
+                <div class="mt-8 p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-500 text-yellow-800">
+                    <p class="font-semibold mb-3">¡Desafía tu saber en Arquitectura Empresarial!</p>
+                    <button id="start-ae-quiz-btn" 
+                            class="bg-yellow-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-yellow-700 transition duration-300 transform hover:scale-105">
+                        Realizar Simulacro de Arquitectura Empresarial
+                    </button>
+                </div>
+            ` : ''}
+
+            ${subtopic.id === 'contratacion-publica' ? `
+                <div class="mt-8 p-4 bg-teal-50 rounded-lg border-l-4 border-teal-500 text-teal-800">
+                    <p class="font-semibold mb-3">¡Evalúa tus conocimientos en Contratación Pública Aplicada a Ingeniería!</p>
+                    <button id="start-contratacion-quiz-btn" 
+                            class="bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-teal-700 transition duration-300 transform hover:scale-105">
+                        Realizar Simulacro de Contratación Pública
+                    </button>
+                </div>
+            ` : ''}
+
+            ${subtopic.id === 'razonamiento-analitico' ? `
+                <div class="mt-8 p-4 bg-purple-50 rounded-lg border-l-4 border-purple-500 text-purple-800">
+                    <p class="font-semibold mb-3">¡Desafía tu Lógica y Análisis!</p>
+                    <button id="start-razonamiento-quiz-btn" 
+                            class="bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition duration-300 transform hover:scale-105">
+                        Realizar Simulacro de Razonamiento Analítico
+                    </button>
+                </div>
+            ` : ''}
+
+            ${subtopic.id === 'desarrollo-software' ? `
+                <div class="mt-8 p-4 bg-orange-50 rounded-lg border-l-4 border-orange-500 text-orange-800">
+                    <p class="font-semibold mb-3">¡Mide tu dominio en Desarrollo de Software!</p>
+                    <button id="start-desarrollo-software-quiz-btn" 
+                            class="bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 transition duration-300 transform hover:scale-105">
+                        Realizar Simulacro de Desarrollo de Software
+                    </button>
+                </div>
+            ` : ''}
+            
+            ${subtopic.id === 'diseno-bases-datos' ? `
+                <div class="mt-8 p-4 bg-indigo-50 rounded-lg border-l-4 border-indigo-500 text-indigo-800">
+                    <p class="font-semibold mb-3">¡Evalúa tu destreza en Diseño y Gestión de Bases de Datos!</p>
+                    <button id="start-bases-datos-quiz-btn" 
+                            class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition duration-300 transform hover:scale-105">
+                        Realizar Simulacro de Bases de Datos
+                    </button>
+                </div>
+            ` : ''}
+
+            ${subtopic.id === 'integridad-honestidad' ? `
+                
+            ` : ''}
+            <button id="mark-completed-btn" class="mt-6 bg-green-500 text-white px-5 py-2 rounded-lg hover:bg-green-600 transition duration-300" data-subtopic-id="${subtopic.id}">Marcar como Completado</button>
+            `;
+        // Listener para el botón "Marcar como Completado"
+        const markCompletedBtn = document.getElementById('mark-completed-btn');
+        if (markCompletedBtn) {
+            markCompletedBtn.addEventListener('click', (e) => {
+                const subtopicId = e.target.dataset.subtopicId;
+                markSubtopicAsCompleted(subtopicId, true);
+                alert(`¡"${subtopic.title}" marcado como completado!`);
+                e.target.disabled = true; // Deshabilitar el botón
+                e.target.textContent = 'Completado';
+                checkAchievements(); // Verificar logros al completar un subtema
+                // También actualiza la lista del menú lateral para mostrar "Completado"
+                const navLinkElement = document.querySelector(`a[data-subtopic-id="${subtopicId}"]`);
+                if (navLinkElement && !navLinkElement.querySelector('span')) { // Si no tiene ya el span de completado
+                    const span = document.createElement('span');
+                    span.className = 'ml-2 text-green-500 text-xs';
+                    span.textContent = '(Completado)';
+                    navLinkElement.appendChild(span);
+                }
+            });
+            // Si ya está completado, deshabilitar al cargar
+            if (getSubtopicCompletionStatus(subtopic.id)) {
+                markCompletedBtn.disabled = true;
+                markCompletedBtn.textContent = 'Completado';
             }
-        });
-        // Si ya está completado, deshabilitar al cargar
-        if (getSubtopicCompletionStatus(subtopic.id)) {
-            markCompletedBtn.disabled = true;
-            markCompletedBtn.textContent = 'Completado';
         }
-    }
 
-    // Listener para el botón del simulacro específico de Organización del Distrito Capital
-    if (subtopic.id === 'organizacion-distrito') {
-        const startOrgQuizBtn = document.getElementById('start-org-quiz-btn');
-        if (startOrgQuizBtn) {
-            startOrgQuizBtn.addEventListener('click', () => {
-                navigateTo('simulacros');
-                setTimeout(() => {
-                    const quizTypeSelect = document.getElementById('quiz-type-select');
-                    if (quizTypeSelect) {
-                        quizTypeSelect.value = 'organizacion-distrito';
-                        alert('Selecciona "Organización del Distrito Capital" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar.');
-                    }
-                }, 100); 
-            });
+        // Listener para el botón del simulacro específico de Organización del Distrito Capital
+        if (subtopic.id === 'organizacion-distrito') {
+            const startOrgQuizBtn = document.getElementById('start-org-quiz-btn');
+            if (startOrgQuizBtn) {
+                startOrgQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'organizacion-distrito';
+                            alert('Selecciona "Organización del Distrito Capital" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar.');
+                        }
+                    }, 100); 
+                });
+            }
         }
-    }
 
-    // Listener para el botón del simulacro específico de Compromiso
-    if (subtopic.id === 'integridad-compromiso') {
-        const startCompromisoQuizBtn = document.getElementById('start-compromiso-quiz-btn');
-        if (startCompromisoQuizBtn) {
-            startCompromisoQuizBtn.addEventListener('click', () => {
-                navigateTo('simulacros');
-                setTimeout(() => {
-                    const quizTypeSelect = document.getElementById('quiz-type-select');
-                    if (quizTypeSelect) {
-                        quizTypeSelect.value = 'integridad-compromiso'; 
-                        alert('Selecciona "Compromiso" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este valor. (Asegúrate de tener suficientes preguntas de Compromiso en tu questions.json)');
-                    }
-                }, 100); 
-            });
+        // Listener para el botón del simulacro específico de Compromiso
+        if (subtopic.id === 'integridad-compromiso') {
+            const startCompromisoQuizBtn = document.getElementById('start-compromiso-quiz-btn');
+            if (startCompromisoQuizBtn) {
+                startCompromisoQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'integridad-compromiso'; 
+                            alert('Selecciona "Compromiso" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este valor. (Asegúrate de tener suficientes preguntas de Compromiso en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
         }
-    }
 
-    // Listener para el botón del simulacro específico de Diligencia
-    if (subtopic.id === 'integridad-diligencia') {
-        const startDiligenciaQuizBtn = document.getElementById('start-diligencia-quiz-btn');
-        if (startDiligenciaQuizBtn) {
-            startDiligenciaQuizBtn.addEventListener('click', () => {
-                navigateTo('simulacros');
-                setTimeout(() => {
-                    const quizTypeSelect = document.getElementById('quiz-type-select');
-                    if (quizTypeSelect) {
-                        quizTypeSelect.value = 'integridad-diligencia'; 
-                        alert('Selecciona "Diligencia" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este valor. (Asegúrate de tener suficientes preguntas de Diligencia en tu questions.json)');
-                    }
-                }, 100); 
-            });
+        // Listener para el botón del simulacro específico de Diligencia
+        if (subtopic.id === 'integridad-diligencia') {
+            const startDiligenciaQuizBtn = document.getElementById('start-diligencia-quiz-btn');
+            if (startDiligenciaQuizBtn) {
+                startDiligenciaQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'integridad-diligencia'; 
+                            alert('Selecciona "Diligencia" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este valor. (Asegúrate de tener suficientes preguntas de Diligencia en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
         }
-    }
 
-    // Listener para el botón del simulacro específico de Arquitectura Empresarial
-    if (subtopic.id === 'arquitectura-empresarial') {
-        const startAeQuizBtn = document.getElementById('start-ae-quiz-btn');
-        if (startAeQuizBtn) {
-            startAeQuizBtn.addEventListener('click', () => {
-                navigateTo('simulacros');
-                setTimeout(() => {
-                    const quizTypeSelect = document.getElementById('quiz-type-select');
-                    if (quizTypeSelect) {
-                        quizTypeSelect.value = 'arquitectura-empresarial'; 
-                        alert('Selecciona "Arquitectura Empresarial" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Arquitectura Empresarial en tu questions.json)');
-                    }
-                }, 100); 
-            });
+        // Listener para el botón del simulacro específico de Honestidad
+        if (subtopic.id === 'integridad-honestidad') {
+            const startHonestidadQuizBtn = document.getElementById('start-honestidad-quiz-btn');
+            if (startHonestidadQuizBtn) {
+                startHonestidadQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'integridad-honestidad'; 
+                            alert('Selecciona "Honestidad" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este valor. (Asegúrate de tener suficientes preguntas de Honestidad en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
         }
-    }
+            
+        // Listener para el botón del simulacro específico de Arquitectura Empresarial
+        if (subtopic.id === 'arquitectura-empresarial') {
+            const startAeQuizBtn = document.getElementById('start-ae-quiz-btn');
+            if (startAeQuizBtn) {
+                startAeQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'arquitectura-empresarial'; 
+                            alert('Selecciona "Arquitectura Empresarial" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Arquitectura Empresarial en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
+        }
 
-    // Listener para el botón del simulacro específico de Contratación Pública
-    if (subtopic.id === 'contratacion-publica') {
-        const startContratacionQuizBtn = document.getElementById('start-contratacion-quiz-btn');
-        if (startContratacionQuizBtn) {
-            startContratacionQuizBtn.addEventListener('click', () => {
-                navigateTo('simulacros');
-                setTimeout(() => {
-                    const quizTypeSelect = document.getElementById('quiz-type-select');
-                    if (quizTypeSelect) {
-                        quizTypeSelect.value = 'contratacion-publica'; 
-                        alert('Selecciona "Contratación Pública" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Contratación Pública en tu questions.json)');
-                    }
-                }, 100); 
-            });
+        // Listener para el botón del simulacro específico de Contratación Pública
+        if (subtopic.id === 'contratacion-publica') {
+            const startContratacionQuizBtn = document.getElementById('start-contratacion-quiz-btn');
+            if (startContratacionQuizBtn) {
+                startContratacionQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'contratacion-publica'; 
+                            alert('Selecciona "Contratación Pública" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Contratación Pública en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
         }
-    }
 
-    // Listener para el botón del simulacro específico de Razonamiento Analítico
-    if (subtopic.id === 'razonamiento-analitico') {
-        const startRazonamientoQuizBtn = document.getElementById('start-razonamiento-quiz-btn');
-        if (startRazonamientoQuizBtn) {
-            startRazonamientoQuizBtn.addEventListener('click', () => {
-                navigateTo('simulacros');
-                setTimeout(() => {
-                    const quizTypeSelect = document.getElementById('quiz-type-select');
-                    if (quizTypeSelect) {
-                        quizTypeSelect.value = 'razonamiento-analitico'; 
-                        alert('Selecciona "Razonamiento Analítico" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Razonamiento Analítico en tu questions.json)');
-                    }
-                }, 100); 
-            });
+        // Listener para el botón del simulacro específico de Razonamiento Analítico
+        if (subtopic.id === 'razonamiento-analitico') {
+            const startRazonamientoQuizBtn = document.getElementById('start-razonamiento-quiz-btn');
+            if (startRazonamientoQuizBtn) {
+                startRazonamientoQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'razonamiento-analitico'; 
+                            alert('Selecciona "Razonamiento Analítico" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Razonamiento Analítico en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
         }
-    }
 
-    // Listener para el botón del simulacro específico de Desarrollo de Software
-    if (subtopic.id === 'desarrollo-software') {
-        const startDesarrolloSoftwareQuizBtn = document.getElementById('start-desarrollo-software-quiz-btn');
-        if (startDesarrolloSoftwareQuizBtn) {
-            startDesarrolloSoftwareQuizBtn.addEventListener('click', () => {
-                navigateTo('simulacros');
-                setTimeout(() => {
-                    const quizTypeSelect = document.getElementById('quiz-type-select');
-                    if (quizTypeSelect) {
-                        quizTypeSelect.value = 'desarrollo-software'; 
-                        alert('Selecciona "Desarrollo de Software" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Desarrollo de Software en tu questions.json)');
-                    }
-                }, 100); 
-            });
+        // Listener para el botón del simulacro específico de Desarrollo de Software
+        if (subtopic.id === 'desarrollo-software') {
+            const startDesarrolloSoftwareQuizBtn = document.getElementById('start-desarrollo-software-quiz-btn');
+            if (startDesarrolloSoftwareQuizBtn) {
+                startDesarrolloSoftwareQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'desarrollo-software'; 
+                            alert('Selecciona "Desarrollo de Software" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Desarrollo de Software en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
+        }
+        
+        // Listener para el botón del simulacro específico de Diseño y Gestión de Bases de Datos
+        if (subtopic.id === 'diseno-bases-datos') {
+            const startBasesDatosQuizBtn = document.getElementById('start-bases-datos-quiz-btn');
+            if (startBasesDatosQuizBtn) {
+                startBasesDatosQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'diseno-bases-datos'; 
+                            alert('Selecciona "Diseño y Gestión de Bases de Datos" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Diseño y Gestión de Bases de Datos en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
         }
     }
-
-    // === NUEVO: Listener para el botón del simulacro específico de Diseño y Gestión de Bases de Datos ===
-    if (subtopic.id === 'diseno-bases-datos') {
-        const startBasesDatosQuizBtn = document.getElementById('start-bases-datos-quiz-btn');
-        if (startBasesDatosQuizBtn) {
-            startBasesDatosQuizBtn.addEventListener('click', () => {
-                navigateTo('simulacros');
-                setTimeout(() => {
-                    const quizTypeSelect = document.getElementById('quiz-type-select');
-                    if (quizTypeSelect) {
-                        quizTypeSelect.value = 'diseno-bases-datos'; 
-                        alert('Selecciona "Diseño y Gestión de Bases de Datos" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Diseño y Gestión de Bases de Datos en tu questions.json)');
-                    }
-                }, 100); 
-            });
-        }
-    }
-    // === FIN NUEVO LISTENER ===
-}
 
 
 
@@ -812,26 +832,21 @@ function renderSimulacrosView() {
         <div id="quiz-options" class="bg-white p-6 rounded-lg shadow-lg mb-8">
             <h3 class="text-xl font-semibold mb-4">Configura tu Simulacro</h3>
             <div class="flex flex-col md:flex-row gap-4 items-center">
-                
-            
-            
-         <select id="quiz-type-select" class="p-2 border rounded-md">
-                <option value="all">Simulacro General (Todas las preguntas)</option>
-                <option value="organizacion-distrito">Organización del Distrito Capital (20 Preguntas)</option>
-                <option value="integridad-compromiso">Compromiso (20 Preguntas)</option>
-                <option value="integridad-diligencia">Diligencia (20 Preguntas)</option>
-                <option value="arquitectura-empresarial">Arquitectura Empresarial (20 Preguntas)</option>
-                <option value="contratacion-publica">Contratación Pública (20 Preguntas)</option>
-                <option value="razonamiento-analitico">Razonamiento Analítico (20 Preguntas)</option>
-                <option value="desarrollo-software">Desarrollo de Software (20 Preguntas)</option>
-                <option value="diseno-bases-datos">Diseño y Gestión de Bases de Datos (20 Preguntas)</option> <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
-                <option value="funcionales-especificas">Funcionales Específicas</option>
-                <option value="integridad">Integridad (IDU)</option>
-                <option value="competencias-comportamentales">Comportamentales</option>
-            </select>
-
-
-
+                <select id="quiz-type-select" class="p-2 border rounded-md">
+                    <option value="all">Simulacro General (Todas las preguntas)</option>
+                    <option value="organizacion-distrito">Organización del Distrito Capital (20 Preguntas)</option>
+                    <option value="integridad-compromiso">Compromiso (20 Preguntas)</option>
+                    <option value="integridad-diligencia">Diligencia (20 Preguntas)</option>
+                    <option value="integridad-honestidad">Honestidad (20 Preguntas)</option> <option value="arquitectura-empresarial">Arquitectura Empresarial (20 Preguntas)</option>
+                    <option value="contratacion-publica">Contratación Pública (20 Preguntas)</option>
+                    <option value="razonamiento-analitico">Razonamiento Analítico (20 Preguntas)</option>
+                    <option value="desarrollo-software">Desarrollo de Software (20 Preguntas)</option>
+                    <option value="diseno-bases-datos">Diseño y Gestión de Bases de Datos (20 Preguntas)</option>
+                    <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
+                    <option value="funcionales-especificas">Funcionales Específicas</option>
+                    <option value="integridad">Integridad (IDU)</option>
+                    <option value="competencias-comportamentales">Comportamentales</option>
+                </select>
                 <button id="start-quiz-btn" class="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">Iniciar Simulacro</button>
             </div>
         </div>
@@ -887,84 +902,86 @@ function renderSimulacrosView() {
 
 
     // --- LÓGICA DEL SIMULACRO ---
- 
+    function startQuiz() {
+        const selectedType = quizTypeSelect.value;
+        if (selectedType === 'all') {
+            currentQuizQuestions = [...allQuestionsData]; 
+        } else if (selectedType === 'organizacion-distrito') {
+            const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'organizacion-distrito'); 
+            currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+            if (currentQuizQuestions.length < 20) {
+                alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Organización del Distrito Capital'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+            }
+        } else if (selectedType === 'integridad-compromiso') {
+            const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'integridad-compromiso');
+            currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+            if (currentQuizQuestions.length < 20) {
+                alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Compromiso'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+            }
+        } else if (selectedType === 'integridad-diligencia') { 
+            const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'integridad-diligencia');
+            currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+            if (currentQuizQuestions.length < 20) {
+                alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Diligencia'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+            }
+        } else if (selectedType === 'integridad-honestidad') {
+            const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'integridad-honestidad');
+            currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+            if (currentQuizQuestions.length < 20) {
+                alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Honestidad'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+            }
+        } else if (selectedType === 'arquitectura-empresarial') {
+            const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'arquitectura-empresarial');
+            currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+            if (currentQuizQuestions.length < 20) {
+                alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Arquitectura Empresarial'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+            }
+        } else if (selectedType === 'contratacion-publica') {
+            const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'contratacion-publica'); 
+            currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+            if (currentQuizQuestions.length < 20) {
+                alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Contratación Pública'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+            }
+        } else if (selectedType === 'razonamiento-analitico') {
+            const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'razonamiento-analitico');
+            currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+            if (currentQuizQuestions.length < 20) {
+                alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Razonamiento Analítico'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+            }
+        } else if (selectedType === 'desarrollo-software') {
+            const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'desarrollo-software');
+            currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+            if (currentQuizQuestions.length < 20) {
+                alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Desarrollo de Software'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+            }
+        } else if (selectedType === 'diseno-bases-datos') {
+            const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'diseno-bases-datos');
+            currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+            if (currentQuizQuestions.length < 20) {
+                alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Diseño y Gestión de Bases de Datos'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+            }
+        } else {
+            // Lógica para otros tipos de simulacros (funcionales generales, funcionales específicas generales, integridad general, comportamentales)
+            currentQuizQuestions = allQuestionsData.filter(q => q.topic_id === selectedType);
+        }
 
-// Dentro de renderSimulacrosView() -> startQuiz()
-// Dentro de renderSimulacrosView() -> startQuiz()
-function startQuiz() {
-    const selectedType = quizTypeSelect.value;
-    if (selectedType === 'all') {
-        currentQuizQuestions = [...allQuestionsData]; 
-    } else if (selectedType === 'organizacion-distrito') {
-        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'organizacion-distrito'); 
-        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
-        if (currentQuizQuestions.length < 20) {
-            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Organización del Distrito Capital'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+        // Asegurarse de que haya preguntas para el simulacro
+        if (currentQuizQuestions.length === 0) {
+            alert('No hay preguntas disponibles para el tipo de simulacro seleccionado. Por favor, añade más preguntas.');
+            return;
         }
-    } else if (selectedType === 'integridad-compromiso') {
-        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'integridad-compromiso');
-        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
-        if (currentQuizQuestions.length < 20) {
-            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Compromiso'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
-        }
-    } else if (selectedType === 'integridad-diligencia') { 
-        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'integridad-diligencia');
-        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
-        if (currentQuizQuestions.length < 20) {
-            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Diligencia'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
-        }
-    } else if (selectedType === 'arquitectura-empresarial') {
-        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'arquitectura-empresarial');
-        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
-        if (currentQuizQuestions.length < 20) {
-            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Arquitectura Empresarial'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
-        }
-    } else if (selectedType === 'contratacion-publica') {
-        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'contratacion-publica'); 
-        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
-        if (currentQuizQuestions.length < 20) {
-            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Contratación Pública'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
-        }
-    } else if (selectedType === 'razonamiento-analitico') {
-        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'razonamiento-analitico');
-        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
-        if (currentQuizQuestions.length < 20) {
-            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Razonamiento Analítico'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
-        }
-    } else if (selectedType === 'desarrollo-software') {
-        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'desarrollo-software');
-        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
-        if (currentQuizQuestions.length < 20) {
-            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Desarrollo de Software'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
-        }
-    } else if (selectedType === 'diseno-bases-datos') { // --- NUEVO: Lógica para 20 preguntas de Diseño y Gestión de Bases de Datos ---
-        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'diseno-bases-datos');
-        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
-        if (currentQuizQuestions.length < 20) {
-            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Diseño y Gestión de Bases de Datos'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
-        }
-    } else {
-        // Lógica para otros tipos de simulacros (funcionales generales, funcionales específicas generales, integridad general, comportamentales)
-        currentQuizQuestions = allQuestionsData.filter(q => q.topic_id === selectedType);
+
+        currentQuestionIndex = 0;
+        quizScore = 0;
+        quizStartTime = new Date().getTime(); // Registrar tiempo de inicio
+        updateQuizTimer(); // Iniciar temporizador visual del quiz
+
+        quizOptionsDiv.classList.add('hidden'); // Ocultar opciones de configuración
+        quizContainer.classList.remove('hidden'); // Mostrar contenedor del quiz
+        quizResultsDiv.classList.add('hidden'); // Asegurarse de que los resultados estén ocultos
+
+        loadQuestion();
     }
-
-    // Asegurarse de que haya preguntas para el simulacro
-    if (currentQuizQuestions.length === 0) {
-        alert('No hay preguntas disponibles para el tipo de simulacro seleccionado. Por favor, añade más preguntas.');
-        return;
-    }
-
-    currentQuestionIndex = 0;
-    quizScore = 0;
-    quizStartTime = new Date().getTime(); // Registrar tiempo de inicio
-    updateQuizTimer(); // Iniciar temporizador visual del quiz
-
-    quizOptionsDiv.classList.add('hidden'); // Ocultar opciones de configuración
-    quizContainer.classList.remove('hidden'); // Mostrar contenedor del quiz
-    quizResultsDiv.classList.add('hidden'); // Asegurarse de que los resultados estén ocultos
-
-    loadQuestion();
-}
 
 
 
