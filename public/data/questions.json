@@ -25472,7 +25472,329 @@
         },
         "correctAnswer": "C",
         "explanation": "La Gestión de la Calidad permite identificar los problemas con los entregables, hacer las correcciones necesarias y asegurarse de que el producto final cumpla con los requisitos y expectativas del cliente."
-    }
+    },
+
+
+    {
+    "id": "q_fppi_081",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está planeando un megaproyecto de infraestructura de comunicaciones para interconectar todas sus sedes y obras en ejecución a través de una red de fibra óptica de alta velocidad. En la fase inicial del proyecto, se ha realizado un estudio de viabilidad preliminar y se ha definido un alto nivel los objetivos estratégicos. La dirección requiere una autorización formal para asignar los recursos iniciales y nombrar al gerente del proyecto. El desafío radica en asegurar que el proyecto esté debidamente reconocido y autorizado antes de cualquier inversión significativa. \n",
+    "question": "¿En qué Grupo de Procesos de la Dirección de Proyectos (según el PMBOK Guide) se debe obtener la autorización formal para comenzar este proyecto de infraestructura de comunicaciones?",
+    "options": {
+      "A": "Planificación (Planning), donde se definen los objetivos detallados.",
+      "B": "Inicio (Initiation), donde se desarrolla el acta de constitución del proyecto para autorizarlo formalmente.",
+      "C": "Ejecución (Executing), donde se asignan los recursos y se lleva a cabo el trabajo."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Grupo de Procesos de Inicio (Initiation) es donde se define un nuevo proyecto o una nueva fase, obteniendo la autorización formal para comenzarlo. La actividad clave es desarrollar el Acta de Constitución del Proyecto (Project Charter), que autoriza formalmente el proyecto y la asignación de recursos iniciales."
+  },
+  {
+    "id": "q_fppi_082",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU ha iniciado el desarrollo de un nuevo sistema de gestión de licencias en línea. El gerente del proyecto, en la fase de planificación, debe asegurar que el equipo de desarrollo comprenda exactamente qué funcionalidades se incluirán y cuáles no, para evitar desviaciones en el futuro. Se requiere una herramienta que permita descomponer el alcance total del proyecto en componentes más pequeños y manejables, facilitando la asignación de tareas y la estimación de tiempos y costos. \n",
+    "question": "¿Qué herramienta principal de la Gestión del Alcance del Proyecto (según PMBOK Guide) se utiliza para descomponer el alcance total del proyecto en componentes más pequeños y manejables, facilitando la asignación y estimación?",
+    "options": {
+      "A": "El Plan de Gestión de Riesgos, para identificar posibles desviaciones en el alcance.",
+      "B": "La Estructura de Desglose del Trabajo (EDT/WBS), que descompone el alcance en entregables y paquetes de trabajo.",
+      "C": "El Cronograma del Proyecto, para visualizar las tareas a realizar y sus duraciones."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Estructura de Desglose del Trabajo (EDT/WBS) es la herramienta principal de la Gestión del Alcance del Proyecto que permite descomponer el alcance total del proyecto en componentes más pequeños y manejables, facilitando la asignación de tareas, la estimación de tiempos y costos, y asegurando que se incluya todo el trabajo requerido."
+  },
+  {
+    "id": "q_fppi_083",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está ejecutando un proyecto de implementación de un sistema ERP. Durante la fase de ejecución, el gerente del proyecto se enfrenta a múltiples desafíos: el equipo de desarrollo tiene dificultades para integrar un módulo, un proveedor de hardware se ha retrasado en la entrega y el cliente (áreas funcionales) solicita cambios constantes. El gerente debe aplicar conocimientos, habilidades y herramientas para coordinar todos estos elementos y mantener el proyecto en curso. \n",
+    "question": "¿Qué Área de Conocimiento de la Dirección de Proyectos (según PMBOK Guide) es la responsable de la orquestación y coordinación de todos los procesos y actividades dentro de los Grupos de Procesos, asegurando la coherencia en la gestión del proyecto?",
+    "options": {
+      "A": "Gestión del Cronograma del Proyecto, por el seguimiento a los plazos.",
+      "B": "Gestión de la Integración del Proyecto, por su rol de orquestación y coordinación de todos los elementos del proyecto.",
+      "C": "Gestión de los Recursos del Proyecto, por la dirección del equipo."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Gestión de la Integración del Proyecto incluye los procesos y actividades para identificar, definir, combinar, unificar y coordinar los diversos procesos y actividades dentro de los Grupos de Procesos de la dirección de proyectos. Es la orquestación de todos los demás elementos del proyecto."
+  },
+  {
+    "id": "q_fppi_084",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU ha finalizado la implementación de un sistema de gestión documental. Para cerrar formalmente el proyecto y asegurar que el sistema se transfiera correctamente al equipo de operaciones y mantenimiento, el gerente del proyecto debe llevar a cabo una serie de actividades, como obtener la aceptación final del cliente, cerrar todos los contratos con proveedores y archivar la documentación completa del proyecto para futuras referencias. \n",
+    "question": "¿En qué Grupo de Procesos de la Dirección de Proyectos (según PMBOK Guide) se deben realizar estas actividades para finalizar formalmente el proyecto y transferir el producto final?",
+    "options": {
+      "A": "Seguimiento y Control (Monitoring & Controlling), por la validación del alcance.",
+      "B": "Cierre (Closing), donde se finalizan todas las actividades para cerrar formalmente el proyecto o una fase y transferir el producto/servicio.",
+      "C": "Ejecución (Executing), por la entrega de los entregables del proyecto."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Grupo de Procesos de Cierre (Closing) es donde se finalizan todas las actividades de todos los Grupos de Procesos para cerrar formalmente el proyecto o una fase del proyecto, incluyendo la aceptación final del cliente, el cierre de contratos y la recopilación de lecciones aprendidas."
+  },
+  {
+    "id": "q_fppi_085",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está planificando un proyecto de desarrollo de un sistema GIS (Sistema de Información Geográfica) para la gestión de su infraestructura vial. El gerente del proyecto debe estimar el costo de licencias de software especializado, hardware de servidores, y los salarios del equipo de desarrollo, para asegurar que el proyecto se complete dentro del presupuesto aprobado. \n",
+    "question": "¿Qué Área de Conocimiento de la Dirección de Proyectos (según PMBOK Guide) incluye los procesos involucrados en estimar, presupuestar y controlar los costos para completar el proyecto dentro del presupuesto aprobado?",
+    "options": {
+      "A": "Gestión del Cronograma del Proyecto, por la estimación de duraciones.",
+      "B": "Gestión de los Costos del Proyecto, por su enfoque en la estimación, presupuestación y control de costos.",
+      "C": "Gestión de los Recursos del Proyecto, por la asignación de personal y equipos."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Gestión de los Costos del Proyecto incluye los procesos involucrados en estimar, presupuestar y controlar los costos de modo que el proyecto se complete dentro del presupuesto aprobado."
+  },
+  {
+    "id": "q_fppi_086",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU ha iniciado un proyecto de implementación de un nuevo sistema de gestión de proyectos. En la fase de planificación, el gerente del proyecto está desarrollando el cronograma detallado, definiendo las actividades específicas del desarrollo de software, sus dependencias y estimando sus duraciones para asegurar que el proyecto se complete a tiempo. \n",
+    "question": "¿Qué Área de Conocimiento de la Dirección de Proyectos (según PMBOK Guide) incluye los procesos necesarios para gestionar la finalización del proyecto a tiempo?",
+    "options": {
+      "A": "Gestión del Alcance del Proyecto, por la definición de los entregables.",
+      "B": "Gestión del Cronograma del Proyecto, por su enfoque en la planificación, gestión y control del tiempo.",
+      "C": "Gestión de los Recursos del Proyecto, por la asignación de personal al cronograma."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Gestión del Cronograma del Proyecto (anteriormente Gestión del Tiempo) incluye los procesos necesarios para gestionar la finalización del proyecto a tiempo, lo que implica definir actividades, secuenciarlas, estimar duraciones y desarrollar el cronograma."
+  },
+  {
+    "id": "q_fppi_087",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está ejecutando un proyecto de desarrollo de un sistema de información para la gestión de licencias. El gerente del proyecto debe asegurar que los entregables de software cumplan con los estándares de codificación establecidos, que se realicen todas las pruebas (unitarias, integración, sistema) y que el sistema sea usable y cumpla con los requisitos de rendimiento. \n",
+    "question": "¿Qué Área de Conocimiento de la Dirección de Proyectos (según PMBOK Guide) incluye los procesos para incorporar la política de calidad de la organización y asegurar los requisitos de calidad del proyecto y del producto?",
+    "options": {
+      "A": "Gestión del Alcance del Proyecto, por la definición de las funcionalidades.",
+      "B": "Gestión de la Calidad del Proyecto, por su enfoque en la planificación, gestión y control de los requisitos de calidad del producto y del proyecto.",
+      "C": "Gestión de los Recursos del Proyecto, por la asignación de personal de QA."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Gestión de la Calidad del Proyecto incluye los procesos para incorporar la política de calidad de la organización en cuanto a la planificación, gestión y control de los requisitos de calidad del proyecto y del producto."
+  },
+  {
+    "id": "q_fppi_088",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU requiere contratar un servicio de consultoría externa para la implementación de una metodología de desarrollo ágil en sus equipos de TI. El gerente del proyecto debe seguir las normativas de Contratación Pública (Ley 80, Ley 1150, Decreto 1082) para seleccionar y gestionar este proveedor externo. \n",
+    "question": "¿Qué Área de Conocimiento de la Dirección de Proyectos (según PMBOK Guide) incluye los procesos para comprar o adquirir los productos, servicios o resultados que se necesitan de fuera del equipo del proyecto?",
+    "options": {
+      "A": "Gestión de los Costos del Proyecto, por la asignación del presupuesto a la consultoría.",
+      "B": "Gestión de las Adquisiciones del Proyecto, por su enfoque en la compra o adquisición de bienes y servicios externos.",
+      "C": "Gestión de los Recursos del Proyecto, por la gestión del personal externo."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Gestión de las Adquisiciones del Proyecto incluye los procesos para comprar o adquirir los productos, servicios o resultados que se necesitan de fuera del equipo del proyecto."
+  },
+  {
+    "id": "q_fppi_089",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está planificando un proyecto de modernización de su infraestructura de red, que implica la implementación de nuevas tecnologías y la interrupción temporal de servicios. El gerente del proyecto debe identificar a todas las personas y organizaciones que podrían afectar o ser afectadas por el proyecto (ej., usuarios finales, proveedores, directivos, equipo de TI), y desarrollar estrategias para involucrarlos adecuadamente en el proyecto. \n",
+    "question": "¿Qué Área de Conocimiento de la Dirección de Proyectos (según PMBOK Guide) incluye los procesos necesarios para identificar a todas las personas u organizaciones que pueden afectar o ser afectadas por el proyecto, y para desarrollar estrategias de gestión adecuadas para involucrarlos efectivamente?",
+    "options": {
+      "A": "Gestión de las Comunicaciones del Proyecto, por la difusión de información.",
+      "B": "Gestión de los Interesados del Proyecto, por su enfoque en la identificación, análisis y gestión del involucramiento de las partes interesadas.",
+      "C": "Gestión de los Riesgos del Proyecto, por la identificación de amenazas."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Gestión de los Interesados del Proyecto (Partes Interesadas) incluye los procesos necesarios para identificar a todas las personas u organizaciones que pueden afectar o ser afectadas por el proyecto, analizar las expectativas y desarrollar estrategias para involucrarlos de manera efectiva."
+  },
+  {
+    "id": "q_fppi_090",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está ejecutando un proyecto de desarrollo de un sistema de información para la gestión de proyectos de infraestructura. Durante la ejecución, el gerente del proyecto debe asegurar que los desarrolladores y los analistas de requisitos se comuniquen eficazmente, que los informes de progreso se envíen a tiempo a la dirección y que las decisiones clave se registren y distribuyan a todos los involucrados. \n",
+    "question": "¿Qué Área de Conocimiento de la Dirección de Proyectos (según PMBOK Guide) incluye los procesos necesarios para asegurar que la planificación, recopilación, creación, distribución, almacenamiento, recuperación, gestión, control y monitoreo de la información del proyecto sean oportunos y apropiados?",
+    "options": {
+      "A": "Gestión de los Recursos del Proyecto, por la coordinación del equipo.",
+      "B": "Gestión de las Comunicaciones del Proyecto, por su enfoque en el flujo y la gestión de la información del proyecto.",
+      "C": "Gestión de la Integración del Proyecto, por la coordinación general."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Gestión de las Comunicaciones del Proyecto incluye los procesos necesarios para asegurar que la planificación, recopilación, creación, distribución, almacenamiento, recuperación, gestión, control y monitoreo de la información del proyecto sean oportunos y apropiados."
+  },
+  {
+    "id": "q_fppi_091",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está en la fase de Planificación de un proyecto de migración a la nube para sus servicios críticos. El gerente del proyecto debe identificar posibles eventos inciertos que, de ocurrir, podrían afectar negativamente el proyecto (ej., fallas de seguridad en la nube, sobrecostos en el consumo de recursos). También debe planificar cómo responder a estos eventos. \n",
+    "question": "¿Qué Área de Conocimiento de la Dirección de Proyectos (según PMBOK Guide) incluye los procesos de identificación, análisis, planificación de respuesta, implementación de respuesta y monitoreo de eventos inciertos?",
+    "options": {
+      "A": "Gestión de la Calidad del Proyecto, por la prevención de defectos.",
+      "B": "Gestión de los Riesgos del Proyecto, por su enfoque en la identificación y gestión de las incertidumbres del proyecto.",
+      "C": "Gestión del Cronograma del Proyecto, por la planificación de contingencias."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Gestión de los Riesgos del Proyecto incluye los procesos de llevar a cabo la planificación de la gestión de riesgos, la identificación, el análisis, la planificación de la respuesta, la implementación de la respuesta y el monitoreo de riesgos de un proyecto."
+  },
+  {
+    "id": "q_fppi_092",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU ha aprobado el Acta de Constitución para un nuevo proyecto de implementación de un sistema de gestión de proyectos. El gerente de proyecto ahora debe comenzar a definir en detalle el alcance del sistema, las funcionalidades específicas, y cómo se desglosarán los entregables en paquetes de trabajo. Esta fase es crítica para evitar 'scope creep' y asegurar que se construya lo correcto. \n",
+    "question": "¿En qué Grupo de Procesos de la Dirección de Proyectos (según PMBOK Guide) se deben realizar estas actividades detalladas de definición del alcance y desglose de los entregables?",
+    "options": {
+      "A": "Inicio (Initiation), ya que se definen los objetivos iniciales.",
+      "B": "Planificación (Planning), donde se establece el alcance detallado y se crea la Estructura de Desglose del Trabajo (EDT/WBS).",
+      "C": "Ejecución (Executing), ya que se comienza a construir el producto."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Grupo de Procesos de Planificación (Planning) es donde se establece el alcance del proyecto, se refinan los objetivos y se define el curso de acción. Incluye la definición del alcance detallado y la elaboración de la Estructura de Desglose del Trabajo (EDT/WBS)."
+  },
+  {
+    "id": "q_fppi_093",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está ejecutando un proyecto de implementación de una red de fibra óptica. Durante esta fase, el equipo está instalando los cables, configurando los equipos de red y realizando pruebas de conectividad. El gerente del proyecto está dirigiendo el trabajo, gestionando los recursos y las comunicaciones con los proveedores. \n",
+    "question": "¿En qué Grupo de Procesos de la Dirección de Proyectos (según PMBOK Guide) se están realizando estas actividades relacionadas con la ejecución del trabajo definido en el plan?",
+    "options": {
+      "A": "Planificación (Planning).",
+      "B": "Ejecución (Executing), donde se lleva a cabo el trabajo del proyecto.",
+      "C": "Seguimiento y Control (Monitoring & Controlling)."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Grupo de Procesos de Ejecución (Executing) es donde se lleva a cabo el trabajo definido en el plan para cumplir con los objetivos del proyecto, incluyendo dirigir y gestionar el trabajo del proyecto, adquirir y gestionar recursos, y realizar las adquisiciones."
+  },
+  {
+    "id": "q_fppi_094",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU ha finalizado un proyecto de desarrollo de un sistema de gestión de pavimentos. Para cerrarlo formalmente, el gerente del proyecto debe obtener la aceptación formal del cliente sobre el producto final, cerrar todos los contratos con los proveedores de software y hardware, y documentar las lecciones aprendidas para futuros proyectos similares. \n",
+    "question": "¿Qué Grupo de Procesos de la Dirección de Proyectos (según PMBOK Guide) se encarga de estas actividades finales para cerrar formalmente el proyecto y transferir el producto final?",
+    "options": {
+      "A": "Seguimiento y Control (Monitoring & Controlling).",
+      "B": "Cierre (Closing), donde se finalizan todas las actividades para cerrar formalmente el proyecto y transferir el producto/servicio.",
+      "C": "Planificación (Planning)."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Grupo de Procesos de Cierre (Closing) es donde se finalizan todas las actividades de todos los Grupos de Procesos para cerrar formalmente el proyecto o una fase del proyecto, incluyendo la aceptación final del cliente, el cierre de contratos y la recopilación de lecciones aprendidas."
+  },
+  {
+    "id": "q_fppi_095",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está controlando la ejecución de un proyecto de desarrollo de una aplicación móvil. El gerente del proyecto monitorea el progreso del equipo, verifica que las pruebas de calidad se estén realizando conforme a lo planificado y gestiona cualquier desviación en el cronograma o el presupuesto. Además, valida que los entregables estén siendo aceptados por el cliente. \n",
+    "question": "¿En qué Grupo de Procesos de la Dirección de Proyectos (según PMBOK Guide) se realizan estas actividades de rastreo, revisión y regulación del progreso y desempeño del proyecto?",
+    "options": {
+      "A": "Ejecución (Executing).",
+      "B": "Seguimiento y Control (Monitoring & Controlling), donde se rastrea, revisa y regula el progreso y desempeño del proyecto.",
+      "C": "Cierre (Closing)."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Grupo de Procesos de Seguimiento y Control (Monitoring & Controlling) es donde se rastrea, revisa y regula el progreso y el desempeño del proyecto; se identifican áreas en las que el plan requiera cambios; y se inician los cambios correspondientes."
+  },
+  {
+    "id": "q_fppi_096",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU ha identificado la necesidad de un nuevo sistema para la gestión de proyectos de infraestructura que incorpore realidad virtual para la visualización de obras. Este es un esfuerzo temporal con un producto único y un resultado específico. \n",
+    "question": "¿Según el PMBOK Guide, cómo se define un 'proyecto'?",
+    "options": {
+      "A": "Un esfuerzo continuo para mantener operaciones diarias.",
+      "B": "Un esfuerzo temporal que se lleva a cabo para crear un producto, servicio o resultado único.",
+      "C": "Una función organizacional permanente."
+    },
+    "correctAnswer": "B",
+    "explanation": "Un Proyecto es un esfuerzo temporal que se lleva a cabo para crear un producto, servicio o resultado único."
+  },
+  {
+    "id": "q_fppi_097",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está planificando un proyecto de desarrollo de un sistema de información para la gestión de bienes inmuebles. El gerente del proyecto debe definir qué funcionalidades tendrá el sistema, qué módulos se construirán y qué hardware se instalará para soportarlo. Es crucial evitar que el alcance del proyecto se expanda de forma descontrolada ('scope creep'). \n",
+    "question": "¿Qué Área de Conocimiento de la Dirección de Proyectos (según PMBOK Guide) incluye los procesos necesarios para asegurar que el proyecto incluya todo el trabajo requerido, y solo el trabajo requerido, para completarlo exitosamente?",
+    "options": {
+      "A": "Gestión del Cronograma del Proyecto, para ajustar los tiempos a lo que se puede hacer.",
+      "B": "Gestión del Alcance del Proyecto, por su enfoque en la definición y control de lo que se incluye y excluye del proyecto.",
+      "C": "Gestión de la Calidad del Proyecto, para asegurar que las funcionalidades se hagan bien."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Gestión del Alcance del Proyecto incluye los procesos necesarios para asegurar que el proyecto incluya todo el trabajo requerido, y solo el trabajo requerido, para completar el proyecto exitosamente."
+  },
+  {
+    "id": "q_fppi_098",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está ejecutando un proyecto de implementación de un nuevo centro de datos. Durante la ejecución, el gerente del proyecto debe gestionar los recursos humanos (ingenieros de red, técnicos de hardware), adquirir equipos especializados y asegurar su correcta asignación. Además, debe gestionar el conocimiento generado durante el proyecto. \n",
+    "question": "¿Qué Área de Conocimiento de la Dirección de Proyectos (según PMBOK Guide) incluye los procesos para identificar, adquirir y gestionar los recursos físicos (equipos, materiales) y los recursos del equipo del proyecto (personas) necesarios para la finalización exitosa del proyecto?",
+    "options": {
+      "A": "Gestión de los Costos del Proyecto, por la adquisición de recursos.",
+      "B": "Gestión de los Recursos del Proyecto, por su enfoque en la identificación, adquisición y gestión de los recursos físicos y humanos.",
+      "C": "Gestión de las Adquisiciones del Proyecto, por la compra de equipos."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Gestión de los Recursos del Proyecto incluye los procesos para identificar, adquirir y gestionar los recursos necesarios para la finalización exitosa del proyecto. Incluye recursos físicos (equipos, materiales) y recursos del equipo del proyecto (personas)."
+  },
+  {
+    "id": "q_fppi_099",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está en la fase de Planificación de un proyecto de desarrollo de un sistema para la gestión de permisos de obra. El gerente del proyecto debe asegurar que se definan estándares de codificación, se planifiquen y ejecuten diferentes tipos de pruebas (unitarias, integración, sistema, aceptación), y se verifique la usabilidad y el rendimiento del software. \n",
+    "question": "¿Qué Área de Conocimiento de la Dirección de Proyectos (según PMBOK Guide) incluye los procesos para incorporar la política de calidad de la organización y asegurar los requisitos de calidad del proyecto y del producto (software)?",
+    "options": {
+      "A": "Gestión del Alcance del Proyecto.",
+      "B": "Gestión de la Calidad del Proyecto, por su enfoque en la planificación, gestión y control de los requisitos de calidad del producto y del proyecto.",
+      "C": "Gestión de los Recursos del Proyecto."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Gestión de la Calidad del Proyecto incluye los procesos para incorporar la política de calidad de la organización en cuanto a la planificación, gestión y control de los requisitos de calidad del proyecto y del producto."
+  },
+  {
+    "id": "q_fppi_100",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está controlando la ejecución de un proyecto de implementación de un sistema de gestión de activos. El gerente del proyecto monitorea el progreso del equipo, verifica que las pruebas de calidad se estén realizando conforme a lo planificado y gestiona cualquier desviación en el cronograma o el presupuesto. Además, valida que los entregables estén siendo aceptados por el cliente y que los riesgos sean mitigados. \n",
+    "question": "¿En qué Grupo de Procesos de la Dirección de Proyectos (según PMBOK Guide) se realizan estas actividades de rastreo, revisión y regulación del progreso y desempeño del proyecto?",
+    "options": {
+      "A": "Planificación (Planning).",
+      "B": "Ejecución (Executing).",
+      "C": "Seguimiento y Control (Monitoring & Controlling), donde se rastrea, revisa y regula el progreso y desempeño del proyecto."
+    },
+    "correctAnswer": "C",
+    "explanation": "El Grupo de Procesos de Seguimiento y Control (Monitoring & Controlling) es donde se rastrea, revisa y regula el progreso y el desempeño del proyecto; se identifican áreas en las que el plan requiera cambios; e se inician los cambios correspondientes."
+  }
 
 
        
