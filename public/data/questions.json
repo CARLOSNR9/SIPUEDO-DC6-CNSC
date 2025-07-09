@@ -24505,6 +24505,973 @@
         },
         "correctAnswer": "B",
         "explanation": "El PMBOK Guide (Project Management Body of Knowledge Guide) es una guía reconocida mundialmente que documenta las mejores prácticas en la dirección de proyectos y es publicada por el Project Management Institute (PMI)."
+    },
+    {
+        "id": "q_fppi_021",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está planificando un ambicioso proyecto de modernización de su infraestructura de red, que implicará una inversión significativa y la coordinación con múltiples proveedores. Como Director de Proyectos, usted está elaborando el Plan de Gestión de Adquisiciones y debe decidir qué documentos contractuales específicos son esenciales para la fase de ejecución, de acuerdo con la Ley 80 de 1993 y el Decreto 1082 de 2015.",
+        "question": "¿Qué documento es CRÍTICO para esta fase y asegura la aplicación de la normativa de Contratación Pública en las compras del proyecto?",
+        "options": {
+            "A": "El Acta de Constitución del Proyecto (Project Charter).",
+            "B": "El Plan de Gestión de Adquisiciones y los contratos específicos.",
+            "C": "El Registro de Riesgos."
+        },
+        "correctAnswer": "B",
+        "explanation": "El Plan de Gestión de Adquisiciones (parte del Planificación) detalla cómo se gestionarán las compras, y los contratos específicos (resultado de Adquisiciones en Ejecución) son los instrumentos legales que formalizan la compra de productos/servicios. La Ley 80 y el Decreto 1082 regulan directamente estos contratos. El Acta de Constitución es de Inicio y el Registro de Riesgos es del Riesgo."
+    },
+    {
+        "id": "q_fppi_022",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El ciclo de vida de un proyecto según el PMBOK Guide se divide en Grupos de Procesos.",
+        "question": "¿Qué grupo de procesos se caracteriza por 'rastrear, revisar y regular el progreso y el desempeño del proyecto' e 'identificar áreas en las que el plan requiera cambios'?",
+        "options": {
+            "A": "Planificación",
+            "B": "Ejecución",
+            "C": "Seguimiento y Control"
+        },
+        "correctAnswer": "C",
+        "explanation": "El grupo de procesos de Seguimiento y Control (Monitoring & Controlling) es el encargado de rastrear, revisar y regular el progreso y el desempeño del proyecto, así como de identificar desviaciones y gestionar los cambios necesarios."
+    },
+    {
+        "id": "q_fppi_023",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está evaluando un proyecto de implementación de una solución de Big Data para el análisis de tráfico. Durante la fase de planificación, se detecta que los requisitos de calidad de los datos no están suficientemente definidos, lo que podría comprometer la fiabilidad de los análisis futuros. El equipo debe establecer cómo asegurar que la calidad sea un pilar del proyecto.",
+        "question": "¿Qué Área de Conocimiento del PMBOK es la principal responsable de definir y gestionar los requisitos de calidad del proyecto y del producto (los datos y análisis)?",
+        "options": {
+            "A": "Gestión de los Recursos del Proyecto",
+            "B": "Gestión de la Calidad del Proyecto",
+            "C": "Gestión del Alcance del Proyecto"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de la Calidad del Proyecto incluye los procesos para incorporar la política de calidad de la organización en cuanto a la planificación, gestión y control de los requisitos de calidad del proyecto y del producto, asegurando que los entregables cumplan con los estándares establecidos."
+    },
+    {
+        "id": "q_fppi_024",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un elemento clave en la fase de Inicio de un proyecto es la autorización formal.",
+        "question": "¿Cuál de los siguientes documentos se elabora en la fase de Inicio de un proyecto y formalmente lo autoriza, otorgando autoridad al director del proyecto?",
+        "options": {
+            "A": "Plan para la Dirección del Proyecto",
+            "B": "Acta de Constitución del Proyecto (Project Charter)",
+            "C": "Estructura de Desglose del Trabajo (EDT/WBS)"
+        },
+        "correctAnswer": "B",
+        "explanation": "El Acta de Constitución del Proyecto (Project Charter) es el documento que se desarrolla en la fase de Inicio y formalmente autoriza el proyecto, otorgando al director del proyecto la autoridad necesaria."
+    },
+    {
+        "id": "q_fppi_025",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está desarrollando un sistema de información geográfica (GIS) que será utilizado por múltiples dependencias distritales y también por ciudadanos. Para asegurar el éxito del proyecto, el Director debe identificar y clasificar a todos estos actores, analizar sus expectativas y desarrollar una estrategia para involucrarlos adecuadamente en el proyecto.",
+        "question": "¿Qué Área de Conocimiento del PMBOK Guide se encarga de este proceso de identificación y gestión de personas u organizaciones que pueden afectar o ser afectadas por el proyecto?",
+        "options": {
+            "A": "Gestión de las Comunicaciones del Proyecto",
+            "B": "Gestión de los Recursos del Proyecto",
+            "C": "Gestión de los Interesados del Proyecto"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Gestión de los Interesados del Proyecto incluye los procesos necesarios para identificar a todas las personas u organizaciones (stakeholders) que pueden afectar o ser afectadas por el proyecto, analizar sus expectativas y desarrollar estrategias para involucrarlos de manera efectiva."
+    },
+    {
+        "id": "q_fppi_026",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "PRINCE2 es una metodología de gestión de proyectos muy estructurada.",
+        "question": "¿Cuál de las siguientes afirmaciones es una característica distintiva de la metodología PRINCE2, a diferencia del PMBOK Guide que es una guía de buenas prácticas?",
+        "options": {
+            "A": "Se basa en Áreas de Conocimiento y Grupos de Procesos interrelacionados.",
+            "B": "Proporciona un conjunto estructurado de principios, temas y procesos.",
+            "C": "Se enfoca principalmente en la gestión ágil de proyectos de software."
+        },
+        "correctAnswer": "B",
+        "explanation": "PRINCE2 es una metodología estructurada que proporciona un conjunto de principios, temas y procesos para la gestión de proyectos, lo cual la distingue del PMBOK Guide que es una guía de buenas prácticas."
+    },
+    {
+        "id": "q_fppi_027",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Durante la fase de planificación de un proyecto de digitalización de archivos históricos del IDU, el equipo ha identificado que existen múltiples riesgos asociados a la obsolescencia de los formatos de archivo y la fragilidad del material original. Se requiere un plan detallado para mitigar estos riesgos y responder a ellos si ocurren.",
+        "question": "¿En qué documento principal se recopilarían y gestionarían estos riesgos y sus respuestas?",
+        "options": {
+            "A": "El Acta de Constitución del Proyecto.",
+            "B": "El Plan de Gestión del Proyecto.",
+            "C": "El Registro de Riesgos."
+        },
+        "correctAnswer": "C",
+        "explanation": "El Registro de Riesgos es una herramienta de la Gestión de los Riesgos del Proyecto donde se documentan los riesgos identificados, su análisis y la planificación de las respuestas, siendo esencial para el seguimiento y control de los riesgos a lo largo del ciclo de vida del proyecto."
+    },
+    {
+        "id": "q_fppi_028",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La Gestión de la Calidad del Proyecto es fundamental para la entrega de productos funcionales.",
+        "question": "¿Cuál es un entregable clave en la fase de Cierre de un proyecto que documenta los aprendizajes obtenidos y las experiencias relevantes para futuros proyectos?",
+        "options": {
+            "A": "El Acta de Constitución del Proyecto.",
+            "B": "El Informe final de lecciones aprendidas.",
+            "C": "El Plan de Gestión del Proyecto."
+        },
+        "correctAnswer": "B",
+        "explanation": "El Informe final de lecciones aprendidas es un entregable clave de la fase de Cierre, donde se recopila el conocimiento generado durante el proyecto para la mejora continua de la organización."
+    },
+    {
+        "id": "q_fppi_029",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "En el IDU, un proyecto de desarrollo de software ágil (Scrum) se está ejecutando. El Product Owner ha priorizado un conjunto de funcionalidades en el Product Backlog. En el 'Sprint Planning', el Equipo de Desarrollo, después de analizar el esfuerzo, no está de acuerdo con el número de elementos que el Product Owner espera completar en el Sprint, ya que lo consideran irrealista.",
+        "question": "¿Qué acción sería la más adecuada para resolver este conflicto y asegurar un Sprint Backlog realista, según Scrum?",
+        "options": {
+            "A": "El Scrum Master impone la decisión del Product Owner para mantener la autoridad del rol.",
+            "B": "El Equipo de Desarrollo rechaza las tareas y solo toma lo que considera factible, sin negociación.",
+            "C": "El Product Owner y el Equipo de Desarrollo negocian y refinan el alcance del Sprint Backlog hasta llegar a un acuerdo que sea alcanzable para el Sprint."
+        },
+        "correctAnswer": "C",
+        "explanation": "En el Sprint Planning, la colaboración y negociación entre el Product Owner y el Equipo de Desarrollo es fundamental para definir un Sprint Backlog realista y que el equipo se comprometa a él. El Product Owner prioriza, pero el Equipo de Desarrollo estima y decide lo que puede hacer. La negociación (opción C) es la práctica correcta en Scrum."
+    },
+    {
+        "id": "q_fppi_030",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El PMBOK Guide organiza la dirección de proyectos en diez Áreas de Conocimiento.",
+        "question": "¿Qué Área de Conocimiento se encarga de identificar, definir, combinar, unificar y coordinar los diversos procesos y actividades de los otros grupos de procesos de la dirección de proyectos?",
+        "options": {
+            "A": "Gestión de las Comunicaciones del Proyecto",
+            "B": "Gestión de la Integración del Proyecto",
+            "C": "Gestión de la Calidad del Proyecto"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de la Integración del Proyecto incluye los procesos y actividades para identificar, definir, combinar, unificar y coordinar los diversos procesos y actividades dentro de los Grupos de Procesos de la dirección de proyectos, siendo la 'orquestación' central del proyecto."
+    },
+    {
+        "id": "q_fppi_031",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Usted es el Director de Proyectos de un nuevo sistema de información para la gestión de predios en el IDU. Ha completado la fase de Planificación. El equipo está listo para empezar a codificar el software y configurar los servidores. Antes de iniciar estas actividades, necesita recursos humanos y materiales para el equipo.",
+        "question": "¿Qué fase del ciclo de vida del proyecto es la siguiente a la Planificación, donde se lleva a cabo el trabajo definido para cumplir los objetivos?",
+        "options": {
+            "A": "Seguimiento y Control",
+            "B": "Cierre",
+            "C": "Ejecución"
+        },
+        "correctAnswer": "C",
+        "explanation": "Después de la Planificación, el siguiente grupo de procesos es la Ejecución (Executing), donde se lleva a cabo el trabajo definido en el plan para cumplir con los objetivos del proyecto. Esto incluye la codificación de software, construcción de infraestructura, etc."
+    },
+    {
+        "id": "q_fppi_032",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El Plan Estratégico de Tecnologías de la Información y las Comunicaciones (PETIC) es un documento clave en la gestión TI del Estado.",
+        "question": "¿Cuál es el propósito principal del PETIC en el contexto del IDU?",
+        "options": {
+            "A": "Definir los requisitos técnicos específicos de cada sistema de información a desarrollar.",
+            "B": "Establecer un marco estratégico para la gestión y evolución de los sistemas de información y la infraestructura TI de la entidad.",
+            "C": "Detallar los procedimientos operativos para el soporte técnico a los usuarios finales."
+        },
+        "correctAnswer": "B",
+        "explanation": "El PETIC (Plan Estratégico de Tecnologías de la Información y las Comunicaciones) es un documento que establece un marco estratégico para la gestión y evolución de los sistemas de información y la infraestructura TI de la entidad, alineando la tecnología con los objetivos misionales."
+    },
+    {
+        "id": "q_fppi_033",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un proyecto de desarrollo de software en el IDU está enfrentando una situación de 'scope creep' (expansión no controlada del alcance) debido a constantes solicitudes de nuevas funcionalidades por parte de los usuarios, sin que haya un proceso formal para evaluar su impacto en el cronograma y presupuesto.",
+        "question": "¿Qué Área de Conocimiento del PMBOK fue gestionada inadecuadamente, lo que contribuyó a este 'scope creep'?",
+        "options": {
+            "A": "Gestión de las Comunicaciones del Proyecto.",
+            "B": "Gestión del Alcance del Proyecto.",
+            "C": "Gestión de los Interesados del Proyecto."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión del Alcance del Proyecto incluye los procesos necesarios para asegurar que el proyecto incluya todo el trabajo requerido, y solo el trabajo requerido, para completarlo exitosamente. La falta de un control adecuado del alcance es la causa directa del 'scope creep'."
+    },
+    {
+        "id": "q_fppi_034",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El PMBOK Guide define varias Áreas de Conocimiento para la dirección de proyectos.",
+        "question": "¿Qué Área de Conocimiento se encarga de la planificación, recopilación, creación, distribución, almacenamiento, recuperación, gestión, control y monitoreo de la información del proyecto?",
+        "options": {
+            "A": "Gestión de los Recursos del Proyecto",
+            "B": "Gestión de las Adquisiciones del Proyecto",
+            "C": "Gestión de las Comunicaciones del Proyecto"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Gestión de las Comunicaciones del Proyecto incluye los procesos necesarios para asegurar que la planificación, recopilación, creación, distribución, almacenamiento, recuperación, gestión, control y monitoreo de la información del proyecto sean oportunos y apropiados."
+    },
+    {
+        "id": "q_fppi_035",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Al finalizar un proyecto de implementación de un nuevo sistema de gestión en el IDU, se identifica que los usuarios finales no lo adoptan por completo debido a que no entienden cómo usarlo, a pesar de que el sistema cumple con todas las funcionalidades técnicas. Esto afecta la generación de valor esperada.",
+        "question": "¿Qué error frecuente en proyectos de TI del Estado se evidencia en este escenario?",
+        "options": {
+            "A": "Subestimación de las pruebas de rendimiento.",
+            "B": "Desalineación con el Plan Estratégico de TI (PETIC).",
+            "C": "Falta de gestión del cambio (resistencia a nuevas tecnologías/procesos)."
+        },
+        "correctAnswer": "C",
+        "explanation": "La falta de adopción por parte de los usuarios finales y la resistencia a usar el sistema, a pesar de su funcionalidad, es un claro indicio de una gestión del cambio deficiente, un error frecuente que afecta la implementación exitosa de proyectos TI en el sector público."
+    },
+    {
+        "id": "q_fppi_036",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Los proyectos informáticos en el IDU deben ser entregados a tiempo y dentro del presupuesto.",
+        "question": "¿Qué métricas obligatorias en el sector público se utilizan para evaluar el desempeño del proyecto en términos de cronograma y costo?",
+        "options": {
+            "A": "Avance físico vs. financiero y Lecciones aprendidas.",
+            "B": "Índice de Desempeño del Cronograma (SPI) e Índice de Desempeño del Costo (CPI).",
+            "C": "Número de bugs reportados y tiempo de resolución."
+        },
+        "correctAnswer": "B",
+        "explanation": "El Índice de Desempeño del Cronograma (SPI) y el Índice de Desempeño del Costo (CPI) son KPIs obligatorios en el sector público para monitorear el desempeño del proyecto en relación con el cronograma y el presupuesto, respectivamente."
+    },
+    {
+        "id": "q_fppi_037",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU ha identificado la necesidad de adquirir una licencia de software especializada para un nuevo sistema GIS. Esta licencia solo es ofrecida por un único proveedor a nivel nacional y su costo es considerable. La entidad debe asegurarse de seguir la normativa de contratación pública.",
+        "question": "¿Qué modalidad de selección de contratista es la más adecuada para esta adquisición, según la Ley 1150 de 2007 y el Decreto 1082 de 2015?",
+        "options": {
+            "A": "Licitación Pública, por ser un contrato de alta cuantía.",
+            "B": "Contratación Directa, por la existencia de un único proveedor.",
+            "C": "Selección Abreviada, por ser un bien de uso común."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Contratación Directa es una excepción a la regla general y aplica en casos taxativamente definidos por la ley, como la existencia de un único proveedor de bienes o servicios que no tienen sustitutos en el mercado, lo cual aplica para una licencia de software altamente especializada sin otros oferentes."
+    },
+    {
+        "id": "q_fppi_038",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La gestión de la calidad es un área de conocimiento fundamental del PMBOK.",
+        "question": "¿Qué práctica clave en la Gestión de la Calidad del Proyecto involucra definir estándares de codificación, planificar y ejecutar diferentes tipos de pruebas (unitarias, integración, sistema, aceptación) para un proyecto de software?",
+        "options": {
+            "A": "Gestión del Alcance del Proyecto.",
+            "B": "Aseguramiento de la Calidad (Realizar Pruebas de Software).",
+            "C": "Control de los Recursos del Proyecto."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de la Calidad del Proyecto incluye procesos para incorporar la política de calidad, y el 'Aseguramiento de la Calidad' es la actividad clave donde se definen estándares y se ejecutan pruebas (unitarias, integración, sistema, aceptación) para verificar que el software o infraestructura TI cumple con los requisitos de calidad."
+    },
+    {
+        "id": "q_fppi_039",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está planificando un proyecto de desarrollo de un sistema de información para la gestión de sus activos fijos. Para asegurar que el proyecto se mantenga dentro del presupuesto asignado y que se optimicen los gastos, el equipo debe establecer cómo se estimarán los costos, se controlarán los gastos y se monitoreará la ejecución presupuestal.",
+        "question": "¿Qué Área de Conocimiento del PMBOK es la principal responsable de este proceso?",
+        "options": {
+            "A": "Gestión de las Adquisiciones del Proyecto",
+            "B": "Gestión de los Costos del Proyecto",
+            "C": "Gestión de los Recursos del Proyecto"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de los Costos del Proyecto incluye los procesos involucrados en estimar, presupuestar y controlar los costos de modo que el proyecto se complete dentro del presupuesto aprobado. Esto incluye el monitoreo de la ejecución presupuestal y la optimización de los gastos."
+    },
+
+
+    
+    {
+        "id": "q_fppi_040",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Las Metodologías Ágiles como Scrum o Kanban son populares en el desarrollo de software.",
+        "question": "¿Qué principio del Manifiesto Ágil prioriza 'Individuos e interacciones' sobre los 'procesos y herramientas'?",
+        "options": {
+            "A": "Colaboración con el cliente sobre negociación contractual.",
+            "B": "Software funcionando sobre documentación exhaustiva.",
+            "C": "Individuos e interacciones sobre procesos y herramientas."
+        },
+        "correctAnswer": "C",
+        "explanation": "Uno de los cuatro valores fundamentales del Manifiesto Ágil es 'Individuos e interacciones sobre procesos y herramientas', priorizando la comunicación y la colaboración humana sobre el apego estricto a métodos o herramientas."
+    },
+
+    {
+    "id": "q_fppi_041",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "formulacion-proyectos-informaticos",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "En la gestión de proyectos, es fundamental entender las fases por las que atraviesa un proyecto desde su inicio hasta su final.",
+    "question": "¿Cuál es la primera fase del ciclo de vida de un proyecto según los Grupos de Procesos de la Dirección de Proyectos (PMBOK Guide)?",
+    "options": {
+        "A": "Planificación",
+        "B": "Ejecución",
+        "C": "Inicio"
+    },
+    "correctAnswer": "C",
+    "explanation": "La primera fase del ciclo de vida de un proyecto, según el PMBOK Guide, es el Inicio (Initiation), donde se define formalmente el proyecto y se obtiene la autorización para comenzarlo."
+},
+
+    {
+        "id": "q_fppi_042",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "ANALYSIS",
+        "difficulty": "hard",
+        "case": "El IDU está formulando un proyecto para implementar un sistema de gestión de contratos. Durante la fase de planificación, se identificó que el área jurídica requiere funcionalidades distintas a las planteadas inicialmente por el área usuaria.",
+        "question": "¿Qué documento del PMBOK debe actualizarse PRIMERO para gestionar este cambio?",
+        "options": {
+            "A": "Plan de Gestión del Alcance",
+            "B": "Acta de Constitución del Proyecto",
+            "C": "Cronograma del Proyecto"
+        },
+        "correctAnswer": "A",
+        "explanation": "El Plan de Gestión del Alcance (Área 5.1 PMBOK) establece cómo se formalizarán los cambios. Debe actualizarse antes que otros documentos para evaluar impacto en requisitos."
+    },
+    {
+        "id": "q_fppi_043",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "APPLICATION",
+        "difficulty": "hard",
+        "case": "Un proyecto de desarrollo de software para el IDU tiene un CPI (Índice de Desempeño del Costo) de 0.85 y un SPI (Índice de Desempeño del Cronograma) de 1.10 después de 6 meses de ejecución.",
+        "question": "¿Qué diagnóstico es correcto sobre el estado del proyecto?",
+        "options": {
+            "A": "El proyecto está gastando más de lo presupuestado pero adelantado en tiempo",
+            "B": "El proyecto está subutilizando recursos y atrasado",
+            "C": "El proyecto cumple exactamente con lo planeado"
+        },
+        "correctAnswer": "A",
+        "explanation": "CPI < 1 indica sobrecostos (gasta más de lo presupuestado). SPI > 1 significa adelanto en cronograma. Fuente: PMBOK Área 7.4 (Control de Costos)."
+    },
+    {
+        "id": "q_fppi_044",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Según la Metodología General Ajustada (MGA) y el PMBOK para proyectos TI en el sector público.",
+        "question": "¿Qué componente es obligatorio en la Fase de Prefactibilidad de un proyecto informático del IDU?",
+        "options": {
+            "A": "Análisis de interoperabilidad con el MAE-TI",
+            "B": "Diagrama de Gantt detallado",
+            "C": "Manual técnico del software"
+        },
+        "correctAnswer": "A",
+        "explanation": "La MGA exige alinear proyectos TI con el Modelo de Arquitectura Empresarial (MAE-TI). Los otros ítems corresponden a fases posteriores (Planificación e Implementación)."
+    },
+    {
+        "id": "q_fppi_045",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "ANALYSIS",
+        "difficulty": "hard",
+        "case": "El IDU contrató desarrollo de una app móvil usando Scrum. En el Sprint 3, el Product Owner solicita incluir un nuevo módulo de firma digital no contemplado inicialmente.",
+        "question": "¿Qué artefacto ágil debe actualizarse para gestionar este cambio?",
+        "options": {
+            "A": "Plan de Gestión de Riesgos",
+            "B": "Product Backlog",
+            "C": "Diagrama de red del proyecto"
+        },
+        "correctAnswer": "B",
+        "explanation": "El Product Backlog es el artefacto ágil que prioriza todos los requisitos. Los nuevos ítems se agregan aquí para evaluación en próximos Sprints (Guía Scrum 2020)."
+    },
+    {
+        "id": "q_fppi_046",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "APPLICATION",
+        "difficulty": "hard",
+        "case": "Un proyecto del IDU para migrar a la nube tiene este análisis de riesgos:\n- Prob. Alta/Impacto Alto: Pérdida de datos durante migración\n- Prob. Media/Impacto Alto: Incumplimiento de Resolución 1514/2020",
+        "question": "¿Qué riesgo requiere plan de mitigación inmediato según matriz de priorización?",
+        "options": {
+            "A": "Solo el primero",
+            "B": "Ambos riesgos",
+            "C": "Ninguno, son aceptables"
+        },
+        "correctAnswer": "B",
+        "explanation": "Ambos riesgos tienen Impacto Alto (prioridad máxima). El PMBOK (Área 11) recomienda mitigar riesgos con Probabilidad x Impacto ≥ umbral organizacional."
+    },
+    {
+        "id": "q_fppi_047",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "ANALYSIS",
+        "difficulty": "hard",
+        "case": "En la formulación de un SIG para el IDU, el equipo identifica estos stakeholders:\n- Alto poder/bajo interés: Contraloría\n- Alto poder/alto interés: Subdirector Técnico",
+        "question": "¿Qué estrategia de gestión es adecuada para la Contraloría según matriz de poder/interés?",
+        "options": {
+            "A": "Monitoreo ocasional",
+            "B": "Gestión activa (comunicaciones frecuentes)",
+            "C": "Satisfacción mínima"
+        },
+        "correctAnswer": "A",
+        "explanation": "Stakeholders con alto poder pero bajo interés (como órganos de control) deben monitorearse para anticipar cambios en su nivel de interés (PMBOK Área 13)."
+    },
+    {
+        "id": "q_fppi_048",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Según el Decreto 1082/2015 y el PMBOK para proyectos TI públicos.",
+        "question": "¿Qué técnica debe usarse para estimar costos de infraestructura cloud en el IDU?",
+        "options": {
+            "A": "Estimación análoga (proyectos similares)",
+            "B": "Estimación paramétrica (costo por GB almacenamiento)",
+            "C": "Juicio de expertos sin sustento cuantitativo"
+        },
+        "correctAnswer": "B",
+        "explanation": "El Decreto 1082/2015 exige estimación paramétrica (basada en parámetros medibles) para compras públicas de TI. La opción C está prohibida."
+    },
+    {
+        "id": "q_fppi_049",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "APPLICATION",
+        "difficulty": "hard",
+        "case": "El IDU usa un WBS (Estructura de Desglose de Trabajo) con 4 niveles para un proyecto de CRM. El paquete de trabajo 'Configuración de servidores' está en el nivel 3.",
+        "question": "¿Qué característica debe tener este paquete según el PMBOK?",
+        "options": {
+            "A": "Debe poder asignarse a un único responsable",
+            "B": "Debe incluir todas las fases del ciclo de vida",
+            "C": "Debe tener duración mayor a 3 meses"
+        },
+        "correctAnswer": "A",
+        "explanation": "Según PMBOK (Área 5.4), todo paquete de trabajo en WBS debe ser asignable a un único dueño para claridad en responsabilidades."
+    },
+    {
+        "id": "q_fppi_050",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "ANALYSIS",
+        "difficulty": "hard",
+        "case": "Un proyecto del IDU tiene:\n- AV (Valor Ganado) = $300M\n- AC (Costo Real) = $400M\n- PV (Valor Planificado) = $350M",
+        "question": "¿Qué análisis es correcto sobre desempeño?",
+        "options": {
+            "A": "El proyecto tiene sobrecostos y está atrasado",
+            "B": "El proyecto tiene sobrecostos pero adelantado",
+            "C": "El proyecto está subutilizando recursos"
+        },
+        "correctAnswer": "A",
+        "explanation": "CPI = EV/AC = 0.75 (<1 = sobrecostos). SPI = EV/PV = 0.86 (<1 = atraso). Fórmulas del PMBOK (Área 7)."
+    },
+    {
+        "id": "q_fppi_051",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Según la Ley 80 de 1993 y el PMBOK para proyectos públicos.",
+        "question": "¿Qué documento es obligatorio en la fase de ejecución de un proyecto TI del IDU?",
+        "options": {
+            "A": "Plan de Adquisiciones",
+            "B": "Acta de Constitución",
+            "C": "Estudio de prefactibilidad"
+        },
+        "correctAnswer": "A",
+        "explanation": "El Plan de Adquisiciones (Art. 14 Ley 80/93) es clave en ejecución para contratación pública. Los otros son de fases iniciales."
+    },
+    {
+        "id": "q_fppi_052",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "APPLICATION",
+        "difficulty": "hard",
+        "case": "El IDU implementará un ERP usando metodología híbrida (PMBOK + Scrum). Durante la planificación, surge un requisito no funcional de seguridad: 'Cumplir NTC-ISO/IEC 27001'.",
+        "question": "¿En qué documento debe registrarse este requisito?",
+        "options": {
+            "A": "Plan de Gestión de la Calidad",
+            "B": "Product Backlog",
+            "C": "Ambos documentos"
+        },
+        "correctAnswer": "C",
+        "explanation": "Requisitos no funcionales van en el Plan de Calidad (PMBOK Área 8) y como ítem en el Product Backlog (Scrum) para su implementación."
+    },
+    {
+        "id": "q_fppi_053",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "ANALYSIS",
+        "difficulty": "hard",
+        "case": "El comité del IDU rechazó un proyecto de BI por no demostrar alineación con objetivos estratégicos.",
+        "question": "¿Qué documento clave faltó en la formulación?",
+        "options": {
+            "A": "Mapa de procesos del área usuaria",
+            "B": "Matriz de alineación con el PETIC",
+            "C": "Diagrama de casos de uso"
+        },
+        "correctAnswer": "B",
+        "explanation": "El PETIC (Plan Estratégico de TI) es el marco para priorizar proyectos. Su alineación es requisito según Decreto 1078/2015."
+    },
+    {
+        "id": "q_fppi_054",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Según la Resolución 1514/2020 y el PMBOK para proyectos de software público.",
+        "question": "¿Qué prueba es obligatoria antes del cierre de un proyecto de desarrollo?",
+        "options": {
+            "A": "Pruebas de penetración (pentesting)",
+            "B": "Pruebas unitarias automatizadas",
+            "C": "Pruebas A/B con usuarios"
+        },
+        "correctAnswer": "A",
+        "explanation": "La Resolución 1514/2020 exige pruebas de seguridad (incluyendo pentesting) para sistemas nuevos. Las otras son buenas prácticas pero no obligatorias."
+    },
+    {
+        "id": "q_fppi_055",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "APPLICATION",
+        "difficulty": "hard",
+        "case": "Un proyecto del IDU tiene 3 proveedores: uno para desarrollo (contrato a precio fijo), otro para capacitación (tiempo y materiales) y otro para hardware (compra directa).",
+        "question": "¿Qué técnica de PMBOK usar para gestionar estos contratos?",
+        "options": {
+            "A": "Análisis de Make-or-Buy",
+            "B": "Estructura de Desglose de Adquisiciones",
+            "C": "Estimación bottom-up"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Estructura de Desglose de Adquisiciones (PMBOK Área 12) organiza contractualmente bienes/servicios por categorías según tipo de contrato."
+    },
+    {
+        "id": "q_fppi_056",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "ANALYSIS",
+        "difficulty": "hard",
+        "case": "El IDU contrató auditoría externa para un proyecto de firma digital. El informe señala que no se documentaron lecciones aprendidas en 3 hitos clave.",
+        "question": "¿Qué proceso del PMBOK no se ejecutó adecuadamente?",
+        "options": {
+            "A": "Gestionar el Conocimiento del Proyecto",
+            "B": "Controlar Calidad",
+            "C": "Monitorear Riesgos"
+        },
+        "correctAnswer": "A",
+        "explanation": "Documentar lecciones aprendidas es parte del proceso 4.4 (Gestionar Conocimiento) en PMBOK 7ª Ed. Debe hacerse durante todo el proyecto, no solo al final."
+    },
+    {
+        "id": "q_fppi_057",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Según el MGA y PMBOK para proyectos TI públicos.",
+        "question": "¿Qué debe contener el acta de cierre de un proyecto informático del IDU?",
+        "options": {
+            "A": "Solo la lista de entregables completados",
+            "B": "Entregables, lecciones aprendidas y manuales técnicos",
+            "C": "Solicitud de recursos para el próximo proyecto"
+        },
+        "correctAnswer": "B",
+        "explanation": "El acta de cierre (PMBOK 4.7) debe incluir productos finales, documentación y lecciones aprendidas. Es requisito en MGA Fase 5."
+    },
+    {
+        "id": "q_fppi_058",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "APPLICATION",
+        "difficulty": "hard",
+        "case": "Un proyecto de IA del IDU falló en producción porque el área usuaria no participó en pruebas. El equipo usó solo datos sintéticos durante desarrollo.",
+        "question": "¿Qué proceso de PMBOK se omitió?",
+        "options": {
+            "A": "Gestionar Participación de Stakeholders",
+            "B": "Estimar Duración de Actividades",
+            "C": "Realizar Análisis Cuantitativo de Riesgos"
+        },
+        "correctAnswer": "A",
+        "explanation": "El PMBOK (Área 13) enfatiza involucrar stakeholders clave (como usuarios finales) en validaciones. Su exclusión causó el fracaso operativo."
+    },
+    {
+        "id": "q_fppi_059",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "ANALYSIS",
+        "difficulty": "hard",
+        "case": "El IDU evaluará 2 proyectos:\n- Proyecto A: VPN = $1,200M, alineado con PETIC\n- Proyecto B: VPN = $1,500M, no alineado con PETIC",
+        "question": "¿Cuál debe priorizarse según criterios MGA?",
+        "options": {
+            "A": "Proyecto A por alineación estratégica",
+            "B": "Proyecto B por mayor VPN",
+            "C": "Ambos son viables"
+        },
+        "correctAnswer": "A",
+        "explanation": "La MGA prioriza alineación estratégica (PETIC) sobre indicadores financieros. Proyectos no alineados deben reformularse (Guía MGA 2023)."
+    },
+    {
+        "id": "q_fppi_060",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Según la Ley 2012/2020 y PMBOK para interoperabilidad en proyectos TI públicos.",
+        "question": "¿Qué estándar debe cumplir un sistema nuevo del IDU para integrarse con otras entidades?",
+        "options": {
+            "A": "Solo estándares internos del IDU",
+            "B": "Estándares definidos por el MinTIC en el MAE-TI",
+            "C": "Estándares que elija el proveedor"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Ley 2012/2020 (Art. 9) exige cumplir estándares del Modelo de Arquitectura TI (MAE-TI) para interoperabilidad gubernamental."
+    },
+    {
+        "id": "q_fppi_061",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "APPLICATION",
+        "difficulty": "hard",
+        "case": "El IDU implementará DevOps en un proyecto. El equipo debate si incluir la fase de operación en el alcance.",
+        "question": "¿Qué recomienda el PMBOK 7ª Ed. sobre gestión de operaciones?",
+        "options": {
+            "A": "Excluir operación: es responsabilidad del área usuaria",
+            "B": "Incluir handover operativo como entregable del proyecto",
+            "C": "Solo incluir manuales técnicos"
+        },
+        "correctAnswer": "B",
+        "explanation": "El PMBOK 7ª Ed. (Dominio 8) incluye la transición a operaciones como parte del ciclo de vida. El handover asegura sostenibilidad post-implementación."
+    },
+
+    {
+        "id": "q_fppi_062",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El IDU está planeando un proyecto para implementar un sistema de gestión de tráfico en tiempo real. El equipo del proyecto debe asegurarse de que el sistema sea escalable y fácil de actualizar a medida que evoluciona la infraestructura de tráfico de la ciudad.",
+        "question": "¿Cuál es la fase del ciclo de vida del proyecto donde se deben definir las metas y objetivos del proyecto, así como las estrategias para gestionar los recursos?",
+        "options": {
+            "A": "Planificación",
+            "B": "Ejecución",
+            "C": "Inicio"
+        },
+        "correctAnswer": "A",
+        "explanation": "La fase de planificación es donde se definen los objetivos, los recursos necesarios y las estrategias para llevar a cabo el proyecto, asegurando su éxito y alineación con los requerimientos del cliente."
+    },
+    {
+        "id": "q_fppi_063",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "En un proyecto de implementación de un sistema ERP en una entidad pública, se requieren cambios frecuentes en el alcance para adaptarse a las normativas legales en constante cambio.",
+        "question": "¿Qué área de conocimiento del PMBOK es clave para gestionar los cambios en el alcance de un proyecto?",
+        "options": {
+            "A": "Gestión de la Calidad",
+            "B": "Gestión del Alcance",
+            "C": "Gestión de los Riesgos"
+        },
+        "correctAnswer": "B",
+        "explanation": "La gestión del alcance se encarga de definir y controlar lo que está incluido y lo que no está en el proyecto, asegurando que los cambios sean gestionados adecuadamente."
+    },
+    {
+        "id": "q_fppi_064",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un proyecto informático para mejorar la infraestructura de TI de una ciudad tiene múltiples partes interesadas, incluidos administradores de TI, contratistas de software y el público.",
+        "question": "¿Cuál de las siguientes herramientas es esencial para gestionar eficazmente las comunicaciones entre estas partes interesadas?",
+        "options": {
+            "A": "Plan de Comunicación",
+            "B": "Plan de Calidad",
+            "C": "Plan de Recursos"
+        },
+        "correctAnswer": "A",
+        "explanation": "El Plan de Comunicación es fundamental para asegurar que la información se distribuya de manera efectiva a todos los stakeholders y se mantengan informados sobre el progreso del proyecto."
+    },
+    {
+        "id": "q_fppi_065",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Durante la ejecución de un proyecto de infraestructura tecnológica, un contratista incumple los plazos acordados, lo que provoca retrasos y aumento en los costos.",
+        "question": "¿Qué proceso del PMBOK es el adecuado para gestionar este tipo de incidencias y asegurar que se tomen medidas correctivas?",
+        "options": {
+            "A": "Controlar el Cronograma",
+            "B": "Controlar los Costos",
+            "C": "Controlar la Calidad"
+        },
+        "correctAnswer": "A",
+        "explanation": "El proceso de Controlar el Cronograma se encarga de monitorear el progreso del proyecto y gestionar los retrasos, asegurando que se tomen medidas correctivas para cumplir con los plazos establecidos."
+    },
+    {
+        "id": "q_fppi_066",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "En un proyecto de TI, un equipo se enfrenta a dificultades para cumplir con los plazos debido a una alta rotación de personal y la falta de formación en la tecnología implementada.",
+        "question": "¿Qué área de conocimiento del PMBOK es esencial para gestionar este problema y minimizar el impacto en la ejecución del proyecto?",
+        "options": {
+            "A": "Gestión de los Recursos Humanos",
+            "B": "Gestión de los Riesgos",
+            "C": "Gestión de la Calidad"
+        },
+        "correctAnswer": "A",
+        "explanation": "La gestión de los recursos humanos es clave para asegurar que el personal adecuado esté disponible y tenga la formación necesaria para realizar las tareas asignadas en el proyecto."
+    },
+    {
+        "id": "q_fppi_067",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un proyecto de desarrollo de software necesita evaluar los riesgos asociados con la integración de múltiples sistemas, que podrían afectar tanto la funcionalidad como la seguridad.",
+        "question": "¿Qué proceso del PMBOK es fundamental para identificar, evaluar y mitigar los riesgos en este proyecto?",
+        "options": {
+            "A": "Planificar la Gestión de los Riesgos",
+            "B": "Identificar los Riesgos",
+            "C": "Realizar el Análisis Cuantitativo de los Riesgos"
+        },
+        "correctAnswer": "B",
+        "explanation": "Identificar los riesgos es el proceso inicial para gestionar los riesgos en un proyecto. Este proceso permite identificar y evaluar los riesgos que pueden afectar el éxito del proyecto."
+    },
+    {
+        "id": "q_fppi_068",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El IDU ha iniciado un proyecto para digitalizar sus procesos internos. Durante la planificación, se identifican diversas partes interesadas, incluyendo usuarios internos y externos, además de proveedores de software.",
+        "question": "¿Cuál de los siguientes documentos es clave para gestionar las expectativas de todas las partes interesadas y asegurar el alineamiento del proyecto con sus necesidades?",
+        "options": {
+            "A": "Acta de Constitución del Proyecto",
+            "B": "Plan de Gestión de los Interesados",
+            "C": "Plan de Recursos"
+        },
+        "correctAnswer": "B",
+        "explanation": "El Plan de Gestión de los Interesados se utiliza para identificar y gestionar las expectativas de todas las partes involucradas, asegurando que el proyecto cumpla con sus expectativas y necesidades."
+    },
+    {
+        "id": "q_fppi_069",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "En un proyecto de infraestructura tecnológica, se deben gestionar tanto los recursos materiales como el tiempo. Durante la ejecución, se descubren desviaciones en el cronograma que podrían retrasar la entrega del proyecto.",
+        "question": "¿Qué proceso del PMBOK es adecuado para gestionar estas desviaciones y restablecer el control sobre el cronograma del proyecto?",
+        "options": {
+            "A": "Monitorear y Controlar el Cronograma",
+            "B": "Desarrollar el Cronograma",
+            "C": "Controlar los Costos"
+        },
+        "correctAnswer": "A",
+        "explanation": "El proceso de Monitorear y Controlar el Cronograma se encarga de realizar un seguimiento continuo del progreso del proyecto, identificar desviaciones y aplicar medidas correctivas para asegurar que el cronograma se cumpla."
+    },
+    {
+        "id": "q_fppi_070",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "En un proyecto de TI de gran envergadura, la calidad del software es una prioridad. Sin embargo, durante las pruebas, se detectan varios errores que retrasan la entrega del sistema.",
+        "question": "¿Qué área de conocimiento del PMBOK es crucial para asegurar que el proyecto cumpla con los estándares de calidad requeridos?",
+        "options": {
+            "A": "Gestión de la Calidad",
+            "B": "Gestión de los Riesgos",
+            "C": "Gestión de los Costos"
+        },
+        "correctAnswer": "A",
+        "explanation": "La Gestión de la Calidad es fundamental para asegurar que el proyecto cumpla con los estándares de calidad y para identificar y corregir cualquier error que pueda afectar la entrega del producto."
+    },
+    {
+        "id": "q_fppi_071",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un proyecto informático está en su fase de ejecución, y el equipo debe controlar el uso de los recursos para evitar sobrecostos.",
+        "question": "¿Qué proceso del PMBOK es el adecuado para gestionar los costos del proyecto y asegurar que se mantenga dentro del presupuesto?",
+        "options": {
+            "A": "Controlar los Costos",
+            "B": "Desarrollar el Plan de Gestión de los Costos",
+            "C": "Gestionar el Alcance"
+        },
+        "correctAnswer": "A",
+        "explanation": "El proceso de Controlar los Costos se asegura de que los costos del proyecto se mantengan dentro del presupuesto, monitoreando las variaciones y tomando las medidas necesarias para corregirlas."
+    },
+
+    {
+        "id": "q_fppi_072",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "En un proyecto de infraestructura de TI, los proveedores están entregando productos con retrasos, lo que está afectando el cronograma del proyecto.",
+        "question": "¿Qué proceso del PMBOK se debe aplicar para gestionar el impacto de estos retrasos y minimizar su efecto en el proyecto?",
+        "options": {
+            "A": "Controlar los Riesgos",
+            "B": "Gestionar las Adquisiciones",
+            "C": "Controlar el Cronograma"
+        },
+        "correctAnswer": "C",
+        "explanation": "El proceso de Controlar el Cronograma es clave para monitorear los retrasos, identificar las causas y tomar medidas correctivas para mantener el proyecto en marcha."
+    },
+    {
+        "id": "q_fppi_073",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un proyecto de software está avanzando, pero hay diferencias significativas entre las expectativas del cliente y los entregables del equipo. Los interesados están comenzando a expresar su insatisfacción.",
+        "question": "¿Qué documento debe revisarse para alinear las expectativas y objetivos del proyecto con los entregables?",
+        "options": {
+            "A": "Plan de Gestión de los Interesados",
+            "B": "Plan de Gestión del Alcance",
+            "C": "Plan de Gestión de la Calidad"
+        },
+        "correctAnswer": "B",
+        "explanation": "El Plan de Gestión del Alcance es el documento clave para definir y controlar qué está incluido y qué no está en el proyecto, asegurando que las expectativas de los interesados se gestionen adecuadamente."
+    },
+    {
+        "id": "q_fppi_074",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Durante la ejecución de un proyecto TI, se identifican múltiples riesgos asociados a la infraestructura tecnológica. El equipo necesita una evaluación profunda para mitigarlos.",
+        "question": "¿Qué proceso del PMBOK debe seguirse para gestionar estos riesgos de manera adecuada?",
+        "options": {
+            "A": "Planificar la Gestión de los Riesgos",
+            "B": "Identificar los Riesgos",
+            "C": "Monitorear y Controlar los Riesgos"
+        },
+        "correctAnswer": "B",
+        "explanation": "El proceso de Identificar los Riesgos es fundamental para reconocer los riesgos potenciales en un proyecto. Este proceso permite la creación de un registro de riesgos para tomar medidas preventivas o correctivas."
+    },
+    {
+        "id": "q_fppi_075",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El equipo del proyecto de TI ha completado la planificación del proyecto, y ahora se enfrenta a la fase de ejecución. Sin embargo, surgen dudas sobre la forma de asignar los recursos de manera eficiente.",
+        "question": "¿Qué documento o herramienta es esencial para guiar la asignación de recursos en la fase de ejecución del proyecto?",
+        "options": {
+            "A": "Plan de Gestión de los Recursos Humanos",
+            "B": "Plan de Gestión del Cronograma",
+            "C": "Plan de Gestión de los Costos"
+        },
+        "correctAnswer": "A",
+        "explanation": "El Plan de Gestión de los Recursos Humanos establece cómo se gestionarán los recursos humanos en el proyecto, asignando roles y responsabilidades para asegurar que se utilicen eficientemente."
+    },
+    {
+        "id": "q_fppi_076",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "En un proyecto de TI, los costos del proyecto han comenzado a desviarse considerablemente del presupuesto aprobado. El equipo necesita determinar la causa de la desviación y tomar medidas correctivas.",
+        "question": "¿Qué proceso del PMBOK debe ejecutarse para controlar los costos y mantener el proyecto dentro del presupuesto?",
+        "options": {
+            "A": "Monitorear y Controlar los Costos",
+            "B": "Planificar la Gestión de los Costos",
+            "C": "Controlar el Alcance"
+        },
+        "correctAnswer": "A",
+        "explanation": "El proceso de Monitorear y Controlar los Costos ayuda a identificar desviaciones en el presupuesto y tomar medidas correctivas para asegurarse de que el proyecto se mantenga dentro de los límites financieros."
+    },
+    {
+        "id": "q_fppi_077",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Durante un proyecto de software, se decide incorporar nuevas funcionalidades solicitadas por los usuarios. Estas funcionalidades requieren cambios en el alcance previamente aprobado.",
+        "question": "¿Qué proceso del PMBOK se debe seguir para gestionar los cambios en el alcance del proyecto?",
+        "options": {
+            "A": "Controlar el Alcance",
+            "B": "Verificar el Alcance",
+            "C": "Definir el Alcance"
+        },
+        "correctAnswer": "A",
+        "explanation": "El proceso de Controlar el Alcance es crucial para monitorear las variaciones del alcance y tomar las acciones necesarias para asegurarse de que los cambios sean aprobados y gestionados correctamente."
+    },
+    {
+        "id": "q_fppi_078",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un proyecto TI se enfrenta a retrasos debido a la falta de recursos humanos especializados, lo que está afectando la calidad del desarrollo del software.",
+        "question": "¿Qué estrategia del PMBOK se debe aplicar para garantizar la calidad del proyecto y la disponibilidad de recursos humanos?",
+        "options": {
+            "A": "Planificar la Gestión de la Calidad",
+            "B": "Desarrollar el Plan de Recursos Humanos",
+            "C": "Gestionar la Calidad"
+        },
+        "correctAnswer": "A",
+        "explanation": "La planificación de la gestión de la calidad asegura que se definan los estándares de calidad y los procedimientos para cumplir con ellos, lo cual es esencial para mantener la calidad del proyecto."
+    },
+    {
+        "id": "q_fppi_079",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El equipo de proyecto de TI ha detectado varios riesgos relacionados con la seguridad de los datos y la protección de la información sensible del cliente.",
+        "question": "¿Qué área de conocimiento del PMBOK debe aplicarse para gestionar estos riesgos de manera adecuada?",
+        "options": {
+            "A": "Gestión de los Riesgos",
+            "B": "Gestión de la Calidad",
+            "C": "Gestión de las Adquisiciones"
+        },
+        "correctAnswer": "A",
+        "explanation": "La Gestión de los Riesgos es fundamental para identificar, evaluar y mitigar los riesgos asociados a la seguridad de la información y otros riesgos potenciales en el proyecto."
+    },
+    {
+        "id": "q_fppi_080",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El equipo de un proyecto TI recibe feedback negativo de los usuarios clave sobre una parte del sistema que no cumple con sus expectativas.",
+        "question": "¿Qué proceso del PMBOK se debe seguir para gestionar este feedback y realizar las correcciones necesarias?",
+        "options": {
+            "A": "Controlar los Costos",
+            "B": "Monitorear y Controlar los Riesgos",
+            "C": "Realizar la Gestión de la Calidad"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Gestión de la Calidad permite identificar los problemas con los entregables, hacer las correcciones necesarias y asegurarse de que el producto final cumpla con los requisitos y expectativas del cliente."
     }
 
 
