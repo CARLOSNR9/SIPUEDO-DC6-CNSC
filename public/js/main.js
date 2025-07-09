@@ -588,6 +588,10 @@ function renderStudyModulesView() {
                 </div>
             ` : ''}
 
+
+ 
+
+
             ${subtopic.id === 'integridad-honestidad' ? `
                 
             ` : ''}
@@ -771,6 +775,26 @@ function renderStudyModulesView() {
                 });
             }
         }
+
+// Listener para el botón del simulacro específico de Formulación de Proyectos Informáticos
+        if (subtopic.id === 'formulacion-proyectos-informaticos') {
+            const startFormulacionProyectosQuizBtn = document.getElementById('start-formulacion-proyectos-quiz-btn');
+            if (startFormulacionProyectosQuizBtn) {
+                startFormulacionProyectosQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'formulacion-proyectos-informaticos'; 
+                            alert('Selecciona "Formulación de Proyectos Informáticos" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Formulación de Proyectos Informáticos en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
+        }
+
+
+
     }
 
 
@@ -833,20 +857,21 @@ function renderSimulacrosView() {
             <h3 class="text-xl font-semibold mb-4">Configura tu Simulacro</h3>
             <div class="flex flex-col md:flex-row gap-4 items-center">
                 <select id="quiz-type-select" class="p-2 border rounded-md">
-                    <option value="all">Simulacro General (Todas las preguntas)</option>
-                    <option value="organizacion-distrito">Organización del Distrito Capital (20 Preguntas)</option>
-                    <option value="integridad-compromiso">Compromiso (20 Preguntas)</option>
-                    <option value="integridad-diligencia">Diligencia (20 Preguntas)</option>
-                    <option value="integridad-honestidad">Honestidad (20 Preguntas)</option> <option value="arquitectura-empresarial">Arquitectura Empresarial (20 Preguntas)</option>
-                    <option value="contratacion-publica">Contratación Pública (20 Preguntas)</option>
-                    <option value="razonamiento-analitico">Razonamiento Analítico (20 Preguntas)</option>
-                    <option value="desarrollo-software">Desarrollo de Software (20 Preguntas)</option>
-                    <option value="diseno-bases-datos">Diseño y Gestión de Bases de Datos (20 Preguntas)</option>
-                    <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
-                    <option value="funcionales-especificas">Funcionales Específicas</option>
-                    <option value="integridad">Integridad (IDU)</option>
-                    <option value="competencias-comportamentales">Comportamentales</option>
-                </select>
+                <option value="all">Simulacro General (Todas las preguntas)</option>
+                <option value="organizacion-distrito">Organización del Distrito Capital (20 Preguntas)</option>
+                <option value="integridad-compromiso">Compromiso (20 Preguntas)</option>
+                <option value="integridad-diligencia">Diligencia (20 Preguntas)</option>
+                <option value="integridad-honestidad">Honestidad (20 Preguntas)</option>
+                <option value="arquitectura-empresarial">Arquitectura Empresarial (20 Preguntas)</option>
+                <option value="contratacion-publica">Contratación Pública (20 Preguntas)</option>
+                <option value="razonamiento-analitico">Razonamiento Analítico (20 Preguntas)</option>
+                <option value="desarrollo-software">Desarrollo de Software (20 Preguntas)</option>
+                <option value="diseno-bases-datos">Diseño y Gestión de Bases de Datos (20 Preguntas)</option>
+                <option value="formulacion-proyectos-informaticos">Formulación de Proyectos Informáticos (20 Preguntas)</option> <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
+                <option value="funcionales-especificas">Funcionales Específicas</option>
+                <option value="integridad">Integridad (IDU)</option>
+                <option value="competencias-comportamentales">Comportamentales</option>
+            </select>
                 <button id="start-quiz-btn" class="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">Iniciar Simulacro</button>
             </div>
         </div>
@@ -960,6 +985,18 @@ function renderSimulacrosView() {
             if (currentQuizQuestions.length < 20) {
                 alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Diseño y Gestión de Bases de Datos'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
             }
+
+} else if (selectedType === 'formulacion-proyectos-informaticos') { // --- NUEVO: Lógica para 20 preguntas de Formulación de Proyectos Informáticos ---
+        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'formulacion-proyectos-informaticos');
+        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+        if (currentQuizQuestions.length < 20) {
+            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Formulación de Proyectos Informáticos'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+        }
+
+
+
+
+
         } else {
             // Lógica para otros tipos de simulacros (funcionales generales, funcionales específicas generales, integridad general, comportamentales)
             currentQuizQuestions = allQuestionsData.filter(q => q.topic_id === selectedType);

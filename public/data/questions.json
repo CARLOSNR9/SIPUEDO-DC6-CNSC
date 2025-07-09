@@ -24183,7 +24183,329 @@
     },
     "correctAnswer": "B",
     "explanation": "El Código de Integridad... 'con el fin de generar un instrumento motivador, simple y corto que permitiera entender el Significado y las implicaciones de Ser Servidor Público en el ejercicio de la función administrativa'[cite: 48]."
-  }
+  },
+
+
+  {
+        "id": "q_fppi_001",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está iniciando un proyecto para implementar un nuevo sistema de gestión documental. Como Director de Proyectos, su primera tarea es definir formalmente el proyecto y obtener la autorización para comenzarlo, así como identificar a los principales interesados.",
+        "question": "¿Qué grupo de procesos de la Dirección de Proyectos (PMBOK Guide) es el más relevante en esta etapa?",
+        "options": {
+            "A": "Planificación",
+            "B": "Inicio",
+            "C": "Ejecución"
+        },
+        "correctAnswer": "B",
+        "explanation": "El grupo de procesos de Inicio (Initiation) tiene como propósito definir un nuevo proyecto o una nueva fase de un proyecto existente obteniendo la autorización para comenzarlo, incluyendo el desarrollo del Project Charter y la identificación de interesados."
+    },
+    {
+        "id": "q_fppi_002",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "El PMBOK Guide organiza la dirección de proyectos en Áreas de Conocimiento.",
+        "question": "¿Qué Área de Conocimiento se encarga de asegurar que el proyecto incluya todo el trabajo requerido, y solo el trabajo requerido?",
+        "options": {
+            "A": "Gestión del Cronograma",
+            "B": "Gestión del Alcance",
+            "C": "Gestión de los Costos"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión del Alcance del Proyecto incluye los procesos necesarios para asegurar que el proyecto incluya todo el trabajo requerido, y solo el trabajo requerido, para completarlo exitosamente."
+    },
+    {
+        "id": "q_fppi_003",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "En la planificación de un proyecto de migración de servidores a la nube en el IDU, se ha detectado que la rotación de personal técnico especializado es un riesgo potencial que podría impactar el cronograma. Se debe documentar este riesgo y planificar una estrategia para mitigarlo.",
+        "question": "¿Qué Área de Conocimiento de la Dirección de Proyectos (PMBOK Guide) es la principal responsable de este proceso?",
+        "options": {
+            "A": "Gestión de los Recursos del Proyecto",
+            "B": "Gestión de los Riesgos del Proyecto",
+            "C": "Gestión de la Integración del Proyecto"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de los Riesgos del Proyecto incluye los procesos de identificación, análisis, planificación de la respuesta, implementación de la respuesta y monitoreo de riesgos del proyecto. Identificar la rotación de personal como riesgo y planificar su mitigación es parte de esta área."
+    },
+    {
+        "id": "q_fppi_004",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "Los proyectos informáticos en el IDU se rigen por fases del ciclo de vida.",
+        "question": "¿Qué fase del ciclo de vida de un proyecto tiene como propósito 'llevar a cabo el trabajo definido en el plan para cumplir con los objetivos del proyecto'?",
+        "options": {
+            "A": "Inicio",
+            "B": "Planificación",
+            "C": "Ejecución"
+        },
+        "correctAnswer": "C",
+        "explanation": "La fase de Ejecución (Executing) tiene como propósito llevar a cabo el trabajo definido en el plan para cumplir con los objetivos del proyecto, lo que incluye dirigir y gestionar el trabajo, gestionar equipos, etc."
+    },
+    {
+        "id": "q_fppi_005",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está por finalizar un proyecto de desarrollo de una aplicación para dispositivos móviles. Como Director de Proyectos, debe asegurarse de que todos los contratos relacionados con el proyecto estén cerrados formalmente, que las lecciones aprendidas se recopilen y que el producto final (la aplicación) sea entregado y transferido al equipo de soporte y mantenimiento del IDU.",
+        "question": "¿Qué grupo de procesos de la Dirección de Proyectos (PMBOK Guide) es el principal en esta etapa?",
+        "options": {
+            "A": "Seguimiento y Control",
+            "B": "Cierre",
+            "C": "Ejecución"
+        },
+        "correctAnswer": "B",
+        "explanation": "El grupo de procesos de Cierre (Closing) tiene como propósito finalizar todas las actividades de todos los Grupos de Procesos para cerrar formalmente el proyecto o una fase del proyecto, incluyendo el cierre de contratos, la recopilación de lecciones aprendidas y la transferencia del producto final."
+    },
+    {
+        "id": "q_fppi_006",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "La gestión de proyectos informáticos requiere estimar y controlar los costos.",
+        "question": "¿Qué Área de Conocimiento del PMBOK Guide se centra en estimar, presupuestar y controlar los costos para completar el proyecto dentro del presupuesto aprobado?",
+        "options": {
+            "A": "Gestión del Cronograma",
+            "B": "Gestión de los Costos",
+            "C": "Gestión de las Adquisiciones"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de los Costos del Proyecto incluye los procesos involucrados en estimar, presupuestar y controlar los costos de modo que el proyecto se complete dentro del presupuesto aprobado."
+    },
+    {
+        "id": "q_fppi_007",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Durante la ejecución de un proyecto de infraestructura de red en el IDU, el equipo identifica un problema crítico que podría afectar el alcance del proyecto. El Director del Proyecto debe revisar el progreso, identificar la desviación del plan y decidir si es necesario un cambio formal para corregir el rumbo o ajustar el plan.",
+        "question": "¿Qué grupo de procesos de la Dirección de Proyectos (PMBOK Guide) es el principal en este tipo de actividad?",
+        "options": {
+            "A": "Inicio",
+            "B": "Planificación",
+            "C": "Seguimiento y Control"
+        },
+        "correctAnswer": "C",
+        "explanation": "El grupo de procesos de Seguimiento y Control (Monitoring & Controlling) tiene como propósito rastrear, revisar y regular el progreso y el desempeño del proyecto, identificar áreas en las que el plan requiera cambios e iniciar los cambios correspondientes."
+    },
+    {
+        "id": "q_fppi_008",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "Un elemento clave en la fase de Planificación de un proyecto es la definición detallada del alcance.",
+        "question": "¿Qué entregable es fundamental en la fase de Planificación para descomponer el alcance total del proyecto en partes más pequeñas y manejables?",
+        "options": {
+            "A": "Acta de Constitución del Proyecto (Project Charter)",
+            "B": "Estructura de Desglose del Trabajo (EDT/WBS)",
+            "C": "Registro de Riesgos"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Estructura de Desglose del Trabajo (EDT/WBS) es un entregable clave en la fase de Planificación que descompone el alcance del proyecto en componentes más pequeños y manejables."
+    },
+    {
+        "id": "q_fppi_009",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está planificando un proyecto de implementación de un nuevo ERP (Enterprise Resource Planning). Para asegurar que el sistema realmente satisfaga las necesidades de las áreas usuarias y que estas se sientan parte del proceso, el Director de Proyectos decide involucrarlos activamente desde la identificación de requisitos hasta la validación final.",
+        "question": "¿Qué Área de Conocimiento del PMBOK Guide se centra en identificar y gestionar las expectativas y el impacto de las personas u organizaciones afectadas por el proyecto?",
+        "options": {
+            "A": "Gestión de la Calidad del Proyecto",
+            "B": "Gestión de los Interesados del Proyecto",
+            "C": "Gestión de las Comunicaciones del Proyecto"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de los Interesados del Proyecto incluye los procesos necesarios para identificar a todas las personas u organizaciones que pueden afectar o ser afectadas por el proyecto, analizar sus expectativas y desarrollar estrategias para involucrarlos de manera efectiva."
+    },
+    {
+        "id": "q_fppi_010",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "Un proyecto es un esfuerzo temporal para crear un producto, servicio o resultado único.",
+        "question": "¿Qué documento formalmente autoriza un proyecto o una fase del mismo, y otorga al director del proyecto la autoridad para asignar recursos?",
+        "options": {
+            "A": "El Plan de Gestión del Proyecto.",
+            "B": "El Acta de Constitución del Proyecto (Project Charter).",
+            "C": "El Registro de Riesgos."
+        },
+        "correctAnswer": "B",
+        "explanation": "El Acta de Constitución del Proyecto (Project Charter) es el documento que autoriza formalmente el proyecto o una fase y otorga al director del proyecto la autoridad para asignar recursos de la organización a las actividades del proyecto."
+    },
+    {
+        "id": "q_fppi_011",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU ha identificado la necesidad de contratar un servicio especializado de consultoría externa para evaluar la viabilidad de un nuevo sistema de monitoreo de tráfico. Como parte del proceso de gestión del proyecto, se deben identificar los proveedores, negociar los términos y gestionar el contrato resultante.",
+        "question": "¿Qué Área de Conocimiento del PMBOK Guide es la principal responsable de este proceso?",
+        "options": {
+            "A": "Gestión de los Costos del Proyecto",
+            "B": "Gestión de las Adquisiciones del Proyecto",
+            "C": "Gestión de la Calidad del Proyecto"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de las Adquisiciones del Proyecto incluye los procesos necesarios para comprar o adquirir los productos, servicios o resultados que se necesitan de fuera del equipo del proyecto. Esto incluye desde la planificación de las adquisiciones hasta la administración y cierre de los contratos."
+    },
+    {
+        "id": "q_fppi_012",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "La gestión de proyectos informáticos busca el cumplimiento en tiempo y forma.",
+        "question": "¿Qué Área de Conocimiento del PMBOK Guide incluye los procesos necesarios para gestionar la finalización del proyecto a tiempo?",
+        "options": {
+            "A": "Gestión del Cronograma del Proyecto (Tiempo)",
+            "B": "Gestión del Alcance del Proyecto",
+            "C": "Gestión de los Recursos del Proyecto"
+        },
+        "correctAnswer": "A",
+        "explanation": "La Gestión del Cronograma del Proyecto (Tiempo) incluye los procesos necesarios para gestionar la finalización del proyecto a tiempo, lo que implica establecer plazos, definir actividades, secuenciarlas, y controlar el avance."
+    },
+    {
+        "id": "q_fppi_013",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El equipo de desarrollo de un proyecto de software del IDU ha notificado que el módulo de integración con el SECOP presenta un error crítico que, si no se resuelve, impedirá la puesta en marcha del sistema. Este error no estaba contemplado inicialmente. El Director del Proyecto debe documentar la situación, analizar su impacto y definir un plan para resolverlo.",
+        "question": "¿Qué área de conocimiento del PMBOK se está ejerciendo al identificar, analizar y planificar la respuesta a este evento incierto que podría afectar negativamente el proyecto?",
+        "options": {
+            "A": "Gestión de la Calidad del Proyecto",
+            "B": "Gestión de los Riesgos del Proyecto",
+            "C": "Gestión de la Integración del Proyecto"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de los Riesgos del Proyecto incluye los procesos de identificación, análisis, planificación de la respuesta, implementación de la respuesta y monitoreo de riesgos de un proyecto. Un error crítico no contemplado es un riesgo que debe ser gestionado bajo esta área."
+    },
+    {
+        "id": "q_fppi_014",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "PRINCE2 es una metodología de gestión de proyectos estructurada.",
+        "question": "¿Qué característica principal distingue a PRINCE2 del PMBOK Guide?",
+        "options": {
+            "A": "PMBOK es una metodología prescriptiva, mientras que PRINCE2 es una guía de buenas prácticas.",
+            "B": "PRINCE2 es una metodología estructurada basada en principios, temas y procesos, mientras que PMBOK es una guía de buenas prácticas.",
+            "C": "PRINCE2 se enfoca exclusivamente en proyectos de software, a diferencia de PMBOK."
+        },
+        "correctAnswer": "B",
+        "explanation": "A diferencia del PMBOK (que es una guía de buenas prácticas), PRINCE2 es una metodología estructurada de gestión de proyectos que proporciona un conjunto de principios, temas y procesos."
+    },
+    {
+        "id": "q_fppi_015",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU ha implementado un nuevo sistema de información para el monitoreo de obras. Tras el lanzamiento, se observa que los usuarios finales no lo utilizan debido a una interfaz poco intuitiva y problemas de usabilidad. Aunque las funciones técnicas están correctas, el proyecto no está generando el valor esperado.",
+        "question": "¿Qué área de conocimiento del PMBOK no fue gestionada adecuadamente para asegurar que el producto fuera aceptado por los usuarios y cumpliera sus expectativas de usabilidad?",
+        "options": {
+            "A": "Gestión del Cronograma del Proyecto",
+            "B": "Gestión de los Interesados del Proyecto",
+            "C": "Gestión de los Costos del Proyecto"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de los Interesados del Proyecto incluye analizar las expectativas de los interesados (como los usuarios finales) y desarrollar estrategias de gestión adecuadas para involucrarlos de manera efectiva en las decisiones y la ejecución del proyecto. Una interfaz poco intuitiva y problemas de usabilidad demuestran que las expectativas de los usuarios no fueron adecuadamente gestionadas o validadas."
+    },
+    {
+        "id": "q_fppi_016",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Los proyectos en el IDU deben alinearse con la estrategia institucional.",
+        "question": "¿Qué documento es esencial en la fase de Inicio de un proyecto TI para asegurar su alineamiento estratégico con la entidad?",
+        "options": {
+            "A": "El Registro de Riesgos.",
+            "B": "El Plan para la Dirección del Proyecto.",
+            "C": "El Acta de Constitución del Proyecto (Project Charter)."
+        },
+        "correctAnswer": "C",
+        "explanation": "El Acta de Constitución del Proyecto (Project Charter) en la fase de Inicio formaliza la existencia del proyecto y documenta el alineamiento del proyecto con los objetivos estratégicos de la organización, lo que incluye su justificación de negocio."
+    },
+    {
+        "id": "q_fppi_017",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Usted es el Director de Proyectos de un nuevo sistema de información para la gestión de predios en el IDU. Ha completado la fase de planificación y ha generado un Plan para la Dirección del Proyecto detallado. El equipo está listo para empezar a codificar el software y configurar los servidores. Antes de iniciar estas actividades, necesita recursos humanos y materiales para el equipo.",
+        "question": "¿Qué área de conocimiento del PMBOK es la principal responsable de 'identificar, adquirir y gestionar los recursos necesarios para la finalización exitosa del proyecto'?",
+        "options": {
+            "A": "Gestión de los Costos del Proyecto",
+            "B": "Gestión de los Recursos del Proyecto",
+            "C": "Gestión de las Adquisiciones del Proyecto"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de los Recursos del Proyecto incluye los procesos para identificar, adquirir y gestionar los recursos necesarios (tanto humanos como físicos) para la finalización exitosa del proyecto. Aunque las adquisiciones también están relacionadas, la gestión global de los recursos recae en esta área."
+    },
+    {
+        "id": "q_fppi_018",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El PMBOK Guide define los Grupos de Procesos de la Dirección de Proyectos.",
+        "question": "¿Qué grupo de procesos es transversal a las fases de ejecución y tiene como propósito principal rastrear, revisar y regular el progreso y el desempeño del proyecto?",
+        "options": {
+            "A": "Planificación",
+            "B": "Ejecución",
+            "C": "Seguimiento y Control"
+        },
+        "correctAnswer": "C",
+        "explanation": "El grupo de procesos de Seguimiento y Control (Monitoring & Controlling) es transversal a las fases de Ejecución y tiene como propósito rastrear, revisar y regular el progreso y el desempeño del proyecto, identificar áreas en las que el plan requiera cambios e iniciar los cambios correspondientes."
+    },
+    {
+        "id": "q_fppi_019",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El equipo de Desarrollo de Software del IDU está utilizando una metodología ágil (Scrum) para construir un módulo crítico del sistema de contratación. Al final de un Sprint, el Product Owner presenta el 'Incremento' completado a la dirección del IDU y a los usuarios clave para obtener su feedback y validar si lo entregado realmente satisface las necesidades.",
+        "question": "¿Qué evento de Scrum se está realizando en este momento, cuyo objetivo es obtener la aceptación de los interesados?",
+        "options": {
+            "A": "Daily Scrum",
+            "B": "Sprint Review",
+            "C": "Sprint Retrospective"
+        },
+        "correctAnswer": "B",
+        "explanation": "El Sprint Review (Revisión del Sprint) es el evento al final del Sprint donde el equipo muestra el Incremento completado a los stakeholders para obtener feedback, y su objetivo es obtener la aceptación del Product Owner y de los interesados clave sobre el trabajo realizado."
+    },
+    {
+        "id": "q_fppi_020",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "formulacion-proyectos-informaticos",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La gestión de proyectos en el IDU se rige por diversas guías y marcos de referencia.",
+        "question": "¿Qué documento es una guía reconocida mundialmente que documenta las 'mejores prácticas' en la dirección de proyectos y es publicada por el Project Management Institute (PMI)?",
+        "options": {
+            "A": "PRINCE2 Manual",
+            "B": "PMBOK Guide",
+            "C": "Metodología General Ajustada (MGA)"
+        },
+        "correctAnswer": "B",
+        "explanation": "El PMBOK Guide (Project Management Body of Knowledge Guide) es una guía reconocida mundialmente que documenta las mejores prácticas en la dirección de proyectos y es publicada por el Project Management Institute (PMI)."
+    }
 
 
        
