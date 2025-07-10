@@ -842,7 +842,54 @@ if (subtopic.id === 'sistemas-informacion') {
             }
         }
 
+  if (subtopic.id === 'funcionamiento-distrito') {
+            const startFuncionamientoDistritoQuizBtn = document.getElementById('start-funcionamiento-distrito-quiz-btn');
+            if (startFuncionamientoDistritoQuizBtn) {
+                startFuncionamientoDistritoQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'funcionamiento-distrito'; 
+                            alert('Selecciona "Funcionamiento del Distrito Capital" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Funcionamiento del Distrito Capital en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
+        }
 
+        if (subtopic.id === 'innovacion') {
+            const startInnovacionQuizBtn = document.getElementById('start-innovacion-quiz-btn');
+            if (startInnovacionQuizBtn) {
+                startInnovacionQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'innovacion'; 
+                            alert('Selecciona "Innovación" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Innovación en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
+        }
+
+if (subtopic.id === 'integridad-justicia') {
+            const startJusticiaQuizBtn = document.getElementById('start-justicia-quiz-btn');
+            if (startJusticiaQuizBtn) {
+                startJusticiaQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'integridad-justicia'; 
+                            alert('Selecciona "Justicia" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Justicia en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
+        }
+        
     }
 
 
@@ -904,13 +951,13 @@ function renderSimulacrosView() {
         <div id="quiz-options" class="bg-white p-6 rounded-lg shadow-lg mb-8">
             <h3 class="text-xl font-semibold mb-4">Configura tu Simulacro</h3>
             <div class="flex flex-col md:flex-row gap-4 items-center">
-               <select id="quiz-type-select" class="p-2 border rounded-md">
+           <select id="quiz-type-select" class="p-2 border rounded-md">
                 <option value="all">Simulacro General (Todas las preguntas)</option>
                 <option value="organizacion-distrito">Organización del Distrito Capital (20 Preguntas)</option>
                 <option value="integridad-compromiso">Compromiso (20 Preguntas)</option>
                 <option value="integridad-diligencia">Diligencia (20 Preguntas)</option>
                 <option value="integridad-honestidad">Honestidad (20 Preguntas)</option>
-                <option value="arquitectura-empresarial">Arquitectura Empresarial (20 Preguntas)</option>
+                <option value="integridad-justicia">Justicia (20 Preguntas)</option> <option value="arquitectura-empresarial">Arquitectura Empresarial (20 Preguntas)</option>
                 <option value="contratacion-publica">Contratación Pública (20 Preguntas)</option>
                 <option value="razonamiento-analitico">Razonamiento Analítico (20 Preguntas)</option>
                 <option value="desarrollo-software">Desarrollo de Software (20 Preguntas)</option>
@@ -918,7 +965,9 @@ function renderSimulacrosView() {
                 <option value="formulacion-proyectos-informaticos">Formulación de Proyectos Informáticos (20 Preguntas)</option>
                 <option value="seguridad-informacion">Seguridad de la Información (20 Preguntas)</option>
                 <option value="seguridad-tecnologica">Seguridad Tecnológica (20 Preguntas)</option>
-                <option value="sistemas-informacion">Sistemas de Información (20 Preguntas)</option> <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
+                <option value="sistemas-informacion">Sistemas de Información (20 Preguntas)</option>
+                <option value="innovacion">Innovación (20 Preguntas)</option>
+                <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
                 <option value="funcionales-especificas">Funcionales Específicas</option>
                 <option value="integridad">Integridad (IDU)</option>
                 <option value="competencias-comportamentales">Comportamentales</option>
@@ -982,6 +1031,16 @@ function renderSimulacrosView() {
         const selectedType = quizTypeSelect.value;
         if (selectedType === 'all') {
             currentQuizQuestions = [...allQuestionsData]; 
+
+
+            } else if (selectedType === 'funcionamiento-distrito') { // <--- NUEVO: Lógica para 20 preguntas de Funcionamiento del Distrito Capital ---
+        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'funcionamiento-distrito');
+        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+        if (currentQuizQuestions.length < 20) {
+            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Funcionamiento del Distrito Capital'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+        }
+
+
         } else if (selectedType === 'organizacion-distrito') {
             const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'organizacion-distrito'); 
             currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
@@ -1064,6 +1123,21 @@ function renderSimulacrosView() {
             if (currentQuizQuestions.length < 20) {
                 alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Sistemas de Información'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
             }
+
+            } else if (selectedType === 'innovacion') { // --- NUEVO: Lógica para 20 preguntas de Innovación ---
+        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'innovacion');
+        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+        if (currentQuizQuestions.length < 20) {
+            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Innovación'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+        }
+
+} else if (selectedType === 'integridad-justicia') { // --- NUEVO: Lógica para 20 preguntas de Justicia ---
+        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'integridad-justicia');
+        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+        if (currentQuizQuestions.length < 20) {
+            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Justicia'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+        }
+
 
         } else {
             // Lógica para otros tipos de simulacros (funcionales generales, funcionales específicas generales, integridad general, comportamentales)
