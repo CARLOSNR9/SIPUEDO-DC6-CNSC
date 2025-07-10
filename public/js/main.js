@@ -776,6 +776,22 @@ function renderStudyModulesView() {
             }
         }
 
+
+        if (subtopic.id === 'integridad-trabajo-en-red') {
+            const startTrabajoEnRedQuizBtn = document.getElementById('start-trabajo-en-red-quiz-btn');
+            if (startTrabajoEnRedQuizBtn) {
+                startTrabajoEnRedQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'integridad-trabajo-en-red'; 
+                            alert('Selecciona "Trabajo en Red" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este valor. (Asegúrate de tener suficientes preguntas de Trabajo en Red en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
+        }
 // Listener para el botón del simulacro específico de Formulación de Proyectos Informáticos
         if (subtopic.id === 'formulacion-proyectos-informaticos') {
             const startFormulacionProyectosQuizBtn = document.getElementById('start-formulacion-proyectos-quiz-btn');
@@ -889,6 +905,25 @@ if (subtopic.id === 'integridad-justicia') {
                 });
             }
         }
+
+if (subtopic.id === 'integridad-respeto') {
+            const startRespetoQuizBtn = document.getElementById('start-respeto-quiz-btn');
+            if (startRespetoQuizBtn) {
+                startRespetoQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'integridad-respeto'; 
+                            alert('Selecciona "Respeto" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este valor. (Asegúrate de tener suficientes preguntas de Respeto en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
+        }
+
+        
+        
         
     }
 
@@ -957,7 +992,9 @@ function renderSimulacrosView() {
                 <option value="integridad-compromiso">Compromiso (20 Preguntas)</option>
                 <option value="integridad-diligencia">Diligencia (20 Preguntas)</option>
                 <option value="integridad-honestidad">Honestidad (20 Preguntas)</option>
-                <option value="integridad-justicia">Justicia (20 Preguntas)</option> <option value="arquitectura-empresarial">Arquitectura Empresarial (20 Preguntas)</option>
+                <option value="integridad-justicia">Justicia (20 Preguntas)</option>
+                <option value="integridad-respeto">Respeto (20 Preguntas)</option> 
+                <option value="arquitectura-empresarial">Arquitectura Empresarial (20 Preguntas)</option>
                 <option value="contratacion-publica">Contratación Pública (20 Preguntas)</option>
                 <option value="razonamiento-analitico">Razonamiento Analítico (20 Preguntas)</option>
                 <option value="desarrollo-software">Desarrollo de Software (20 Preguntas)</option>
@@ -970,6 +1007,7 @@ function renderSimulacrosView() {
                 <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
                 <option value="funcionales-especificas">Funcionales Específicas</option>
                 <option value="integridad">Integridad (IDU)</option>
+                <option value="integridad-trabajo-en-red">Integridad: Trabajo en Red</option>
                 <option value="competencias-comportamentales">Comportamentales</option>
             </select>
                 <button id="start-quiz-btn" class="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">Iniciar Simulacro</button>
@@ -1138,6 +1176,24 @@ function renderSimulacrosView() {
             alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Justicia'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
         }
 
+        } else if (selectedType === 'integridad-honestidad') {
+        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'integridad-honestidad');
+        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+        if (currentQuizQuestions.length < 20) {
+            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Honestidad'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+        }
+} else if (selectedType === 'integridad-respeto') {
+    const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'integridad-respeto');
+    currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+    if (currentQuizQuestions.length < 20) {
+        alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Respeto'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+    }
+} else if (selectedType === 'integridad-trabajo-en-red') { // --- NUEVO: Lógica para 20 preguntas de Trabajo en Red ---
+    const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'integridad-trabajo-en-red');
+    currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+    if (currentQuizQuestions.length < 20) {
+        alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Trabajo en Red'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+    }
 
         } else {
             // Lógica para otros tipos de simulacros (funcionales generales, funcionales específicas generales, integridad general, comportamentales)
