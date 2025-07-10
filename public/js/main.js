@@ -810,6 +810,38 @@ function renderStudyModulesView() {
                 });
             }
         }
+if (subtopic.id === 'seguridad-tecnologica') {
+            const startSeguridadTecnologicaQuizBtn = document.getElementById('start-seguridad-tecnologica-quiz-btn');
+            if (startSeguridadTecnologicaQuizBtn) {
+                startSeguridadTecnologicaQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'seguridad-tecnologica'; 
+                            alert('Selecciona "Seguridad Tecnológica" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Seguridad Tecnológica en tu questions.json)');
+                        }
+                    }, 100); // Pequeño retraso para asegurar que la vista se cargue antes de seleccionar
+                });
+            }
+        }
+
+if (subtopic.id === 'sistemas-informacion') {
+            const startSistemasInformacionQuizBtn = document.getElementById('start-sistemas-informacion-quiz-btn');
+            if (startSistemasInformacionQuizBtn) {
+                startSistemasInformacionQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'sistemas-informacion'; 
+                            alert('Selecciona "Sistemas de Información" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Sistemas de Información en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
+        }
+
 
     }
 
@@ -872,7 +904,7 @@ function renderSimulacrosView() {
         <div id="quiz-options" class="bg-white p-6 rounded-lg shadow-lg mb-8">
             <h3 class="text-xl font-semibold mb-4">Configura tu Simulacro</h3>
             <div class="flex flex-col md:flex-row gap-4 items-center">
-              <select id="quiz-type-select" class="p-2 border rounded-md">
+               <select id="quiz-type-select" class="p-2 border rounded-md">
                 <option value="all">Simulacro General (Todas las preguntas)</option>
                 <option value="organizacion-distrito">Organización del Distrito Capital (20 Preguntas)</option>
                 <option value="integridad-compromiso">Compromiso (20 Preguntas)</option>
@@ -884,7 +916,9 @@ function renderSimulacrosView() {
                 <option value="desarrollo-software">Desarrollo de Software (20 Preguntas)</option>
                 <option value="diseno-bases-datos">Diseño y Gestión de Bases de Datos (20 Preguntas)</option>
                 <option value="formulacion-proyectos-informaticos">Formulación de Proyectos Informáticos (20 Preguntas)</option>
-                <option value="seguridad-informacion">Seguridad de la Información (20 Preguntas)</option> <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
+                <option value="seguridad-informacion">Seguridad de la Información (20 Preguntas)</option>
+                <option value="seguridad-tecnologica">Seguridad Tecnológica (20 Preguntas)</option>
+                <option value="sistemas-informacion">Sistemas de Información (20 Preguntas)</option> <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
                 <option value="funcionales-especificas">Funcionales Específicas</option>
                 <option value="integridad">Integridad (IDU)</option>
                 <option value="competencias-comportamentales">Comportamentales</option>
@@ -1017,7 +1051,19 @@ function renderSimulacrosView() {
             alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Seguridad de la Información'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
         }
 
+} else if (selectedType === 'seguridad-tecnologica') { // --- NUEVO: Lógica para 20 preguntas de Seguridad Tecnológica ---
+        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'seguridad-tecnologica');
+        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+        if (currentQuizQuestions.length < 20) {
+            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Seguridad Tecnológica'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+        }
 
+} else if (selectedType === 'sistemas-informacion') { // <--- BLOQUE QUE FALTABA
+            const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'sistemas-informacion');
+            currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+            if (currentQuizQuestions.length < 20) {
+                alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Sistemas de Información'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+            }
 
         } else {
             // Lógica para otros tipos de simulacros (funcionales generales, funcionales específicas generales, integridad general, comportamentales)
