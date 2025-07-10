@@ -793,7 +793,23 @@ function renderStudyModulesView() {
             }
         }
 
-
+ if (subtopic.id === 'seguridad-informacion') {
+            const startSeguridadInformacionQuizBtn = document.getElementById('start-seguridad-informacion-quiz-btn');
+            if (startSeguridadInformacionQuizBtn) {
+                startSeguridadInformacionQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'seguridad-informacion'; 
+                            // Opcional: Puedes disparar un evento 'change' si necesitas que la UI reaccione inmediatamente
+                            // quizTypeSelect.dispatchEvent(new Event('change'));
+                            alert('Selecciona "Seguridad de la Información" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Seguridad de la Información en tu questions.json)');
+                        }
+                    }, 100); // Pequeño retraso para asegurar que la vista se cargue antes de seleccionar
+                });
+            }
+        }
 
     }
 
@@ -856,7 +872,7 @@ function renderSimulacrosView() {
         <div id="quiz-options" class="bg-white p-6 rounded-lg shadow-lg mb-8">
             <h3 class="text-xl font-semibold mb-4">Configura tu Simulacro</h3>
             <div class="flex flex-col md:flex-row gap-4 items-center">
-                <select id="quiz-type-select" class="p-2 border rounded-md">
+              <select id="quiz-type-select" class="p-2 border rounded-md">
                 <option value="all">Simulacro General (Todas las preguntas)</option>
                 <option value="organizacion-distrito">Organización del Distrito Capital (20 Preguntas)</option>
                 <option value="integridad-compromiso">Compromiso (20 Preguntas)</option>
@@ -867,7 +883,8 @@ function renderSimulacrosView() {
                 <option value="razonamiento-analitico">Razonamiento Analítico (20 Preguntas)</option>
                 <option value="desarrollo-software">Desarrollo de Software (20 Preguntas)</option>
                 <option value="diseno-bases-datos">Diseño y Gestión de Bases de Datos (20 Preguntas)</option>
-                <option value="formulacion-proyectos-informaticos">Formulación de Proyectos Informáticos (20 Preguntas)</option> <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
+                <option value="formulacion-proyectos-informaticos">Formulación de Proyectos Informáticos (20 Preguntas)</option>
+                <option value="seguridad-informacion">Seguridad de la Información (20 Preguntas)</option> <option value="funcionales-generales">Funcionales Generales (Otros temas)</option>
                 <option value="funcionales-especificas">Funcionales Específicas</option>
                 <option value="integridad">Integridad (IDU)</option>
                 <option value="competencias-comportamentales">Comportamentales</option>
@@ -993,7 +1010,12 @@ function renderSimulacrosView() {
             alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Formulación de Proyectos Informáticos'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
         }
 
-
+} else if (selectedType === 'seguridad-informacion') { // --- NUEVO: Lógica para 20 preguntas de Seguridad de la Información ---
+        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'seguridad-informacion');
+        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+        if (currentQuizQuestions.length < 20) {
+            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Seguridad de la Información'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+        }
 
 
 

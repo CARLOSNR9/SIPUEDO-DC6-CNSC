@@ -25794,7 +25794,2703 @@
     },
     "correctAnswer": "C",
     "explanation": "El Grupo de Procesos de Seguimiento y Control (Monitoring & Controlling) es donde se rastrea, revisa y regula el progreso y el desempeño del proyecto; se identifican áreas en las que el plan requiera cambios; e se inician los cambios correspondientes."
+  },
+{
+  "id": "q_si_001",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Usted es el encargado de la seguridad de la información en el IDU. Un nuevo proyecto implica manejar una base de datos con datos personales muy sensibles de ciudadanos. La normativa exige que esta información solo sea accesible para el personal estrictamente autorizado y que cualquier divulgación no autorizada cause un daño significativo.",
+        "question": "¿Qué principio de la Tríada CIA es el más crítico de garantizar en este escenario y qué medida implementaría para protegerlo?",
+        "options": {
+            "A": "Disponibilidad; implementar planes de recuperación ante desastres (DRP).",
+            "B": "Integridad; aplicar sumas de verificación (checksums) a los datos.",
+            "C": "Confidencialidad; aplicar cifrado de datos y control de acceso basado en roles."
+        },
+        "correctAnswer": "C",
+        "explanation": "La confidencialidad es la protección de la información del acceso no autorizado. Para datos personales sensibles, es el principio más crítico. El cifrado y el control de acceso granular son métodos directos para garantizar la confidencialidad."
+    },
+    {
+        "id": "q_si_002",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "La gestión de incidentes de seguridad es un proceso estructurado.",
+        "question": "¿Cuál es la fase del proceso de gestión de incidentes de seguridad que busca limitar el alcance y el impacto de un incidente, por ejemplo, aislando los sistemas afectados?",
+        "options": {
+            "A": "Identificación",
+            "B": "Contención",
+            "C": "Erradicación"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Contención es la fase del proceso de gestión de incidentes que se enfoca en limitar el alcance y el impacto del incidente, como aislar sistemas afectados o desconectar redes para evitar la propagación."
+    },
+    {
+        "id": "q_si_003",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está planificando la implementación de un Sistema de Gestión de Seguridad de la Información (SGSI) basado en la norma ISO/IEC 27001. En la fase inicial, se debe establecer el contexto del SGSI y determinar los riesgos y oportunidades de seguridad para los activos de información del IDU. Posteriormente, se deben aplicar los controles adecuados.",
+        "question": "¿Qué fase del ciclo de mejora continua (PDCA) del SGSI se corresponde con la identificación y análisis de riesgos?",
+        "options": {
+            "A": "Do (Hacer)",
+            "B": "Check (Verificar)",
+            "C": "Plan (Planificar)"
+        },
+        "correctAnswer": "C",
+        "explanation": "En el ciclo PDCA de ISO 27001, la fase de Plan (Planificar) incluye establecer el contexto, determinar los riesgos y oportunidades, y definir los objetivos de seguridad y los controles necesarios antes de implementarlos."
+    },
+    {
+        "id": "q_si_004",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "La Ley 1581 de 2012 regula la protección de datos personales en Colombia.",
+        "question": "¿Qué derecho constitucional desarrolla principalmente la Ley 1581 de 2012?",
+        "options": {
+            "A": "Derecho a la libre expresión.",
+            "B": "Derecho al Habeas Data.",
+            "C": "Derecho a la propiedad privada."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Ley 1581 de 2012 tiene por objeto desarrollar el derecho constitucional al Habeas Data, que permite a las personas conocer, actualizar y rectificar la información recogida sobre ellas en bases de datos o archivos."
+    },
+    {
+        "id": "q_si_005",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "En el IDU, se ha detectado que varios usuarios están almacenando documentos de proyectos confidenciales en servicios de almacenamiento en la nube no autorizados por la entidad. Esta práctica aumenta el riesgo de divulgación no autorizada de información crítica.",
+        "question": "¿Qué concepto de seguridad de la información es el más directamente comprometido por esta práctica, y cuál sería la medida correctiva más adecuada desde la clasificación de la información?",
+        "options": {
+            "A": "Disponibilidad; implementar redundancia en el almacenamiento.",
+            "B": "Confidencialidad; aplicar políticas estrictas de clasificación y uso de información, y monitorear su cumplimiento.",
+            "C": "Integridad; usar firmas digitales para validar los documentos."
+        },
+        "correctAnswer": "B",
+        "explanation": "La confidencialidad se compromete al usar servicios no autorizados, aumentando el riesgo de acceso no deseado. La clasificación de la información asigna niveles de seguridad para protegerla, y las políticas de uso y monitoreo aseguran que la información clasificada como confidencial sea manejada adecuadamente."
+    },
+    {
+        "id": "q_si_006",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "La Superintendencia de Industria y Comercio (SIC) tiene un rol clave en la protección de datos en Colombia.",
+        "question": "¿Qué función principal tiene la Superintendencia de Industria y Comercio (SIC) en el marco de la Ley 1581 de 2012?",
+        "options": {
+            "A": "Formular la política de protección de datos personales.",
+            "B": "Vigilar y sancionar el incumplimiento de la ley de protección de datos.",
+            "C": "Administrar el registro de bases de datos personales."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Superintendencia de Industria y Comercio (SIC) es la autoridad de protección de datos en Colombia, encargada de vigilar y sancionar el incumplimiento de la Ley 1581 de 2012."
+    },
+    {
+        "id": "q_si_007",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "El IDU ha sufrido un ciberataque de tipo ransomware que ha cifrado los archivos de varios servidores críticos, dejándolos inaccesibles. Su equipo de seguridad de la información ha identificado el tipo de ataque y necesita actuar rápidamente para minimizar el daño y restaurar la operación.",
+        "question": "¿Cuál sería el primer paso crucial en la fase de 'Contención' de la gestión de incidentes de seguridad?",
+        "options": {
+            "A": "Restaurar los datos desde el último backup disponible.",
+            "B": "Comunicar el incidente a todas las partes interesadas externas.",
+            "C": "Aislar los servidores afectados de la red para evitar la propagación del ransomware."
+        },
+        "correctAnswer": "C",
+        "explanation": "La fase de Contención en la gestión de incidentes busca limitar el alcance y el impacto del incidente. Aislar los sistemas afectados de la red es una medida crítica para evitar que el ransomware se propague y cause más daño."
+    },
+    {
+        "id": "q_si_008",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "La norma ISO 27001 se centra en la gestión de la seguridad de la información.",
+        "question": "¿Qué tipo de documento es la norma ISO/IEC 27001?",
+        "options": {
+            "A": "Una lista de controles técnicos específicos para ciberseguridad.",
+            "B": "Un estándar internacional para establecer un Sistema de Gestión de la Seguridad de la Información (SGSI).",
+            "C": "Una guía para la clasificación de datos personales exclusivamente."
+        },
+        "correctAnswer": "B",
+        "explanation": "ISO/IEC 27001 es un estándar internacional que especifica los requisitos para establecer, implementar, mantener y mejorar continuamente un Sistema de Gestión de la Seguridad de la Información (SGSI)."
+    },
+    {
+        "id": "q_si_009",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un funcionario del IDU ha solicitado acceso a una base de datos que contiene información financiera sensible, argumentando que la necesita para un informe. Sin embargo, su rol actual no requiere ese nivel de acceso, y la política de seguridad interna prohíbe el acceso a información no esencial para las funciones directas.",
+        "question": "¿Qué principio de la seguridad de la información se aplicaría para denegar esta solicitud de acceso?",
+        "options": {
+            "A": "Disponibilidad",
+            "B": "Integridad",
+            "C": "Confidencialidad"
+        },
+        "correctAnswer": "C",
+        "explanation": "El principio de Confidencialidad busca proteger la información del acceso no autorizado, garantizando que solo los individuos, entidades o procesos a los que se les ha otorgado permiso explícito (basado en la necesidad del rol) puedan acceder a ella. Denegar el acceso innecesario es una medida de confidencialidad."
+    },
+    {
+        "id": "q_si_010",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "La Ley 1581 de 2012 establece principios para el tratamiento de datos personales.",
+        "question": "¿Cuál de los siguientes no es un principio para el Tratamiento de Datos Personales según la Ley 1581 de 2012?",
+        "options": {
+            "A": "Principio de Moralidad.",
+            "B": "Principio de Legalidad.",
+            "C": "Principio de Seguridad."
+        },
+        "correctAnswer": "A",
+        "explanation": "Los principios para el Tratamiento de Datos Personales en la Ley 1581 de 2012 incluyen Legalidad, Finalidad, Libertad, Veracidad o Calidad, Transparencia, Acceso y Circulación Restringida, Seguridad y Confidencialidad. Moralidad no es un principio explícito de esta ley en este contexto."
+    },
+    {
+        "id": "q_si_011",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "El IDU utiliza un sistema de control de versiones para sus documentos técnicos y planos de proyectos. Recientemente, se detectó que una versión anterior de un plano crítico fue modificada sin autorización, y ahora hay inconsistencias entre la versión original y la que se está usando en obra.",
+        "question": "¿Qué principio de la Tríada CIA ha sido directamente comprometido en esta situación?",
+        "options": {
+            "A": "Confidencialidad",
+            "B": "Integridad",
+            "C": "Disponibilidad"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Integridad busca asegurar la exactitud, completitud y validez de la información, y evitar la modificación o alteración no autorizada. La modificación de un plano sin autorización compromete directamente la integridad del documento."
+    },
+    {
+        "id": "q_si_012",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "La Norma ISO 27001 se basa en un ciclo de mejora continua.",
+        "question": "¿Cuál es el ciclo de mejora continua en el que se basa el Sistema de Gestión de Seguridad de la Información (SGSI) de ISO 27001?",
+        "options": {
+            "A": "Define-Measure-Analyze-Improve-Control (DMAIC)",
+            "B": "Plan-Do-Check-Act (PDCA)",
+            "C": "Analyze-Design-Develop-Implement-Evaluate (ADDIE)"
+        },
+        "correctAnswer": "B",
+        "explanation": "El SGSI de ISO 27001 se basa en el ciclo de mejora continua Plan-Do-Check-Act (PDCA), que es un modelo iterativo para la mejora de procesos."
+    },
+    {
+        "id": "q_si_013",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un servidor clave del IDU que aloja la plataforma de trámites en línea ha fallado inesperadamente, dejando inaccesible el servicio a los ciudadanos. Se cuenta con copias de seguridad de los datos, pero el equipo no tiene un plan claro sobre los pasos a seguir para restaurar la operación y el tiempo máximo aceptable de inactividad es de 2 horas.",
+        "question": "¿Qué principio de la Tríada CIA está directamente comprometido y qué plan fundamental falta para una recuperación eficiente?",
+        "options": {
+            "A": "Confidencialidad; falta un plan de cifrado.",
+            "B": "Integridad; falta un control de versiones.",
+            "C": "Disponibilidad; falta un Plan de Recuperación ante Desastres (DRP)."
+        },
+        "correctAnswer": "C",
+        "explanation": "La Disponibilidad se ve comprometida si el servicio está inaccesible. La falta de un plan claro para restaurar la operación y el incumplimiento del tiempo máximo de inactividad aceptable (RTO) indican la ausencia o deficiencia de un Plan de Recuperación ante Desastres (DRP), que es el plan integral para recuperar sistemas y datos críticos después de una interrupción importante."
+    },
+    {
+        "id": "q_si_014",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "La clasificación de la información es un proceso de seguridad.",
+        "question": "¿Cuál es una categoría común de clasificación de la información que puede ser de conocimiento general (ej. informes de gestión, datos abiertos)?",
+        "options": {
+            "A": "Restringida",
+            "B": "Confidencial",
+            "C": "Pública"
+        },
+        "correctAnswer": "C",
+        "explanation": "La categoría 'Pública' se refiere a información que puede ser de conocimiento general y divulgada sin restricciones."
+    },
+    {
+        "id": "q_si_015",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "El equipo de seguridad de la información del IDU está investigando un intento fallido de acceso no autorizado a un servidor de bases de datos. Los registros de actividad (logs) muestran la dirección IP de origen, el usuario intentando el acceso y la hora, lo cual es crucial para el análisis forense.",
+        "question": "¿Qué método de seguridad de la información es fundamental para registrar y rastrear quién hizo qué y cuándo, apoyando la integridad y la auditoría?",
+        "options": {
+            "A": "Cifrado de datos en reposo.",
+            "B": "Control de versiones.",
+            "C": "Auditorías y logs."
+        },
+        "correctAnswer": "C",
+        "explanation": "Los registros de auditoría (logs) son fundamentales para la integridad, ya que permiten rastrear y verificar las acciones realizadas sobre la información y los sistemas, siendo vitales para la investigación de incidentes y la conformidad."
+    },
+    {
+        "id": "q_si_016",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "La gestión de incidentes de seguridad es un proceso continuo.",
+        "question": "¿Cuál es la última fase del proceso de Gestión de Incidentes de Seguridad, donde se analiza el incidente para prevenir futuras ocurrencias?",
+        "options": {
+            "A": "Contención",
+            "B": "Recuperación",
+            "C": "Actividad Post-Incidente (Lecciones Aprendidas)"
+        },
+        "correctAnswer": "C",
+        "explanation": "La fase de Actividad Post-Incidente (o Lecciones Aprendidas) es la última del proceso de gestión de incidentes, donde se analiza el incidente, se identifican causas raíz y se mejoran los controles y procedimientos para prevenir futuras ocurrencias."
+    },
+    {
+        "id": "q_si_017",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU utiliza un sistema de comunicación interna para compartir información sensible de proyectos entre equipos. Para proteger la confidencialidad de esta información mientras se transmite por la red, se decide implementar una capa de seguridad que la haga ilegible si es interceptada.",
+        "question": "¿Qué método de seguridad de la información es el más adecuado para proteger los 'datos en tránsito' en este escenario?",
+        "options": {
+            "A": "Cifrado de datos en reposo.",
+            "B": "Control de acceso físico a los servidores.",
+            "C": "Cifrado de datos en tránsito (ej. SSL/TLS)."
+        },
+        "correctAnswer": "C",
+        "explanation": "El cifrado de datos en tránsito (como SSL/TLS) se utiliza para proteger la información mientras se mueve a través de una red, haciéndola ilegible para terceros no autorizados si es interceptada. El cifrado en reposo protege los datos almacenados, y el control de acceso físico se relaciona con la seguridad física."
+    },
+    {
+        "id": "q_si_018",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "La Ley 1581 de 2012 establece derechos para los titulares de la información.",
+        "question": "¿Qué derecho permite a los titulares de datos personales solicitar la eliminación de su información o revocar la autorización de Tratamiento (salvo excepciones legales)?",
+        "options": {
+            "A": "Derecho de Acceso.",
+            "B": "Derecho de Actualización.",
+            "C": "Derecho de Supresión/Revocación."
+        },
+        "correctAnswer": "C",
+        "explanation": "El derecho de Supresión/Revocación permite a los titulares de datos personales solicitar la eliminación de sus datos o revocar la autorización de Tratamiento, salvo excepciones legales."
+    },
+    {
+        "id": "q_si_019",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El equipo de TI del IDU ha sido informado de que existe una nueva vulnerabilidad crítica en el sistema operativo de los servidores que alojan aplicaciones esenciales. El proveedor ha liberado un parche de seguridad, y la dirección exige minimizar el riesgo de un ataque.",
+        "question": "¿Qué acción es la más proactiva y adecuada desde la gestión de la seguridad para mitigar esta vulnerabilidad?",
+        "options": {
+            "A": "Realizar un respaldo completo de los servidores y esperar un ataque para actuar.",
+            "B": "Actualizar el sistema operativo con el parche de seguridad de inmediato, siguiendo el proceso de gestión de vulnerabilidades y parches.",
+            "C": "Modificar las políticas de acceso para restringir más a los usuarios, sin aplicar el parche."
+        },
+        "correctAnswer": "B",
+        "explanation": "La gestión de vulnerabilidades y parches implica mantener el software actualizado con los últimos parches de seguridad. Ante una vulnerabilidad crítica con un parche disponible, la acción más proactiva y adecuada es aplicarlo de inmediato para mitigar el riesgo de un ataque."
+    },
+    {
+        "id": "q_si_020",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La norma ISO 27001 se basa en un marco de gestión de riesgos.",
+        "question": "¿Cuál de los siguientes no es un elemento clave del enfoque de ISO 27001?",
+        "options": {
+            "A": "Establecer y mejorar continuamente un SGSI.",
+            "B": "Gestionar la seguridad de manera sistemática.",
+            "C": "Proporcionar una lista exhaustiva de controles técnicos obligatorios."
+        },
+        "correctAnswer": "C",
+        "explanation": "ISO 27001 es un marco para gestionar la seguridad de manera sistemática, no una lista exhaustiva de controles técnicos obligatorios. Los controles se seleccionan e implementan en función de la evaluación de riesgos de la organización."
+    },
+
+    {
+        "id": "q_si_021",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Usted es el líder del equipo de ciberseguridad del IDU. Se ha detectado una anomalía: un archivo crítico de configuración de un servidor de producción, que no debería haber sido modificado, muestra una firma digital inválida. Tras una revisión inicial, no se encuentra un registro de cambios autorizado. La continuidad operativa no se ha visto comprometida aún, pero la autenticidad del archivo está en duda.",
+        "question": "¿Qué principio de la Tríada CIA es el principal en riesgo en este escenario, y cuál sería la prioridad inmediata de su equipo para mitigarlo?",
+        "options": {
+            "A": "Disponibilidad; restaurar el servidor de inmediato desde el último backup.",
+            "B": "Confidencialidad; iniciar una investigación sobre posibles fugas de datos.",
+            "C": "Integridad; verificar la validez del archivo y, si es necesario, restaurar una versión íntegra, luego investigar la causa de la alteración."
+        },
+        "correctAnswer": "C",
+        "explanation": "La integridad se refiere a la exactitud, completitud y validez de la información, y se ve comprometida por una firma digital inválida y una modificación no autorizada. La prioridad es restaurar la integridad del archivo y luego investigar cómo y por qué fue alterado. Las otras opciones se refieren a disponibilidad o confidencialidad, que no son el riesgo principal inmediato."
+    },
+    {
+        "id": "q_si_022",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El IDU está implementando controles de seguridad para cumplir con el Anexo A de la norma ISO/IEC 27001. Se discute la necesidad de establecer políticas claras para la gestión de dispositivos móviles y la teletrabajo, así como la concienciación del personal sobre los riesgos de seguridad.",
+        "question": "¿A qué categoría de controles del Anexo A de ISO 27001 se refieren principalmente estas acciones?",
+        "options": {
+            "A": "A.9 - Control de acceso.",
+            "B": "A.6 - Organización de la seguridad de la información.",
+            "C": "A.12 - Seguridad en operaciones."
+        },
+        "correctAnswer": "B",
+        "explanation": "La categoría A.6 'Organización de la seguridad de la información' incluye controles relacionados con la gestión de la seguridad dentro de la organización, como las políticas de seguridad (incluyendo teletrabajo y dispositivos móviles) y la asignación de responsabilidades de seguridad, que se complementan con la concienciación del personal."
+    },
+    {
+        "id": "q_si_023",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un incidente de seguridad en el IDU ha sido identificado: un ataque de phishing exitoso permitió el robo de credenciales de varios empleados. Tras la contención inicial (bloqueo de cuentas), el equipo de respuesta a incidentes debe eliminar la causa raíz del incidente para evitar futuras intrusiones con las mismas credenciales comprometidas.",
+        "question": "¿Qué fase del proceso de Gestión de Incidentes de Seguridad se corresponde con la eliminación de la causa raíz, y cuál sería una acción clave en esta fase?",
+        "options": {
+            "A": "Preparación; capacitar al personal en detección de phishing.",
+            "B": "Erradicación; forzar el cambio de contraseñas de los usuarios comprometidos y aplicar autenticación multifactor.",
+            "C": "Recuperación; restaurar los sistemas afectados a su estado normal."
+        },
+        "correctAnswer": "B",
+        "explanation": "La fase de Erradicación busca eliminar la causa raíz del incidente. Forzar el cambio de credenciales y aplicar autenticación multifactor elimina la vulnerabilidad (credenciales comprometidas) que permitió el ataque. Las otras opciones pertenecen a fases diferentes (Preparación, Recuperación)."
+    },
+    {
+        "id": "q_si_024",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La Ley 1581 de 2012 establece obligaciones claras para los Responsables y Encargados del Tratamiento de datos personales.",
+        "question": "¿Cuál de las siguientes es una obligación fundamental del Responsable del Tratamiento de datos personales según la Ley 1581 de 2012?",
+        "options": {
+            "A": "Realizar tratamientos de datos personales sin autorización expresa del titular para fines estadísticos internos.",
+            "B": "Solicitar y conservar copia de la autorización del titular para el tratamiento de sus datos personales.",
+            "C": "Divulgar los datos personales a terceros si esto beneficia a la entidad."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Ley 1581 de 2012 establece como obligación de los Responsables y Encargados del Tratamiento 'Solicitar y conservar copia de la autorización del titular' para el tratamiento de sus datos personales. Las otras opciones describen acciones prohibidas o contrarias a los principios de la ley."
+    },
+    {
+        "id": "q_si_025",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU maneja contratos de obra que contienen información sensible sobre presupuestos detallados y especificaciones técnicas que, si se filtran antes de tiempo, podrían afectar negativamente los procesos de licitación. Se ha decidido clasificar esta información y aplicar controles estrictos.",
+        "question": "¿Bajo qué categoría de clasificación de la información se situaría la información detallada de los presupuestos y especificaciones técnicas de licitaciones no publicadas, y cuál es su implicación?",
+        "options": {
+            "A": "Pública; acceso libre una vez la licitación es anunciada.",
+            "B": "Confidencial; su divulgación no autorizada podría causar un daño significativo a la entidad o a terceros.",
+            "C": "Interna; solo para uso de empleados del IDU sin restricciones adicionales."
+        },
+        "correctAnswer": "B",
+        "explanation": "La información cuya divulgación no autorizada podría causar un daño significativo a la entidad o a terceros (como filtración de presupuestos o especificaciones de licitaciones) se clasifica como Confidencial. Esta clasificación exige controles estrictos de protección."
+    },
+    {
+        "id": "q_si_026",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un SGSI (Sistema de Gestión de Seguridad de la Información) bajo ISO 27001 se implementa de manera sistemática.",
+        "question": "¿Qué busca el SGSI al ser un marco para gestionar la seguridad de manera sistemática, en lugar de una lista de controles técnicos?",
+        "options": {
+            "A": "Eliminar todos los riesgos de seguridad sin excepción.",
+            "B": "Ayudar a las organizaciones a gestionar la seguridad de sus activos de información y a reducir los riesgos de forma continua.",
+            "C": "Establecer una certificación única para todos los sistemas de TI de la entidad."
+        },
+        "correctAnswer": "B",
+        "explanation": "El SGSI (Sistema de Gestión de Seguridad de la Información) es un marco que ayuda a las organizaciones a gestionar la seguridad de sus activos de información de manera sistemática, con el objetivo de reducir los riesgos de forma continua y no simplemente aplicar controles de forma aislada."
+    },
+    {
+        "id": "q_si_027",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está planificando la redundancia de servidores y enlaces de comunicación para su sistema de gestión de tráfico, que debe operar 24/7 sin interrupciones. La prioridad es asegurar que el servicio esté siempre operativo y accesible para los ingenieros y equipos de operación.",
+        "question": "¿Qué principio de la Tríada CIA es el principal enfoque de esta estrategia, y cuál sería una práctica de soporte clave para este principio?",
+        "options": {
+            "A": "Integridad; aplicar control de versiones al software del sistema.",
+            "B": "Confidencialidad; cifrar la comunicación de los datos de tráfico.",
+            "C": "Disponibilidad; implementar planes de continuidad del negocio y recuperación ante desastres (DRP)."
+        },
+        "correctAnswer": "C",
+        "explanation": "La Disponibilidad busca garantizar que los usuarios autorizados tengan acceso a la información y recursos cuando los necesiten, asegurando que los sistemas estén operativos y accesibles. La redundancia, planes de continuidad del negocio y DRP son prácticas directas para garantizar la disponibilidad."
+    },
+    {
+        "id": "q_si_028",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La gestión de incidentes de seguridad es un proceso reactivo y proactivo.",
+        "question": "¿Cuál es la fase de la gestión de incidentes de seguridad que se enfoca en restaurar los sistemas y datos a su estado normal de operación después de haber erradicado la causa raíz?",
+        "options": {
+            "A": "Contención",
+            "B": "Recuperación",
+            "C": "Identificación"
+        },
+        "correctAnswer": "B",
+        "explanation": "La fase de Recuperación es donde se restauran los sistemas y datos a su estado normal de operación después de que el incidente ha sido contenido y la causa raíz erradicada, para que las operaciones vuelvan a la normalidad."
+    },
+    {
+        "id": "q_si_029",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Usted es el responsable de la seguridad de la información en el IDU. Un nuevo contratista llega a la entidad y necesita acceso al sistema de gestión de proyectos para realizar sus funciones. La política de seguridad establece que solo debe tener acceso a la información y funcionalidades estrictamente necesarias para su rol, sin excepciones.",
+        "question": "¿Qué principio de seguridad se está aplicando en este control de acceso, y cómo se implementaría a nivel práctico?",
+        "options": {
+            "A": "Principio de la menor exposición; dándole acceso completo por un período limitado.",
+            "B": "Principio de la necesidad de saber (Need-to-Know) o mínimo privilegio; asignándole solo los permisos estrictamente necesarios para sus funciones.",
+            "C": "Principio de la máxima visibilidad; dándole acceso a todo para monitorear su actividad."
+        },
+        "correctAnswer": "B",
+        "explanation": "El Principio de la necesidad de saber (o Mínimo Privilegio) establece que un usuario o proceso solo debe tener acceso a la información y recursos que son estrictamente necesarios para realizar sus funciones. Asignarle solo los permisos estrictamente necesarios (opción B) es la forma de implementar este principio en el control de acceso."
+    },
+    {
+        "id": "q_si_030",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La Ley 1581 de 2012 establece diversas obligaciones para los responsables del tratamiento de datos.",
+        "question": "¿Cuál de los siguientes es un principio fundamental que debe observar quien realice el tratamiento de datos personales según la Ley 1581 de 2012?",
+        "options": {
+            "A": "Principio de Anonimato.",
+            "B": "Principio de Libre Circulación ilimitada.",
+            "C": "Principio de Finalidad."
+        },
+        "correctAnswer": "C",
+        "explanation": "El Principio de Finalidad establece que el Tratamiento de Datos Personales debe obedecer a una finalidad legítima de acuerdo con la Constitución y la Ley, la cual debe ser informada al Titular. Los otros principios son incorrectos en este contexto."
+    },
+    {
+        "id": "q_si_031",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está planificando el cifrado de datos para un nuevo sistema de gestión de información catastral. Se discute si se deben cifrar los datos mientras están almacenados en el disco duro del servidor y también la comunicación entre la aplicación y la base de datos.",
+        "question": "¿Qué tipos de cifrado se están considerando en este escenario?",
+        "options": {
+            "A": "Cifrado simétrico y asimétrico.",
+            "B": "Cifrado de datos en reposo y en tránsito.",
+            "C": "Cifrado de extremo a extremo y de punto a punto."
+        },
+        "correctAnswer": "B",
+        "explanation": "El cifrado de datos 'en reposo' (at rest) se refiere a cifrar los datos cuando están almacenados en el disco. El cifrado de datos 'en tránsito' (in transit) se refiere a cifrar la comunicación mientras los datos se mueven, por ejemplo, entre la aplicación y la base de datos."
+    },
+    {
+        "id": "q_si_032",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El proceso de gestión de incidentes de seguridad es vital para la respuesta efectiva.",
+        "question": "¿Qué fase de la gestión de incidentes busca eliminar la causa raíz del incidente (ej., limpiar malware, parchar vulnerabilidades)?",
+        "options": {
+            "A": "Contención",
+            "B": "Erradicación",
+            "C": "Recuperación"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Erradicación es la fase donde se elimina la causa raíz del incidente de seguridad, buscando que la amenaza no pueda reactivarse."
+    },
+    {
+        "id": "q_si_033",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Un nuevo informe de auditoría del IDU revela que los registros de actividad en la base de datos de usuarios no están habilitados. Esto significa que no hay forma de rastrear quién accede a qué información sensible, cuándo y desde dónde, lo que compromete la rendición de cuentas y la investigación de posibles incidentes.",
+        "question": "¿Qué práctica de seguridad de la información debe implementarse urgentemente para corregir esta deficiencia y mejorar la capacidad de investigación forense?",
+        "options": {
+            "A": "Implementar autenticación multifactor para todos los usuarios.",
+            "B": "Habilitar y revisar los registros de auditoría (logs) de la base de datos.",
+            "C": "Aplicar cifrado a los datos almacenados en la base de datos."
+        },
+        "correctAnswer": "B",
+        "explanation": "La auditoría (habilitar y revisar logs) es el método directo para rastrear quién hizo qué, cuándo y desde dónde en la base de datos. Esto es fundamental para la rendición de cuentas, la investigación de incidentes y el cumplimiento de la integridad."
+    },
+    {
+        "id": "q_si_034",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El IDU está comprometido con la mejora continua de su SGSI.",
+        "question": "¿Cuál de los siguientes no es una categoría de controles del Anexo A de la norma ISO 27001?",
+        "options": {
+            "A": "Políticas de seguridad.",
+            "B": "Control de acceso físico.",
+            "C": "Desarrollo de nuevas funcionalidades de negocio."
+        },
+        "correctAnswer": "C",
+        "explanation": "El Anexo A de ISO 27001 se enfoca en controles de seguridad, no en el desarrollo de funcionalidades de negocio. Las categorías incluyen seguridad de recursos humanos, control de acceso, seguridad en operaciones, entre otros."
+    },
+    {
+        "id": "q_si_035",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El equipo de TI del IDU ha recibido una solicitud para borrar los datos personales de un ciudadano de una base de datos, ya que este ha revocado su autorización para el tratamiento. Sin embargo, hay una excepción legal que permite a la entidad conservar ciertos datos por un período específico.",
+        "question": "¿Cómo debe proceder el IDU con esta solicitud, según la Ley 1581 de 2012?",
+        "options": {
+            "A": "Borrar los datos de inmediato, ya que es un derecho del titular y no hay excepciones.",
+            "B": "Rechazar la solicitud de borrado, ya que todos los datos públicos deben ser conservados por la entidad.",
+            "C": "Evaluar la solicitud de supresión/revocación, aplicando las excepciones legales que permitan la conservación de datos por el tiempo estipulado, e informar al ciudadano."
+        },
+        "correctAnswer": "C",
+        "explanation": "La Ley 1581 de 2012 establece el Derecho de Supresión/Revocación para los titulares, pero también contempla excepciones legales. El Responsable del Tratamiento debe evaluar la solicitud y aplicar las excepciones pertinentes, informando al ciudadano al respecto."
+    },
+    {
+        "id": "q_si_036",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La Tríada CIA es la base de la seguridad de la información.",
+        "question": "¿Qué principio de la Tríada CIA se enfoca en asegurar que la información y sus métodos de procesamiento son exactos, completos y válidos, evitando su modificación no autorizada?",
+        "options": {
+            "A": "Disponibilidad",
+            "B": "Confidencialidad",
+            "C": "Integridad"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Integridad es el principio que asegura la exactitud, completitud y validez de la información y sus métodos de procesamiento, previniendo la modificación o alteración no autorizada."
+    },
+    {
+        "id": "q_si_037",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está implementando un nuevo sistema de gestión de documentos que contendrá información pública, interna y confidencial. Para aplicar los controles de seguridad adecuados, el equipo de TI debe asignar un nivel de protección a cada tipo de información basándose en el impacto que su divulgación o alteración podría tener.",
+        "question": "¿Qué proceso de seguridad de la información están realizando al asignar un nivel de protección a los datos según su sensibilidad y criticidad?",
+        "options": {
+            "A": "Gestión de Incidentes de Seguridad.",
+            "B": "Clasificación de la Información.",
+            "C": "Implementación del SGSI."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Clasificación de la Información es el proceso de asignar un nivel de protección a los datos de acuerdo con su nivel de sensibilidad y criticidad para la organización, basándose en el impacto que su divulgación, modificación o indisponibilidad no autorizada podría tener. Esto permite aplicar controles de seguridad acordes."
+    },
+    {
+        "id": "q_si_038",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La Tríada CIA de seguridad de la información es la base de las políticas de protección.",
+        "question": "¿Qué principio de la Tríada CIA está directamente relacionado con la implementación de redundancia de sistemas, copias de seguridad y planes de recuperación ante desastres?",
+        "options": {
+            "A": "Confidencialidad",
+            "B": "Integridad",
+            "C": "Disponibilidad"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Disponibilidad busca asegurar que los sistemas y los datos estén operativos y accesibles en el momento requerido. La redundancia, copias de seguridad y planes de recuperación son métodos para garantizar la disponibilidad de la información y los recursos."
+    },
+    {
+        "id": "q_si_039",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Se ha identificado un nuevo tipo de malware que podría comprometer la información sensible del IDU. El equipo de seguridad ha recibido alertas y necesita actuar rápidamente para entender cómo el malware afecta los sistemas y qué vulnerabilidades explota, antes de erradicarlo.",
+        "question": "¿Qué fase del proceso de Gestión de Incidentes de Seguridad es la que se está realizando al detectar y validar que un incidente ha ocurrido, y luego analizar su naturaleza?",
+        "options": {
+            "A": "Preparación",
+            "B": "Identificación",
+            "C": "Recuperación"
+        },
+        "correctAnswer": "B",
+        "explanation": "La fase de Identificación en la gestión de incidentes implica detectar y validar que un incidente ha ocurrido, y luego realizar un análisis inicial para comprender su naturaleza y alcance, antes de pasar a la contención o erradicación."
+    },
+    {
+        "id": "q_si_040",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "La Ley 1581 de 2012 establece una autoridad de protección de datos en Colombia.",
+        "question": "¿Qué entidad es la autoridad encargada de vigilar y sancionar el incumplimiento de la Ley 1581 de 2012 en Colombia?",
+        "options": {
+            "A": "Ministerio de Tecnologías de la Información y las Comunicaciones (MinTIC)",
+            "B": "Superintendencia de Industria y Comercio (SIC)",
+            "C": "Procuraduría General de la Nación"
+        },
+        "correctAnswer": "B",
+        "explanation": "La Superintendencia de Industria y Comercio (SIC) es la autoridad de protección de datos en Colombia, encargada de vigilar y sancionar el incumplimiento de la Ley 1581 de 2012."
+    },
+
+{
+        "id": "q_si_041",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "En el IDU, un funcionario accede sin autorización a una base de datos con información personal de ciudadanos para fines no laborales. Según la Ley 1581 de 2012, esto vulnera principalmente el principio de:",
+        "question": "¿Qué principio de seguridad de la información se incumple en este caso?",
+        "options": {
+            "A": "Disponibilidad",
+            "B": "Integridad",
+            "C": "Confidencialidad"
+        },
+        "correctAnswer": "C",
+        "explanation": "La confidencialidad protege la información contra accesos no autorizados. El artículo 8 de la Ley 1581 exige garantizar este principio para datos personales."
+    },
+    {
+        "id": "q_si_042",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "APPLICATION",
+        "difficulty": "hard",
+        "case": "El IDU implementa un SGSI basado en ISO 27001. Durante una auditoría, se identifica que no existen registros de monitoreo de accesos a sistemas críticos.",
+        "question": "¿Qué control del Anexo A de ISO 27001 debe implementarse para corregir esta falla?",
+        "options": {
+            "A": "A.12.4 - Registro de eventos (logging)",
+            "B": "A.9.2 - Gestión de derechos de acceso",
+            "C": "A.18.1 - Cumplimiento legal"
+        },
+        "correctAnswer": "A",
+        "explanation": "El control A.12.4 de ISO 27001 exige registrar eventos de acceso para permitir auditorías y detección de actividades no autorizadas."
+    },
+    {
+        "id": "q_si_043",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "ANALYSIS",
+        "difficulty": "hard",
+        "case": "Un ataque de ransomware encripta los archivos de un proyecto urbano del IDU, impidiendo su acceso. El equipo de TI aísla la red y restaura los datos desde una copia de seguridad de 24 horas antes.",
+        "question": "¿Qué principio de seguridad se priorizó al restaurar los datos desde el backup?",
+        "options": {
+            "A": "Integridad",
+            "B": "Disponibilidad",
+            "C": "No repudio"
+        },
+        "correctAnswer": "B",
+        "explanation": "La disponibilidad asegura que la información sea accesible cuando se necesite. La recuperación desde backups es clave para garantizarla."
+    },
+    {
+        "id": "q_si_044",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "Según la Ley 1581 de 2012, los titulares de datos personales pueden solicitar la supresión de sus datos en ciertos casos.",
+        "question": "¿En cuál de estos escenarios un ciudadano NO tendría derecho a solicitar la supresión de sus datos?",
+        "options": {
+            "A": "Cuando los datos han sido obtenidos sin su consentimiento.",
+            "B": "Cuando los datos son necesarios para cumplir una obligación legal.",
+            "C": "Cuando los datos son tratados con fines académicos."
+        },
+        "correctAnswer": "B",
+        "explanation": "El artículo 9 de la Ley 1581 establece excepciones a la supresión, como el cumplimiento de obligaciones legales."
+    },
+    {
+        "id": "q_si_045",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "APPLICATION",
+        "difficulty": "hard",
+        "case": "El IDU clasifica la información según su sensibilidad. Un documento con direcciones y firmas de ciudadanos afectados por un proyecto se marca como 'Confidencial'.",
+        "question": "¿Qué medida de seguridad sería MÁS apropiada para este documento?",
+        "options": {
+            "A": "Almacenarlo en un servidor compartido con acceso genérico.",
+            "B": "Cifrarlo y restringir el acceso solo a personal autorizado.",
+            "C": "Publicarlo en el portal web institucional con redacción parcial."
+        },
+        "correctAnswer": "B",
+        "explanation": "La información confidencial requiere cifrado y control de acceso estricto (ISO 27001, A.9.1.1)."
+    },
+    {
+        "id": "q_si_046",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "ANALYSIS",
+        "difficulty": "hard",
+        "case": "Un empleado del IDU envía por error un correo con datos personales de 100 ciudadanos a un destinatario externo no autorizado.",
+        "question": "¿Qué acción debe tomar el área de TI PRIMERO para mitigar el riesgo?",
+        "options": {
+            "A": "Notificar a la SIC dentro de las 72 horas siguientes.",
+            "B": "Solicitar al destinatario que elimine el correo y confirmar su destrucción.",
+            "C": "Actualizar la política de seguridad para evitar futuros errores."
+        },
+        "correctAnswer": "B",
+        "explanation": "El primer paso es contener la fuga (Principio de Confidencialidad). La notificación a la SIC es posterior (Ley 1581, Art. 15)."
+    },
+    {
+        "id": "q_si_047",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "La norma ISO 27001 se enfoca en la gestión de riesgos de seguridad de la información.",
+        "question": "¿Qué ciclo de mejora continua utiliza ISO 27001 para este fin?",
+        "options": {
+            "A": "PDCA (Planificar, Hacer, Verificar, Actuar)",
+            "B": "ITIL (Mejores prácticas de TI)",
+            "C": "COBIT (Gobierno de TI)"
+        },
+        "correctAnswer": "A",
+        "explanation": "ISO 27001 sigue el ciclo PDCA para implementar, mantener y mejorar el SGSI."
+    },
+    {
+        "id": "q_si_048",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "APPLICATION",
+        "difficulty": "medium",
+        "case": "El IDU recibe una denuncia ciudadana por el uso no autorizado de datos personales en un sistema de contratación.",
+        "question": "¿Qué artículo de la Ley 1581 de 2012 ampara al ciudadano para presentar esta denuncia?",
+        "options": {
+            "A": "Artículo 4 (Derechos del titular)",
+            "B": "Artículo 17 (Medidas de seguridad)",
+            "C": "Artículo 24 (Sanciones)"
+        },
+        "correctAnswer": "A",
+        "explanation": "El Artículo 4 garantiza el derecho a reclamar por tratamiento no autorizado de datos."
+    },
+    {
+        "id": "q_si_049",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "ANALYSIS",
+        "difficulty": "hard",
+        "case": "Un informe técnico del IDU es modificado por un hacker para alterar resultados de estudios de suelos. Esto afecta decisiones de construcción.",
+        "question": "¿Qué principio de seguridad se violó PRINCIPALMENTE?",
+        "options": {
+            "A": "Disponibilidad",
+            "B": "Integridad",
+            "C": "No repudio"
+        },
+        "correctAnswer": "B",
+        "explanation": "La integridad garantiza que la información no sea alterada ilegítimamente. Este caso refleja una violación directa."
+    },
+    {
+        "id": "q_si_050",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "En ISO 27001, los controles del Anexo A son obligatorios para la certificación.",
+        "question": "¿Cuál de estos NO es un dominio del Anexo A de ISO 27001?",
+        "options": {
+            "A": "Seguridad física y ambiental",
+            "B": "Gestión de riesgos financieros",
+            "C": "Seguridad en operaciones"
+        },
+        "correctAnswer": "B",
+        "explanation": "La gestión de riesgos financieros no es parte de ISO 27001. Los dominios clave son seguridad física, operacional, acceso, etc."
+    },
+
+
+     {
+        "id": "q_si_051",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Una entidad pública está implementando un sistema para gestionar datos sensibles de ciudadanos, como información personal, laboral y médica. El sistema debe cumplir con la Ley 1581 de 2012 para proteger los datos personales de los usuarios.",
+        "question": "Según la Ley 1581 de 2012, ¿qué principio debe ser aplicado para garantizar que los datos personales sean manejados adecuadamente?",
+        "options": {
+            "A": "Accesibilidad de los datos a todas las partes interesadas.",
+            "B": "Transparencia, informando claramente a los titulares sobre el uso de sus datos.",
+            "C": "Almacenamiento de los datos de manera que puedan ser fácilmente accesibles para su venta."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Ley 1581 de 2012 establece que los datos personales deben ser tratados con transparencia, garantizando que los titulares de los datos estén informados sobre el uso que se les dará."
+    },
+    {
+        "id": "q_si_052",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Una entidad está adoptando la norma ISO 27001 para implementar un Sistema de Gestión de la Seguridad de la Información (SGSI). El objetivo es proteger los datos sensibles de los empleados, clientes y socios.",
+        "question": "¿Cuál de los siguientes elementos es fundamental para la implementación de un SGSI bajo la norma ISO 27001?",
+        "options": {
+            "A": "Implementar un sistema de encriptación sin hacer una evaluación de riesgos previa.",
+            "B": "Establecer un marco de control de riesgos, basándose en una evaluación de vulnerabilidades y amenazas.",
+            "C": "Fomentar el acceso libre a toda la información, sin restricciones, para facilitar su uso."
+        },
+        "correctAnswer": "B",
+        "explanation": "La norma ISO 27001 requiere la implementación de un control de riesgos efectivo, el cual se basa en una evaluación previa de las vulnerabilidades y amenazas que enfrenta la organización."
+    },
+    {
+        "id": "q_si_053",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Una organización está revisando sus políticas de seguridad de la información después de haber experimentado una violación de datos. Durante la investigación, se identifica que la causa fue un acceso no autorizado a información confidencial debido a credenciales comprometidas.",
+        "question": "Según los principios de seguridad de la información, ¿qué medida debería haberse implementado para evitar este incidente?",
+        "options": {
+            "A": "Una política de contraseñas fuertes, con cambios regulares y control de acceso estricto.",
+            "B": "Permitir que los empleados utilicen contraseñas simples para facilitar el acceso.",
+            "C": "No restringir el acceso a la información sensible, siempre que los usuarios estén autorizados."
+        },
+        "correctAnswer": "A",
+        "explanation": "Una política de contraseñas fuertes y cambios regulares, junto con controles de acceso apropiados, es fundamental para proteger la información confidencial y evitar accesos no autorizados."
+    },
+    {
+        "id": "q_si_054",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Una empresa está implementando un sistema de almacenamiento de datos en la nube para almacenar información de clientes. El proveedor de servicios en la nube ofrece medidas de seguridad, pero la empresa debe asegurarse de que el acceso a los datos esté restringido y auditado.",
+        "question": "¿Qué aspecto clave de la seguridad de la información debe garantizar la empresa para proteger los datos en la nube?",
+        "options": {
+            "A": "Que la información esté accesible para todos los empleados de la empresa.",
+            "B": "Que el acceso a los datos esté restringido a los usuarios autorizados y que se realicen auditorías periódicas.",
+            "C": "Que la información esté completamente pública para asegurar la transparencia."
+        },
+        "correctAnswer": "B",
+        "explanation": "Es fundamental restringir el acceso a los datos únicamente a los usuarios autorizados y realizar auditorías periódicas para monitorear cualquier acceso no autorizado o actividad sospechosa."
+    },
+    {
+        "id": "q_si_055",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un servicio en línea maneja grandes cantidades de datos personales sensibles. En el último año, ha experimentado varios intentos de ataque cibernético que han afectado la disponibilidad del servicio durante breves períodos de tiempo.",
+        "question": "Según los principios de la seguridad de la información, ¿qué componente debe ser reforzado para garantizar la disponibilidad continua del servicio?",
+        "options": {
+            "A": "La confidencialidad de los datos, evitando la divulgación no autorizada.",
+            "B": "La disponibilidad de los sistemas, implementando redundancias y planes de recuperación ante desastres.",
+            "C": "La integridad de los datos, asegurando que no puedan ser alterados durante los ataques."
+        },
+        "correctAnswer": "B",
+        "explanation": "La disponibilidad de los sistemas debe ser garantizada mediante la implementación de redundancias y un plan de recuperación ante desastres, para asegurar que el servicio esté disponible incluso durante un ataque."
+    },
+    {
+        "id": "q_si_056",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Una empresa está desarrollando un proyecto de inteligencia artificial que analizará datos personales de los usuarios. La empresa debe asegurarse de que los datos sean tratados de manera ética y conforme a la legislación vigente sobre protección de datos.",
+        "question": "¿Qué normativa colombiana debe cumplir la empresa para garantizar la protección de los datos personales en este proyecto?",
+        "options": {
+            "A": "Ley 1581 de 2012 sobre Protección de Datos Personales",
+            "B": "Ley 1712 de 2014 sobre Acceso a la Información Pública",
+            "C": "Ley 1074 de 2006 sobre Protección de Propiedad Intelectual"
+        },
+        "correctAnswer": "A",
+        "explanation": "La Ley 1581 de 2012 regula el tratamiento de datos personales en Colombia y establece los principios y requisitos para garantizar su protección y privacidad."
+    },
+    {
+        "id": "q_si_057",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "En un proyecto informático, la empresa está desarrollando un sistema de autenticación para usuarios que acceden a datos sensibles. El sistema debe ser robusto para evitar accesos no autorizados.",
+        "question": "¿Qué técnica de seguridad es esencial para verificar la identidad de los usuarios en este tipo de sistema?",
+        "options": {
+            "A": "Autenticación de dos factores (2FA)",
+            "B": "Autenticación basada en una contraseña simple",
+            "C": "Acceso libre sin autenticación"
+        },
+        "correctAnswer": "A",
+        "explanation": "La autenticación de dos factores (2FA) es una medida clave para asegurar la identidad de los usuarios, combinando algo que el usuario sabe (como una contraseña) con algo que el usuario tiene (como un código enviado al móvil)."
+    },
+    {
+        "id": "q_si_058",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Una institución pública está evaluando la adopción de un sistema de gestión de seguridad de la información conforme a la ISO 27001. El sistema debe asegurar que los controles de seguridad estén alineados con los objetivos estratégicos de la entidad.",
+        "question": "¿Cuál es el principal beneficio de implementar un Sistema de Gestión de Seguridad de la Información conforme a la ISO 27001?",
+        "options": {
+            "A": "Mejorar la transparencia en las comunicaciones internas.",
+            "B": "Garantizar la confidencialidad, integridad y disponibilidad de la información a través de controles de seguridad.",
+            "C": "Asegurar que toda la información esté disponible para todos los empleados sin restricciones."
+        },
+        "correctAnswer": "B",
+        "explanation": "La ISO 27001 establece un marco para garantizar que la información esté protegida mediante controles de seguridad adecuados, cubriendo la confidencialidad, integridad y disponibilidad de la información."
+    },
+
+    {
+        "id": "q_si_059",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Una empresa implementa un sistema para almacenar datos financieros sensibles de clientes y empleados. El sistema tiene que garantizar que los datos no sean alterados por personas no autorizadas.",
+        "question": "¿Qué principio de la seguridad de la información debe garantizarse en este caso?",
+        "options": {
+            "A": "Confidencialidad",
+            "B": "Integridad",
+            "C": "Disponibilidad"
+        },
+        "correctAnswer": "B",
+        "explanation": "La integridad de los datos garantiza que la información no sea alterada de manera no autorizada, lo que es crucial para mantener la exactitud y confiabilidad de los datos sensibles."
+    },
+    {
+        "id": "q_si_060",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un servidor público del IDU maneja información confidencial de ciudadanos. El acceso a esta información debe ser restringido y auditado para evitar cualquier posible fuga de datos.",
+        "question": "¿Cuál de las siguientes medidas debe implementarse para garantizar la confidencialidad de los datos manejados por el servidor público?",
+        "options": {
+            "A": "Control de acceso basado en roles y cifrado de datos sensibles.",
+            "B": "Permitir el acceso a todos los empleados para mejorar la eficiencia.",
+            "C": "Dejar la información accesible únicamente a los supervisores."
+        },
+        "correctAnswer": "A",
+        "explanation": "El control de acceso basado en roles y el cifrado son medidas clave para asegurar que solo las personas autorizadas puedan acceder y manejar información confidencial."
+    },
+    {
+        "id": "q_si_061",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Durante una auditoría, se encuentra que el sistema de gestión de información no tiene políticas adecuadas para proteger los datos personales de los usuarios, ni planes de acción ante incidentes de seguridad.",
+        "question": "Según la Ley 1581 de 2012, ¿qué debe hacer la organización para garantizar el cumplimiento de la ley en relación con la protección de datos personales?",
+        "options": {
+            "A": "Establecer políticas y procedimientos claros sobre el tratamiento de datos personales y realizar auditorías regulares.",
+            "B": "Permitir el acceso irrestricto a los datos personales para todas las partes interesadas.",
+            "C": "No se requiere acción, ya que la ley no impone restricciones sobre el acceso a los datos personales."
+        },
+        "correctAnswer": "A",
+        "explanation": "La Ley 1581 de 2012 requiere que las organizaciones implementen políticas y procedimientos para proteger los datos personales y llevar a cabo auditorías de manera periódica para garantizar el cumplimiento."
+    },
+    {
+        "id": "q_si_062",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un sistema informático maneja grandes volúmenes de datos sensibles. Se han producido varios incidentes de acceso no autorizado y la empresa está considerando implementar medidas más estrictas de seguridad.",
+        "question": "¿Qué tecnología es más efectiva para proteger los datos sensibles durante la transmisión de información?",
+        "options": {
+            "A": "Cifrado de datos en tránsito (SSL/TLS).",
+            "B": "Seguridad en la red local mediante firewalls.",
+            "C": "Backup de los datos en servidores externos."
+        },
+        "correctAnswer": "A",
+        "explanation": "El cifrado de datos en tránsito mediante SSL/TLS es una de las medidas más efectivas para proteger los datos sensibles mientras se transmiten a través de la red."
+    },
+    {
+        "id": "q_si_063",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un proveedor externo está gestionando parte de la infraestructura tecnológica de una empresa. La empresa debe asegurarse de que este proveedor cumpla con las normas de seguridad para evitar vulnerabilidades.",
+        "question": "¿Qué documento es crucial para asegurarse de que el proveedor cumpla con los requisitos de seguridad necesarios?",
+        "options": {
+            "A": "Acuerdo de Nivel de Servicio (SLA) que incluya cláusulas de seguridad.",
+            "B": "Contrato de suministro de hardware.",
+            "C": "Póliza de seguros de ciberseguridad."
+        },
+        "correctAnswer": "A",
+        "explanation": "El Acuerdo de Nivel de Servicio (SLA) debe incluir cláusulas específicas sobre las medidas de seguridad que el proveedor debe implementar para garantizar la protección de los datos y la infraestructura."
+    },
+    {
+        "id": "q_si_064",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "El gobierno está desarrollando un sistema para gestionar información confidencial sobre ciudadanos. Para garantizar su protección, se requiere que el sistema esté certificado según la norma ISO 27001.",
+        "question": "¿Qué beneficios clave proporciona la implementación de la norma ISO 27001 para la seguridad de la información?",
+        "options": {
+            "A": "Mejorar la competitividad en el mercado a través de la certificación.",
+            "B": "Garantizar un enfoque estructurado para gestionar los riesgos y proteger la información.",
+            "C": "Permitir el acceso a la información de todos los empleados sin restricciones."
+        },
+        "correctAnswer": "B",
+        "explanation": "La implementación de la norma ISO 27001 proporciona un enfoque sistemático para gestionar los riesgos de seguridad de la información, garantizando la confidencialidad, integridad y disponibilidad de los datos."
+    },
+    {
+        "id": "q_si_065",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Una organización maneja información sensible de clientes, como datos bancarios y médicos. La empresa necesita implementar medidas para proteger estos datos y garantizar que solo los usuarios autorizados tengan acceso.",
+        "question": "¿Qué medida de control es crucial para garantizar que solo los usuarios autorizados accedan a la información sensible?",
+        "options": {
+            "A": "Autenticación multifactor (MFA).",
+            "B": "Backup periódico de los datos en discos locales.",
+            "C": "Monitoreo constante de la red de comunicaciones."
+        },
+        "correctAnswer": "A",
+        "explanation": "La autenticación multifactor (MFA) es una de las medidas más efectivas para asegurar que solo los usuarios autorizados puedan acceder a la información sensible, utilizando múltiples métodos de verificación."
+    },
+    {
+        "id": "q_si_066",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Una empresa de servicios financieros está evaluando su infraestructura de ciberseguridad para proteger los datos personales y bancarios de sus clientes.",
+        "question": "¿Cuál de las siguientes prácticas de ciberseguridad es crucial para proteger los datos bancarios durante el almacenamiento en bases de datos?",
+        "options": {
+            "A": "Encriptación de datos en reposo.",
+            "B": "Control de acceso físico a los servidores.",
+            "C": "Redundancia de los sistemas en diferentes ubicaciones."
+        },
+        "correctAnswer": "A",
+        "explanation": "La encriptación de los datos en reposo asegura que incluso si los datos son accesibles físicamente, no puedan ser leídos o utilizados sin las claves de descifrado adecuadas."
+    },
+    {
+        "id": "q_si_067",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un ataque cibernético comprometió los datos sensibles almacenados en una base de datos. La organización ahora necesita implementar medidas para asegurar que incidentes similares no ocurran en el futuro.",
+        "question": "¿Qué enfoque de seguridad es más adecuado para prevenir futuros ataques y proteger los datos?",
+        "options": {
+            "A": "Implementación de firewalls y antivirus actualizados.",
+            "B": "Auditorías periódicas de seguridad y pruebas de penetración.",
+            "C": "Mantener la información únicamente en servidores internos."
+        },
+        "correctAnswer": "B",
+        "explanation": "Las auditorías periódicas de seguridad y las pruebas de penetración permiten identificar vulnerabilidades y mejorar continuamente las medidas de seguridad."
+    },
+    {
+        "id": "q_si_068",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "Un servidor público debe manejar información personal confidencial de ciudadanos en el contexto de un proyecto del IDU. Debe garantizar que solo las personas autorizadas accedan a esa información.",
+        "question": "¿Qué tipo de control debe implementar el servidor público para proteger adecuadamente los datos personales de los ciudadanos?",
+        "options": {
+            "A": "Autorización y control de acceso estrictos con autenticación biométrica.",
+            "B": "Acceso sin restricciones para facilitar el trabajo del equipo.",
+            "C": "Almacenamiento de los datos sin encriptación."
+        },
+        "correctAnswer": "A",
+        "explanation": "El control de acceso estricto, combinado con autenticación biométrica, garantiza que solo las personas autorizadas puedan acceder a los datos personales confidenciales."
+    },
+    {
+        "id": "q_si_069",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "hard",
+        "case": "En un proyecto donde se gestiona información confidencial de clientes, el equipo de trabajo debe garantizar que la comunicación de los datos no se vea comprometida durante su transmisión.",
+        "question": "¿Qué técnica de seguridad debe utilizarse para asegurar que los datos transmitidos estén protegidos contra accesos no autorizados?",
+        "options": {
+            "A": "Cifrado de los datos en tránsito.",
+            "B": "Almacenamiento en servidores locales protegidos.",
+            "C": "Uso de contraseñas simples para facilitar el acceso."
+        },
+        "correctAnswer": "A",
+        "explanation": "El cifrado de los datos en tránsito garantiza que los datos sean ilegibles para cualquier persona no autorizada durante su transmisión, protegiéndolos de posibles interceptaciones."
+    },
+
+    {
+        "id": "q_si_070",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "Una empresa ha comenzado a utilizar un sistema de almacenamiento en la nube para guardar datos personales de clientes. El acceso al sistema está restringido a los empleados autorizados mediante contraseñas.",
+        "question": "¿Qué principio de seguridad se está garantizando al restringir el acceso mediante contraseñas?",
+        "options": {
+            "A": "Confidencialidad",
+            "B": "Integridad",
+            "C": "Disponibilidad"
+        },
+        "correctAnswer": "A",
+        "explanation": "El principio de confidencialidad asegura que solo las personas autorizadas puedan acceder a la información, protegiéndola de accesos no autorizados."
+    },
+    {
+        "id": "q_si_071",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "Una empresa está utilizando un sistema de backup automático para almacenar copias de seguridad de datos críticos. Las copias se realizan cada noche y se almacenan en un servidor externo.",
+        "question": "¿Qué principio de seguridad está siendo aplicado al realizar copias de seguridad automáticas de los datos?",
+        "options": {
+            "A": "Disponibilidad",
+            "B": "Confidencialidad",
+            "C": "Integridad"
+        },
+        "correctAnswer": "A",
+        "explanation": "El principio de disponibilidad asegura que los usuarios autorizados puedan acceder a los datos cuando lo necesiten, y el backup automático es una medida clave para garantizar este principio."
+    },
+    {
+        "id": "q_si_072",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "Una institución pública gestiona información personal de los ciudadanos en su base de datos. La base de datos tiene restricciones de acceso para garantizar que solo el personal autorizado pueda modificar los datos.",
+        "question": "¿Qué medida de seguridad es importante implementar para garantizar la integridad de los datos en la base de datos?",
+        "options": {
+            "A": "Control de acceso",
+            "B": "Cifrado de datos",
+            "C": "Monitoreo de la red"
+        },
+        "correctAnswer": "A",
+        "explanation": "El control de acceso es fundamental para garantizar que solo el personal autorizado pueda modificar los datos, asegurando así que los datos no sean alterados sin autorización."
+    },
+    {
+        "id": "q_si_073",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "Un servidor en una red empresarial experimenta un aumento inusual en el tráfico de datos. El equipo de seguridad investiga y descubre que un atacante externo ha intentado acceder a los datos de manera no autorizada.",
+        "question": "¿Qué medida de seguridad debería implementarse para proteger la información en la red empresarial?",
+        "options": {
+            "A": "Firewall",
+            "B": "Encriptación de los datos en tránsito",
+            "C": "Política de contraseñas débiles"
+        },
+        "correctAnswer": "A",
+        "explanation": "El uso de un firewall es una medida importante para bloquear accesos no autorizados y proteger la red contra ataques externos, lo que ayuda a garantizar la confidencialidad de la información."
+    },
+    {
+        "id": "q_si_074",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "Un banco en línea utiliza un sistema de autenticación multifactor (MFA) para asegurar las cuentas de los clientes. Los clientes deben ingresar su contraseña y luego recibir un código de autenticación en su teléfono móvil para acceder a su cuenta.",
+        "question": "¿Qué principio de seguridad se está protegiendo mediante la autenticación multifactor?",
+        "options": {
+            "A": "Confidencialidad",
+            "B": "Disponibilidad",
+            "C": "Integridad"
+        },
+        "correctAnswer": "A",
+        "explanation": "La autenticación multifactor protege la confidencialidad de la cuenta del cliente, asegurando que solo el titular de la cuenta pueda acceder a la información, incluso si su contraseña se ve comprometida."
+    },
+    {
+        "id": "q_si_075",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "Una empresa está llevando a cabo una auditoría de seguridad para evaluar la protección de la información confidencial almacenada en sus servidores. Durante la auditoría, se identifican varios puntos débiles en los sistemas de protección.",
+        "question": "¿Cuál es la acción más adecuada para remediar estas vulnerabilidades?",
+        "options": {
+            "A": "Implementar controles de seguridad adicionales, como actualizaciones de software y medidas de encriptación.",
+            "B": "Ignorar las vulnerabilidades ya que no se ha producido ningún incidente hasta el momento.",
+            "C": "Permitir el acceso libre a los servidores para que todos los empleados puedan realizar su trabajo."
+        },
+        "correctAnswer": "A",
+        "explanation": "Es fundamental abordar las vulnerabilidades de seguridad identificadas mediante la implementación de controles adicionales, como actualizaciones de software y encriptación, para proteger la confidencialidad y la integridad de la información."
+    },
+    {
+        "id": "q_si_076",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "Una empresa de servicios está implementando un nuevo sistema de almacenamiento en la nube para almacenar información confidencial de sus clientes. El proveedor de la nube ofrece medidas de seguridad, pero la empresa debe asegurarse de que sus datos estén protegidos.",
+        "question": "¿Qué medida adicional debería tomar la empresa para garantizar la seguridad de los datos almacenados en la nube?",
+        "options": {
+            "A": "Cifrado de los datos antes de almacenarlos en la nube.",
+            "B": "Permitir que los empleados de todos los departamentos accedan libremente a los datos almacenados en la nube.",
+            "C": "No tomar ninguna medida adicional, ya que el proveedor de la nube ya ofrece protección."
+        },
+        "correctAnswer": "A",
+        "explanation": "El cifrado de los datos antes de almacenarlos en la nube asegura que, incluso si los datos son interceptados, no puedan ser leídos sin la clave de descifrado adecuada."
+    },
+    {
+        "id": "q_si_077",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "Una organización está implementando un plan de respuesta a incidentes para gestionar posibles amenazas de seguridad cibernética. El plan incluye la identificación, contención y erradicación de incidentes de seguridad.",
+        "question": "¿Qué fase del plan de respuesta a incidentes se centra en evitar que el incidente se propague aún más?",
+        "options": {
+            "A": "Contención",
+            "B": "Identificación",
+            "C": "Recuperación"
+        },
+        "correctAnswer": "A",
+        "explanation": "La fase de contención es crucial para evitar que el incidente de seguridad se propague a otras partes del sistema, limitando su impacto."
+    },
+    {
+        "id": "q_si_078",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "El equipo de seguridad de una empresa detecta un intento de acceso no autorizado a uno de sus sistemas sensibles. El atacante intenta obtener acceso utilizando una contraseña común y fácil de adivinar.",
+        "question": "¿Qué medida de seguridad debería implementarse para proteger las contraseñas de acceso a los sistemas sensibles?",
+        "options": {
+            "A": "Requerir contraseñas complejas que incluyan letras, números y caracteres especiales.",
+            "B": "Permitir el uso de contraseñas simples para facilitar el acceso.",
+            "C": "No aplicar ninguna medida, ya que los usuarios tienen permisos administrativos."
+        },
+        "correctAnswer": "A",
+        "explanation": "Las contraseñas complejas y difíciles de adivinar son una medida esencial para proteger los sistemas sensibles de accesos no autorizados."
+    },
+    {
+        "id": "q_si_079",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "Una empresa está implementando un sistema de respaldo automático para garantizar la disponibilidad de los datos críticos. El sistema realiza copias de seguridad todos los días.",
+        "question": "¿Qué medida adicional debería implementarse para garantizar que los datos respaldados sean accesibles en caso de un incidente?",
+        "options": {
+            "A": "Almacenar las copias de seguridad en una ubicación fuera del sitio, preferentemente en la nube.",
+            "B": "Almacenar todas las copias de seguridad en un solo disco duro interno.",
+            "C": "No realizar copias de seguridad para evitar costos adicionales."
+        },
+        "correctAnswer": "A",
+        "explanation": "Almacenar las copias de seguridad en una ubicación fuera del sitio, como en la nube, es una práctica recomendada para garantizar la disponibilidad de los datos en caso de un desastre o incidente."
+    },
+    {
+        "id": "q_si_080",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "medium",
+        "case": "En una empresa de tecnología, los empleados están accediendo a sistemas de manera remota para trabajar desde casa. Para garantizar la seguridad de los datos corporativos, la empresa decide implementar una VPN (Red Privada Virtual).",
+        "question": "¿Qué beneficio clave ofrece una VPN para la seguridad de la información cuando se accede remotamente a los sistemas corporativos?",
+        "options": {
+            "A": "Cifrado de la comunicación entre el dispositivo remoto y los servidores de la empresa.",
+            "B": "Permitir el acceso libre a los sistemas sin restricciones.",
+            "C": "Evitar la necesidad de autenticación adicional en el dispositivo."
+        },
+        "correctAnswer": "A",
+        "explanation": "Una VPN cifra la comunicación entre el dispositivo remoto y la red corporativa, protegiendo los datos de posibles interceptaciones mientras se accede de manera remota."
+    },
+ {
+        "id": "q_si_081",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Una empresa ha implementado contraseñas para acceder a sus sistemas internos. Los usuarios deben cambiar sus contraseñas cada tres meses.",
+        "question": "¿Qué principio de la seguridad de la información se está protegiendo al exigir contraseñas seguras y cambios periódicos?",
+        "options": {
+            "A": "Confidencialidad",
+            "B": "Integridad",
+            "C": "Disponibilidad"
+        },
+        "correctAnswer": "A",
+        "explanation": "La confidencialidad se asegura al proteger los sistemas de acceso no autorizado mediante contraseñas seguras."
+    },
+    {
+        "id": "q_si_082",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Un sistema de información almacena datos personales sensibles de clientes. Solo los empleados autorizados tienen acceso a estos datos.",
+        "question": "¿Qué medida de seguridad se está implementando para garantizar que solo los empleados autorizados tengan acceso a la información?",
+        "options": {
+            "A": "Control de acceso",
+            "B": "Cifrado de datos",
+            "C": "Backup de datos"
+        },
+        "correctAnswer": "A",
+        "explanation": "El control de acceso garantiza que solo los usuarios autorizados puedan acceder a información sensible."
+    },
+    {
+        "id": "q_si_083",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Un empleado utiliza un sistema de correo electrónico para enviar información confidencial de la empresa. La empresa ha implementado un protocolo de seguridad para cifrar los correos electrónicos.",
+        "question": "¿Qué principio de seguridad se está protegiendo mediante el cifrado de correos electrónicos?",
+        "options": {
+            "A": "Confidencialidad",
+            "B": "Integridad",
+            "C": "Disponibilidad"
+        },
+        "correctAnswer": "A",
+        "explanation": "El cifrado protege la confidencialidad de la información transmitida, asegurando que solo los destinatarios autorizados puedan leer el correo."
+    },
+    {
+        "id": "q_si_084",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Un sistema almacena información de clientes en una base de datos. Los administradores deben asegurarse de que los datos sean exactos y completos.",
+        "question": "¿Qué principio de seguridad de la información se está protegiendo al asegurar la exactitud y completitud de los datos?",
+        "options": {
+            "A": "Confidencialidad",
+            "B": "Integridad",
+            "C": "Disponibilidad"
+        },
+        "correctAnswer": "B",
+        "explanation": "La integridad garantiza que los datos sean precisos, completos y no alterados de manera no autorizada."
+    },
+    {
+        "id": "q_si_085",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Un empleado de una empresa necesita acceder a la información de clientes para realizar un reporte. Para garantizar la seguridad de la información, solo se le otorgan permisos de lectura.",
+        "question": "¿Qué medida de seguridad se está aplicando al otorgar permisos de solo lectura?",
+        "options": {
+            "A": "Control de acceso",
+            "B": "Cifrado de datos",
+            "C": "Autenticación multifactor"
+        },
+        "correctAnswer": "A",
+        "explanation": "El control de acceso garantiza que los empleados solo tengan permisos adecuados según sus roles, como en este caso, permisos de solo lectura."
+    },
+    {
+        "id": "q_si_086",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Una empresa realiza copias de seguridad diarias de su información crítica, como datos de clientes y transacciones.",
+        "question": "¿Qué principio de seguridad de la información se está protegiendo al realizar copias de seguridad diarias?",
+        "options": {
+            "A": "Disponibilidad",
+            "B": "Confidencialidad",
+            "C": "Integridad"
+        },
+        "correctAnswer": "A",
+        "explanation": "Las copias de seguridad aseguran la disponibilidad de la información, permitiendo su restauración en caso de pérdida o daño de los datos originales."
+    },
+    {
+        "id": "q_si_087",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Una empresa de servicios financieros utiliza contraseñas fuertes y autenticación multifactor para acceder a sus sistemas sensibles.",
+        "question": "¿Qué principio de seguridad de la información se está aplicando al utilizar contraseñas fuertes y autenticación multifactor?",
+        "options": {
+            "A": "Confidencialidad",
+            "B": "Integridad",
+            "C": "Disponibilidad"
+        },
+        "correctAnswer": "A",
+        "explanation": "La autenticación multifactor y las contraseñas fuertes protegen la confidencialidad al garantizar que solo los usuarios autorizados puedan acceder a los sistemas sensibles."
+    },
+    {
+        "id": "q_si_088",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Una empresa está implementando un sistema de respaldo automático para proteger sus datos sensibles. Las copias de seguridad se almacenan en una ubicación segura fuera de las instalaciones de la empresa.",
+        "question": "¿Qué principio de seguridad de la información se asegura con la implementación de copias de seguridad en una ubicación externa?",
+        "options": {
+            "A": "Confidencialidad",
+            "B": "Disponibilidad",
+            "C": "Integridad"
+        },
+        "correctAnswer": "B",
+        "explanation": "El almacenamiento de copias de seguridad en una ubicación externa garantiza la disponibilidad de la información, incluso en caso de que se produzca un desastre en las instalaciones principales."
+    },
+    {
+        "id": "q_si_089",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Una empresa realiza auditorías periódicas para garantizar que los controles de seguridad estén funcionando adecuadamente y que no se hayan producido accesos no autorizados.",
+        "question": "¿Qué proceso de seguridad se está implementando al realizar auditorías periódicas?",
+        "options": {
+            "A": "Control de acceso",
+            "B": "Monitoreo de seguridad",
+            "C": "Gestión de incidentes"
+        },
+        "correctAnswer": "B",
+        "explanation": "El monitoreo de seguridad incluye auditorías periódicas para asegurar que las medidas de seguridad están siendo implementadas de manera efectiva y que no hay incidentes de seguridad."
+    },
+    {
+        "id": "q_si_090",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Un sistema de información empresarial es accesible a través de una red interna segura. Se han implementado firewalls y otras medidas de seguridad para proteger la red.",
+        "question": "¿Qué tipo de medida de seguridad está siendo implementada al usar firewalls y redes internas seguras?",
+        "options": {
+            "A": "Confidencialidad",
+            "B": "Disponibilidad",
+            "C": "Integridad"
+        },
+        "correctAnswer": "A",
+        "explanation": "El uso de firewalls y redes seguras ayuda a proteger la confidencialidad de la información, impidiendo accesos no autorizados desde redes externas."
+    },
+    {
+        "id": "q_si_091",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Una empresa de comercio electrónico implementa un sistema de autenticación para garantizar que solo los usuarios registrados puedan acceder a su plataforma de pago.",
+        "question": "¿Qué principio de seguridad se protege mediante el uso de autenticación de usuarios?",
+        "options": {
+            "A": "Integridad",
+            "B": "Confidencialidad",
+            "C": "Disponibilidad"
+        },
+        "correctAnswer": "B",
+        "explanation": "La autenticación de usuarios asegura que solo las personas autorizadas puedan acceder a la plataforma de pago, protegiendo la confidencialidad de los datos."
+    },
+    {
+        "id": "q_si_092",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Una empresa ha creado una política de contraseñas que exige a sus empleados usar contraseñas largas y complejas para acceder a sistemas internos.",
+        "question": "¿Qué medida de seguridad se está implementando con la política de contraseñas complejas?",
+        "options": {
+            "A": "Confidencialidad",
+            "B": "Disponibilidad",
+            "C": "Integridad"
+        },
+        "correctAnswer": "A",
+        "explanation": "Las contraseñas largas y complejas mejoran la confidencialidad al dificultar el acceso no autorizado a los sistemas internos."
+    },
+    {
+        "id": "q_si_093",
+        "topic_id": "funcionales-especificas",
+        "subtopic_id": "seguridad-informacion",
+        "type": "KNOWLEDGE",
+        "difficulty": "easy",
+        "case": "Una empresa está implementando medidas de seguridad para proteger sus datos de accesos no autorizados, incluyendo la instalación de software antivirus en todos los dispositivos.",
+        "question": "¿Qué medida de seguridad se está implementando con la instalación de software antivirus?",
+        "options": {
+            "A": "Confidencialidad",
+            "B": "Integridad",
+            "C": "Protección contra malware"
+        },
+        "correctAnswer": "C",
+        "explanation": "El software antivirus ayuda a proteger los dispositivos contra malware y otros ataques cibernéticos, asegurando la protección de los sistemas y datos."
+    },
+
+    {
+    "id": "q_si_094",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está implementando un nuevo sistema de gestión de proyectos que manejará información altamente sensible, incluyendo datos financieros de los contratos y planos arquitectónicos detallados que no deben ser de acceso público. El equipo de seguridad ha propuesto cifrar toda la información almacenada y en tránsito, y limitar el acceso estrictamente al personal autorizado mediante autenticación multifactor. Además, se establecerán políticas claras de uso de información para los empleados. \n\nEn el contexto de los principios fundamentales de la seguridad de la información, ¿qué principio se está priorizando y fortaleciendo directamente con estas medidas de protección contra el acceso no autorizado a la información?",
+    "question": "¿Qué principio fundamental de la seguridad de la información se fortalece directamente con estas medidas de cifrado y control de acceso?",
+    "options": {
+      "A": "Integridad, para asegurar la exactitud de los datos.",
+      "B": "Confidencialidad, para proteger la información del acceso no autorizado.",
+      "C": "Disponibilidad, para garantizar el acceso de los usuarios autorizados."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Confidencialidad tiene como propósito proteger la información del acceso no autorizado. Métodos como el cifrado de datos y el control de acceso (contraseñas, autenticación multifactor, roles y permisos) son medidas directas para fortalecer este principio."
+  },
+  {
+    "id": "q_si_095",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU ha implementado un nuevo sistema para la gestión de solicitudes ciudadanas. Sin embargo, se ha detectado que, en ocasiones, los datos de las solicitudes son modificados inadvertidamente por errores en la digitación o por fallos en el sistema, lo que lleva a inconsistencias en la información y afecta la toma de decisiones. El equipo de TI está buscando soluciones que aseguren la exactitud y completitud de la información procesada. \n\nEn el contexto de los principios fundamentales de la seguridad de la información, ¿qué principio se ve comprometido por estas modificaciones no autorizadas (inadvertidas o accidentales) de los datos y busca ser asegurado mediante medidas de verificación?",
+    "question": "¿Qué principio fundamental de la seguridad de la información se ve comprometido y busca ser asegurado en esta situación?",
+    "options": {
+      "A": "Confidencialidad, para proteger la información.",
+      "B": "Integridad, para asegurar la exactitud y completitud de la información y sus métodos de procesamiento.",
+      "C": "Disponibilidad, para garantizar el acceso a los datos."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Integridad tiene como propósito asegurar la exactitud, completitud y validez de la información y sus métodos de procesamiento. Busca evitar la modificación o alteración no autorizada de la información, ya sea intencional o accidental. Medidas como la validación de datos y el control de versiones son ejemplos para asegurar la Integridad."
+  },
+  {
+    "id": "q_si_096",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU depende en gran medida de su plataforma web para la publicación de licitaciones y la atención de trámites ciudadanos. Una falla en los servidores de la plataforma dejó el servicio inactivo por varias horas, impidiendo a los ciudadanos acceder a información crítica y realizar sus trámites. El equipo de TI está buscando soluciones que garanticen que la plataforma esté siempre operativa y accesible para los usuarios. \n\nEn el contexto de los principios fundamentales de la seguridad de la información, ¿qué principio se vio afectado por la interrupción del servicio y busca ser garantizado para que los usuarios autorizados tengan acceso a los recursos cuando los necesiten?",
+    "question": "¿Qué principio fundamental de la seguridad de la información se vio afectado y busca ser garantizado en esta situación?",
+    "options": {
+      "A": "Confidencialidad, para proteger los datos de los usuarios.",
+      "B": "Integridad, para asegurar la exactitud de los trámites.",
+      "C": "Disponibilidad, para garantizar que los usuarios autorizados tengan acceso a la información y recursos cuando los necesiten."
+    },
+    "correctAnswer": "C",
+    "explanation": "La Disponibilidad tiene como propósito garantizar que los usuarios autorizados tengan acceso a la información y recursos cuando los necesiten. Busca asegurar que los sistemas y los datos estén operativos y accesibles en el momento requerido. La interrupción del servicio afecta directamente la Disponibilidad."
+  },
+  {
+    "id": "q_si_097",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está en proceso de obtener la certificación ISO 27001 para su Sistema de Gestión de la Seguridad de la Información (SGSI). Esto implica una auditoría externa para verificar que la entidad ha establecido, implementado, mantenido y mejorado continuamente su SGSI, gestionando la seguridad de sus activos de información de manera sistemática. \n\n¿Qué beneficio principal busca obtener el IDU al implementar y certificar su SGSI bajo la norma ISO 27001?",
+    "question": "¿Qué beneficio principal busca el IDU al certificar su SGSI bajo ISO 27001?",
+    "options": {
+      "A": "Reducir la complejidad de la infraestructura de red sin enfoque en la seguridad.",
+      "B": "Demostrar un compromiso sistemático con la seguridad de la información y gestionar los riesgos de sus activos de información.",
+      "C": "Eliminar por completo todos los riesgos de seguridad en sus sistemas."
+    },
+    "correctAnswer": "B",
+    "explanation": "ISO 27001 especifica los requisitos para un SGSI que ayuda a las organizaciones a gestionar la seguridad de sus activos de información y a reducir los riesgos. Obtener la certificación demuestra un compromiso sistemático con la seguridad de la información."
+  },
+  {
+    "id": "q_si_098",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU maneja una gran cantidad de datos personales de ciudadanos, incluyendo sus nombres, números de identificación, direcciones y datos bancarios para el pago de indemnizaciones por expropiación. Un ciudadano solicita conocer qué información tiene el IDU sobre él y con qué finalidad. \n\n¿Qué ley colombiana le otorga al ciudadano el derecho a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre él en bases de datos o archivos, y es aplicable a esta situación?",
+    "question": "¿Qué ley colombiana es aplicable a la solicitud del ciudadano para conocer sus datos personales?",
+    "options": {
+      "A": "Ley 80 de 1993 (Estatuto General de Contratación Pública).",
+      "B": "Ley 1581 de 2012 (Protección de Datos Personales o Habeas Data).",
+      "C": "Ley 1712 de 2014 (Ley de Transparencia y del Derecho de Acceso a la Información Pública Nacional)."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Ley 1581 de 2012 es el régimen general de protección de datos personales en Colombia y tiene por objeto desarrollar el derecho constitucional de Habeas Data, que permite a las personas conocer, actualizar y rectificar sus datos."
+  },
+  {
+    "id": "q_si_099",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está desarrollando un nuevo sistema de información para la gestión de proyectos de alto impacto. Dentro de este sistema, se almacenará información de diferentes niveles de sensibilidad: desde datos públicos sobre la ejecución de obras hasta información altamente confidencial sobre diseños estratégicos y presupuestos reservados. \n\n¿Qué proceso de seguridad de la información se debe aplicar a esta información para protegerla de acuerdo con su nivel de sensibilidad y criticidad, asignándole controles de seguridad acordes?",
+    "question": "¿Qué proceso de seguridad de la información se debe aplicar para proteger la información según su nivel de sensibilidad?",
+    "options": {
+      "A": "Gestión de Incidentes de Seguridad.",
+      "B": "Clasificación de la Información.",
+      "C": "Auditoría de Sistemas."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Clasificación de la Información tiene como propósito proteger la información de acuerdo con su nivel de sensibilidad y criticidad para la organización. Consiste en asignar una etiqueta o nivel de seguridad a la información basándose en el impacto que su divulgación, modificación o indisponibilidad no autorizada podría tener."
+  },
+  {
+    "id": "q_si_100",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El equipo de seguridad de TI del IDU ha detectado una anomalía en uno de los servidores críticos que podría indicar un intento de acceso no autorizado, aunque aún no se ha confirmado una intrusión. La situación requiere una respuesta rápida para minimizar cualquier impacto potencial y restaurar la operación normal del sistema. \n\n¿Qué proceso de seguridad de la información es el encargado de responder a estos eventos o incidentes de seguridad para minimizar su impacto y restaurar las operaciones normales?",
+    "question": "¿Qué proceso de seguridad es el encargado de responder a eventos o incidentes para minimizar su impacto?",
+    "options": {
+      "A": "Planificación de Continuidad del Negocio (BCP).",
+      "B": "Gestión de Incidentes de Seguridad.",
+      "C": "Análisis Forense Digital."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Gestión de Incidentes de Seguridad es el proceso de responder a los eventos de seguridad o incidentes de seguridad (eventos que comprometen la Confidencialidad, Integridad o Disponibilidad). Su objetivo es minimizar el impacto de un incidente y restaurar las operaciones normales lo antes posible."
+  },
+  {
+    "id": "q_si_101",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está implementando un Sistema de Gestión de la Seguridad de la Información (SGSI) basado en ISO 27001. Una de las fases clave de este proceso implica la evaluación sistemática de los riesgos de seguridad a los que están expuestos los activos de información de la entidad, para luego tratarlos adecuadamente. \n\n¿Cuál es una de las fases clave de un SGSI basado en ISO 27001 que se enfoca en la identificación y evaluación de los riesgos de seguridad?",
+    "options": {
+      "A": "Implementación de controles sin evaluación previa.",
+      "B": "Auditoría externa de cumplimiento.",
+      "C": "Evaluación sistemática de los riesgos de seguridad."
+    },
+    "correctAnswer": "C",
+    "explanation": "Un SGSI basado en ISO 27001 incluye una fase de evaluación sistemática de los riesgos de seguridad a los que están expuestos los activos de información."
+  },
+  {
+    "id": "q_si_102",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "Un ciudadano ha detectado un error en su dirección de residencia registrada en la base de datos del IDU y solicita que se corrija. La Ley 1581 de 2012 establece un derecho específico para el titular de la información en estos casos. \n\n¿Qué derecho de los titulares de la información, según la Ley 1581 de 2012 (Habeas Data), le permite al ciudadano solicitar la corrección de datos inexactos?",
+    "options": {
+      "A": "Derecho de Acceso.",
+      "B": "Derecho de Rectificación.",
+      "C": "Derecho de Supresión."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Ley 1581 de 2012 otorga a los titulares de la información el derecho a rectificar los datos inexactos, entre otros derechos ARCO (Acceso, Rectificación, Cancelación u Oposición)."
+  },
+  {
+    "id": "q_si_103",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU maneja información de contratos que debe ser accesible solo para el equipo legal y de contratación, y no para el público general. Además, tiene documentos estratégicos de la dirección que deben tener la máxima protección. \n\n¿Qué criterio principal se utiliza en la clasificación de la información para asignar un nivel de seguridad que proteja contra la divulgación no autorizada de datos sensibles?",
+    "question": "¿Qué criterio principal se usa en la clasificación de la información para protegerla de la divulgación no autorizada?",
+    "options": {
+      "A": "Disponibilidad.",
+      "B": "Confidencialidad.",
+      "C": "Integridad."
+    },
+    "correctAnswer": "B",
+    "explanation": "Los criterios de clasificación de la información se basan en el impacto en la Confidencialidad, Integridad y Disponibilidad. La Confidencialidad se enfoca en proteger la información del acceso y divulgación no autorizados."
+  },
+  {
+    "id": "q_si_104",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "Después de un incidente de seguridad en el IDU (ej., un ataque de malware), el equipo de respuesta a incidentes debe realizar una serie de fases para contener el problema, eliminar la causa raíz, restaurar los sistemas y aprender del evento. \n\n¿Cuál es la primera fase del proceso de Gestión de Incidentes de Seguridad que implica establecer políticas, equipos y procedimientos antes de que ocurra un incidente?",
+    "question": "¿Cuál es la primera fase del proceso de Gestión de Incidentes de Seguridad?",
+    "options": {
+      "A": "Identificación.",
+      "B": "Preparación.",
+      "C": "Contención."
+    },
+    "correctAnswer": "B",
+    "explanation": "Las fases del proceso de Gestión de Incidentes de Seguridad incluyen: Preparación (establecer políticas, equipos, herramientas antes del incidente), Identificación, Contención, Erradicación, Recuperación, y Actividad Post-Incidente."
+  },
+  {
+    "id": "q_si_105",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está buscando mejorar la confianza en sus servicios digitales, asegurando que la información intercambiada no sea alterada sin autorización, y que los documentos electrónicos tengan validez legal. Para ello, se está evaluando el uso de firmas digitales y sumas de verificación. \n\nEn el contexto de los principios fundamentales de la seguridad de la información, ¿qué principio se está fortaleciendo directamente con estas medidas de protección contra la modificación o alteración no autorizada?",
+    "question": "¿Qué principio fundamental de la seguridad de la información se fortalece directamente con el uso de firmas digitales y sumas de verificación?",
+    "options": {
+      "A": "Confidencialidad.",
+      "B": "Integridad.",
+      "C": "Disponibilidad."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Integridad tiene como propósito asegurar la exactitud, completitud y validez de la información. Métodos como sumas de verificación (checksums) y firmas digitales son medidas directas para proteger la información de la modificación o alteración no autorizada."
+  },
+  {
+    "id": "q_si_106",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU necesita asegurar que sus sistemas de información críticos (ej., plataforma de licitaciones, sistema de gestión de obras) estén operativos y accesibles en todo momento para los usuarios autorizados, incluso ante fallas de hardware o desastres naturales. Para ello, se invierte en redundancia de servidores y en un plan de recuperación ante desastres. \n\nEn el contexto de los principios fundamentales de la seguridad de la información, ¿qué principio se busca garantizar con estas medidas de redundancia y recuperación ante desastres?",
+    "question": "¿Qué principio fundamental de la seguridad de la información se busca garantizar con medidas de redundancia y recuperación ante desastres?",
+    "options": {
+      "A": "Confidencialidad.",
+      "B": "Integridad.",
+      "C": "Disponibilidad."
+    },
+    "correctAnswer": "C",
+    "explanation": "La Disponibilidad tiene como propósito garantizar que los usuarios autorizados tengan acceso a la información y recursos cuando los necesiten. Métodos como la redundancia de sistemas y los planes de recuperación ante desastres (DRP) son medidas directas para asegurar la Disponibilidad."
+  },
+  {
+    "id": "q_si_107",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está fortaleciendo su Sistema de Gestión de la Seguridad de la Información (SGSI) basado en ISO 27001. Una parte clave de este proceso implica la implementación de controles adecuados para mitigar los riesgos identificados. Posteriormente, se debe realizar un seguimiento para asegurar la mejora continua del SGSI. \n\n¿Qué ciclo de mejora continua es la base de un SGSI implementado bajo la norma ISO 27001?",
+    "question": "¿Qué ciclo de mejora continua es la base de un SGSI implementado bajo ISO 27001?",
+    "options": {
+      "A": "Ciclo de Deming (PDCA - Plan-Do-Check-Act).",
+      "B": "Ciclo de Vida en Cascada.",
+      "C": "Ciclo de Desarrollo Ágil."
+    },
+    "correctAnswer": "A",
+    "explanation": "El SGSI se basa en el ciclo de mejora continua PDCA (Plan-Do-Check-Act) para la mejora continua."
+  },
+  {
+    "id": "q_si_108",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU ha recibido una solicitud de un ciudadano para eliminar todos sus datos personales de la base de datos de beneficiarios de un proyecto, ya que ha revocado su autorización para el tratamiento de su información. La entidad debe responder a esta solicitud según lo establecido por la ley. \n\n¿Qué derecho de los titulares de la información, según la Ley 1581 de 2012 (Habeas Data), le permite al ciudadano solicitar la eliminación de sus datos personales?",
+    "question": "¿Qué derecho de la Ley 1581 de 2012 permite al ciudadano solicitar la eliminación de sus datos?",
+    "options": {
+      "A": "Derecho de Acceso.",
+      "B": "Derecho de Rectificación.",
+      "C": "Derecho de Supresión."
+    },
+    "correctAnswer": "C",
+    "explanation": "La Ley 1581 de 2012 otorga a los titulares de la información el derecho a solicitar la eliminación (supresión) de sus datos o revocar la autorización de Tratamiento, salvo excepciones legales."
+  },
+  {
+    "id": "q_si_109",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU maneja información estratégica de la Dirección que, de ser divulgada sin autorización, podría causar un daño grave e irreversible a la entidad. Esta información tiene la máxima sensibilidad. \n\n¿Qué categoría de clasificación de la información, en el contexto de seguridad, se asigna a la información de máxima sensibilidad cuya divulgación no autorizada podría causar un daño grave e irreversible?",
+    "question": "¿Qué categoría de clasificación se asigna a la información de máxima sensibilidad?",
+    "options": {
+      "A": "Interna.",
+      "B": "Confidencial.",
+      "C": "Secreta/Reservada."
+    },
+    "correctAnswer": "C",
+    "explanation": "La clasificación de la información asigna niveles de seguridad. 'Secreta/Reservada' es la categoría de máxima sensibilidad, cuya divulgación podría causar un daño grave e irreversible."
+  },
+  {
+    "id": "q_si_110",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "Un equipo de TI del IDU ha identificado un ataque de phishing exitoso que ha comprometido las credenciales de varios servidores públicos, lo que representa un incidente de seguridad grave. El equipo debe responder de manera estructurada para minimizar el daño. \n\n¿Cuál es la primera fase del proceso de Gestión de Incidentes de Seguridad que se debe llevar a cabo inmediatamente después de identificar un incidente?",
+    "question": "¿Cuál es la primera fase del proceso de Gestión de Incidentes de Seguridad después de su identificación?",
+    "options": {
+      "A": "Preparación.",
+      "B": "Contención.",
+      "C": "Recuperación."
+    },
+    "correctAnswer": "B",
+    "explanation": "Las fases del proceso de Gestión de Incidentes de Seguridad son: Preparación, Identificación, Contención (limitar el alcance y el impacto del incidente), Erradicación, Recuperación, y Actividad Post-Incidente. Después de identificar, la prioridad es contener."
+  },
+  {
+    "id": "q_si_111",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está evaluando la implementación de una política de 'cero confianza' en el acceso a sus sistemas de información, donde ningún usuario o dispositivo es automáticamente confiable, incluso dentro de la red interna. Esta política busca fortalecer la protección contra el acceso no autorizado. \n\nEn el contexto de los principios fundamentales de la seguridad de la información, ¿qué principio se está fortaleciendo directamente con una política de 'cero confianza' en el acceso a la información?",
+    "question": "¿Qué principio fundamental de la seguridad de la información se fortalece con una política de 'cero confianza' en el acceso?",
+    "options": {
+      "A": "Integridad.",
+      "B": "Confidencialidad.",
+      "C": "Disponibilidad."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Confidencialidad tiene como propósito proteger la información del acceso no autorizado. Una política de 'cero confianza' es una medida avanzada de control de acceso que refuerza directamente la Confidencialidad."
+  },
+  {
+    "id": "q_si_112",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU ha implementado un sistema de gestión de versiones para todos los documentos de proyectos y código fuente. Cada modificación a un documento o código genera un registro inmutable que permite rastrear quién hizo qué cambio, cuándo y por qué, y permite revertir a versiones anteriores si es necesario. \n\nEn el contexto de los principios fundamentales de la seguridad de la información, ¿qué principio se está fortaleciendo directamente con la implementación de un sistema de gestión de versiones?",
+    "question": "¿Qué principio fundamental de la seguridad de la información se fortalece directamente con un sistema de gestión de versiones?",
+    "options": {
+      "A": "Confidencialidad.",
+      "B": "Integridad.",
+      "C": "Disponibilidad."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Integridad tiene como propósito asegurar la exactitud, completitud y validez de la información. Métodos como el control de versiones y los logs de auditoría son medidas directas para proteger la información de la modificación o alteración no autorizada y asegurar su Integridad."
+  },
+  {
+    "id": "q_si_113",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está planificando la continuidad de sus operaciones críticas en caso de un desastre mayor que afecte su centro de datos principal. Para ello, se está diseñando un plan de recuperación que incluye la activación de un sitio alterno y la restauración de sistemas desde las copias de seguridad. \n\nEn el contexto de los principios fundamentales de la seguridad de la información, ¿qué principio se busca garantizar con la implementación de un plan de recuperación ante desastres y un sitio alterno?",
+    "question": "¿Qué principio fundamental de la seguridad de la información se busca garantizar con un plan de recuperación ante desastres y un sitio alterno?",
+    "options": {
+      "A": "Confidencialidad.",
+      "B": "Integridad.",
+      "C": "Disponibilidad."
+    },
+    "correctAnswer": "C",
+    "explanation": "La Disponibilidad tiene como propósito garantizar que los usuarios autorizados tengan acceso a la información y recursos cuando los necesiten. Métodos como las copias de seguridad (backups) y los planes de recuperación ante desastres (DRP) con sitios alternos son medidas directas para asegurar la Disponibilidad."
+  },
+  {
+    "id": "q_si_114",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU busca establecer un marco sistemático para gestionar la seguridad de sus activos de información, reducir los riesgos y asegurar la mejora continua en sus procesos de seguridad. Para ello, ha decidido adoptar un estándar internacional reconocido. \n\n¿Qué estándar internacional especifica los requisitos para establecer, implementar, mantener y mejorar continuamente un Sistema de Gestión de la Seguridad de la Información (SGSI) en una organización?",
+    "question": "¿Qué estándar internacional especifica los requisitos para un SGSI?",
+    "options": {
+      "A": "ISO 9001 (Gestión de Calidad).",
+      "B": "ISO 27001 (Sistemas de Gestión de la Seguridad de la Información).",
+      "C": "ISO 14001 (Gestión Ambiental)."
+    },
+    "correctAnswer": "B",
+    "explanation": "ISO 27001 es un estándar internacional que especifica los requisitos para establecer, implementar, mantener y mejorar continuamente un Sistema de Gestión de la Seguridad de la Información (SGSI)."
+  },
+  {
+    "id": "q_si_115",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU ha implementado una política de protección de datos personales en línea con la Ley 1581 de 2012. Un ciudadano solicita conocer si sus datos personales están siendo tratados por la entidad y, en caso afirmativo, cuál es la finalidad de dicho tratamiento. \n\n¿Qué derecho de los titulares de la información, según la Ley 1581 de 2012 (Habeas Data), le permite al ciudadano acceder y conocer la información sobre el tratamiento de sus datos personales?",
+    "question": "¿Qué derecho de la Ley 1581 de 2012 permite al ciudadano acceder y conocer el tratamiento de sus datos?",
+    "options": {
+      "A": "Derecho de Rectificación.",
+      "B": "Derecho de Acceso.",
+      "C": "Derecho de Supresión."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Ley 1581 de 2012 otorga a los titulares de la información el derecho a conocer (acceder) sus datos personales y a saber sobre el tratamiento que se les da."
+  },
+  {
+    "id": "q_si_116",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU maneja información de contratos y proyectos que se clasifica según su nivel de confidencialidad. Los datos públicos de los proyectos se pueden divulgar libremente, mientras que los detalles financieros de los contratos se consideran confidenciales y los planos de seguridad de infraestructuras críticas son de máxima sensibilidad. \n\n¿Qué criterio principal de clasificación de la información se utiliza para determinar el nivel de protección requerido para evitar que la información sea divulgada o accedida por personas no autorizadas?",
+    "question": "¿Qué criterio principal de clasificación se usa para proteger la información de la divulgación o acceso no autorizado?",
+    "options": {
+      "A": "Integridad.",
+      "B": "Disponibilidad.",
+      "C": "Confidencialidad."
+    },
+    "correctAnswer": "C",
+    "explanation": "La Clasificación de la Información se basa en el impacto en la Confidencialidad, Integridad y Disponibilidad. La Confidencialidad se enfoca en proteger la información del acceso y divulgación no autorizados, siendo el criterio principal para determinar el nivel de protección contra la divulgación."
+  },
+  {
+    "id": "q_si_117",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "Después de identificar una posible brecha de seguridad en los sistemas del IDU, el equipo de respuesta a incidentes debe tomar medidas rápidas para limitar el alcance del daño y evitar que el incidente se propague o cause mayores pérdidas. Esto implica aislar los sistemas afectados y bloquear el acceso no autorizado. \n\n¿Cuál es la fase del proceso de Gestión de Incidentes de Seguridad que se enfoca en limitar el alcance y el impacto del incidente?",
+    "question": "¿Cuál es la fase del proceso de Gestión de Incidentes de Seguridad que limita el alcance y el impacto del incidente?",
+    "options": {
+      "A": "Identificación.",
+      "B": "Contención.",
+      "C": "Erradicación."
+    },
+    "correctAnswer": "B",
+    "explanation": "Las fases del proceso de Gestión de Incidentes de Seguridad incluyen: Preparación, Identificación, Contención (limitar el alcance y el impacto del incidente), Erradicación, Recuperación, y Actividad Post-Incidente."
+  },
+  {
+    "id": "q_si_118",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está planificando la recuperación de sus sistemas de información después de un ciberataque masivo. El equipo de TI necesita asegurar que los datos restaurados sean exactos y completos, y que no hayan sido alterados durante el ataque o el proceso de recuperación. Para ello, utilizarán sumas de verificación y logs de auditoría. \n\nEn el contexto de los principios fundamentales de la seguridad de la información, ¿qué principio se busca asegurar con la implementación de estas medidas para verificar la exactitud y completitud de los datos recuperados?",
+    "question": "¿Qué principio fundamental de la seguridad de la información se busca asegurar con medidas para verificar la exactitud y completitud de los datos recuperados?",
+    "options": {
+      "A": "Confidencialidad.",
+      "B": "Integridad.",
+      "C": "Disponibilidad."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Integridad tiene como propósito asegurar la exactitud, completitud y validez de la información. Métodos como sumas de verificación y el uso de logs de auditoría para verificar la no alteración son medidas directas para proteger y verificar la Integridad."
+  },
+  {
+    "id": "q_si_119",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU está diseñando una arquitectura de alta disponibilidad para su plataforma de trámites en línea, utilizando balanceadores de carga y servidores en clúster. El objetivo es que la plataforma permanezca operativa y accesible para los ciudadanos en todo momento, minimizando el tiempo de inactividad por fallas de hardware o software. \n\nEn el contexto de los principios fundamentales de la seguridad de la información, ¿qué principio se busca garantizar con la implementación de arquitecturas de alta disponibilidad y redundancia de sistemas?",
+    "question": "¿Qué principio fundamental de la seguridad de la información se busca garantizar con arquitecturas de alta disponibilidad y redundancia?",
+    "options": {
+      "A": "Confidencialidad.",
+      "B": "Integridad.",
+      "C": "Disponibilidad."
+    },
+    "correctAnswer": "C",
+    "explanation": "La Disponibilidad tiene como propósito garantizar que los usuarios autorizados tengan acceso a la información y recursos cuando los necesiten. Métodos como la redundancia de sistemas y la alta disponibilidad (clusters, balanceadores de carga) son medidas directas para asegurar la Disponibilidad."
+  },
+  {
+    "id": "q_si_120",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU ha implementado un Sistema de Gestión de la Seguridad de la Información (SGSI) basado en ISO 27001. Una parte esencial de este SGSI es la mejora continua, que se logra mediante la revisión periódica del desempeño del sistema y la identificación de oportunidades para optimizar los controles de seguridad. \n\n¿Qué fase del ciclo de mejora continua (PDCA) de un SGSI basado en ISO 27001 implica la revisión periódica del desempeño del sistema para identificar oportunidades de mejora?",
+    "options": {
+      "A": "Plan (Planificar).",
+      "B": "Do (Hacer).",
+      "C": "Check (Verificar)."
+    },
+    "correctAnswer": "C",
+    "explanation": "El SGSI se basa en el ciclo de mejora continua PDCA (Plan-Do-Check-Act). La fase 'Check' (Verificar) implica la revisión periódica del desempeño del sistema y la identificación de oportunidades de mejora."
+  },
+  {
+    "id": "q_si_121",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU, como Responsable del Tratamiento de datos personales, tiene la obligación de solicitar y conservar la autorización del titular de la información antes de recolectar y tratar sus datos. Esta es una de las obligaciones clave establecidas por la Ley 1581 de 2012. \n\n¿Qué obligación fundamental tienen los Responsables del Tratamiento de datos personales, según la Ley 1581 de 2012 (Habeas Data), relacionada con la recolección de información?",
+    "question": "¿Qué obligación fundamental tienen los Responsables del Tratamiento de datos personales según la Ley 1581 de 2012?",
+    "options": {
+      "A": "Publicar todos los datos personales en la página web institucional.",
+      "B": "Solicitar y conservar copia de la autorización del titular de la información antes de recolectar y tratar sus datos.",
+      "C": "Utilizar los datos personales para cualquier fin comercial sin previo aviso."
+    },
+    "correctAnswer": "B",
+    "explanation": "Una de las obligaciones de los Responsables del Tratamiento de datos personales, según la Ley 1581 de 2012, es solicitar y conservar copia de la autorización del titular."
+  },
+  {
+    "id": "q_si_122",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "El IDU ha implementado una política de clasificación de la información. Un documento que contiene los detalles de la nómina de todos los servidores públicos se considera de acceso muy restringido, solo para el área de Talento Humano y la Dirección. \n\n¿Qué categoría de clasificación de la información, en el contexto de seguridad, se asignaría a la nómina de servidores públicos, dado su acceso limitado a un grupo específico de personas dentro de la entidad?",
+    "question": "¿Qué categoría de clasificación se asignaría a la nómina de servidores públicos?",
+    "options": {
+      "A": "Pública.",
+      "B": "Interna.",
+      "C": "Restringida."
+    },
+    "correctAnswer": "C",
+    "explanation": "La clasificación de la información asigna niveles de seguridad. 'Restringida' se refiere a información cuyo acceso está limitado a un grupo específico de personas dentro de la entidad."
+  },
+  {
+    "id": "q_si_123",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "hard",
+    "case": "Un incidente de seguridad en el IDU ha sido contenido y la causa raíz ha sido eliminada. Ahora, el equipo de respuesta a incidentes debe restaurar los sistemas y datos afectados a su estado normal de operación. Esto puede implicar la restauración desde copias de seguridad y la verificación de la funcionalidad. \n\n¿Cuál es la fase del proceso de Gestión de Incidentes de Seguridad que se enfoca en restaurar los sistemas y datos a su estado normal de operación?",
+    "question": "¿Cuál es la fase del proceso de Gestión de Incidentes de Seguridad que restaura los sistemas a su operación normal?",
+    "options": {
+      "A": "Contención.",
+      "B": "Erradicación.",
+      "C": "Recuperación."
+    },
+    "correctAnswer": "C",
+    "explanation": "Las fases del proceso de Gestión de Incidentes de Seguridad incluyen: Preparación, Identificación, Contención, Erradicación, Recuperación (restaurar los sistemas y datos a su estado normal de operación), y Actividad Post-Incidente."
+  },
+  
+  {
+    "id": "q_si_124",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "El IDU está implementando un sistema de gestión de archivos para planos de proyectos urbanísticos. Es crucial que solo los ingenieros y arquitectos autorizados puedan acceder a ciertos planos detallados, mientras que otros planos de divulgación pública pueden ser consultados por cualquier ciudadano. \n\nEn el contexto de los principios fundamentales de la seguridad de la información, ¿qué principio se está protegiendo al controlar quién puede acceder a los planos detallados?",
+    "question": "¿Qué principio fundamental de la seguridad de la información se protege al controlar el acceso a planos detallados?",
+    "options": {
+      "A": "Integridad.",
+      "B": "Confidencialidad.",
+      "C": "Disponibilidad."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Confidencialidad tiene como propósito proteger la información del acceso no autorizado. Limitar quién puede ver la información (como planos detallados) es una medida directa para asegurar la Confidencialidad."
+  },
+  {
+    "id": "q_si_125",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "El equipo de TI del IDU ha implementado sumas de verificación (checksums) en todos los documentos legales digitalizados para los contratos de obra. El propósito es asegurar que estos documentos no sean alterados inadvertidamente o por algún error del sistema después de su digitalización. \n\nEn el contexto de los principios fundamentales de la seguridad de la información, ¿qué principio se está fortaleciendo directamente con el uso de sumas de verificación para documentos legales?",
+    "question": "¿Qué principio fundamental de la seguridad de la información se fortalece con el uso de sumas de verificación?",
+    "options": {
+      "A": "Confidencialidad.",
+      "B": "Integridad.",
+      "C": "Disponibilidad."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Integridad tiene como propósito asegurar la exactitud, completitud y validez de la información y sus métodos de procesamiento. Las sumas de verificación son un método para detectar modificaciones no autorizadas."
+  },
+  {
+    "id": "q_si_126",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "El IDU ha implementado un sistema de respaldo diario de todas sus bases de datos críticas para proyectos y finanzas. El objetivo es que, en caso de una falla del sistema principal, la información pueda ser recuperada y los servicios vuelvan a estar operativos en el menor tiempo posible. \n\nEn el contexto de los principios fundamentales de la seguridad de la información, ¿qué principio se está garantizando directamente con la implementación de respaldos (backups)?",
+    "question": "¿Qué principio fundamental de la seguridad de la información se garantiza con la implementación de respaldos (backups)?",
+    "options": {
+      "A": "Confidencialidad.",
+      "B": "Integridad.",
+      "C": "Disponibilidad."
+    },
+    "correctAnswer": "C",
+    "explanation": "La Disponibilidad tiene como propósito garantizar que los usuarios autorizados tengan acceso a la información y recursos cuando los necesiten. Las copias de seguridad (backups) y los planes de recuperación ante desastres son métodos para asegurar la Disponibilidad."
+  },
+  {
+    "id": "q_si_127",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "El IDU desea establecer un Sistema de Gestión de la Seguridad de la Información (SGSI) que le permita gestionar de manera sistemática los riesgos de seguridad y cumplir con los requisitos de un estándar internacional reconocido. \n\n¿Qué norma internacional específica los requisitos para establecer, implementar, mantener y mejorar continuamente un Sistema de Gestión de la Seguridad de la Información (SGSI)?",
+    "question": "¿Qué norma internacional específica los requisitos para un SGSI?",
+    "options": {
+      "A": "ISO 9001.",
+      "B": "ISO 27001.",
+      "C": "ISO 14001."
+    },
+    "correctAnswer": "B",
+    "explanation": "ISO 27001 es un estándar internacional que especifica los requisitos para establecer, implementar, mantener y mejorar continuamente un Sistema de Gestión de la Seguridad de la Información (SGSI)."
+  },
+  {
+    "id": "q_si_128",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "El IDU, como entidad pública que maneja datos personales de ciudadanos, debe cumplir con la Ley 1581 de 2012. Esto implica que, antes de recolectar cualquier dato personal, debe solicitar una autorización explícita al titular de la información. \n\n¿Cuál es uno de los principios fundamentales para el Tratamiento de Datos Personales, según la Ley 1581 de 2012, que exige la autorización previa del titular?",
+    "question": "¿Qué principio de la Ley 1581 de 2012 exige la autorización previa del titular para el Tratamiento de Datos Personales?",
+    "options": {
+      "A": "Principio de Veracidad o Calidad.",
+      "B": "Principio de Libertad (o Autorización).",
+      "C": "Principio de Seguridad."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Ley 1581 de 2012 establece el Principio de Libertad, que implica que el tratamiento de datos personales solo puede hacerse con el consentimiento previo, expreso e informado del titular."
+  },
+  {
+    "id": "q_si_129",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "El IDU maneja varios tipos de información, desde informes públicos de gestión hasta datos internos de personal y planes estratégicos sensibles. Para asegurar una protección adecuada, la información debe ser categorizada según su nivel de impacto si su Confidencialidad, Integridad o Disponibilidad se vieran comprometidas. \n\n¿Qué proceso de seguridad de la información se utiliza para asignar una etiqueta o nivel de seguridad a la información basándose en el impacto de su divulgación, modificación o indisponibilidad no autorizada?",
+    "question": "¿Qué proceso de seguridad se usa para asignar un nivel de seguridad a la información según su impacto?",
+    "options": {
+      "A": "Gestión de Riesgos.",
+      "B": "Auditoría de Seguridad.",
+      "C": "Clasificación de la Información."
+    },
+    "correctAnswer": "C",
+    "explanation": "La Clasificación de la Información tiene como propósito proteger la información de acuerdo con su nivel de sensibilidad y criticidad. Consiste en asignar una etiqueta o nivel de seguridad a la información basándose en el impacto que su divulgación, modificación o indisponibilidad no autorizada podría tener."
+  },
+  {
+    "id": "q_si_130",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "El equipo de seguridad de TI del IDU ha detectado una actividad inusual en la red que podría ser un intento de ciberataque. El primer paso es confirmar si se trata de un evento malicioso y luego determinar su alcance y naturaleza para poder responder adecuadamente. \n\n¿Cuál es la fase del proceso de Gestión de Incidentes de Seguridad que se enfoca en detectar y validar que un incidente ha ocurrido?",
+    "question": "¿Cuál es la fase de Gestión de Incidentes de Seguridad que detecta y valida si un incidente ocurrió?",
+    "options": {
+      "A": "Preparación.",
+      "B": "Identificación.",
+      "C": "Contención."
+    },
+    "correctAnswer": "B",
+    "explanation": "Las fases del proceso de Gestión de Incidentes de Seguridad incluyen: Preparación, Identificación (detectar y validar que un incidente ha ocurrido), Contención, Erradicación, Recuperación, y Actividad Post-Incidente."
+  },
+  {
+    "id": "q_si_131",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "El IDU está implementando una política de acceso a la información que garantiza que los usuarios tengan los permisos mínimos necesarios para realizar sus funciones, y que estos permisos sean revisados periódicamente. \n\nEn el contexto de los principios fundamentales de la seguridad de la información, ¿qué principio se está fortaleciendo directamente con la implementación de un control de acceso basado en el 'mínimo privilegio'?",
+    "question": "¿Qué principio fundamental de la seguridad de la información se fortalece con un control de acceso basado en el 'mínimo privilegio'?",
+    "options": {
+      "A": "Integridad.",
+      "B": "Confidencialidad.",
+      "C": "Disponibilidad."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Confidencialidad tiene como propósito proteger la información del acceso no autorizado. El control de acceso, incluyendo el principio de mínimo privilegio (otorgar solo los permisos necesarios), es una medida clave para asegurar la Confidencialidad."
+  },
+  {
+    "id": "q_si_132",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "El IDU ha implementado firmas digitales en sus documentos oficiales y utiliza algoritmos de hash para verificar la autenticidad de los archivos descargados de su portal web. El objetivo es asegurar que la información no haya sido alterada desde su creación o publicación. \n\nEn el contexto de los principios fundamentales de la seguridad de la información, ¿qué principio se está fortaleciendo directamente con el uso de firmas digitales y algoritmos de hash?",
+    "question": "¿Qué principio fundamental de la seguridad de la información se fortalece con el uso de firmas digitales y algoritmos de hash?",
+    "options": {
+      "A": "Confidencialidad.",
+      "B": "Integridad.",
+      "C": "Disponibilidad."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Integridad tiene como propósito asegurar la exactitud, completitud y validez de la información. Métodos como sumas de verificación (checksums) y firmas digitales son medidas directas para proteger la información de la modificación o alteración no autorizada."
+  },
+  {
+    "id": "q_si_133",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "El IDU ha implementado un plan de continuidad del negocio que incluye un centro de datos alterno y acuerdos con proveedores de servicios de TI para asegurar la rápida recuperación de sus sistemas en caso de un desastre mayor que afecte sus instalaciones principales. \n\nEn el contexto de los principios fundamentales de la seguridad de la información, ¿qué principio se busca garantizar con un plan de continuidad del negocio y la provisión de un centro de datos alterno?",
+    "question": "¿Qué principio fundamental de la seguridad de la información se busca garantizar con un plan de continuidad del negocio y un centro de datos alterno?",
+    "options": {
+      "A": "Confidencialidad.",
+      "B": "Integridad.",
+      "C": "Disponibilidad."
+    },
+    "correctAnswer": "C",
+    "explanation": "La Disponibilidad tiene como propósito garantizar que los usuarios autorizados tengan acceso a la información y recursos cuando los necesiten. Métodos como los planes de continuidad del negocio y los sitios alternos para recuperación ante desastres son medidas directas para asegurar la Disponibilidad."
+  },
+  {
+    "id": "q_si_134",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "El IDU ha decidido establecer un SGSI certificado bajo ISO 27001 para gestionar la seguridad de la información de manera integral. El primer paso formal en el ciclo de mejora continua (PDCA) es la planificación. \n\n¿Cuál es la primera fase del ciclo de mejora continua (PDCA) de un SGSI basado en ISO 27001?",
+    "question": "¿Cuál es la primera fase del ciclo PDCA de un SGSI basado en ISO 27001?",
+    "options": {
+      "A": "Do (Hacer).",
+      "B": "Plan (Planificar).",
+      "C": "Check (Verificar)."
+    },
+    "correctAnswer": "B",
+    "explanation": "El SGSI se basa en el ciclo de mejora continua PDCA (Plan-Do-Check-Act). La primera fase es 'Plan' (Planificar), donde se establecen los objetivos y procesos necesarios."
+  },
+  {
+    "id": "q_si_135",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "Un ciudadano ha solicitado al IDU que actualice su número de teléfono en la base de datos de contacto de beneficiarios. La Ley 1581 de 2012 otorga a los titulares de la información el derecho a mantener sus datos correctos y al día. \n\n¿Qué derecho de los titulares de la información, según la Ley 1581 de 2012 (Habeas Data), le permite al ciudadano solicitar la actualización de su número de teléfono?",
+    "question": "¿Qué derecho de la Ley 1581 de 2012 permite al ciudadano solicitar la actualización de su número de teléfono?",
+    "options": {
+      "A": "Derecho de Rectificación.",
+      "B": "Derecho de Actualización.",
+      "C": "Derecho de Acceso."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Ley 1581 de 2012 otorga a los titulares de la información el derecho a actualizar su información, entre otros derechos ARCO (Acceso, Rectificación, Cancelación u Oposición)."
+  },
+  {
+    "id": "q_si_136",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "El IDU maneja información de contratos que es de uso exclusivo de los servidores públicos de la entidad y no debe ser divulgada al público en general. Sin embargo, no se considera altamente sensible como para causar un daño grave. \n\n¿Qué categoría de clasificación de la información, en el contexto de seguridad, se asigna a la información para uso exclusivo de la entidad?",
+    "question": "¿Qué categoría de clasificación se asigna a la información para uso exclusivo de la entidad?",
+    "options": {
+      "A": "Pública.",
+      "B": "Interna.",
+      "C": "Confidencial."
+    },
+    "correctAnswer": "B",
+    "explanation": "La clasificación de la información asigna niveles de seguridad. 'Interna' se refiere a información para uso exclusivo de la entidad, que no es de divulgación pública."
+  },
+  {
+    "id": "q_si_137",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "Después de contener y erradicar la causa raíz de un incidente de seguridad en el IDU, el equipo de respuesta debe analizar el incidente, identificar sus causas raíz, documentar las lecciones aprendidas y mejorar los controles y procedimientos para prevenir futuras ocurrencias. \n\n¿Cuál es la fase del proceso de Gestión de Incidentes de Seguridad que se enfoca en analizar el incidente, identificar causas raíz y mejorar los controles para prevenir futuras ocurrencias?",
+    "question": "¿Cuál es la fase del proceso de Gestión de Incidentes de Seguridad que analiza, identifica causas raíz y mejora controles?",
+    "options": {
+      "A": "Recuperación.",
+      "B": "Actividad Post-Incidente (Lecciones Aprendidas).",
+      "C": "Preparación."
+    },
+    "correctAnswer": "B",
+    "explanation": "Las fases del proceso de Gestión de Incidentes de Seguridad incluyen: Preparación, Identificación, Contención, Erradicación, Recuperación, y Actividad Post-Incidente (analizar el incidente, identificar causas raíz, mejorar los controles y actualizar los procedimientos para prevenir futuras ocurrencias)."
+  },
+  {
+    "id": "q_si_138",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "El IDU está planificando una política de seguridad que incluya el cifrado de comunicaciones y el control de acceso estricto a sus sistemas más críticos. El objetivo es que solo el personal autorizado pueda ver y acceder a la información y los recursos. \n\nEn el contexto de los principios fundamentales de la seguridad de la información, ¿qué principio se está protegiendo directamente con estas medidas que limitan el acceso a la información?",
+    "question": "¿Qué principio fundamental de la seguridad de la información se protege al limitar el acceso a la información?",
+    "options": {
+      "A": "Integridad.",
+      "B": "Confidencialidad.",
+      "C": "Disponibilidad."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Confidencialidad tiene como propósito proteger la información del acceso no autorizado. Métodos como el cifrado de comunicaciones y el control de acceso son medidas directas para fortalecer este principio."
+  },
+  {
+    "id": "q_si_139",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "El IDU ha implementado una política de validación de datos en todos los formularios de entrada de sus sistemas. Además, utiliza auditorías periódicas para verificar la exactitud de la información en sus bases de datos. \n\nEn el contexto de los principios fundamentales de la seguridad de la información, ¿qué principio se está fortaleciendo directamente con la validación de datos y las auditorías para verificar la exactitud?",
+    "question": "¿Qué principio fundamental de la seguridad de la información se fortalece con la validación de datos y auditorías de exactitud?",
+    "options": {
+      "A": "Confidencialidad.",
+      "B": "Integridad.",
+      "C": "Disponibilidad."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Integridad tiene como propósito asegurar la exactitud, completitud y validez de la información. Métodos como la validación de datos y las auditorías para verificar la exactitud son medidas directas para proteger y asegurar la Integridad."
+  },
+  {
+    "id": "q_si_140",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "El IDU busca que sus sistemas de información y los datos que manejan estén siempre operativos y accesibles para los usuarios autorizados. Para ello, se invierte en redundancia de servidores y en mantenimiento preventivo. \n\nEn el contexto de los principios fundamentales de la seguridad de la información, ¿qué principio se busca garantizar con la implementación de redundancia de servidores y mantenimiento preventivo?",
+    "question": "¿Qué principio fundamental de la seguridad de la información se busca garantizar con redundancia de servidores y mantenimiento preventivo?",
+    "options": {
+      "A": "Confidencialidad.",
+      "B": "Integridad.",
+      "C": "Disponibilidad."
+    },
+    "correctAnswer": "C",
+    "explanation": "La Disponibilidad tiene como propósito garantizar que los usuarios autorizados tengan acceso a la información y recursos cuando los necesiten. Métodos como la redundancia de sistemas y el mantenimiento preventivo son medidas directas para asegurar la Disponibilidad."
+  },
+  {
+    "id": "q_si_141",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "El IDU ha implementado un SGSI bajo la norma ISO 27001. Una parte crucial de este proceso implica la mejora continua del sistema a través de un ciclo de revisión y ajuste. \n\n¿Qué fase del ciclo de mejora continua (PDCA) de un SGSI basado en ISO 27001 implica la implementación de los controles y procesos planificados?",
+    "question": "¿Qué fase del ciclo PDCA de un SGSI implica la implementación de controles y procesos?",
+    "options": {
+      "A": "Plan (Planificar).",
+      "B": "Do (Hacer).",
+      "C": "Check (Verificar)."
+    },
+    "correctAnswer": "B",
+    "explanation": "El SGSI se basa en el ciclo de mejora continua PDCA (Plan-Do-Check-Act). La fase 'Do' (Hacer) implica la implementación de los controles y procesos planificados."
+  },
+  {
+    "id": "q_si_142",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "La Ley 1581 de 2012 establece una serie de principios para el Tratamiento de Datos Personales en Colombia. Uno de ellos garantiza que los datos sean veraces, completos, exactos, actualizados y comprensibles. \n\n¿Qué principio para el Tratamiento de Datos Personales, según la Ley 1581 de 2012, garantiza que los datos sean veraces, completos, exactos y actualizados?",
+    "question": "¿Qué principio de la Ley 1581 de 2012 garantiza la veracidad y calidad de los datos?",
+    "options": {
+      "A": "Principio de Finalidad.",
+      "B": "Principio de Veracidad o Calidad.",
+      "C": "Principio de Transparencia."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Ley 1581 de 2012 establece el Principio de Veracidad o Calidad, que exige que la información sujeta a Tratamiento sea veraz, completa, exacta, actualizada, comprobable y comprensible."
+  },
+  {
+    "id": "q_si_143",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "medium",
+    "case": "El IDU está planificando la clasificación de la información para sus sistemas. Los datos de acceso público, como los informes de gestión y los datos abiertos de proyectos, se consideran de menor riesgo en términos de confidencialidad si se divulgan. \n\n¿Qué categoría de clasificación de la información, en el contexto de seguridad, se asigna a la información que puede ser de conocimiento general?",
+    "question": "¿Qué categoría de clasificación se asigna a la información de conocimiento general?",
+    "options": {
+      "A": "Interna.",
+      "B": "Confidencial.",
+      "C": "Pública."
+    },
+    "correctAnswer": "C",
+    "explanation": "La clasificación de la información asigna niveles de seguridad. 'Pública' se refiere a información que puede ser de conocimiento general."
+  },
+
+  {
+    "id": "q_si_134",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "El IDU maneja datos sensibles de contratos que solo deben ser vistos por el personal autorizado. Para ello, se utilizan contraseñas y sistemas de permisos para limitar el acceso. \n",
+    "question": "¿Qué principio fundamental de la seguridad de la información se protege al asegurar que solo el personal autorizado acceda a la información?",
+    "options": {
+      "A": "Integridad",
+      "B": "Confidencialidad",
+      "C": "Disponibilidad"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Confidencialidad tiene como propósito proteger la información del acceso no autorizado."
+  },
+  {
+    "id": "q_si_135",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "El equipo de TI del IDU ha implementado un sistema de control de versiones para los documentos del proyecto, de modo que cualquier cambio pueda ser rastreado y, si es necesario, revertido. Esto asegura que la información no sea alterada sin registro. \n",
+    "question": "¿Qué principio fundamental de la seguridad de la información se protege al asegurar la exactitud y completitud de la información, evitando su alteración no autorizada?",
+    "options": {
+      "A": "Confidencialidad",
+      "B": "Integridad",
+      "C": "Disponibilidad"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Integridad tiene como propósito asegurar la exactitud y completitud de la información, evitando su modificación o alteración no autorizada."
+  },
+  {
+    "id": "q_si_136",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "El IDU cuenta con un plan de respaldo de información diario para todas sus bases de datos. Si un servidor falla, pueden restaurar los datos rápidamente para que los sistemas vuelvan a estar operativos. \n",
+    "question": "¿Qué principio fundamental de la seguridad de la información se protege al garantizar que los sistemas y datos estén operativos y accesibles cuando se necesiten?",
+    "options": {
+      "A": "Confidencialidad",
+      "B": "Integridad",
+      "C": "Disponibilidad"
+    },
+    "correctAnswer": "C",
+    "explanation": "La Disponibilidad tiene como propósito garantizar que los usuarios autorizados tengan acceso a la información y recursos cuando los necesiten."
+  },
+  {
+    "id": "q_si_137",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "El IDU desea implementar un Sistema de Gestión de la Seguridad de la Información (SGSI) para gestionar sus riesgos de seguridad de manera sistemática, siguiendo un estándar internacional reconocido. \n",
+    "question": "¿Qué norma internacional proporciona los requisitos para establecer un SGSI?",
+    "options": {
+      "A": "ISO 9001",
+      "B": "ISO 27001",
+      "C": "ISO 14001"
+    },
+    "correctAnswer": "B",
+    "explanation": "ISO 27001 es un estándar internacional que especifica los requisitos para establecer, implementar, mantener y mejorar continuamente un Sistema de Gestión de la Seguridad de la Información (SGSI)."
+  },
+  {
+    "id": "q_si_138",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "Un ciudadano le solicita al IDU que le muestre qué datos personales tiene la entidad sobre él y cómo los usa. La entidad debe responder a esta solicitud según la ley colombiana. \n",
+    "question": "¿Qué ley colombiana es la que desarrolla el derecho a conocer, actualizar y rectificar las informaciones recogidas en bases de datos (Habeas Data)?",
+    "options": {
+      "A": "Ley 80 de 1993",
+      "B": "Ley 1581 de 2012",
+      "C": "Ley 1150 de 2007"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Ley 1581 de 2012 es el régimen general de protección de datos personales en Colombia y tiene por objeto desarrollar el derecho constitucional de Habeas Data."
+  },
+  {
+    "id": "q_si_139",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "El IDU maneja información de diferentes niveles de sensibilidad, desde informes públicos hasta datos confidenciales. Para aplicar los controles de seguridad adecuados, la entidad debe categorizar esta información. \n",
+    "question": "¿Cómo se llama el proceso de seguridad que consiste en asignar un nivel de seguridad a la información según su sensibilidad y criticidad?",
+    "options": {
+      "A": "Auditoría de Seguridad",
+      "B": "Clasificación de la Información",
+      "C": "Monitoreo de Redes"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Clasificación de la Información tiene como propósito proteger la información de acuerdo con su nivel de sensibilidad y criticidad para la organización, asignando una etiqueta o nivel de seguridad."
+  },
+  {
+    "id": "q_si_140",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "El equipo de seguridad de TI del IDU ha detectado un posible intento de acceso no autorizado a un servidor. Deben actuar rápidamente para determinar si es un incidente y qué hacer al respecto. \n",
+    "question": "¿Cómo se llama el proceso de responder a los eventos o incidentes de seguridad para minimizar su impacto y restaurar las operaciones normales?",
+    "options": {
+      "A": "Gestión de Riesgos de TI",
+      "B": "Gestión de Incidentes de Seguridad",
+      "C": "Planificación Estratégica de TI"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Gestión de Incidentes de Seguridad es el proceso de responder a los eventos de seguridad o incidentes de seguridad para minimizar su impacto y restaurar las operaciones normales lo antes posible."
+  },
+  {
+    "id": "q_si_141",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "El IDU desea proteger la información sensible de acceso no autorizado. Para ello, implementa el uso de contraseñas fuertes y sistemas de autenticación de usuarios. \n",
+    "question": "¿Cuál de los siguientes es un principio fundamental de la seguridad de la información?",
+    "options": {
+      "A": "Usabilidad",
+      "B": "Confidencialidad",
+      "C": "Flexibilidad"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los principios fundamentales de la seguridad de la información son Confidencialidad, Integridad y Disponibilidad."
+  },
+  {
+    "id": "q_si_142",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "El equipo de TI del IDU verifica que todos los datos de los proyectos estén completos y exactos, utilizando validaciones en los sistemas para evitar errores. \n",
+    "question": "¿Cuál de los siguientes es un principio fundamental de la seguridad de la información relacionado con la exactitud y completitud de los datos?",
+    "options": {
+      "A": "Disponibilidad",
+      "B": "Integridad",
+      "C": "Confidencialidad"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los principios fundamentales de la seguridad de la información son Confidencialidad, Integridad y Disponibilidad. La Integridad asegura la exactitud y completitud de la información."
+  },
+  {
+    "id": "q_si_143",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "El IDU asegura que sus plataformas de trámites en línea estén siempre activas y accesibles para los ciudadanos, incluso en horarios de alta demanda. \n",
+    "question": "¿Cuál de los siguientes es un principio fundamental de la seguridad de la información que garantiza que los sistemas estén accesibles para los usuarios autorizados?",
+    "options": {
+      "A": "Confidencialidad",
+      "B": "Integridad",
+      "C": "Disponibilidad"
+    },
+    "correctAnswer": "C",
+    "explanation": "Los principios fundamentales de la seguridad de la información son Confidencialidad, Integridad y Disponibilidad. La Disponibilidad garantiza que los usuarios autorizados tengan acceso a la información y recursos cuando los necesiten."
+  },
+  {
+    "id": "q_si_144",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "El IDU está implementando un SGSI (Sistema de Gestión de la Seguridad de la Información) que busca la mejora continua. \n",
+    "question": "¿Qué ciclo de mejora continua es la base de un SGSI según la norma ISO 27001?",
+    "options": {
+      "A": "Ciclo de Vida en Cascada (Waterfall).",
+      "B": "Ciclo PDCA (Plan-Do-Check-Act).",
+      "C": "Ciclo Ágil (Agile)."
+    },
+    "correctAnswer": "B",
+    "explanation": "El SGSI se basa en el ciclo de mejora continua PDCA (Plan-Do-Check-Act) para la mejora continua."
+  },
+  {
+    "id": "q_si_145",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "La Ley 1581 de 2012 es el régimen general de protección de datos personales en Colombia. \n",
+    "question": "¿Cuál es el objetivo principal de la Ley 1581 de 2012?",
+    "options": {
+      "A": "Regular la contratación pública.",
+      "B": "Proteger los datos personales de las personas.",
+      "C": "Establecer las normas de ciberseguridad para infraestructuras críticas."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Ley 1581 de 2012 es el régimen general de protección de datos personales en Colombia."
+  },
+  {
+    "id": "q_si_146",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "El IDU maneja información de contratos que no debe ser divulgada al público, pero tampoco es extremadamente sensible. \n",
+    "question": "¿Qué categoría de clasificación de la información se asigna a la información cuyo acceso está limitado a un grupo específico de personas dentro de la entidad?",
+    "options": {
+      "A": "Pública",
+      "B": "Interna",
+      "C": "Restringida"
+    },
+    "correctAnswer": "C",
+    "explanation": "La clasificación de la información asigna niveles de seguridad. 'Restringida' se refiere a información cuyo acceso está limitado a un grupo específico de personas dentro de la entidad."
+  },
+  {
+    "id": "q_si_147",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "Después de un incidente de seguridad, el equipo de TI del IDU debe analizar lo sucedido, identificar las causas y aprender del evento para evitar futuras ocurrencias. \n",
+    "question": "¿Cómo se llama la última fase del proceso de Gestión de Incidentes de Seguridad, que busca aprender del evento para prevenir futuras ocurrencias?",
+    "options": {
+      "A": "Recuperación",
+      "B": "Contención",
+      "C": "Actividad Post-Incidente (Lecciones Aprendidas)"
+    },
+    "correctAnswer": "C",
+    "explanation": "La última fase del proceso de Gestión de Incidentes de Seguridad es la Actividad Post-Incidente (Lecciones Aprendidas), que busca analizar el incidente, identificar causas raíz, mejorar los controles y actualizar los procedimientos para prevenir futuras ocurrencias."
+  },
+  {
+    "id": "q_si_148",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "Los principios de la seguridad de la información se conocen como la 'Tríada CIA'. \n",
+    "question": "¿Qué significa la 'C' en la Tríada CIA de la seguridad de la información?",
+    "options": {
+      "A": "Costo",
+      "B": "Confidencialidad",
+      "C": "Control"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los principios fundamentales de la seguridad de la información se conocen como la Tríada CIA (Confidencialidad, Integridad y Disponibilidad)."
+  },
+  {
+    "id": "q_si_149",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "Los principios de la seguridad de la información se conocen como la 'Tríada CIA'. \n",
+    "question": "¿Qué significa la 'I' en la Tríada CIA de la seguridad de la información?",
+    "options": {
+      "A": "Interoperabilidad",
+      "B": "Integridad",
+      "C": "Información"
+    },
+    "correctAnswer": "B",
+    "explanation": "Los principios fundamentales de la seguridad de la información se conocen como la Tríada CIA (Confidencialidad, Integridad y Disponibilidad)."
+  },
+  {
+    "id": "q_si_150",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "Los principios de la seguridad de la información se conocen como la 'Tríada CIA'. \n",
+    "question": "¿Qué significa la 'A' en la Tríada CIA de la seguridad de la información?",
+    "options": {
+      "A": "Auditoría",
+      "B": "Acceso",
+      "C": "Disponibilidad"
+    },
+    "correctAnswer": "C",
+    "explanation": "Los principios fundamentales de la seguridad de la información se conocen como la Tríada CIA (Confidencialidad, Integridad y Disponibilidad)."
+  },
+  {
+    "id": "q_si_151",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "El IDU busca reducir los riesgos de seguridad en sus activos de información. \n",
+    "question": "¿Qué busca gestionar un Sistema de Gestión de la Seguridad de la Información (SGSI) según la norma ISO 27001?",
+    "options": {
+      "A": "Solo la calidad de los procesos.",
+      "B": "La seguridad de los activos de información y los riesgos.",
+      "C": "Únicamente la infraestructura de hardware."
+    },
+    "correctAnswer": "B",
+    "explanation": "ISO 27001 especifica los requisitos para establecer, implementar, mantener y mejorar continuamente un SGSI, el cual ayuda a gestionar la seguridad de sus activos de información y a reducir los riesgos."
+  },
+  {
+    "id": "q_si_152",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "La Ley 1581 de 2012 es la norma que protege los datos personales en Colombia. \n",
+    "question": "¿Cómo se conoce comúnmente a la Ley 1581 de 2012?",
+    "options": {
+      "A": "Ley de Contratación",
+      "B": "Ley de Habeas Data",
+      "C": "Ley de Transparencia"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Ley 1581 de 2012 se conoce comúnmente como la 'Ley de Habeas Data'."
+  },
+  {
+    "id": "q_si_153",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "El IDU tiene un plan de respuesta a incidentes de seguridad que incluye fases para minimizar el impacto. \n",
+    "question": "¿Cuál de las siguientes es una fase del proceso de Gestión de Incidentes de Seguridad?",
+    "options": {
+      "A": "Marketing",
+      "B": "Identificación",
+      "C": "Ventas"
+    },
+    "correctAnswer": "B",
+    "explanation": "Las fases del proceso de Gestión de Incidentes de Seguridad incluyen: Preparación, Identificación, Contención, Erradicación, Recuperación, y Actividad Post-Incidente."
+  },
+  {
+    "id": "q_si_154",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "El IDU maneja información que puede ser de conocimiento general y no requiere protección especial. \n",
+    "question": "¿Qué categoría de clasificación de la información se asigna a la información que puede ser de conocimiento general?",
+    "options": {
+      "A": "Confidencial",
+      "B": "Secreta",
+      "C": "Pública"
+    },
+    "correctAnswer": "C",
+    "explanation": "La clasificación de la información asigna niveles de seguridad. 'Pública' se refiere a información que puede ser de conocimiento general."
+  },
+  {
+    "id": "q_si_155",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "El IDU tiene un equipo de respuesta a incidentes para atender rápidamente las brechas de seguridad. \n",
+    "question": "¿Qué se busca minimizar con la Gestión de Incidentes de Seguridad?",
+    "options": {
+      "A": "Los costos de hardware.",
+      "B": "El impacto de un incidente de seguridad.",
+      "C": "El número de empleados."
+    },
+    "correctAnswer": "B",
+    "explanation": "La Gestión de Incidentes de Seguridad tiene como objetivo minimizar el impacto de un incidente y restaurar las operaciones normales lo antes posible."
+  },
+  {
+    "id": "q_si_156",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "El Gobierno de Colombia ha emitido guías para fortalecer la ciberseguridad en el sector público. \n",
+    "question": "¿Qué tipo de guías ha emitido el Gobierno de Colombia para fortalecer la ciberseguridad?",
+    "options": {
+      "A": "Guías de infraestructura de carreteras.",
+      "B": "Guías de ciberseguridad.",
+      "C": "Guías de gestión financiera."
+    },
+    "correctAnswer": "B",
+    "explanation": "El Gobierno de Colombia... ha emitido diversas guías y marcos para fortalecer la ciberseguridad en el sector público."
+  },
+  {
+    "id": "q_si_157",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "El IDU está planificando la recuperación de sus sistemas después de un fallo. \n",
+    "question": "¿Qué es la primera etapa en la Gestión de Incidentes de Seguridad según las fases (ej. NIST)?",
+    "options": {
+      "A": "Contención",
+      "B": "Recuperación",
+      "C": "Preparación"
+    },
+    "correctAnswer": "C",
+    "explanation": "Las fases del proceso de Gestión de Incidentes de Seguridad incluyen: Preparación, Identificación, Contención, Erradicación, Recuperación, y Actividad Post-Incidente."
+  },
+  {
+    "id": "q_si_158",
+    "topic_id": "funcionales-especificas",
+    "subtopic_id": "seguridad-informacion",
+    "type": "KNOWLEDGE",
+    "difficulty": "easy",
+    "case": "El IDU maneja datos personales de sus empleados. \n",
+    "question": "¿Qué derecho de los titulares de la información, según la Ley 1581 de 2012, permite a las personas conocer sus datos personales?",
+    "options": {
+      "A": "Derecho de Rectificación",
+      "B": "Derecho de Acceso",
+      "C": "Derecho de Supresión"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Ley 1581 de 2012 otorga a los titulares de la información el Derecho de Acceso para conocer sus datos personales."
   }
+
+
 
 
        
