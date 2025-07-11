@@ -640,6 +640,74 @@ function renderStudyModulesView() {
             }
         }
 
+ // Listener para el botón del simulacro específico de Aporte Técnico-Profesional
+        if (subtopic.id === 'comportamental-aporte-tecnico-profesional') {
+            const startAporteTecnicoProfesionalQuizBtn = document.getElementById('start-aporte-tecnico-profesional-quiz-btn');
+            if (startAporteTecnicoProfesionalQuizBtn) {
+                startAporteTecnicoProfesionalQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'comportamental-aporte-tecnico-profesional'; 
+                            alert('Selecciona "Aporte Técnico-Profesional" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Aporte Técnico-Profesional en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
+        }
+ // Listener para el botón del simulacro específico de Comunicación Efectiva
+        if (subtopic.id === 'comportamental-comunicacion-efectiva') {
+            const startComunicacionEfectivaQuizBtn = document.getElementById('start-comunicacion-efectiva-quiz-btn');
+            if (startComunicacionEfectivaQuizBtn) {
+                startComunicacionEfectivaQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'comportamental-comunicacion-efectiva'; 
+                            alert('Selecciona "Comunicación Efectiva" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Comunicación Efectiva en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
+        }
+
+        // Listener para el botón del simulacro específico de Compromiso con la Organización
+        if (subtopic.id === 'comportamental-compromiso-organizacion') {
+            const startCompromisoOrganizacionQuizBtn = document.getElementById('start-compromiso-organizacion-quiz-btn');
+            if (startCompromisoOrganizacionQuizBtn) {
+                startCompromisoOrganizacionQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'comportamental-compromiso-organizacion'; 
+                            alert('Selecciona "Compromiso con la Organización" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Compromiso con la Organización en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
+        }
+
+
+// Listener para el botón del simulacro específico de Aprendizaje Continuo
+        if (subtopic.id === 'comportamental-aprendizaje-continuo') {
+            const startAprendizajeContinuoQuizBtn = document.getElementById('start-aprendizaje-continuo-quiz-btn');
+            if (startAprendizajeContinuoQuizBtn) {
+                startAprendizajeContinuoQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'comportamental-aprendizaje-continuo'; 
+                            alert('Selecciona "Aprendizaje Continuo" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Aprendizaje Continuo en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
+        }
+
         // Listener para el botón del simulacro específico de Compromiso
         if (subtopic.id === 'integridad-compromiso') {
             const startCompromisoQuizBtn = document.getElementById('start-compromiso-quiz-btn');
@@ -922,6 +990,28 @@ if (subtopic.id === 'integridad-respeto') {
             }
         }
 
+
+if (subtopic.id === 'comportamental-adaptacion-cambio') {
+            const startAdaptacionCambioQuizBtn = document.getElementById('start-adaptacion-cambio-quiz-btn');
+            if (startAdaptacionCambioQuizBtn) {
+                startAdaptacionCambioQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'comportamental-adaptacion-cambio'; 
+                            alert('Selecciona "Adaptación al Cambio" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Adaptación al Cambio en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
+        }
+
+
+
+
+
+
         
         
         
@@ -989,11 +1079,17 @@ function renderSimulacrosView() {
            <select id="quiz-type-select" class="p-2 border rounded-md">
                 <option value="all">Simulacro General (Todas las preguntas)</option>
                 <option value="organizacion-distrito">Organización del Distrito Capital (20 Preguntas)</option>
+                <option value="comportamental-aprendizaje-continuo">Aprendizaje Continuo (20 Preguntas)</option>
                 <option value="integridad-compromiso">Compromiso (20 Preguntas)</option>
                 <option value="integridad-diligencia">Diligencia (20 Preguntas)</option>
+                <option value="funcionamiento-distrito">Funcionamiento del Distrito Capital (20 Preguntas)</option>
                 <option value="integridad-honestidad">Honestidad (20 Preguntas)</option>
                 <option value="integridad-justicia">Justicia (20 Preguntas)</option>
+                <option value="comportamental-adaptacion-cambio">Adaptación al Cambio (20 Preguntas)</option>
                 <option value="integridad-respeto">Respeto (20 Preguntas)</option> 
+                <option value="comportamental-aporte-tecnico-profesional">Aporte Técnico-Profesional (20 Preguntas)</option>
+                <option value="comportamental-compromiso-organizacion">Compromiso con la Organización (20 Preguntas)</option>
+                <option value="comportamental-comunicacion-efectiva">Comunicación Efectiva (20 Preguntas)</option>
                 <option value="arquitectura-empresarial">Arquitectura Empresarial (20 Preguntas)</option>
                 <option value="contratacion-publica">Contratación Pública (20 Preguntas)</option>
                 <option value="razonamiento-analitico">Razonamiento Analítico (20 Preguntas)</option>
@@ -1085,6 +1181,14 @@ function renderSimulacrosView() {
             if (currentQuizQuestions.length < 20) {
                 alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Organización del Distrito Capital'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
             }
+
+} else if (selectedType === 'comportamental-aporte-tecnico-profesional') { // --- NUEVO: Lógica para 20 preguntas de Aporte Técnico-Profesional ---
+        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'comportamental-aporte-tecnico-profesional');
+        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+        if (currentQuizQuestions.length < 20) {
+            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Aporte Técnico-Profesional'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+        }
+
         } else if (selectedType === 'integridad-compromiso') {
             const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'integridad-compromiso');
             currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
@@ -1109,6 +1213,20 @@ function renderSimulacrosView() {
             if (currentQuizQuestions.length < 20) {
                 alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Arquitectura Empresarial'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
             }
+
+            } else if (selectedType === 'comportamental-aprendizaje-continuo') {
+        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'comportamental-aprendizaje-continuo');
+        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+        if (currentQuizQuestions.length < 20) {
+            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Aprendizaje Continuo'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+        }
+
+         } else if (selectedType === 'comportamental-comunicacion-efectiva') { // --- NUEVO: Lógica para 20 preguntas de Comunicación Efectiva ---
+        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'comportamental-comunicacion-efectiva');
+        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+        if (currentQuizQuestions.length < 20) {
+            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Comunicación Efectiva'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+        }
         } else if (selectedType === 'contratacion-publica') {
             const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'contratacion-publica'); 
             currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
@@ -1176,6 +1294,9 @@ function renderSimulacrosView() {
             alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Justicia'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
         }
 
+
+        
+
         } else if (selectedType === 'integridad-honestidad') {
         const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'integridad-honestidad');
         currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
@@ -1194,6 +1315,13 @@ function renderSimulacrosView() {
     if (currentQuizQuestions.length < 20) {
         alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Trabajo en Red'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
     }
+
+    } else if (selectedType === 'comportamental-adaptacion-cambio') { // --- NUEVO: Lógica para 20 preguntas de Adaptación al Cambio ---
+        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'comportamental-adaptacion-cambio');
+        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+        if (currentQuizQuestions.length < 20) {
+            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Adaptación al Cambio'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+        }
 
         } else {
             // Lógica para otros tipos de simulacros (funcionales generales, funcionales específicas generales, integridad general, comportamentales)
