@@ -656,6 +656,26 @@ function renderStudyModulesView() {
                 });
             }
         }
+
+// Listener para el botón del simulacro específico de Gestión de Procedimientos
+        if (subtopic.id === 'comportamental-gestion-procedimientos') {
+            const startGestionProcedimientosQuizBtn = document.getElementById('start-gestion-procedimientos-quiz-btn');
+            if (startGestionProcedimientosQuizBtn) {
+                startGestionProcedimientosQuizBtn.addEventListener('click', () => {
+                    navigateTo('simulacros');
+                    setTimeout(() => {
+                        const quizTypeSelect = document.getElementById('quiz-type-select');
+                        if (quizTypeSelect) {
+                            quizTypeSelect.value = 'comportamental-gestion-procedimientos'; 
+                            alert('Selecciona "Gestión de Procedimientos" en el menú desplegable y haz clic en "Iniciar Simulacro" para comenzar tu prueba de este tema. (Asegúrate de tener suficientes preguntas de Gestión de Procedimientos en tu questions.json)');
+                        }
+                    }, 100); 
+                });
+            }
+        }
+
+
+
  // Listener para el botón del simulacro específico de Comunicación Efectiva
         if (subtopic.id === 'comportamental-comunicacion-efectiva') {
             const startComunicacionEfectivaQuizBtn = document.getElementById('start-comunicacion-efectiva-quiz-btn');
@@ -1090,6 +1110,7 @@ function renderSimulacrosView() {
                 <option value="comportamental-aporte-tecnico-profesional">Aporte Técnico-Profesional (20 Preguntas)</option>
                 <option value="comportamental-compromiso-organizacion">Compromiso con la Organización (20 Preguntas)</option>
                 <option value="comportamental-comunicacion-efectiva">Comunicación Efectiva (20 Preguntas)</option>
+                <option value="comportamental-gestion-procedimientos">Gestión de Procedimientos (20 Preguntas)</option>
                 <option value="arquitectura-empresarial">Arquitectura Empresarial (20 Preguntas)</option>
                 <option value="contratacion-publica">Contratación Pública (20 Preguntas)</option>
                 <option value="razonamiento-analitico">Razonamiento Analítico (20 Preguntas)</option>
@@ -1219,6 +1240,13 @@ function renderSimulacrosView() {
         currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
         if (currentQuizQuestions.length < 20) {
             alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Aprendizaje Continuo'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
+        }
+
+        } else if (selectedType === 'comportamental-gestion-procedimientos') { // --- NUEVO: Lógica para 20 preguntas de Gestión de Procedimientos ---
+        const filteredQuestions = allQuestionsData.filter(q => q.subtopic_id === 'comportamental-gestion-procedimientos');
+        currentQuizQuestions = filteredQuestions.sort(() => Math.random() - 0.5).slice(0, 20);
+        if (currentQuizQuestions.length < 20) {
+            alert(`Advertencia: Solo se encontraron ${currentQuizQuestions.length} preguntas de 'Gestión de Procedimientos'. Se recomienda añadir más preguntas para un simulacro completo de 20.`);
         }
 
          } else if (selectedType === 'comportamental-comunicacion-efectiva') { // --- NUEVO: Lógica para 20 preguntas de Comunicación Efectiva ---

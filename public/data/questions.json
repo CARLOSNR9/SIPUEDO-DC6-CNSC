@@ -51493,6 +51493,1633 @@
     },
     "correctAnswer": "E",
     "explanation": "La 'colaboración activa' y la 'discusión de opciones' para 'resolver desafíos técnicos' demuestran 'Comunicación Efectiva' y 'Trabajo en Equipo', esenciales para la 'Resolución de Problemas'."
+  },
+
+  {
+        "id": "q_gp_001",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_I",
+        "difficulty": "easy",
+        "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+        "question": "Conozco los procedimientos internos de mi área de trabajo y los aplico en mis tareas diarias.",
+        "options": {
+            "A": "En desacuerdo",
+            "B": "Neutral",
+            "C": "De acuerdo"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Gestión de Procedimientos implica 'Conocimiento y Adherencia' a los procedimientos. Conocerlos y aplicarlos (opción C) es fundamental para esta competencia."
+    },
+    {
+        "id": "q_gp_002",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_I",
+        "difficulty": "easy",
+        "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+        "question": "Sigo los procedimientos al pie de la letra, incluso si considero que son ineficientes o burocráticos.",
+        "options": {
+            "A": "En desacuerdo",
+            "B": "Neutral",
+            "C": "De acuerdo"
+        },
+        "correctAnswer": "A",
+        "explanation": "La Gestión de Procedimientos implica 'Optimizar' los procesos, no solo seguirlos rígidamente. Seguir ciegamente procedimientos ineficientes (opción C) es contrario a la búsqueda de eficiencia. La respuesta 'En desacuerdo' (opción A) refleja una actitud orientada a la mejora."
+    },
+    {
+        "id": "q_gp_003",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_I",
+        "difficulty": "medium",
+        "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+        "question": "Al desarrollar un nuevo software, me aseguro de que cumpla con los protocolos de seguridad y estándares de codificación establecidos por el IDU.",
+        "options": {
+            "A": "En desacuerdo",
+            "B": "Neutral",
+            "C": "De acuerdo"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Gestión de Procedimientos incluye 'Procesos, Protocolos y Normativas Establecidas' (ej. seguridad, estándares de codificación). Asegurar el cumplimiento (opción C) demuestra adherencia a estándares de calidad y eficiencia."
+    },
+    {
+        "id": "q_gp_004",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_I",
+        "difficulty": "medium",
+        "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+        "question": "Cuando un procedimiento es ambiguo, tiendo a implementarlo según mi mejor criterio sin buscar aclaración formal para no retrasar el trabajo.",
+        "options": {
+            "A": "En desacuerdo",
+            "B": "Neutral",
+            "C": "De acuerdo"
+        },
+        "correctAnswer": "A",
+        "explanation": "La Gestión de Procedimientos implica 'Manejo de Desviaciones' y 'Comunicación y Colaboración'. Implementar un procedimiento ambiguo sin aclaración (opción C) puede llevar a errores y es contrario a la sistematicidad. La respuesta 'En desacuerdo' (opción A) refleja una búsqueda de claridad y cumplimiento."
+    },
+    {
+        "id": "q_gp_005",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_I",
+        "difficulty": "hard",
+        "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+        "question": "Si una nueva normativa distrital me parece demasiado compleja, prefiero delegar su aplicación a colegas más jóvenes, ya que tienen más facilidad para adaptarse.",
+        "options": {
+            "A": "En desacuerdo",
+            "B": "Neutral",
+            "C": "De acuerdo"
+        },
+        "correctAnswer": "A",
+        "explanation": "La Gestión de Procedimientos implica 'Capacidad para Seguir, Aplicar y Optimizar' y 'Proactividad en la Optimización'. Delegar por complejidad (opción C) es una evasión de responsabilidad y una falta de compromiso con la adaptación. La respuesta 'En desacuerdo' (opción A) refleja la voluntad de aplicar y optimizar los procedimientos directamente."
+    },
+    {
+        "id": "q_gp_006",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_I",
+        "difficulty": "hard",
+        "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+        "question": "Considero que los manuales de procesos son documentos meramente formales y la eficiencia real se logra 'sobre la marcha', adaptándose a cada situación sin seguir pautas estrictas.",
+        "options": {
+            "A": "En desacuerdo",
+            "B": "Neutral",
+            "C": "De acuerdo"
+        },
+        "correctAnswer": "A",
+        "explanation": "La Gestión de Procedimientos exige 'Conocimiento y Adherencia' a los procesos y normativas. Desvalorizar los manuales (opción C) y preferir la improvisación es contrario a la sistematicidad y la eficiencia esperada en el sector público. La respuesta 'En desacuerdo' (opción A) refleja un apego a la gestión organizada."
+    },
+    {
+        "id": "q_gp_007",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_I",
+        "difficulty": "hard",
+        "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+        "question": "Si identifico una grave ineficiencia en un proceso crítico del IDU que no es directamente de mi área, evito intervenir para no invadir la jurisdicción de otros equipos.",
+        "options": {
+            "A": "En desacuerdo",
+            "B": "Neutral",
+            "C": "De acuerdo"
+        },
+        "correctAnswer": "A",
+        "explanation": "La Gestión de Procedimientos implica 'Proactividad en la Optimización' y 'Comunicación y Colaboración'. Evitar intervenir (opción C) es una actitud pasiva que limita la mejora continua y el trabajo en red. La respuesta 'En desacuerdo' (opción A) refleja una actitud proactiva para optimizar los procesos institucionales."
+    },
+
+  
+    {
+        "id": "q_gp_008",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_II",
+        "difficulty": "easy",
+        "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Rara vez, B=Ocasionalmente, C=Siempre).",
+        "question": "Organizo mis tareas diarias siguiendo un método o secuencia lógica para ser más eficiente.",
+        "options": {
+            "A": "Rara vez",
+            "B": "Ocasionalmente",
+            "C": "Siempre"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Gestión de Procedimientos exige 'Orden y Sistematicidad'. Organizar las tareas con un método lógico (opción C) demuestra una actitud metódica y orientada a la eficiencia."
+    },
+    {
+        "id": "q_gp_009",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_II",
+        "difficulty": "easy",
+        "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Rara vez, B=Ocasionalmente, C=Siempre).",
+        "question": "Verifico que los documentos que entrego cumplan con los formatos y requisitos establecidos por la entidad.",
+        "options": {
+            "A": "Rara vez",
+            "B": "Ocasionalmente",
+            "C": "Siempre"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Gestión de Procedimientos implica 'Adherencia a Estándares de Calidad y Eficiencia'. Verificar el cumplimiento de formatos (opción C) demuestra un compromiso con la calidad y el seguimiento de protocolos."
+    },
+    {
+        "id": "q_gp_010",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_II",
+        "difficulty": "medium",
+        "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Rara vez, B=Ocasionalmente, C=Siempre).",
+        "question": "Propongo activamente mejoras a los procedimientos existentes en mi área para hacerlos más eficientes o seguros, basándome en mi conocimiento técnico.",
+        "options": {
+            "A": "Rara vez",
+            "B": "Ocasionalmente",
+            "C": "Siempre"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Gestión de Procedimientos exige 'Proactividad en la Optimización'. Proponer mejoras basadas en conocimiento técnico (opción C) demuestra una actitud proactiva y un aporte de valor para la eficiencia y seguridad."
+    },
+    {
+        "id": "q_gp_011",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_II",
+        "difficulty": "medium",
+        "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Rara vez, B=Ocasionalmente, C=Siempre).",
+        "question": "Cuando un proceso interno del IDU parece obsoleto, ignoro la situación y continúo trabajando con él sin cuestionar.",
+        "options": {
+            "A": "Rara vez",
+            "B": "Ocasionalmente",
+            "C": "Siempre"
+        },
+        "correctAnswer": "A",
+        "explanation": "La Gestión de Procedimientos implica 'Optimizar'. Ignorar procesos obsoletos (opción C) es una actitud pasiva que va en contra de la mejora continua. La respuesta 'Rara vez' (opción A) para esta afirmación negativa demuestra proactividad."
+    },
+    {
+        "id": "q_gp_012",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_II",
+        "difficulty": "hard",
+        "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Rara vez, B=Ocasionalmente, C=Siempre).",
+        "question": "Si una situación excepcional me obliga a desviarme de un protocolo establecido, documento la razón, busco la aprobación necesaria y comunico la excepción a las partes relevantes, asegurando la trazabilidad.",
+        "options": {
+            "A": "Rara vez",
+            "B": "Ocasionalmente",
+            "C": "Siempre"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Gestión de Procedimientos implica 'Manejo de Desviaciones'. Documentar, buscar aprobación y comunicar excepciones (opción C) demuestra responsabilidad, sistematicidad y adherencia a la transparencia, incluso en situaciones complejas."
+    },
+    {
+        "id": "q_gp_013",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_II",
+        "difficulty": "hard",
+        "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Rara vez, B=Ocasionalmente, C=Siempre).",
+        "question": "Cuando se implementa una nueva herramienta de gestión (ej. un sistema ERP), me resisto a usarla si implica cambiar significativamente mis hábitos de trabajo, incluso si mejora la eficiencia general de la entidad.",
+        "options": {
+            "A": "Rara vez",
+            "B": "Ocasionalmente",
+            "C": "Siempre"
+        },
+        "correctAnswer": "A",
+        "explanation": "La Gestión de Procedimientos exige 'Capacidad para Seguir, Aplicar y Optimizar' y 'Uso de Herramientas de Gestión'. Resistirse a una nueva herramienta eficiente (opción C) es una barrera a la optimización. La respuesta 'Rara vez' (opción A) para esta afirmación negativa demuestra adaptabilidad y compromiso con la eficiencia."
+    },
+    {
+        "id": "q_gp_014",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_II",
+        "difficulty": "hard",
+        "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Rara vez, B=Ocasionalmente, C=Siempre).",
+        "question": "Si un manual de procedimientos de TI está desactualizado, tomo la iniciativa de proponer su revisión y actualización, incluso si no es mi responsabilidad directa.",
+        "options": {
+            "A": "Rara vez",
+            "B": "Ocasionalmente",
+            "C": "Siempre"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Gestión de Procedimientos implica 'Proactividad en la Optimización' y 'Documentación de Procesos'. Tomar la iniciativa para actualizar manuales (opción C) demuestra un alto grado de compromiso con la calidad y la mejora continua de la gestión de procedimientos, más allá de la función directa."
+    },
+
+    
+    {
+        "id": "q_gp_015",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "PJS",
+        "difficulty": "easy",
+        "case": "Usted es un profesional del IDU y se le encarga registrar la entrada de correspondencia. El procedimiento establecido indica que debe registrarla en un sistema digital y luego en un libro físico.",
+        "question": "¿Qué acción demuestra que usted sigue el procedimiento adecuadamente?",
+        "options": {
+            "A": "Solo registrarla en el sistema digital para ahorrar tiempo.",
+            "B": "Registrarla en ambos lugares, digital y físico, como indica el procedimiento.",
+            "C": "Solo registrarla en el libro físico, por costumbre."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de Procedimientos implica 'Seguir y Aplicar' los procesos establecidos. Registrar la correspondencia en ambos lugares (opción B) demuestra adherencia al procedimiento."
+    },
+    {
+        "id": "q_gp_016",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "PJS",
+        "difficulty": "easy",
+        "case": "Un colega de su equipo en el IDU le pide ayuda para una tarea que usted sabe que tiene un procedimiento específico que no está siguiendo. El colega está apurado.",
+        "question": "¿Qué acción demuestra su conocimiento y adherencia a la Gestión de Procedimientos?",
+        "options": {
+            "A": "Ayudarlo directamente sin mencionar el procedimiento para no retrasarlo.",
+            "B": "Explicarle brevemente el procedimiento correcto antes de ayudarlo, o guiarlo para que lo siga.",
+            "C": "Decirle que no puede ayudarlo porque no está siguiendo el procedimiento."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de Procedimientos implica 'Conocimiento y Adherencia' a los procedimientos y 'Comunicación y Colaboración'. Guiar al colega (opción B) demuestra un compromiso con el cumplimiento del proceso de forma colaborativa."
+    },
+    {
+        "id": "q_gp_017",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "Usted identifica que el proceso de aprobación de solicitudes en su área del IDU tiene un 'cuello de botella' porque requiere demasiadas firmas manuales, lo que genera demoras. Ha investigado y cree que una firma digital podría agilizar el proceso significativamente.",
+        "question": "¿Qué acción demuestra su 'Proactividad en la Optimización' de procedimientos?",
+        "options": {
+            "A": "Continuar con el proceso manual y esperar que la dirección lo cambie.",
+            "B": "Preparar una propuesta técnica detallada sobre la implementación de la firma digital, analizando beneficios y costos, y presentarla al área responsable de la gestión de procedimientos.",
+            "C": "Implementar la firma digital en sus propios documentos sin informar a nadie, para probar la eficiencia."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de Procedimientos exige 'Proactividad en la Optimización'. Preparar una propuesta detallada y presentarla (opción B) demuestra una actitud proactiva para mejorar los procesos y optimizar la eficiencia, involucrando a las áreas pertinentes."
+    },
+    {
+        "id": "q_gp_018",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "El IDU ha adoptado un nuevo sistema de tickets para la gestión de incidentes de TI. Aunque el sistema es más eficiente, algunos técnicos de su equipo prefieren seguir usando el correo electrónico personal para comunicarse con los usuarios y registrar los incidentes, argumentando que 'es más rápido para ellos'. Esto genera falta de trazabilidad.",
+        "question": "¿Qué comportamiento no deseable de la 'Gestión de Procedimientos' se está manifestando, y cómo lo abordaría?",
+        "options": {
+            "A": "Pasividad; lo abordaría esperando que cambien con el tiempo.",
+            "B": "Falta de adherencia a estándares y subutilización de herramientas; lo abordaría explicando los beneficios del sistema de tickets para la trazabilidad y la eficiencia colectiva, y reforzando la obligatoriedad del procedimiento.",
+            "C": "Comunicación inadecuada; lo abordaría enviando un memorando de obligatoriedad sin explicación."
+        },
+        "correctAnswer": "B",
+        "explanation": "La 'Gestión de Procedimientos' exige 'Conocimiento y Adherencia' a los protocolos y 'Uso de Herramientas de Gestión'. La falta de uso del sistema de tickets (opción B) demuestra una falta de adherencia y subutilización. Abordarlo explicando los beneficios y reforzando la obligatoriedad promueve la eficiencia y la calidad."
+    },
+    {
+        "id": "q_gp_019",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Usted está a cargo de la implementación de un nuevo protocolo de seguridad para el manejo de datos sensibles en el IDU, que implica pasos complejos y una nueva herramienta tecnológica. Un colega le comenta que ha encontrado un 'atajo' que le permite saltarse algunos pasos del protocolo, lo que acelera el proceso, pero que usted sabe que compromete la seguridad de los datos.",
+        "question": "¿Qué acción, basada en la 'Gestión de Procedimientos' y la 'Adherencia a Estándares de Calidad y Eficiencia', es la más adecuada?",
+        "options": {
+            "A": "Aceptar el atajo, pero monitorearlo de cerca para asegurarse de que no haya incidentes de seguridad.",
+            "B": "Felicitar al colega por su creatividad, pero explicarle los riesgos de seguridad del atajo y la obligatoriedad de seguir el protocolo completo para garantizar la integridad y confidencialidad de los datos, buscando su comprensión y adherencia.",
+            "C": "Reportar al colega al área de control interno por violar el protocolo, sin darle la oportunidad de explicar."
+        },
+        "correctAnswer": "B",
+        "explanation": "La 'Gestión de Procedimientos' exige 'Priorizar el Cumplimiento de la Norma y el Proceso' (especialmente en seguridad) y 'Adherencia a Estándares de Calidad'. Aceptar un atajo que compromete la seguridad (opción A) es una violación grave. Explicar los riesgos y buscar la adherencia (opción B) demuestra un compromiso con la seguridad, la ética y la gestión efectiva de procedimientos."
+    },
+    {
+        "id": "q_gp_020",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU recibe una auditoría externa sobre sus procesos de gestión de contratos. Se detecta una inconsistencia en la documentación de un contrato de un proyecto en el que usted participó, debido a una desviación no autorizada de un procedimiento interno hace meses. El auditor le pide explicaciones.",
+        "question": "¿Qué acción, basada en la 'Gestión de Procedimientos' y el 'Manejo de Desviaciones', demuestra mayor responsabilidad?",
+        "options": {
+            "A": "Intentar justificar la desviación argumentando la urgencia del momento, sin asumir responsabilidad plena.",
+            "B": "Asumir la responsabilidad por la desviación del procedimiento, explicar las circunstancias, y detallar las acciones que se han tomado (o se tomarán) para corregir el impacto y asegurar que no vuelva a ocurrir, demostrando un compromiso con la mejora continua.",
+            "C": "Culpar a un ex-colega por el error, ya que él fue quien inició la desviación."
+        },
+        "correctAnswer": "B",
+        "explanation": "La 'Gestión de Procedimientos' implica 'Manejo de Desviaciones' y 'Responsabilidad'. Asumir la responsabilidad, explicar las circunstancias y detallar acciones correctivas (opción B) demuestra un alto grado de compromiso con la transparencia, la mejora continua y la adherencia a los procedimientos, lo cual es fundamental para la integridad en la gestión pública. Justificar o culpar (opciones A y C) son contrarias a la responsabilidad."
+    },
+
+   
+    {
+        "id": "q_gp_021",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_I",
+        "difficulty": "easy",
+        "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+        "question": "Me aseguro de que todos mis reportes y documentos cumplan con los formatos y plazos establecidos por el IDU.",
+        "options": {
+            "A": "En desacuerdo",
+            "B": "Neutral",
+            "C": "De acuerdo"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Gestión de Procedimientos exige 'Adherencia a Estándares de Calidad y Eficiencia'. Asegurar el cumplimiento de formatos y plazos (opción C) demuestra el seguimiento riguroso de los procedimientos."
+    },
+    {
+        "id": "q_gp_022",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_I",
+        "difficulty": "easy",
+        "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+        "question": "Cuando inicio una tarea nueva, prefiero improvisar en lugar de consultar los procedimientos establecidos para ahorrar tiempo.",
+        "options": {
+            "A": "En desacuerdo",
+            "B": "Neutral",
+            "C": "De acuerdo"
+        },
+        "correctAnswer": "A",
+        "explanation": "La Gestión de Procedimientos implica 'Seguir y Aplicar'. Improvisar sin consultar procedimientos (opción C) es una actitud no deseable, contraria a la sistematicidad y la adherencia a estándares. La respuesta 'En desacuerdo' (opción A) refleja el cumplimiento de la competencia."
+    },
+    {
+        "id": "q_gp_023",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_I",
+        "difficulty": "medium",
+        "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+        "question": "Soy capaz de identificar ineficiencias en los procesos de mi área y proponer soluciones concretas para optimizarlos.",
+        "options": {
+            "A": "En desacuerdo",
+            "B": "Neutral",
+            "C": "De acuerdo"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Gestión de Procedimientos exige 'Identificación de Ineficiencias' y 'Proactividad en la Optimización'. Ser capaz de identificar y proponer soluciones (opción C) demuestra una actitud proactiva orientada a la mejora continua."
+    },
+    {
+        "id": "q_gp_024",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_I",
+        "difficulty": "medium",
+        "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+        "question": "Cuando un procedimiento interno requiere el uso de una herramienta tecnológica, prefiero no usarla si considero que el método manual es más rápido para mí, aunque no esté documentado.",
+        "options": {
+            "A": "En desacuerdo",
+            "B": "Neutral",
+            "C": "De acuerdo"
+        },
+        "correctAnswer": "A",
+        "explanation": "La Gestión de Procedimientos implica 'Uso de Herramientas de Gestión'. No usar una herramienta requerida (opción C) es una desviación no deseable que afecta la sistematicidad y la trazabilidad. La respuesta 'En desacuerdo' (opción A) refleja un apego a la gestión organizada."
+    },
+    {
+        "id": "q_gp_025",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_I",
+        "difficulty": "hard",
+        "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+        "question": "Los procedimientos establecidos en el IDU son un freno para la innovación y la agilidad en la gestión, por lo que es preferible saltárselos cuando se busca un resultado rápido.",
+        "options": {
+            "A": "En desacuerdo",
+            "B": "Neutral",
+            "C": "De acuerdo"
+        },
+        "correctAnswer": "A",
+        "explanation": "La Gestión de Procedimientos exige 'Priorizar el Cumplimiento de la Norma y el Proceso' para 'garantizar transparencia, control y calidad'. Saltarse procedimientos (opción C) es una conducta no deseable que compromete la legalidad y la integridad. La respuesta 'En desacuerdo' (opción A) refleja un compromiso con la gestión organizada y ética."
+    },
+
+    
+    {
+        "id": "q_gp_026",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_II",
+        "difficulty": "easy",
+        "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Rara vez, B=Ocasionalmente, C=Siempre).",
+        "question": "Mantengo mi espacio de trabajo físico y digital ordenado y sistemático para facilitar mis procesos.",
+        "options": {
+            "A": "Rara vez",
+            "B": "Ocasionalmente",
+            "C": "Siempre"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Gestión de Procedimientos exige 'Orden y Sistematicidad'. Mantener el espacio ordenado (opción C) es una práctica que contribuye directamente a la eficiencia y el seguimiento de procesos."
+    },
+    {
+        "id": "q_gp_027",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_II",
+        "difficulty": "easy",
+        "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Rara vez, B=Ocasionalmente, C=Siempre).",
+        "question": "Cuando se presenta un problema en un proceso, consulto los manuales o guías disponibles antes de pedir ayuda a un colega.",
+        "options": {
+            "A": "Rara vez",
+            "B": "Ocasionalmente",
+            "C": "Siempre"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Gestión de Procedimientos implica 'Conocimiento y Adherencia'. Consultar manuales (opción C) demuestra una actitud de autoaprendizaje y apego a los procedimientos documentados."
+    },
+    {
+        "id": "q_gp_028",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_II",
+        "difficulty": "medium",
+        "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Rara vez, B=Ocasionalmente, C=Siempre).",
+        "question": "Si identifico una posible mejora en un procedimiento que es inter-áreas, tomo la iniciativa de comunicarlo a las áreas involucradas para buscar una solución conjunta.",
+        "options": {
+            "A": "Rara vez",
+            "B": "Ocasionalmente",
+            "C": "Siempre"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Gestión de Procedimientos exige 'Proactividad en la Optimización' y 'Comunicación y Colaboración'. Comunicar mejoras a otras áreas (opción C) demuestra una actitud proactiva para la optimización institucional."
+    },
+    {
+        "id": "q_gp_029",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_II",
+        "difficulty": "medium",
+        "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Rara vez, B=Ocasionalmente, C=Siempre).",
+        "question": "Me aseguro de que las especificaciones técnicas que elaboro para proyectos de TI sean claras y concisas, siguiendo los estándares de documentación del IDU.",
+        "options": {
+            "A": "Rara vez",
+            "B": "Ocasionalmente",
+            "C": "Siempre"
+        },
+        "correctAnswer": "C",
+        "explanation": "La Gestión de Procedimientos implica 'Adherencia a Estándares de Calidad y Eficiencia' y 'Documentación de Procesos'. Asegurar que las especificaciones sean claras y sigan estándares (opción C) demuestra un compromiso con la calidad y la sistematicidad."
+    },
+    {
+        "id": "q_gp_030",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_II",
+        "difficulty": "hard",
+        "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Rara vez, B=Ocasionalmente, C=Siempre).",
+        "question": "Cuando una nueva normativa o protocolo exige cambios significativos en mis procesos de trabajo, tiendo a resistirme y a buscar excepciones para no alterar mis hábitos.",
+        "options": {
+            "A": "Rara vez",
+            "B": "Ocasionalmente",
+            "C": "Siempre"
+        },
+        "correctAnswer": "A",
+        "explanation": "La Gestión de Procedimientos exige 'Capacidad para Seguir, Aplicar y Optimizar' y 'Priorizar el Cumplimiento de la Norma'. Resistirse o buscar excepciones (opción C) es contrario a la adaptabilidad y el cumplimiento. La respuesta 'Rara vez' (opción A) para esta afirmación negativa demuestra adaptabilidad."
+    },
+    {
+        "id": "q_gp_031",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_II",
+        "difficulty": "hard",
+        "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Rara vez, B=Ocasionalmente, C=Siempre).",
+        "question": "Si una herramienta tecnológica dispuesta por el IDU para un procedimiento es menos cómoda que un método manual, prefiero usar el manual sin reportar la ineficiencia de la herramienta.",
+        "options": {
+            "A": "Rara vez",
+            "B": "Ocasionalmente",
+            "C": "Siempre"
+        },
+        "correctAnswer": "A",
+        "explanation": "La Gestión de Procedimientos implica 'Uso de Herramientas de Gestión' y 'Proactividad en la Optimización'. Preferir un método manual ineficiente sin reportarlo (opción C) es contrario a la eficiencia y la mejora. La respuesta 'Rara vez' (opción A) para esta afirmación negativa demuestra un compromiso con la optimización y el uso adecuado de herramientas."
+    },
+    {
+        "id": "q_gp_032",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "BEHAVIORAL_TYPE_II",
+        "difficulty": "hard",
+        "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Rara vez, B=Ocasionalmente, C=Siempre).",
+        "question": "Cuando un error en un procedimiento afecta el servicio al ciudadano, me enfoco en encontrar al responsable para que asuma las consecuencias, en lugar de buscar la solución inmediata y mejorar el proceso.",
+        "options": {
+            "A": "Rara vez",
+            "B": "Ocasionalmente",
+            "C": "Siempre"
+        },
+        "correctAnswer": "A",
+        "explanation": "La Gestión de Procedimientos busca 'Optimizar' y 'Manejo de Desviaciones' con enfoque en la solución y el bien de la entidad. Enfocarse solo en la culpa (opción C) es una actitud no deseable. La respuesta 'Rara vez' (opción A) para esta afirmación negativa demuestra un enfoque en la solución y la mejora."
+    },
+
+    
+    {
+        "id": "q_gp_033",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "PJS",
+        "difficulty": "easy",
+        "case": "El IDU ha implementado un nuevo protocolo de seguridad para el manejo de información confidencial. Usted está familiarizado(a) con él.",
+        "question": "¿Qué acción demuestra que usted aplica este protocolo de manera adecuada?",
+        "options": {
+            "A": "Guardo los documentos confidenciales en mi escritorio para fácil acceso.",
+            "B": "Almaceno los documentos confidenciales en la ubicación segura y cifrada establecida en el protocolo.",
+            "C": "Comparto los documentos con colegas de otras áreas para su revisión, sin importar la confidencialidad."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de Procedimientos implica 'Seguir y Aplicar' protocolos de seguridad. Almacenar documentos en la ubicación segura y cifrada (opción B) demuestra adherencia y cumplimiento."
+    },
+    {
+        "id": "q_gp_034",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "PJS",
+        "difficulty": "easy",
+        "case": "Usted está utilizando un sistema de gestión de proyectos interno del IDU. El procedimiento indica que debe actualizar el estado de las tareas diariamente. Hoy tiene muchas tareas y podría omitir la actualización.",
+        "question": "¿Qué acción demuestra su adherencia a la 'Gestión de Procedimientos'?",
+        "options": {
+            "A": "Omitir la actualización diaria y ponerse al día mañana.",
+            "B": "Actualizar el estado de las tareas diariamente, como indica el procedimiento.",
+            "C": "Actualizar solo las tareas más importantes para ahorrar tiempo."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de Procedimientos exige 'Seguir y Aplicar' los procesos establecidos. Actualizar el estado de las tareas diariamente (opción B) demuestra adherencia al procedimiento y compromiso con la sistematicidad."
+    },
+    {
+        "id": "q_gp_035",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "El equipo de TI del IDU está siguiendo una metodología de desarrollo de software que exige la realización de pruebas unitarias y de integración en cada etapa. Su compañero ha saltado las pruebas de integración para ahorrar tiempo, lo que podría generar errores no detectados en fases posteriores.",
+        "question": "¿Qué acción demuestra su 'Adherencia a Estándares de Calidad y Eficiencia' en la Gestión de Procedimientos?",
+        "options": {
+            "A": "Ignorar la omisión, ya que el compañero es responsable de su trabajo.",
+            "B": "Informar a su compañero sobre la importancia de seguir la metodología, ofrecer apoyo para realizar las pruebas de integración faltantes y, si es necesario, escalar la situación al líder de equipo para asegurar el cumplimiento.",
+            "C": "Reportar inmediatamente la omisión a la dirección sin hablar con el compañero."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de Procedimientos implica 'Seguir y Aplicar' protocolos y 'Adherencia a Estándares de Calidad'. Informar y ofrecer apoyo (opción B) demuestra un compromiso con la calidad del proceso y la colaboración, buscando corregir la desviación y asegurar la calidad del producto final."
+    },
+    {
+        "id": "q_gp_036",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "PJS",
+        "difficulty": "medium",
+        "case": "El manual de procedimientos del IDU para la gestión de proyectos TI no ha sido actualizado en varios años y no contempla el uso de nuevas herramientas o metodologías ágiles que su equipo ha empezado a usar. Esto genera una brecha entre la práctica y el procedimiento documentado.",
+        "question": "¿Qué acción demuestra su 'Proactividad en la Optimización' y 'Documentación de Procesos'?",
+        "options": {
+            "A": "Ignorar el manual, ya que está desactualizado, y seguir usando las nuevas herramientas.",
+            "B": "Proponer formalmente la revisión y actualización del manual de procedimientos para incluir las nuevas herramientas y metodologías, justificando cómo esto mejoraría la eficiencia y la estandarización.",
+            "C": "Actualizar su copia personal del manual con las nuevas herramientas sin informar a nadie."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de Procedimientos exige 'Proactividad en la Optimización' y 'Documentación de Procesos'. Proponer formalmente la actualización del manual (opción B) demuestra un compromiso con la mejora continua de los procedimientos y su alineación con las prácticas actuales, lo cual es fundamental para la eficiencia institucional."
+    },
+    {
+        "id": "q_gp_037",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU está implementando un nuevo sistema de gestión documental electrónico. Durante la capacitación, un grupo de funcionarios se queja de que el nuevo sistema es 'demasiado complicado' y que los procedimientos para usarlo son 'innecesariamente largos', prefiriendo volver a los archivos físicos para algunas tareas, lo cual va en contra de la política de cero papel.",
+        "question": "¿Qué acción, basada en su 'Gestión de Procedimientos' y el 'Uso de Herramientas de Gestión', sería la más adecuada para asegurar la adopción y el cumplimiento?",
+        "options": {
+            "A": "Reportar la resistencia a la dirección para que se apliquen sanciones por incumplimiento de la política.",
+            "B": "Identificar las dificultades específicas de los funcionarios con el nuevo sistema y los procedimientos, proponer sesiones de apoyo adicional o ajustes al procedimiento si es posible, y demostrar los beneficios del sistema para la eficiencia y la política de cero papel, fomentando la adopción.",
+            "C": "Permitirles usar los archivos físicos en paralelo para evitar conflictos, mientras se adaptan."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de Procedimientos implica 'Capacidad para Seguir, Aplicar y Optimizar' y 'Uso de Herramientas de Gestión'. Identificar dificultades, proponer apoyo y demostrar beneficios (opción B) es una estrategia proactiva y colaborativa para asegurar la adopción de la herramienta y el cumplimiento de la política de cero papel, lo cual es fundamental para la eficiencia institucional."
+    },
+    {
+        "id": "q_gp_038",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Usted es el líder técnico de un proyecto de desarrollo de software para el IDU. Una nueva normativa de seguridad de la información (ej. cifrado de datos en reposo) exige un cambio sustancial en la arquitectura de la base de datos que ya está diseñada. El cambio implicaría un retraso significativo en el cronograma. El equipo de proyecto le sugiere 'posponer' la implementación de la nueva norma hasta después del lanzamiento.",
+        "question": "¿Qué acción, basada en la 'Gestión de Procedimientos' y la 'Priorización del Cumplimiento de la Norma', sería la más adecuada?",
+        "options": {
+            "A": "Aceptar posponer la implementación para cumplir el cronograma, ya que la prioridad es el lanzamiento a tiempo.",
+            "B": "Informar a la dirección sobre el requisito normativo y el impacto en el cronograma, proponer un plan para integrar el cambio de seguridad con el mínimo retraso posible, y documentar el proceso de decisión, priorizando la seguridad y el cumplimiento legal.",
+            "C": "Implementar el cambio de seguridad sin informar a la dirección, para evitar el retraso oficial en el cronograma."
+        },
+        "correctAnswer": "B",
+        "explanation": "La Gestión de Procedimientos exige 'Priorizar el Cumplimiento de la Norma y el Proceso' (legalidad, seguridad). Posponer un requisito de seguridad crítico (opción A) es una violación grave. Informar, proponer un plan y documentar (opción B) demuestra un alto grado de responsabilidad, sistematicidad y compromiso con la seguridad y el cumplimiento legal, incluso frente a retrasos."
+    },
+    {
+        "id": "q_gp_039",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "El IDU ha implementado una metodología ágil (Scrum) para el desarrollo de software. Sin embargo, en su equipo, un desarrollador con mucha experiencia individual prefiere trabajar de forma aislada, sin participar en las Daily Scrums o las Sprint Reviews, y solo entrega su código al final del Sprint. Esto afecta la colaboración y la trazabilidad del proceso.",
+        "question": "¿Qué comportamiento no deseable se está manifestando en la 'Gestión de Procedimientos' y cómo lo abordaría usted como líder o compañero?",
+        "options": {
+            "A": "Falta de adherencia a estándares de calidad; se le debería asignar tareas individuales.",
+            "B": "Desconocimiento de los procesos y falta de orden; lo abordaría explicando la importancia de los eventos Scrum para la coordinación y la transparencia del proceso, y si es necesario, involucrar al Scrum Master para asegurar la adherencia a la metodología.",
+            "C": "Proactividad en la optimización; se le debería permitir trabajar a su manera si entrega resultados."
+        },
+        "correctAnswer": "B",
+        "explanation": "La 'Gestión de Procedimientos' implica 'Conocimiento y Adherencia' a las metodologías (como Scrum) y 'Orden y Sistematicidad'. Trabajar de forma aislada y no participar en eventos clave (opción B) es una falta de adherencia al procedimiento ágil que afecta la colaboración y la trazabilidad. Explicar la importancia y buscar la adherencia (opción B) demuestra un compromiso con la gestión de procedimientos y la eficiencia colectiva."
+    },
+    {
+        "id": "q_gp_040",
+        "topic_id": "competencias-comportamentales",
+        "subtopic_id": "comportamental-gestion-procedimientos",
+        "type": "PJS",
+        "difficulty": "hard",
+        "case": "Usted es el encargado de la gestión documental de su área en el IDU. Una auditoría interna revela que varios documentos críticos del área no están siendo archivados según el procedimiento establecido, lo que dificulta su recuperación y compromete la trazabilidad. Un compañero argumenta que el procedimiento de archivo es 'demasiado largo' y por eso lo omiten.",
+        "question": "¿Qué acción, basada en la 'Gestión de Procedimientos' y la 'Adherencia a Estándares de Calidad', sería la más adecuada?",
+        "options": {
+            "A": "Aceptar la situación y reportar a la dirección que el procedimiento es inviable.",
+            "B": "Revisar el procedimiento de archivo con el equipo para identificar cuellos de botella y proponer mejoras que lo hagan más eficiente y fácil de seguir, mientras se asegura el cumplimiento de la norma y se capacita al personal.",
+            "C": "Implementar un sistema de archivo digital paralelo no oficial para agilizar el proceso."
+        },
+        "correctAnswer": "B",
+        "explanation": "La 'Gestión de Procedimientos' exige 'Proactividad en la Optimización' y 'Adherencia a Estándares de Calidad'. Revisar el procedimiento para optimizarlo y asegurar el cumplimiento (opción B) demuestra un compromiso integral con la gestión de procedimientos, resolviendo el problema de raíz y garantizando la trazabilidad y calidad de la documentación."
+    },
+
+    {
+    "id": "q_gp_041",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_I",
+    "difficulty": "medium",
+    "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+    "question": "Me aseguro de que todos mis 'desarrollos de software' sigan las 'metodologías establecidas' por el IDU, para 'garantizar la calidad' y 'coherencia'.",
+    "options": {
+      "A": "En desacuerdo",
+      "B": "Neutral",
+      "C": "De acuerdo"
+    },
+    "correctAnswer": "C",
+    "explanation": "La 'adherencia a metodologías establecidas' es un pilar de la 'Gestión de Procedimientos' y de la 'Adherencia a Estándares de Calidad' en el desarrollo de software. [cite: 51, 761]"
+  },
+  {
+    "id": "q_gp_042",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_II",
+    "difficulty": "medium",
+    "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Nunca, B=Rara vez, C=Ocasionalmente, D=Frecuentemente, E=Siempre).",
+    "question": "Cuando se publica una 'nueva normativa' que afecta mi trabajo, la reviso 'detenidamente' para 'asegurar su correcta aplicación'.",
+    "options": {
+      "A": "Nunca",
+      "B": "Rara vez",
+      "C": "Ocasionalmente",
+      "D": "Frecuentemente",
+      "E": "Siempre"
+    },
+    "correctAnswer": "E",
+    "explanation": "La revisión y 'correcta aplicación de normativas' demuestran 'Conocimiento y Adherencia' a los 'procedimientos establecidos' y la 'Diligencia', que son clave en la 'Gestión de Procedimientos'. [cite: 51, 766]"
+  },
+  {
+    "id": "q_gp_043",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_YES_NO",
+    "difficulty": "easy",
+    "case": "Usted se enfrenta a la siguiente situación laboral. Elija la opción que mejor describe su respuesta.",
+    "question": "El 'procedimiento para la 'automatización de procesos'' en el IDU es 'complejo', pero 'está establecido'. ¿Lo seguiría 'rigurosamente' para 'garantizar la calidad', aunque tome más tiempo?",
+    "options": {
+      "A": "Sí",
+      "B": "No"
+    },
+    "correctAnswer": "A",
+    "explanation": "Seguir 'rigurosamente' los 'procedimientos establecidos', incluso si son complejos y toman tiempo, demuestra 'Conocimiento y Adherencia' y 'Adherencia a Estándares de Calidad' en la 'Gestión de Procedimientos'. [cite: 51, 33]"
+  },
+  {
+    "id": "q_gp_044",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "PJS",
+    "difficulty": "medium",
+    "case": "Usted está 'gestionando con las áreas responsables de los procesos el levantamiento de requerimientos funcionales y no funcionales' para un nuevo sistema. El 'procedimiento establecido' exige una 'validación exhaustiva' de cada requerimiento con el usuario, lo cual está consumiendo 'mucho tiempo' y retrasando el proyecto. Un colega sugiere 'omitir algunos pasos de validación' para acelerar.",
+    "question": "¿Qué acción, basada en la 'Gestión de Procedimientos' y la 'Adherencia a Estándares de Calidad', sería la más adecuada?",
+    "options": {
+      "A": "Aceptar la sugerencia del colega para acelerar el proyecto, confiando en que los errores se detectarán después.",
+      "B": "Explicar la 'importancia' de la 'validación exhaustiva' para 'garantizar la calidad y efectividad en su aplicación', y proponer 'optimizar el procedimiento' de validación (ej. usando herramientas, sesiones más eficientes) sin 'omitir pasos críticos' para 'acelerar' el proceso pero 'manteniendo la calidad'.",
+      "C": "Informar al supervisor sobre el retraso sin proponer ninguna solución."
+    },
+    "correctAnswer": "B",
+    "explanation": "La 'Gestión de Procedimientos' exige 'Capacidad para Seguir, Aplicar y Optimizar'. 'Proponer optimizaciones' sin 'omitir pasos críticos' (opción B) demuestra 'Proactividad en la Optimización' y 'Adherencia a Estándares de Calidad', asegurando la 'calidad y efectividad' del sistema. [cite: 51, 37]"
+  },
+  {
+    "id": "q_gp_045",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_I",
+    "difficulty": "easy",
+    "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+    "question": "Me siento 'cómodo/a' trabajando bajo 'procedimientos claros' y 'establecidos', ya que 'organizan mi trabajo'.",
+    "options": {
+      "A": "En desacuerdo",
+      "B": "Neutral",
+      "C": "De acuerdo"
+    },
+    "correctAnswer": "C",
+    "explanation": "Sentirse cómodo con 'procedimientos claros' demuestra 'Orden y Sistematicidad' y 'Conocimiento y Adherencia' a la 'Gestión de Procedimientos'. [cite: 51, 14]"
+  },
+  {
+    "id": "q_gp_046",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_II",
+    "difficulty": "medium",
+    "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Nunca, B=Rara vez, C=Ocasionalmente, D=Frecuentemente, E=Siempre).",
+    "question": "Cuando 'identifico una ineficiencia' en un 'proceso administrativo de tecnología' en el IDU, 'propongo mejoras' para 'optimizar su ejecución'.",
+    "options": {
+      "A": "Nunca",
+      "B": "Rara vez",
+      "C": "Ocasionalmente",
+      "D": "Frecuentemente",
+      "E": "Siempre"
+    },
+    "correctAnswer": "E",
+    "explanation": "La 'identificación' y 'proposición de mejoras' en 'procesos administrativos de tecnología' demuestran 'Proactividad en la Optimización' y 'Generación de Valor' en la 'Gestión de Procedimientos'. [cite: 51, 6]"
+  },
+  {
+    "id": "q_gp_047",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_YES_NO",
+    "difficulty": "easy",
+    "case": "Usted se enfrenta a la siguiente situación laboral. Elija la opción que mejor describe su respuesta.",
+    "question": "El 'Manual Específico de Funciones' de su cargo especifica 'procedimientos' para el 'desarrollo de software'. ¿Los seguiría 'fielmente', incluso si conoce un 'atajo' que no está documentado?",
+    "options": {
+      "A": "Sí",
+      "B": "No"
+    },
+    "correctAnswer": "A",
+    "explanation": "Seguir 'fielmente' los 'procedimientos establecidos', incluso ante 'atajos', demuestra 'Conocimiento y Adherencia' y 'Adherencia a Estándares de Calidad'. [cite: 51]"
+  },
+  {
+    "id": "q_gp_048",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "PJS",
+    "difficulty": "medium",
+    "case": "El IDU está 'elaborando la documentación necesaria para la contratación' de un 'desarrollo de software' crítico. El 'procedimiento establecido' es muy detallado y requiere la 'revisión' y 'aprobación' de múltiples instancias, lo cual es 'demorado'. Su supervisor le pide 'agilizar el proceso' para cumplir con un plazo apretado, sugiriendo 'saltarse algunas revisiones formales'.",
+    "question": "¿Qué acción, basada en la 'Gestión de Procedimientos' y la 'Adherencia a Estándares de Calidad', sería la más adecuada?",
+    "options": {
+      "A": "Aceptar la sugerencia del supervisor para agilizar el proceso, confiando en su criterio para saltarse revisiones.",
+      "B": "Explicar 'respetuosamente' al supervisor la 'importancia' de cada 'revisión' para 'garantizar la calidad', 'efectividad' y 'cumplimiento legal' de la 'contratación', y proponer 'alternativas para agilizar' el proceso (ej. reuniones de revisión exprés, uso de herramientas colaborativas) sin 'saltarse los pasos formales' y 'asegurando la debida diligencia'.",
+      "C": "Realizar la documentación saltándose las revisiones, pero notificando el hecho por correo electrónico a su supervisor."
+    },
+    "correctAnswer": "B",
+    "explanation": "La 'Gestión de Procedimientos' exige 'Adherencia a Estándares de Calidad' y 'Proactividad en la Optimización'. 'Explicar la importancia' de las revisiones y 'proponer alternativas para agilizar' sin 'saltarse pasos críticos' (opción B) demuestra un alto grado de 'Compromiso con la Organización', 'Orientación a Resultados' y 'Aporte Técnico-Profesional'. [cite: 51, 768]"
+  },
+  {
+    "id": "q_gp_049",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_I",
+    "difficulty": "easy",
+    "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+    "question": "Siempre 'sigo' los 'protocolos de seguridad de la información' al 'manejar datos sensibles' del IDU.",
+    "options": {
+      "A": "En desacuerdo",
+      "B": "Neutral",
+      "C": "De acuerdo"
+    },
+    "correctAnswer": "C",
+    "explanation": "Seguir 'protocolos de seguridad de la información' demuestra 'Conocimiento y Adherencia' a los 'procedimientos establecidos' y 'Adherencia a Estándares de Calidad' y 'Seguridad'. [cite: 51, 81]"
+  },
+  {
+    "id": "q_gp_050",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_II",
+    "difficulty": "medium",
+    "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Nunca, B=Rara vez, C=Ocasionalmente, D=Frecuentemente, E=Siempre).",
+    "question": "Cuando 'implemento un nuevo desarrollo', me aseguro de que 'se incorporen los registros' de la 'documentación' y 'archivos existentes' para 'conservar el histórico y trazabilidad'.",
+    "options": {
+      "A": "Nunca",
+      "B": "Rara vez",
+      "C": "Ocasionalmente",
+      "D": "Frecuentemente",
+      "E": "Siempre"
+    },
+    "correctAnswer": "E",
+    "explanation": "La 'incorporación de registros de documentación' para 'trazabilidad' demuestra 'Orden y Sistematicidad' y 'Adherencia a Estándares de Calidad' en la 'Gestión de Procedimientos'. [cite: 51, 765]"
+  },
+  {
+    "id": "q_gp_051",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_YES_NO",
+    "difficulty": "easy",
+    "case": "Usted se enfrenta a la siguiente situación laboral. Elija la opción que mejor describe su respuesta.",
+    "question": "La entidad ha adoptado una 'nueva metodología ágil' para el 'desarrollo de software'. ¿Se esforzaría en 'aplicarla rigurosamente', incluso si le parece 'menos familiar' que la anterior?",
+    "options": {
+      "A": "Sí",
+      "B": "No"
+    },
+    "correctAnswer": "A",
+    "explanation": "Aplicar 'rigurosamente' una 'nueva metodología', a pesar de la falta de familiaridad, demuestra 'Conocimiento y Adherencia' y 'Adaptación al Cambio' en la 'Gestión de Procedimientos'. [cite: 51, 761]"
+  },
+  {
+    "id": "q_gp_052",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "Usted es responsable de 'atender los requerimientos de entes de control internos y externos' que corresponden a 'servicios de Sistemas de Información'. Recibe un 'requerimiento complejo' que no está completamente cubierto por un 'procedimiento establecido', y la respuesta debe ser 'urgente' y 'precisa'.",
+    "question": "¿Qué acción, basada en la 'Gestión de Procedimientos' y la 'Resolución de Problemas', sería la más adecuada?",
+    "options": {
+      "A": "Responder únicamente lo que el procedimiento cubre, indicando que el resto de la información no puede ser proporcionada por falta de un procedimiento claro.",
+      "B": "Analizar 'detalladamente' el 'requerimiento', 'investigar' las 'normativas aplicables' y 'colaborar' con 'expertos internos' para 'construir una respuesta precisa y completa', 'documentando el proceso' y 'proponiendo la creación' o 'actualización del procedimiento' para futuros casos, 'atendiendo así los requerimientos' de conformidad con la 'normatividad legal vigente'.",
+      "C": "Delegar el requerimiento a otra área, ya que no hay un procedimiento claro para manejarlo."
+    },
+    "correctAnswer": "B",
+    "explanation": "La 'Gestión de Procedimientos' exige 'Capacidad para Seguir, Aplicar y Optimizar'. 'Analizar', 'investigar', 'colaborar' para 'construir una respuesta precisa' y 'proponer la actualización del procedimiento' (opción B) demuestra 'Proactividad en la Optimización', 'Resolución de Problemas' y 'Aporte Técnico-Profesional' para 'atender los requerimientos' y 'generar valor' para la entidad. [cite: 51, 769]"
+  },
+  {
+    "id": "q_gp_053",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_I",
+    "difficulty": "easy",
+    "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+    "question": "Siempre 'reviso' y 'aplico la normatividad vigente' para el 'desarrollo de aplicaciones', 'garantizando el adecuado licenciamiento y propiedad del software'.",
+    "options": {
+      "A": "En desacuerdo",
+      "B": "Neutral",
+      "C": "De acuerdo"
+    },
+    "correctAnswer": "C",
+    "explanation": "La 'revisión y aplicación de la normatividad' sobre 'licenciamiento y propiedad del software' es un aspecto clave de la 'Gestión de Procedimientos' y la 'Adherencia a Estándares de Calidad'. [cite: 51, 7]"
+  },
+  {
+    "id": "q_gp_054",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_II",
+    "difficulty": "medium",
+    "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Nunca, B=Rara vez, C=Ocasionalmente, D=Frecuentemente, E=Siempre).",
+    "question": "Cuando 'implemento los desarrollos de software', me aseguro de que estén 'alineados' con la 'arquitectura de los Sistemas de Información definida', de acuerdo con el 'procedimiento establecido'.",
+    "options": {
+      "A": "Nunca",
+      "B": "Rara vez",
+      "C": "Ocasionalmente",
+      "D": "Frecuentemente",
+      "E": "Siempre"
+    },
+    "correctAnswer": "E",
+    "explanation": "La 'alineación de desarrollos con la arquitectura definida' y el 'seguimiento del procedimiento establecido' demuestran 'Conocimiento y Adherencia' a los 'procedimientos establecidos' y 'Adherencia a Estándares de Calidad'. [cite: 51, 36]"
+  },
+  {
+    "id": "q_gp_055",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_YES_NO",
+    "difficulty": "easy",
+    "case": "Usted se enfrenta a la siguiente situación laboral. Elija la opción que mejor describe su respuesta.",
+    "question": "El IDU ha estandarizado una 'herramienta de gestión de proyectos'. ¿La utilizaría 'rigurosamente' para todas sus tareas de 'Gestión de Proyectos', incluso si prefiere otra herramienta personal?",
+    "options": {
+      "A": "Sí",
+      "B": "No"
+    },
+    "correctAnswer": "A",
+    "explanation": "Utilizar 'rigurosamente' las 'herramientas estandarizadas' demuestra 'Conocimiento y Adherencia' a los 'procedimientos establecidos' y 'Orientación a Resultados'. [cite: 51]"
+  },
+  {
+    "id": "q_gp_056",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "Usted es el responsable de la 'implementación de los lineamientos establecidos en el Sistema de Gestión de Seguridad de la Información (SGSI)' en su área del IDU. Un 'nuevo lineamiento' es muy 'estricto' y 'complejo' de aplicar en el día a día de su equipo, y varios miembros expresan 'resistencia' al cambio en sus 'hábitos de trabajo'.",
+    "question": "¿Qué acción, basada en la 'Gestión de Procedimientos' y la 'Comunicación Efectiva', sería la más adecuada?",
+    "options": {
+      "A": "Ignorar la resistencia y exigir el cumplimiento estricto del nuevo lineamiento, aplicando sanciones si es necesario.",
+      "B": "Organizar 'sesiones de trabajo' para 'explicar la importancia' del nuevo lineamiento para la 'Seguridad de la Información' del IDU, 'escuchar las dificultades' de aplicación, y 'proponer ajustes al procedimiento' (sin comprometer la seguridad) o 'crear guías de aplicación' más 'sencillas', 'capacitando' al equipo y 'fomentando la adopción' con 'compromiso'.",
+      "C": "Solicitar que se flexibilice el lineamiento de seguridad para adaptarse a la comodidad del equipo."
+    },
+    "correctAnswer": "B",
+    "explanation": "La 'Gestión de Procedimientos' exige 'Capacidad para Seguir, Aplicar y Optimizar'. 'Explicar la importancia', 'escuchar dificultades', y 'proponer ajustes o guías' para 'fomentar la adopción' (opción B) demuestra 'Proactividad en la Optimización', 'Comunicación Efectiva' y 'Adherencia a Estándares de Calidad' en la 'Seguridad de la Información', asegurando el 'cumplimiento' y la 'efectividad'. [cite: 51, 75, 76]"
+  },
+  {
+    "id": "q_gp_057",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_I",
+    "difficulty": "easy",
+    "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+    "question": "Me parece 'importante' que todos los 'empleados del IDU' sigan los 'procedimientos establecidos' para 'garantizar la coherencia' en el 'servicio público'.",
+    "options": {
+      "A": "En desacuerdo",
+      "B": "Neutral",
+      "C": "De acuerdo"
+    },
+    "correctAnswer": "C",
+    "explanation": "Reconocer la importancia de que todos sigan los 'procedimientos' para la 'coherencia del servicio público' demuestra 'Compromiso con la Organización' y 'Orientación a Resultados'. [cite: 51]"
+  },
+  {
+    "id": "q_gp_058",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_II",
+    "difficulty": "medium",
+    "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Nunca, B=Rara vez, C=Ocasionalmente, D=Frecuentemente, E=Siempre).",
+    "question": "Cuando 'implemento desarrollos de software', 'verifico' que 'cumplan' con los 'estándares' y 'buenas prácticas de arquitecturas y políticas de TI' definidas por el 'área'.",
+    "options": {
+      "A": "Nunca",
+      "B": "Rara vez",
+      "C": "Ocasionalmente",
+      "D": "Frecuentemente",
+      "E": "Siempre"
+    },
+    "correctAnswer": "E",
+    "explanation": "La 'verificación del cumplimiento' con 'estándares' y 'buenas prácticas de TI' demuestra 'Adherencia a Estándares de Calidad' y 'Aporte Técnico-Profesional' en la 'Gestión de Procedimientos'. [cite: 51, 31]"
+  },
+  {
+    "id": "q_gp_059",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_YES_NO",
+    "difficulty": "easy",
+    "case": "Usted se enfrenta a la siguiente situación laboral. Elija la opción que mejor describe su respuesta.",
+    "question": "Un 'sistema de información' genera 'alertas frecuentes' de un 'proceso', pero no hay un 'protocolo claro' para 'gestionarlas'. ¿Las 'ignorarías' hasta que se 'establezca un protocolo'?",
+    "options": {
+      "A": "Sí",
+      "B": "No"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ignorar alertas por falta de un protocolo claro es contrario a la 'Diligencia' y 'Resolución de Problemas'. Es necesario buscar soluciones o proponer el desarrollo de un protocolo. [cite: 51]"
+  },
+  {
+    "id": "q_gp_060",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "PJS",
+    "difficulty": "medium",
+    "case": "Usted está 'ejecutando el Plan Estratégico de Tecnologías de la Información y las Comunicaciones (PETIC)' para el 'componente de desarrollo y evolución de los sistemas de información'. Se ha detectado que uno de los 'procedimientos' definidos para el 'desarrollo de software' está causando 'retrasos significativos' debido a pasos 'burocráticos' innecesarios, lo que 'afecta la ejecución del PETIC'.",
+    "question": "¿Qué acción, basada en la 'Gestión de Procedimientos' y la 'Orientación a Resultados', sería la más adecuada?",
+    "options": {
+      "A": "Continuar siguiendo el procedimiento tal cual, esperando que la burocracia se resuelva a nivel superior.",
+      "B": "Analizar 'críticamente' el 'procedimiento' identificado como 'cuello de botella', 'proponer ajustes específicos' que 'eliminen la burocracia' pero 'mantengan la calidad' y el 'control', y presentar la propuesta a su supervisor, justificando cómo 'optimizará la ejecución del PETIC' y 'suministrará herramientas requeridas para la efectiva ejecución de actividades'.",
+      "C": "Omitir los pasos burocráticos sin notificar a nadie para acelerar el desarrollo."
+    },
+    "correctAnswer": "B",
+    "explanation": "La 'Gestión de Procedimientos' exige 'Proactividad en la Optimización' y 'Adherencia a Estándares de Calidad'. 'Analizar críticamente', 'proponer ajustes' que 'eliminen la burocracia' y 'justificar la optimización' (opción B) demuestra un alto grado de 'Compromiso con la Organización', 'Aporte Técnico-Profesional' y 'Orientación a Resultados' en la 'ejecución del PETIC'. [cite: 51, 35]"
+  },
+  {
+    "id": "q_gp_061",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_I",
+    "difficulty": "easy",
+    "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+    "question": "Me parece que 'seguir los procedimientos' es una 'garantía de transparencia' en la 'gestión pública'.",
+    "options": {
+      "A": "En desacuerdo",
+      "B": "Neutral",
+      "C": "De acuerdo"
+    },
+    "correctAnswer": "C",
+    "explanation": "Reconocer que 'seguir los procedimientos' 'garantiza la transparencia' demuestra 'Conocimiento y Adherencia' a los 'principios del sector público'. [cite: 156]"
+  },
+  {
+    "id": "q_gp_062",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_II",
+    "difficulty": "medium",
+    "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Nunca, B=Rara vez, C=Ocasionalmente, D=Frecuentemente, E=Siempre).",
+    "question": "Cuando 'creo o actualizo documentación' para 'sistemas de información', me aseguro de que 'se adapte a los lineamientos del 'Modelo de Arquitectura Empresarial (MAE)''.",
+    "options": {
+      "A": "Nunca",
+      "B": "Rara vez",
+      "C": "Ocasionalmente",
+      "D": "Frecuentemente",
+      "E": "Siempre"
+    },
+    "correctAnswer": "E",
+    "explanation": "La 'adaptación a los lineamientos del MAE' en la documentación demuestra 'Conocimiento y Adherencia' a las 'normativas establecidas' y 'Aporte Técnico-Profesional'. [cite: 51, 767]"
+  },
+  {
+    "id": "q_gp_063",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_YES_NO",
+    "difficulty": "easy",
+    "case": "Usted se enfrenta a la siguiente situación laboral. Elija la opción que mejor describe su respuesta.",
+    "question": "Un 'protocolo' para la 'gestión de cambios' en 'sistemas' parece 'demasiado burocrático'. ¿Buscaría 'flexibilizarlo sin autorización oficial' para 'agilizar los cambios'?",
+    "options": {
+      "A": "Sí",
+      "B": "No"
+    },
+    "correctAnswer": "B",
+    "explanation": "Flexibilizar 'protocolos sin autorización' es contrario a la 'Gestión de Procedimientos'. Es necesario 'proponer mejoras' formalmente, no desviarse de la norma. [cite: 51]"
+  },
+  {
+    "id": "q_gp_064",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está 'desarrollando una nueva aplicación' que 'automatizará un proceso' clave para 'mejorar la atención al ciudadano'. Durante las pruebas, se detecta que, aunque la 'funcionalidad es correcta', la 'interfaz de usuario' no cumple con los 'estándares de usabilidad' definidos en el 'manual de diseño de interfaces' del IDU, y su 'supervisor' considera que 'no es crítico' y puede 'lanzarse así'.",
+    "question": "¿Qué acción, basada en la 'Gestión de Procedimientos' y la 'Orientación al Usuario', sería la más adecuada?",
+    "options": {
+      "A": "Aceptar la indicación del supervisor y lanzar la aplicación, priorizando el cumplimiento del cronograma sobre la usabilidad, ya que 'no es crítico'.",
+      "B": "Argumentar 'técnicamente' la 'importancia' de cumplir con los 'estándares de usabilidad' para 'garantizar una alta calidad', 'efectividad' y 'entrega a satisfacción' al 'usuario y ciudadano', proponiendo un 'plan para ajustar la interfaz' rápidamente, demostrando así 'adherencia a estándares' y 'vocación de servicio'.",
+      "C": "Realizar los ajustes de usabilidad por su cuenta, sin notificar al supervisor, para no generar un retraso oficial."
+    },
+    "correctAnswer": "B",
+    "explanation": "La 'Gestión de Procedimientos' exige 'Adherencia a Estándares de Calidad' y 'Orientación al Usuario y al Ciudadano'. 'Argumentar por el cumplimiento' de estándares de usabilidad y 'proponer un plan de ajuste' (opción B) demuestra un alto grado de 'Compromiso con la Organización', 'Aporte Técnico-Profesional' y 'Orientación a Resultados' en el 'desarrollo de aplicaciones' para 'suministrar a la entidad soluciones de alta calidad de software'. [cite: 51, 34]"
+  },
+  {
+    "id": "q_gp_065",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_I",
+    "difficulty": "easy",
+    "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+    "question": "Me parece 'esencial' que 'los procesos de contratación de TI' en el IDU sigan 'estrictamente la normatividad estatal'.",
+    "options": {
+      "A": "En desacuerdo",
+      "B": "Neutral",
+      "C": "De acuerdo"
+    },
+    "correctAnswer": "C",
+    "explanation": "La 'estricta adherencia a la normatividad estatal' en 'contratación de TI' es un pilar de la 'Gestión de Procedimientos' y la 'Legalidad'. [cite: 51, 1]"
+  },
+  {
+    "id": "q_gp_066",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_II",
+    "difficulty": "medium",
+    "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Nunca, B=Rara vez, C=Ocasionalmente, D=Frecuentemente, E=Siempre).",
+    "question": "Cuando 'implemento un proyecto', me aseguro de que 'incorpore la documentación' y 'archivos existentes' para 'mantener el histórico y trazabilidad', 'de acuerdo a las metodologías adoptadas'.",
+    "options": {
+      "A": "Nunca",
+      "B": "Rara vez",
+      "C": "Ocasionalmente",
+      "D": "Frecuentemente",
+      "E": "Siempre"
+    },
+    "correctAnswer": "E",
+    "explanation": "La 'incorporación de documentación y archivos' para 'trazabilidad' es crucial para la 'Gestión de Procedimientos' y el 'Orden y Sistematicidad'. [cite: 51, 765]"
+  },
+  {
+    "id": "q_gp_067",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_YES_NO",
+    "difficulty": "easy",
+    "case": "Usted se enfrenta a la siguiente situación laboral. Elija la opción que mejor describe su respuesta.",
+    "question": "Un 'ente de control' solicita 'información' de un 'sistema', pero el 'procedimiento de reporte' es 'largo'. ¿'Simplificaría' la respuesta 'sin seguir el procedimiento oficial' para 'agilizar la entrega'?",
+    "options": {
+      "A": "Sí",
+      "B": "No"
+    },
+    "correctAnswer": "B",
+    "explanation": "'Simplificar' la respuesta 'sin seguir el procedimiento oficial' es contrario a la 'Gestión de Procedimientos' y a la 'Transparencia'. [cite: 51]"
+  },
+  {
+    "id": "q_gp_068",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está 'ejecutando un Plan Estratégico de Tecnologías de la Información y las Comunicaciones (PETIC)'. Usted detecta que un 'procedimiento de control de cambios' en el desarrollo de software es 'obsoleto' y no permite una 'gestión eficiente' de las 'actualizaciones', lo que 'genera riesgos' para el 'PETIC'. Su supervisor no considera que sea una 'prioridad inmediata' actualizarlo.",
+    "question": "¿Qué acción, basada en la 'Gestión de Procedimientos' y la 'Visión Estratégica', sería la más adecuada?",
+    "options": {
+      "A": "Continuar siguiendo el procedimiento obsoleto hasta que sea formalmente una prioridad para su supervisor.",
+      "B": "Analizar 'detalladamente' el 'procedimiento obsoleto', 'identificar los riesgos' para el 'PETIC' y la 'seguridad', y 'proponer una actualización' del 'procedimiento de control de cambios' con 'mejores prácticas', 'justificando los beneficios' en 'eficiencia' y 'mitigación de riesgos' para la 'ejecución estratégica' de los 'sistemas de información'.",
+      "C": "Implementar un control de cambios informal en su equipo, sin modificar el procedimiento oficial."
+    },
+    "correctAnswer": "B",
+    "explanation": "La 'Gestión de Procedimientos' exige 'Proactividad en la Optimización' y 'Adherencia a Estándares de Calidad'. 'Analizar', 'identificar riesgos' y 'proponer una actualización' con 'justificación estratégica' (opción B) demuestra un alto grado de 'Aporte Técnico-Profesional', 'Orientación a Resultados' y 'Compromiso con la Organización' en la 'ejecución del PETIC'. [cite: 51, 35]"
+  },
+  {
+    "id": "q_gp_069",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_I",
+    "difficulty": "easy",
+    "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+    "question": "Me parece que los 'procesos detallados' son 'útiles' para 'garantizar la calidad' de los 'desarrollos de software'.",
+    "options": {
+      "A": "En desacuerdo",
+      "B": "Neutral",
+      "C": "De acuerdo"
+    },
+    "correctAnswer": "C",
+    "explanation": "Considerar los 'procesos detallados' como 'útiles para la calidad' demuestra 'Adherencia a Estándares de Calidad' y 'Orden y Sistematicidad' en la 'Gestión de Procedimientos'. [cite: 51]"
+  },
+  {
+    "id": "q_gp_070",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_II",
+    "difficulty": "medium",
+    "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Nunca, B=Rara vez, C=Ocasionalmente, D=Frecuentemente, E=Siempre).",
+    "question": "Cuando 'implemento una nueva política' o 'lineamiento' del 'Ministerio de Tecnologías de la Información y las Comunicaciones', me aseguro de que 'se adapte' correctamente en el 'IDU'.",
+    "options": {
+      "A": "Nunca",
+      "B": "Rara vez",
+      "C": "Ocasionalmente",
+      "D": "Frecuentemente",
+      "E": "Siempre"
+    },
+    "correctAnswer": "E",
+    "explanation": "La 'adaptación' de 'lineamientos externos' demuestra 'Proactividad en la Optimización' y 'Conocimiento y Adherencia' a las 'normativas establecidas' y al 'Modelo de Arquitectura Empresarial (MAE)'. [cite: 51, 767]"
+  },
+  {
+    "id": "q_gp_071",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_YES_NO",
+    "difficulty": "easy",
+    "case": "Usted se enfrenta a la siguiente situación laboral. Elija la opción que mejor describe su respuesta.",
+    "question": "Un 'proveedor' sugiere un 'procedimiento de integración' de software 'no estándar' que parece 'más rápido'. ¿Lo aceptaría sin 'consultar los protocolos' del IDU?",
+    "options": {
+      "A": "Sí",
+      "B": "No"
+    },
+    "correctAnswer": "B",
+    "explanation": "Aceptar 'procedimientos no estándar sin consultar protocolos' es contrario a la 'Conocimiento y Adherencia' a los 'procedimientos establecidos' y la 'Adherencia a Estándares de Calidad'. [cite: 51]"
+  },
+  {
+    "id": "q_gp_072",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "PJS",
+    "difficulty": "medium",
+    "case": "El IDU ha implementado un nuevo 'sistema de tickets' para la 'gestión de incidencias' y 'requerimientos de TI'. El 'procedimiento de uso' del sistema es 'claro', pero algunos 'usuarios finales' lo 'ignoran' y 'envían sus requerimientos directamente' a los técnicos, 'saltándose el protocolo', lo que 'genera desorden' y 'retrasos'.",
+    "question": "¿Qué acción, basada en la 'Gestión de Procedimientos' y la 'Comunicación Efectiva', sería la más adecuada?",
+    "options": {
+      "A": "Ignorar los requerimientos que no llegan por el sistema de tickets, esperando que los usuarios se adapten con el tiempo.",
+      "B": "Recordar 'amablemente' a los 'usuarios' el 'procedimiento oficial' para 'reportar requerimientos', 'explicando los beneficios' del 'sistema de tickets' para 'una atención más eficiente' y 'trazabilidad', y ofrecer 'ayuda para su uso', 'gestionando' activamente el 'cumplimiento del protocolo'.",
+      "C": "Solicitar a su supervisor que envíe un comunicado amenazante sobre las consecuencias de no usar el sistema de tickets."
+    },
+    "correctAnswer": "B",
+    "explanation": "La 'Gestión de Procedimientos' exige 'Conocimiento y Adherencia' y 'Proactividad en la Optimización'. 'Recordar amablemente', 'explicar beneficios' y 'ofrecer ayuda' (opción B) demuestra 'Comunicación Efectiva' y 'Orientación al Usuario', 'gestionando' activamente el 'cumplimiento del protocolo' para 'mejorar la eficiencia' del 'servicio'. [cite: 51, 769]"
+  },
+  {
+    "id": "q_gp_073",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_I",
+    "difficulty": "easy",
+    "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+    "question": "Me parece 'importante' que 'los procesos' de 'Desarrollo de Sistemas de Información' estén 'bien definidos' para 'evitar errores'.",
+    "options": {
+      "A": "En desacuerdo",
+      "B": "Neutral",
+      "C": "De acuerdo"
+    },
+    "correctAnswer": "C",
+    "explanation": "Considerar 'procesos bien definidos' como 'importantes para evitar errores' demuestra 'Orden y Sistematicidad' y 'Adherencia a Estándares de Calidad' en la 'Gestión de Procedimientos'. [cite: 51]"
+  },
+  {
+    "id": "q_gp_074",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_II",
+    "difficulty": "medium",
+    "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Nunca, B=Rara vez, C=Ocasionalmente, D=Frecuentemente, E=Siempre).",
+    "question": "Cuando 'identifico una brecha' entre un 'procedimiento establecido' y la 'realidad operativa', 'propongo un ajuste' al procedimiento para 'mayor eficiencia'.",
+    "options": {
+      "A": "Nunca",
+      "B": "Rara vez",
+      "C": "Ocasionalmente",
+      "D": "Frecuentemente",
+      "E": "Siempre"
+    },
+    "correctAnswer": "E",
+    "explanation": "La 'identificación de brechas' y la 'proposición de ajustes' demuestran 'Proactividad en la Optimización' y 'Aporte Técnico-Profesional' en la 'Gestión de Procedimientos'."
+  },
+  {
+    "id": "q_gp_075",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_YES_NO",
+    "difficulty": "easy",
+    "case": "Usted se enfrenta a la siguiente situación laboral. Elija la opción que mejor describe su respuesta.",
+    "question": "El 'procedimiento de pruebas de software' del IDU es 'muy riguroso'. ¿Realizaría 'pruebas menos exhaustivas' para 'acelerar los tiempos de entrega'?",
+    "options": {
+      "A": "Sí",
+      "B": "No"
+    },
+    "correctAnswer": "B",
+    "explanation": "Realizar 'pruebas menos exhaustivas' es contrario a la 'Adherencia a Estándares de Calidad' y a la 'Gestión de Procedimientos' que busca 'calidad y efectividad'."
+  },
+  {
+    "id": "q_gp_076",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "PJS",
+    "difficulty": "hard",
+    "case": "El IDU está 'ejecutando un Plan Estratégico de Tecnologías de la Información y las Comunicaciones (PETIC)'. Usted detecta que un 'procedimiento de Gestión de Proyectos' es 'demasiado flexible' y permite 'múltiples desviaciones' del alcance, lo que 'compromete la entrega' de los 'Sistemas de Información' alineados con el 'PETIC'. Su supervisor prioriza la 'agilidad' sobre la 'estandarización'.",
+    "question": "¿Qué acción, basada en la 'Gestión de Procedimientos' y la 'Orientación a Resultados', sería la más adecuada?",
+    "options": {
+      "A": "Adaptarse a la flexibilidad del supervisor, esperando que la 'Gestión de Proyectos' mejore con la experiencia del equipo.",
+      "B": "Analizar 'detalladamente' el 'procedimiento', 'identificar las causas' de las 'desviaciones', y 'proponer ajustes' que 'equilibren' la 'agilidad' con el 'control' y la 'estandarización', 'justificando cómo esto garantizará' la 'implementación de desarrollos de alta calidad, efectividad y entrega a satisfacción' alineados con el 'PETIC', 'gestionando' los 'proyectos' con 'rigor'.",
+      "C": "Implementar un 'procedimiento propio' más 'estricto' para sus 'proyectos personales', sin informar a su supervisor."
+    },
+    "correctAnswer": "B",
+    "explanation": "La 'Gestión de Procedimientos' exige 'Proactividad en la Optimización' y 'Adherencia a Estándares de Calidad'. 'Analizar', 'identificar causas' y 'proponer ajustes que equilibren agilidad y control' (opción B) demuestra un alto grado de 'Aporte Técnico-Profesional', 'Orientación a Resultados' y 'Compromiso con la Organización' en la 'ejecución del PETIC' y la 'Gestión de Proyectos'. [cite: 51, 36]"
+  },
+  {
+    "id": "q_gp_077",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_I",
+    "difficulty": "easy",
+    "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+    "question": "Me parece que los 'procesos administrativos de tecnología' son 'demasiado rígidos' y 'ralentizan el desarrollo'.",
+    "options": {
+      "A": "En desacuerdo",
+      "B": "Neutral",
+      "C": "De acuerdo"
+    },
+    "correctAnswer": "A",
+    "explanation": "Considerar los 'procesos administrativos' como 'demasiado rígidos' y que 'ralentizan' el desarrollo es contrario a la 'Proactividad en la Optimización' y la 'Eficiencia' en la 'Gestión de Procedimientos'. [cite: 51]"
+  },
+  {
+    "id": "q_gp_078",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_II",
+    "difficulty": "medium",
+    "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Nunca, B=Rara vez, C=Ocasionalmente, D=Frecuentemente, E=Siempre).",
+    "question": "Cuando 'implemento un desarrollo', me aseguro de 'revisar y aplicar' la 'normatividad vigente' para 'garantizar el adecuado licenciamiento y propiedad del software'.",
+    "options": {
+      "A": "Nunca",
+      "B": "Rara vez",
+      "C": "Ocasionalmente",
+      "D": "Frecuentemente",
+      "E": "Siempre"
+    },
+    "correctAnswer": "E",
+    "explanation": "La 'revisión y aplicación de la normatividad' sobre 'licenciamiento y propiedad del software' demuestra 'Conocimiento y Adherencia' y 'Adherencia a Estándares de Calidad' en la 'Gestión de Procedimientos'. [cite: 51, 766]"
+  },
+  {
+    "id": "q_gp_079",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_YES_NO",
+    "difficulty": "easy",
+    "case": "Usted se enfrenta a la siguiente situación laboral. Elija la opción que mejor describe su respuesta.",
+    "question": "Se le solicita 'elaborar la documentación necesaria' para la 'contratación de un aplicativo'. ¿La haría 'siguiendo el formato y las especificaciones' del IDU, incluso si las considera 'muy detalladas'?",
+    "options": {
+      "A": "Sí",
+      "B": "No"
+    },
+    "correctAnswer": "A",
+    "explanation": "Elaborar 'documentación siguiendo el formato y las especificaciones' del IDU demuestra 'Conocimiento y Adherencia' a los 'procedimientos establecidos' y 'Orden y Sistematicidad'. [cite: 51, 768]"
+  },
+  {
+    "id": "q_gp_080",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "PJS",
+    "difficulty": "medium",
+    "case": "Usted es el encargado de 'Realizar la automatización de los procesos' en el IDU. Un 'proceso manual crítico' es 'ineficiente', pero el 'procedimiento de automatización' es 'nuevo' y 'poco claro' en algunos puntos, y el 'personal' no está 'familiarizado' con la 'herramienta'.",
+    "question": "¿Qué acción, basada en la 'Gestión de Procedimientos' y la 'Proactividad en la Optimización', sería la más adecuada?",
+    "options": {
+      "A": "Esperar a que se 'aclare completamente el procedimiento' y se 'capacite al personal' antes de intentar la automatización, para evitar errores.",
+      "B": "Iniciar la 'automatización del proceso', 'investigando' activamente para 'clarificar' los puntos oscuros del 'procedimiento', 'documentando' las 'decisiones tomadas' y 'proponiendo mejoras al procedimiento' a medida que se avanza, y 'capacitando al personal' de forma 'práctica' para 'suministrar herramientas requeridas para la efectiva ejecución de actividades'.",
+      "C": "Realizar la automatización utilizando solo la parte del procedimiento que está clara, y omitir las partes confusas."
+    },
+    "correctAnswer": "B",
+    "explanation": "La 'Gestión de Procedimientos' exige 'Capacidad para Seguir, Aplicar y Optimizar'. 'Investigar', 'documentar decisiones', 'proponer mejoras al procedimiento' y 'capacitar al personal' (opción B) demuestra 'Proactividad en la Optimización', 'Aporte Técnico-Profesional' y 'Adaptación al Cambio' para 'automatizar los procesos' y 'generar valor' para la entidad. [cite: 51, 33]"
+  },
+  {
+    "id": "q_gp_081",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_I",
+    "difficulty": "easy",
+    "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+    "question": "Me parece que la 'adherencia a los protocolos' es 'fundamental' para la 'seguridad' de los 'sistemas de información'.",
+    "options": {
+      "A": "En desacuerdo",
+      "B": "Neutral",
+      "C": "De acuerdo"
+    },
+    "correctAnswer": "C",
+    "explanation": "La 'adherencia a protocolos' como 'fundamental para la seguridad' demuestra 'Conocimiento y Adherencia' a los 'procedimientos establecidos' y 'Adherencia a Estándares de Calidad' en 'Seguridad de la Información'. [cite: 51]"
+  },
+  {
+    "id": "q_gp_082",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_II",
+    "difficulty": "medium",
+    "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Nunca, B=Rara vez, C=Ocasionalmente, D=Frecuentemente, E=Siempre).",
+    "question": "Cuando 'atiendo los requerimientos de entes de control', 'me aseguro' de 'cumplir con la normatividad legal vigente' y los 'niveles de servicio establecidos'.",
+    "options": {
+      "A": "Nunca",
+      "B": "Rara vez",
+      "C": "Ocasionalmente",
+      "D": "Frecuentemente",
+      "E": "Siempre"
+    },
+    "correctAnswer": "E",
+    "explanation": "El 'cumplimiento con la normatividad legal vigente' y los 'niveles de servicio' al 'atender requerimientos' demuestra 'Conocimiento y Adherencia' y 'Orientación a Resultados' en la 'Gestión de Procedimientos'. [cite: 51, 769]"
+  },
+  {
+    "id": "q_gp_083",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_YES_NO",
+    "difficulty": "easy",
+    "case": "Usted se enfrenta a la siguiente situación laboral. Elija la opción que mejor describe su respuesta.",
+    "question": "Un 'procedimiento de control de calidad de software' en el IDU es 'muy estricto'. ¿Lo 'flexibilizaría' para 'acelerar las entregas', si el 'cronograma' es 'apretado'?",
+    "options": {
+      "A": "Sí",
+      "B": "No"
+    },
+    "correctAnswer": "B",
+    "explanation": "Flexibilizar 'procedimientos de control de calidad' es contrario a la 'Adherencia a Estándares de Calidad' y a la 'Gestión de Procedimientos' que busca 'calidad y efectividad'. [cite: 51]"
+  },
+  {
+    "id": "q_gp_084",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "PJS",
+    "difficulty": "medium",
+    "case": "El IDU está 'actualizando sus manuales de procesos y procedimientos' internos para 'mejorar la eficiencia'. Se le solicita que 'documente los procedimientos' de 'Desarrollo de Sistemas de Información' de su área, pero usted identifica que algunos de ellos ya no son 'relevantes' o son 'duplicados' en otros manuales. Su supervisor insiste en 'documentar todo' para 'cumplir con el formato'.",
+    "question": "¿Qué acción, basada en la 'Gestión de Procedimientos' y la 'Proactividad en la Optimización', sería la más adecuada?",
+    "options": {
+      "A": "Documentar todos los procedimientos como se le indica, para cumplir con el formato, sin cuestionar la relevancia de los duplicados.",
+      "B": "Documentar los 'procedimientos relevantes' y 'proponer una optimización' de los manuales, 'eliminando duplicados' y 'simplificando' los procesos 'innecesarios', 'justificando los beneficios' en 'eficiencia' y 'claridad' para la 'Gestión Documental' y el 'cumplimiento de las funciones' del 'IDU', 'presentando la estrategia' a su supervisor.",
+      "C": "Negarse a documentar los procedimientos irrelevantes, argumentando que no tiene sentido."
+    },
+    "correctAnswer": "B",
+    "explanation": "La 'Gestión de Procedimientos' exige 'Capacidad para Seguir, Aplicar y Optimizar'. 'Proponer una optimización' de los manuales, 'eliminando duplicados' y 'simplificando' (opción B) demuestra 'Proactividad en la Optimización', 'Aporte Técnico-Profesional' y 'Orientación a Resultados' para 'generar valor' y 'mejorar la eficiencia' de la entidad. [cite: 51]"
+  },
+  {
+    "id": "q_gp_085",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_I",
+    "difficulty": "easy",
+    "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+    "question": "Siempre 'busco entender' el 'propósito' de un 'procedimiento' antes de 'aplicarlo', no solo 'seguir los pasos'.",
+    "options": {
+      "A": "En desacuerdo",
+      "B": "Neutral",
+      "C": "De acuerdo"
+    },
+    "correctAnswer": "C",
+    "explanation": "Entender el 'propósito' de un 'procedimiento' demuestra 'Conocimiento y Adherencia' profunda y 'Orientación a Resultados' en la 'Gestión de Procedimientos'."
+  },
+  {
+    "id": "q_gp_086",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_II",
+    "difficulty": "medium",
+    "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Nunca, B=Rara vez, C=Ocasionalmente, D=Frecuentemente, E=Siempre).",
+    "question": "Cuando un 'proceso' no está 'claramente definido', tomo la 'iniciativa' para 'proponer' un 'borrador de procedimiento' para su 'estandarización'.",
+    "options": {
+      "A": "Nunca",
+      "B": "Rara vez",
+      "C": "Ocasionalmente",
+      "D": "Frecuentemente",
+      "E": "Siempre"
+    },
+    "correctAnswer": "D",
+    "explanation": "Tomar la 'iniciativa' para 'proponer procedimientos' donde no existen demuestra 'Proactividad en la Optimización' y 'Aporte Técnico-Profesional' en la 'Gestión de Procedimientos'."
+  },
+  {
+    "id": "q_gp_087",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_YES_NO",
+    "difficulty": "easy",
+    "case": "Usted se enfrenta a la siguiente situación laboral. Elija la opción que mejor describe su respuesta.",
+    "question": "El IDU 'implementa un nuevo sistema' para 'gestionar sus activos tecnológicos'. ¿Lo usaría 'metódicamente', 'registrando' toda la 'información requerida'?",
+    "options": {
+      "A": "Sí",
+      "B": "No"
+    },
+    "correctAnswer": "A",
+    "explanation": "Usar un 'nuevo sistema metódicamente' y 'registrando la información requerida' demuestra 'Orden y Sistematicidad' y 'Conocimiento y Adherencia' a los 'procedimientos establecidos'. [cite: 51]"
+  },
+  {
+    "id": "q_gp_088",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "PJS",
+    "difficulty": "medium",
+    "case": "El IDU está 'ejecutando un Plan Estratégico de Tecnologías de la Información y las Comunicaciones (PETIC)'. Se le encarga la 'implementación de un nuevo módulo de software' que es 'clave' para el 'PETIC'. Sin embargo, el 'procedimiento de pruebas de integración' con otros sistemas existentes es 'insuficiente' y podría dejar 'errores críticos' sin detectar. Su supervisor lo presiona para 'lanzar el módulo' según el 'cronograma'.",
+    "question": "¿Qué acción, basada en la 'Gestión de Procedimientos' y la 'Adherencia a Estándares de Calidad', sería la más adecuada?",
+    "options": {
+      "A": "Lanzar el módulo según el cronograma, confiando en que los errores se detectarán después de la implementación y se corregirán con parches.",
+      "B": "Documentar la 'insuficiencia del procedimiento de pruebas', 'proponer una extensión' o 'ajuste' al 'protocolo de pruebas de integración' para 'garantizar la detección de errores críticos', 'justificando cómo esto asegurará la 'calidad, efectividad y entrega a satisfacción' del módulo y la 'correcta ejecución del PETIC'.",
+      "C": "Realizar pruebas adicionales por su cuenta, sin modificar el procedimiento oficial ni informar a su supervisor del riesgo."
+    },
+    "correctAnswer": "B",
+    "explanation": "La 'Gestión de Procedimientos' exige 'Adherencia a Estándares de Calidad' y 'Proactividad en la Optimización'. 'Documentar insuficiencias', 'proponer ajustes al protocolo de pruebas' y 'justificar los beneficios' (opción B) demuestra un alto grado de 'Aporte Técnico-Profesional', 'Orientación a Resultados' y 'Compromiso con la Organización' en la 'ejecución del PETIC' y el 'desarrollo de software'. [cite: 51, 35]"
+  },
+  {
+    "id": "q_gp_089",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_I",
+    "difficulty": "easy",
+    "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+    "question": "Me parece que 'seguir un flujo de trabajo sistemático' me ayuda a ser 'más productivo/a' en mis tareas diarias.",
+    "options": {
+      "A": "En desacuerdo",
+      "B": "Neutral",
+      "C": "De acuerdo"
+    },
+    "correctAnswer": "C",
+    "explanation": "Considerar un 'flujo de trabajo sistemático' como 'ayuda para la productividad' demuestra 'Orden y Sistematicidad' y 'Orientación a Resultados' en la 'Gestión de Procedimientos'. [cite: 51]"
+  },
+  {
+    "id": "q_gp_090",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_II",
+    "difficulty": "medium",
+    "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Nunca, B=Rara vez, C=Ocasionalmente, D=Frecuentemente, E=Siempre).",
+    "question": "Cuando un 'proceso' implica 'interacciones con otras áreas', 'me aseguro' de 'documentar claramente' los 'puntos de entrega y recepción' de información.",
+    "options": {
+      "A": "Nunca",
+      "B": "Rara vez",
+      "C": "Ocasionalmente",
+      "D": "Frecuentemente",
+      "E": "Siempre"
+    },
+    "correctAnswer": "E",
+    "explanation": "La 'documentación clara' de 'puntos de entrega y recepción' demuestra 'Orden y Sistematicidad' y 'Comunicación Efectiva' en la 'Gestión de Procedimientos', especialmente en 'equipos multidisciplinarios'. [cite: 51]"
+  },
+  {
+    "id": "q_gp_091",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_YES_NO",
+    "difficulty": "easy",
+    "case": "Usted se enfrenta a la siguiente situación laboral. Elija la opción que mejor describe su respuesta.",
+    "question": "El 'Manual de Funciones' del IDU indica que ciertas 'tareas' deben 'registrarse en un sistema específico'. ¿Lo haría 'siempre', incluso si el 'sistema' es 'poco amigable'?",
+    "options": {
+      "A": "Sí",
+      "B": "No"
+    },
+    "correctAnswer": "A",
+    "explanation": "Registrar 'tareas en el sistema específico', a pesar de la dificultad de uso, demuestra 'Conocimiento y Adherencia' a los 'procedimientos establecidos' y 'Diligencia'. [cite: 51]"
+  },
+  {
+    "id": "q_gp_092",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "PJS",
+    "difficulty": "medium",
+    "case": "El IDU está 'actualizando su Sistema de Gestión de Seguridad de la Información (SGSI)'. El 'nuevo protocolo de gestión de incidentes' es 'muy exhaustivo' y requiere 'más pasos y documentación' que el anterior. Un 'compañero' se queja de que es 'demasiado burocrático' y propone 'omitir pasos' para 'agilizar la respuesta'.",
+    "question": "¿Qué acción, basada en la 'Gestión de Procedimientos' y la 'Adherencia a Estándares de Calidad', sería la más adecuada?",
+    "options": {
+      "A": "Aceptar la propuesta del compañero para 'agilizar la respuesta', ya que la 'seguridad' es prioritaria sobre la 'burocracia'.",
+      "B": "Explicar la 'importancia' de 'cada paso' del 'nuevo protocolo' para 'garantizar una respuesta efectiva' y 'completa' a 'incidentes de seguridad', y 'proponer optimizaciones' (ej. 'herramientas de automatización') para 'simplificar la documentación' sin 'comprometer la exhaustividad' y 'fomentar la adopción' en el equipo.",
+      "C": "Informar al supervisor sobre la 'queja del compañero' y pedirle que 'reduzca la complejidad' del 'protocolo'."
+    },
+    "correctAnswer": "B",
+    "explanation": "La 'Gestión de Procedimientos' exige 'Adherencia a Estándares de Calidad' y 'Proactividad en la Optimización'. 'Explicar la importancia', 'proponer optimizaciones' y 'simplificar la documentación' (opción B) demuestra 'Aporte Técnico-Profesional', 'Comunicación Efectiva' y 'Compromiso con la Organización' en la 'implementación de los lineamientos establecidos en el SGSI'. [cite: 51, 75, 76]"
+  },
+  {
+    "id": "q_gp_093",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_I",
+    "difficulty": "easy",
+    "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+    "question": "Me parece 'esencial' que la 'documentación' de los 'sistemas' sea 'completa' para 'asegurar el histórico y trazabilidad'.",
+    "options": {
+      "A": "En desacuerdo",
+      "B": "Neutral",
+      "C": "De acuerdo"
+    },
+    "correctAnswer": "C",
+    "explanation": "Considerar la 'documentación completa' como 'esencial para la trazabilidad' demuestra 'Orden y Sistematicidad' y 'Adherencia a Estándares de Calidad' en la 'Gestión de Procedimientos'. [cite: 51, 765]"
+  },
+  {
+    "id": "q_gp_094",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_II",
+    "difficulty": "medium",
+    "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Nunca, B=Rara vez, C=Ocasionalmente, D=Frecuentemente, E=Siempre).",
+    "question": "Cuando 'encuentro un error' en un 'procedimiento establecido', lo 'reporto' y 'propongo una corrección' para 'mejorar la eficiencia'.",
+    "options": {
+      "A": "Nunca",
+      "B": "Rara vez",
+      "C": "Ocasionalmente",
+      "D": "Frecuentemente",
+      "E": "Siempre"
+    },
+    "correctAnswer": "E",
+    "explanation": "La 'identificación de errores' y la 'proposición de correcciones' demuestran 'Proactividad en la Optimización' y 'Orientación a Resultados' en la 'Gestión de Procedimientos'."
+  },
+  {
+    "id": "q_gp_095",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_YES_NO",
+    "difficulty": "easy",
+    "case": "Usted se enfrenta a la siguiente situación laboral. Elija la opción que mejor describe su respuesta.",
+    "question": "El 'procedimiento de despliegue de software' exige 'múltiples aprobaciones'. ¿'Presionaría' para 'saltarse algunas' si 'retrasan la entrega' crítica de un 'sistema'?",
+    "options": {
+      "A": "Sí",
+      "B": "No"
+    },
+    "correctAnswer": "B",
+    "explanation": "Presionar para 'saltarse aprobaciones' es contrario a la 'Adherencia a Estándares de Calidad' y a la 'Gestión de Procedimientos'. Es necesario 'buscar alternativas' sin comprometer la 'calidad y efectividad'."
+  },
+  {
+    "id": "q_gp_096",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "PJS",
+    "difficulty": "medium",
+    "case": "El IDU está 'desarrollando una nueva aplicación' para 'automatizar un proceso' crítico. El 'procedimiento de pruebas de usuario' (UAT) es 'muy extenso', y los 'usuarios clave' del área están 'saturados' con sus tareas habituales, lo que 'ralentiza la UAT' y 'retrasa el lanzamiento' de la aplicación.",
+    "question": "¿Qué acción, basada en la 'Gestión de Procedimientos' y la 'Orientación al Usuario', sería la más adecuada?",
+    "options": {
+      "A": "Exigir a los usuarios que cumplan con todos los pasos del procedimiento, ya que la UAT es crítica para la calidad.",
+      "B": "Revisar el 'procedimiento de UAT' con los 'usuarios', 'identificar los pasos' que se pueden 'simplificar' o 'automatizar' (ej. 'pruebas exploratorias dirigidas'), y 'proponer un ajuste' que 'reduzca la carga' para los 'usuarios' sin 'comprometer la calidad de la validación', para 'agilizar el lanzamiento' y 'garantizar la calidad y efectividad en su aplicación'.",
+      "C": "Lanzar la aplicación sin completar la UAT exhaustivamente, basándose en pruebas internas de desarrollo."
+    },
+    "correctAnswer": "B",
+    "explanation": "La 'Gestión de Procedimientos' exige 'Proactividad en la Optimización' y 'Orientación al Usuario y al Ciudadano'. 'Revisar el procedimiento', 'identificar simplificaciones' y 'proponer un ajuste' (opción B) demuestra un alto grado de 'Aporte Técnico-Profesional', 'Adaptación al Cambio' y 'Comunicación Efectiva' para 'automatizar procesos' y 'suministrar herramientas requeridas para la efectiva ejecución de actividades'."
+  },
+  {
+    "id": "q_gp_097",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_I",
+    "difficulty": "easy",
+    "case": "Usted encontrará una serie de afirmaciones. Indique su grado de acuerdo con cada frase (A=En desacuerdo, B=Neutral, C=De acuerdo).",
+    "question": "Me parece que 'tener procesos claros' es 'fundamental' para el 'trabajo en equipo' y la 'coordinación'.",
+    "options": {
+      "A": "En desacuerdo",
+      "B": "Neutral",
+      "C": "De acuerdo"
+    },
+    "correctAnswer": "C",
+    "explanation": "Considerar 'procesos claros' como 'fundamental para el trabajo en equipo' demuestra 'Orden y Sistematicidad' y 'Orientación a Resultados' en la 'Gestión de Procedimientos'. [cite: 51]"
+  },
+  {
+    "id": "q_gp_098",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_TYPE_II",
+    "difficulty": "medium",
+    "case": "Indique con qué frecuencia experimenta el siguiente comportamiento en su vida diaria (A=Nunca, B=Rara vez, C=Ocasionalmente, D=Frecuentemente, E=Siempre).",
+    "question": "Cuando 'desarrollo soluciones de software', 'siempre tengo en cuenta' las 'políticas de TI definidas por el área' para 'cumplir con los requerimientos de los usuarios'.",
+    "options": {
+      "A": "Nunca",
+      "B": "Rara vez",
+      "C": "Ocasionalmente",
+      "D": "Frecuentemente",
+      "E": "Siempre"
+    },
+    "correctAnswer": "E",
+    "explanation": "Tener en cuenta las 'políticas de TI' en el 'desarrollo de software' demuestra 'Conocimiento y Adherencia' a los 'procedimientos establecidos' y 'Adherencia a Estándares de Calidad'. [cite: 51, 31]"
+  },
+  {
+    "id": "q_gp_099",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "BEHAVIORAL_YES_NO",
+    "difficulty": "easy",
+    "case": "Usted se enfrenta a la siguiente situación laboral. Elija la opción que mejor describe su respuesta.",
+    "question": "Un 'ente de control' solicita 'pruebas' de que un 'procedimiento de seguridad' se cumple. ¿Presentaría la 'documentación completa' y 'veraz' del 'cumplimiento', incluso si muestra algunas 'deficiencias menores'?",
+    "options": {
+      "A": "Sí",
+      "B": "No"
+    },
+    "correctAnswer": "A",
+    "explanation": "Presentar 'documentación completa y veraz' a 'entes de control', incluso con 'deficiencias menores', demuestra 'Conocimiento y Adherencia' a la 'normatividad' y 'Transparencia', en línea con los 'valores de honestidad' del IDU. [cite: 51, 769]"
+  },
+  {
+    "id": "q_gp_100",
+    "topic_id": "competencias-comportamentales",
+    "subtopic_id": "comportamental-gestion-procedimientos",
+    "type": "PJS",
+    "difficulty": "medium",
+    "case": "El IDU está 'gestionando un proyecto' de 'modernización de la infraestructura tecnológica'. El 'procedimiento de gestión de riesgos' es 'muy general' y no incluye 'pasos específicos' para 'riesgos cibernéticos' avanzados. Usted, con su experticia en 'Seguridad Tecnológica', identifica esta 'brecha' y sabe que podría 'comprometer el proyecto'.",
+    "question": "¿Qué acción, basada en la 'Gestión de Procedimientos' y el 'Aporte Técnico-Profesional', sería la más adecuada?",
+    "options": {
+      "A": "Continuar con el procedimiento de gestión de riesgos general, confiando en que se detectarán los riesgos cibernéticos a medida que surjan.",
+      "B": "Analizar la 'brecha' en el 'procedimiento de gestión de riesgos', 'proponer una actualización' con 'pasos específicos' para 'riesgos cibernéticos' y 'controles de seguridad avanzados', 'justificando' cómo esto 'protegerá el proyecto' y 'garantizará la seguridad tecnológica' del 'IDU', 'elevando' la propuesta a su supervisor para su 'implementación'.",
+      "C": "Implementar un 'procedimiento personal' de 'gestión de riesgos cibernéticos' en sus 'proyectos', sin que sea oficial para la entidad."
+    },
+    "correctAnswer": "B",
+    "explanation": "La 'Gestión de Procedimientos' exige 'Proactividad en la Optimización' y 'Adherencia a Estándares de Calidad'. 'Analizar brechas', 'proponer actualizaciones' con 'pasos específicos' y 'justificar la protección' (opción B) demuestra un alto grado de 'Aporte Técnico-Profesional', 'Resolución de Problemas' y 'Compromiso con la Organización' en la 'Seguridad Tecnológica' y la 'Gestión de Proyectos'. [cite: 51, 91]"
   }
 
 
